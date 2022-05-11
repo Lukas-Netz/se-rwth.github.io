@@ -97,12 +97,15 @@ and reason about systems. To increase the usability we provide a high-level API
 encapsulating the low-level logic engine as well as a domain-specific modeling 
 language as front end coupled with an Isabelle code generator.
 
-<div class="embed-responsive embed-responsive-16by9">
+<center>
+<div class="embed-responsive embed-responsive-16by9" style="width: 85%">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/krl4Q7MAAlo" 
 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
 clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 </div>
+</center>
+<br />
 
 These and the rapid increase of computation capabilities suggest that a 
 prominent application for reducing certification costs of critical systems such 

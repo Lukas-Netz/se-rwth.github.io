@@ -90,20 +90,20 @@ difference when we want to refine the specifier's model!).
 
 ## Our State Machine Formalism: I/O<sup>ω</sup> Automata
 [[Rum96]](https://www.se-rwth.de/topics/~rumpe/publications/diss_rumpe) 
-describes an I/O<sup>ω</sup>-automaton as (S, Min, Mout, δ, I) consisting of:
+describes an I/O<sup>ω</sup>-automaton as (S, M<sub>in</sub>, M<sub>out</sub>, δ, I) consisting of:
 
 - states S
-- input messages Min
-- output messages Mout
-- transition relation δ ⊆ S x Min x S x Mout<sup>ω</sup>;
+- input messages M<sub>in</sub>
+- output messages M<sub>out</sub>
+- transition relation δ ⊆ S x M<sub>in</sub> x S x M<sub>out</sub><sup>ω</sup>;
 - initial states I
 
-where Mout<sup>ω</sup> = Mout<sup>*ω*</sup> ∪ Mout<sup>∞</sup> is the set of all 
-finite and infinite words over Mout.
+where M<sub>out</sub><sup>ω</sup> = M<sub>out</sub><sup>*ω*</sup> ∪ M<sub>out</sub><sup>∞</sup> is the set of all 
+finite and infinite words over M<sub>out</sub>.
 
 Transition relation δ is nondeterministic and incomplete. Each transition has 
-one single input message from Min but an arbitrary long sequence of output 
-messages from Mout. Nondeterminism is handled as underspecification allowing the 
+one single input message from M<sub>in</sub> but an arbitrary long sequence of output 
+messages from M<sub>out</sub>. Nondeterminism is handled as underspecification allowing the 
 implementation (or the developer) to choose. Incompleteness is also understood 
 as underspecification allowing arbitrary (chaotic) behavior, assuming that a 
 later implementation or code generator will choose a meaningful implementation, 

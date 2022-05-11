@@ -47,7 +47,8 @@ how modeling of tests helps to increase reuse and efficiency. In
 we concentrate on the integration of models and ordinary programming language 
 code.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/model_uml_2.png title: 
         "Modellierung mit UML" class: "img-fluid z-depth-1" 
@@ -68,6 +69,8 @@ code.
         title: "Agile Modeling with UML" class: "img-fluid z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 In [[Rum12]](https://www.se-rwth.de/topics/Agile-MBSE.php#Rum12), 
 [[Rum11]](https://www.se-rwth.de/topics/Agile-MBSE.php#Rum11), 
@@ -79,12 +82,15 @@ UML/P embodies class, object, sequence diagrams, Statecharts and OCL in
 combination with Java to model code as well as tests as sketched in the 
 following figure.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/UMLP.jpg title: "UMPL/P" class: 
         "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 Detailed discussions on how to use the UML/P for **code generation**, testing 
 and on how to refactor structural models such as class diagrams, as well as 

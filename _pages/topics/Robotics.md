@@ -59,12 +59,15 @@ If interested, the MontiCore website provides further information on
 In several projects, we modeled logistics services with Festo Robotino Robots, 
 ROS, and Python.
 
-<div class="embed-responsive embed-responsive-16by9">
+<center>
+<div class="embed-responsive embed-responsive-16by9" style="width: 85%">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qvCU3Hz89ZM" 
 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
 clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 </div>
+</center>
+<br />
 
 ## LightRocks: Modeling Robotic Assembly Tasks
 The importance of flexible automatized manufacturing grows continuously as 
