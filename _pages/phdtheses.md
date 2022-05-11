@@ -4,7 +4,7 @@ title: Ph.D. Theses
 permalink: /phdtheses/
 description: Aachener Informatik-Berichte, Software Engineering
 keys: [
-        Kus21, HKR21, Foe21, Kau21, vW20, Hac19, Gre19, Her19, Sch19,
+        Kue22, Wor21, Kus21, HKR21, Foe21, Kau21, vW20, Hac19, Gre19, Her19, Sch19,
         Blu19, Mat19, Nic18, Hoe18, Mul18, Plo18, HR17, Rot17, GHR17,
         Naz17, ABH+17, Loo17, Via17, Wor16, Hab16, Ren16, Jen15, RRW14a,
         Rin14, Gue14, Pin14, Her14, Hof13, KPR12, Wei12, Sch12, 
