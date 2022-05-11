@@ -128,11 +128,14 @@ respective buildings and spaces.
 The [Synavision GmbH](https://www.synavision.de/) is an offspring of 
 these activities. 
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/ena.jpg title: "Energie navigator" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="CarOLO"></a>
@@ -159,11 +162,14 @@ In: Proceedings of the 10th Workshop on Automotive Software Engineering (ASE 201
 [Engineering Autonomous Driving Software.](http://www.se-rwth.de/publications/Engineering-Autonomous-Driving-Software.pdf)
 In: C. Rouff, M. Hinchey (Eds.). Experience from the DARPA Urban Challenge. Springer, 2012.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/caroline.jpg title: "Caroline" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="CrESt"></a>
@@ -196,11 +202,14 @@ In: International Conference on Systems and Software Product Line (SPLC'18). Got
 [On the Need for Artifact Models in Model-Driven Systems Engineering Projects.](http://www.se-rwth.de/publications/On-the-Need-for-Artifact-Models-in-Model-Driven-Systems-Engineering-Projects.pdf)
 In: Software Technologies: Applications and Foundations, pg. 146-153, LNCS 10748, Springer, Jan. 2018.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/crest.jpg title: "CrESt" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="EMA"></a>
@@ -244,11 +253,14 @@ In: L. Burgueño, A. Pretschner, S. Voss, M. Chaudron, J. Kienzle, M. Völter, S
 [Distributed Simulation of Cooperatively Interacting Vehicles.](https://se-rwth.de/publications/Distributed-Simulation-of-Cooperatively-Interacting-Vehicles.pdf)
 In: International Conference on Intelligent Transportation Systems (ITSC'18), pg. 596-601, IEEE, 2018.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/emas.png title: "EMA" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="HBP"></a>
@@ -274,11 +286,14 @@ In: Frontiers in Neuroinformatics, 12, 2018.
 [NESTML: a modeling language for spiking neurons.](http://www.se-rwth.de/publications/NESTML-a-modeling-language-for-spiking-neurons.pdf)
 In: Modellierung 2016 Conference, LNI P-254, pp. 93-108. Bonner Köllen Verlag, March 2016.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/nestml.jpg title: "nest::ml" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="iserveU"></a>
@@ -313,11 +328,14 @@ In: International Workshop on Domain-Specific Modeling (DSM'16), pg. 22-27. ACM,
 [Executing Robot Task Models in Dynamic Environments.](http://www.se-rwth.de/publications/Executing-Robot-Task-Models-in-Dynamic-Environments.pdf)
 In: Proceedings of MODELS 2017. Workshop EXE, Austin, CEUR 2019, Sept. 2017.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/iserveu.jpg title: "iserveU" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="InviDas"></a>
@@ -347,11 +365,14 @@ Industrial Engineering and Ergonomics](https://www.iaw-aachen.de/) and
 [Applied Ethics](https://www.ethics.rwth-aachen.de/)), Universität 
 Bremen and Otto-Friedrich Universität Bamberg. 
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/InviDas.png title: "InviDas" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="IoP"></a>
@@ -396,11 +417,14 @@ In: W. Bauer, W. Volk, M. Zäh, editors, ZWF Zeitschrift für wirtschaftlichen F
 [Model-Driven Development of a Digital Twin for Injection Molding](https://www.se-rwth.de/publications/Model-Driven-Development-of-a-Digital-Twin-for-Injection-Molding.pdf)
 In: S. Dustdar, E. Yu, C. Salinesi, D. Rieu, V. Pant, editors, International Conference on Advanced Information Systems Engineering (CAiSE'20), pp. 85-100, Grenoble, Springer International Publishing, June 2020.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/iop.png title: "IoP" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="MaCoCo"></a>
@@ -430,11 +454,14 @@ realized by the chairs of Controlling and Software Engineering.
 [Generated Enterprise Information Systems: MDSE for Maintainable Co-Development of Frontend and Backend.](https://www.se-rwth.de/publications/Generated-Enterprise-Information-Systems-MDSE-for-Maintainable-Co-Development-of-Frontend-and-Backend.pdf)
 In: J. Michael, D. Bork, editors, Companion Proceedings of Modellierung 2020, Vienna, pp. 22-30, CEUR Workshop Proceedings, Feb. 2020.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/macoco.jpg title: "MaCoCo" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="ModelPlex"></a>
@@ -464,11 +491,14 @@ usability we provide a high-level API encapsulating the low-level logic
 engine as well as a domain-specific modeling language as front end 
 coupled with an Isabelle code generator. 
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/montibelle2.png title: "MontiBelle" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
 "100%" alt="" title="Trennlinie"></p> <a name="MontiCore"></a> 
@@ -541,11 +571,14 @@ There are many publications about MontiCore (see e.g.
 [MontiCore Handbook](http://monticore.de/handbook.pdf) contains a good 
 summary of how to use [MontiCore](http://monticore.de/). 
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/mc-logo-new.png title: "MontiCore" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="MontiGem"></a>
@@ -580,11 +613,14 @@ In: Bonnie Anderson, Jason Thatcher, Rayman Meservy, editors, 25th Americas Conf
 [Enterprise Information Systems in Academia and Practice: Lessons learned from a MBSE Project.](http://www.se-rwth.de/publications/Enterprise-Information-Systems-in-Academia-and-Practice-Lessons-learned-from-a-MBSE-Project.pdf)
 In: 40 Years EMISA: Digital Ecosystems of the Future: Methodology, Techniques and Applications (EMISA'19), LNI P-304, pages 59-66, May, 2020, Gesellschaft für Informatik e.V.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/montigem.png title: "MontiGem" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="SemanticDiff"></a>
@@ -635,11 +671,14 @@ In: Proc. 25th Euro. Conf. on Object Oriented Programming (ECOOP'11), LNCS 6813,
 [A Manifesto for Semantic Model Differencing.](https://se-rwth.de/publications/A-Manifesto-for-Semantic-Model-Differencing.pdf)
 In: Proceedings Int. Workshop on Models and Evolution (ME'10), co-located with MoDELS'10. J. Dingel and A. Solberg (Eds.): MoDELS Workshops, LNCS 6627, pp. 194 - 203, 2010.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/cddiff.png title: "CDDiff" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="SensorCloud"></a>
@@ -669,11 +708,14 @@ In: The 2nd International Conference on Future Internet of Things and Cloud (FiC
 [A Model-based Software Development Kit for the SensorCloud Platform.](http://www.se-rwth.de/publications/A-Model-based-Software-Development-Kit-for-the-SensorCloud-Platform.pdf)
 In: Workshop Wissenschaftliche Ergebnisse der Trusted Cloud Initiative, pp. 125-140, Karlsruhe, Springer Schweiz, 2013.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/SensorCloud.png title: "SensorCloud" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="SPES"></a>
@@ -698,11 +740,14 @@ In: Modellierung 2016 Conference, LNI P-254, pp. 109-116. Bonner Köllen Verlag,
 [MontiMatcher: ähnlichkeitsanalyse-Framework zur Produktlinienextraktion und Evolutionsüberwachung.](http://www.se-rwth.de/publications/MontiMatcher-Aehnlichkeitsanalyse-Framework-zur-Produktlinienextraktion-und-Evolutionsueberwachung.pdf)
 In: Softwaretechnik-Trends, 36(2), May 2016.
 
-<div class="row">
+<center>
+<div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/spes.jpg title: "SPES" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
+<br />
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="SpesML"></a>
