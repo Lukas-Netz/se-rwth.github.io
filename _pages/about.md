@@ -10,9 +10,6 @@ children:
     - title: About us
       permalink: /about/
     - title: divider
-    - title: Staff
-      permalink: /staff/
-    - title: divider
     - title: Activities
       permalink: /activities/
     - title: divider
