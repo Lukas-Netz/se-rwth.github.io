@@ -48,8 +48,8 @@ as to customize and apply them to project and company specific needs.
 </p>
 
 #### Professors
-- [Prof. Dr. rer. nat. Bernhard Rumpe](/staff/rumpe)
-- [Emeritus Prof. Dr.-Ing. Dr. h. c. Manfred Nagl](/staff/nagl)
+- [Prof. Dr. rer. nat. Bernhard Rumpe](https://www.se-rwth.de/staff/rumpe/)
+- [Emeritus Prof. Dr.-Ing. Dr. h. c. Manfred Nagl](https://www.se-rwth.de/staff/nagl/)
 - [Prof. Dr. rer. nat. Horst Lichter](https://www2.swc.rwth-aachen.de/?page_id=68)
 
 <p align="center">
