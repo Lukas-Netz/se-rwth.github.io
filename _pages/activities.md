@@ -5,6 +5,10 @@ permalink: /activities/
 nav: false
 horizontal: false
 ---
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="ONzBuiDK"></script>
+
 We'd like to invite you to dive into the activities of our group. 
 Of course our [publications](/publications) are also interesting. The links collected below will 
 provide you with interesting and helpful information. Occasionally news are 
@@ -12,6 +16,8 @@ published via [Twitter](https://twitter.com/SE_RWTH) and [Facebook](https://www.
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
 "100%" alt="" title="Trennlinie"></p>
+
+<div class="fb-page" data-href="https://www.facebook.com/SoftwareEngineering.RWTH/" data-lazy="true" data-tabs="timeline" data-width="300" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/SoftwareEngineering.RWTH/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SoftwareEngineering.RWTH/">Lehrstuhl für Software Engineering</a></blockquote></div>
 
 ## Software
 - [Language Workbench MontiCore Official Website](https://monticore.github.io/monticore/) <img src="../../assets/img/mc-banner.jpeg" alt="MontiCore Banner" style="display:block; margin: 20px auto;"> Starting in 2004, the language workbench MontiCore has been developed by the SE Group. Throughout the development process, the results of the latest research have been incorporated into the project. Of course, the newest insights are continuously integrated.
@@ -152,3 +158,4 @@ This company helps to controll energy in building using digital techniques.
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Videos](https://www.se-rwth.de/videochannel/)
 - [Website of the SE](/main)
+
