@@ -34,23 +34,22 @@
     <div class="title"><a href="{{entry.url}}">{{entry.title}}</a>.</div>
     
     <div class="periodical" style="display: inline">
-      In:
         {% if entry.author and entry.editor %}
           {% for editor in entry.editor_array %}
               {% unless forloop.last %}
                     {{editor.first| slice:0}}. {{editor.last}},
               {% else %}
-                    {{editor.first| slice:0}}. {{editor.last}} (Eds.):
+                    {{editor.first| slice:0}}. {{editor.last}} (Eds.),
               {% endunless %}
           {% endfor %}
         {% endif %}
 
       {% if entry.journal %}
-        {{entry.journal}},
+        In: {{entry.journal}},
       {% endif %}
 
       {% if entry.booktitle %}
-        {{entry.booktitle}},
+        In: {{entry.booktitle}},
       {% endif %}
 
       {% if entry.institution %}
