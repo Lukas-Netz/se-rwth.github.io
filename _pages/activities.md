@@ -17,7 +17,21 @@ published via [Twitter](https://twitter.com/SE_RWTH) and [Facebook](https://www.
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
 "100%" alt="" title="Trennlinie"></p>
 
-<div class="fb-page" data-href="https://www.facebook.com/SoftwareEngineering.RWTH/" data-lazy="true" data-tabs="timeline" data-width="300" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/SoftwareEngineering.RWTH/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SoftwareEngineering.RWTH/">Lehrstuhl für Software Engineering</a></blockquote></div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="fb-page" style="float: left;" data-href="https://www.facebook.com/SoftwareEngineering.RWTH/" data-lazy="true" data-tabs="timeline" data-width="480" data-height="480" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/SoftwareEngineering.RWTH/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SoftwareEngineering.RWTH/">Lehrstuhl für Software Engineering</a></blockquote></div>
+    </div>
+    <div class="col-lg-6">
+      <a class="twitter-timeline" data-width="480" data-height="480" href="https://twitter.com/SE_RWTH?ref_src=twsrc%5Etfw">Tweets by SE_RWTH</a> 
+    </div>
+  </div>
+</div>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+
+
 
 ## Software
 - [Language Workbench MontiCore Official Website](https://monticore.github.io/monticore/) <img src="../../assets/img/mc-banner.jpeg" alt="MontiCore Banner" style="display:block; margin: 20px auto;"> Starting in 2004, the language workbench MontiCore has been developed by the SE Group. Throughout the development process, the results of the latest research have been incorporated into the project. Of course, the newest insights are continuously integrated.
