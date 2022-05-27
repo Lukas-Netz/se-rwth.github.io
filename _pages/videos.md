@@ -4,7 +4,7 @@ title: Videos
 permalink: /videos/
 description:
 order: 4
-nav: true
+nav: false
 ---
 
 Documentations of our work can also be found on [YouTube](https://www.youtube.com/channel/UCECfJLY1pDkQXHh5GlWm8OA). A collection of the most interesting videos can be found below - have fun!
