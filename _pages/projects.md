@@ -262,6 +262,241 @@ In: International Conference on Intelligent Transportation Systems (ITSC'18), pg
 </center>
 <br />
 
+[//]: # (EmbeddedMontiArc: C&C Modeling and Simulation for Embedded Systems)
+
+<div class="container my-5">
+
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" mdb-data-touch="true">
+
+<div class="controls-top">
+<a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+<a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+</div>
+
+<ol class="carousel-indicators">
+<li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+<li data-target="#multi-item-example" data-slide-to="1"></li>
+<li data-target="#multi-item-example" data-slide-to="2"></li>
+</ol>
+
+<div class="carousel-inner" role="listbox">
+
+<div class="carousel-item active">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/XXBRxfPft1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>2 Minute Madness on MDSE and AI</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/9O99nx1q7lE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>EmbeddedMontiArc: Textual Modeling Alternative to Simulink</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/65objfBN4S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Simulation of Autonomous Driving Vehicles-Technology Overview</h5>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/7n-no6JM-5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Simulation of Autonomous Driving Vehicles - Driving at Rain and at Night</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/gcz1yA4gWD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Simulation of Autonomous Driving Vehicles - Driving at Sun and Daytime</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/1oqObr2EkYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Component and Connectors Views: Definition, Verification, Witnesses (Bachelor Thesis)</h5>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/1SdvIhG901o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Event based Dynamic Reconfiguration of Component and Connector Architectures</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/m5uz7wmyTco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Defining Semantics of Extra Functional Properties in Component and Connector Mod</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/8xmDeqNXFGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Bounded Model Checking of Self Driving Cars Requirements against its Implementat</h5>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/7llpVLklnPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Evolutionary Tuning of PID Controllers</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/xyjIC5F9VIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Multi User Online IDE for DSLs on the example language MontiArc</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/AOB0DbUzl-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Component and Connectors Views Definition Verification Witnesses</h5>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/c7advJTpN4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Example Video for EmbeddedMontiArcStudio</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/9Y54hGBR-rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>EmbeddedMontiArcStudio Overview Video</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/lJAfJKJf6Ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Simulating several Cars</h5>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/is9pEbQDOdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Modeling an Autopilot for Self Driving Cars with EmbeddedMontiArc</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/iHQqyaKyA9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Modeling PacMan with EmbeddedMontiArc</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/1SdvIhG901o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Event based Dynamic Reconfiguration of Component and Connector Architectures</h5>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="HBP"></a>
 

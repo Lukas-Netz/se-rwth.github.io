@@ -149,6 +149,9 @@ In ongoing and successfully finished resarch projects, we have collaborated with
     </div>
 </div>
 
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
+"100%" alt="" title="Trennlinie"></p>
+
 
 ### Publications
 

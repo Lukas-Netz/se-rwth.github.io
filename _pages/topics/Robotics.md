@@ -24,6 +24,173 @@ assembly tasks in industrial contexts as well as planned and unplanned logistic
 tasks. We apply this to indoor robots interacting with humans as well as to 
 industrial robots as well as to autonomously driving cars.
 
+[//]: # (Video Playlist)
+
+<div class="container my-5">
+
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" mdb-data-touch="true">
+
+<div class="controls-top">
+<a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+<a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+</div>
+
+<ol class="carousel-indicators">
+<li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+<li data-target="#multi-item-example" data-slide-to="1"></li>
+<li data-target="#multi-item-example" data-slide-to="2"></li>
+</ol>
+
+<div class="carousel-inner" role="listbox">
+
+<div class="carousel-item active">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/WgVNpqCE42s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>BEST ENERGY PROJECT - ICT PSP-EU</h5>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/KTr_uJ5F03E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+<h5>SE RWTH Industry 4.0 Project Class Winter 2017/18</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/FBshxHeUX8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Team MPS project class results of summer 2017</h5>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/HTAgF4hNUF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>The iserveU DSLs in Action</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/ByzvC9oFMqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Happy holidays from SE!</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/TIspANC9TY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>A Model-Driven Robotics Logistics Application (Lab Course 2014)</h5>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/u6LF8KjvDgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>A Model-Driven Robotics Logistics Application (Lab Course 2013)</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/8UO4MwTmbhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>MontiArcAutomaton Editor</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/5EggJHtTg0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Model Driven Toast Service</h5>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/xvlYN-6awfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>Model Driven Coffee Service</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/6X9B8caS-Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>HaxPro High Altitude eXploration Probe</h5>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card mb-2">
+<iframe width="300px" height="200px" src="https://www.youtube.com/embed/u6LF8KjvDgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="carousel-caption d-none d-md-block">
+    <h5>A Model-Driven Robotics Logistics Application (Lab Course 2013)</h5>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
 alt="" title="Trennlinie"></p>
 
@@ -145,3 +312,5 @@ title="Trennlinie">
     {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
+
+
