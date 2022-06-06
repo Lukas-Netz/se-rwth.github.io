@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /jobs/
-title: Jobs
+title: Stellen am Lehrstuhl für Software Engineering 
 description: 
 order: 6
 nav: true
@@ -62,10 +62,7 @@ Grundlagenprojekten.
 
 ### PostDoc-Stelle
 
-- [Model Based Software 
-Engineering](/assets/pdf/PostDoc.Modellbased-Software-Engineering.pdf){:target="_blank"} 
-
-- **oder Sie bewerben sich initiativ**
+- **bewerben Sie sich doch initiativ**
 
 Es besteht Gelegenheit zur Habilitation und zum Ausbau/Aufbau einer 
 eigenen thematisch fokussierten Arbeitsgruppe. Die dafür notwendigen 
@@ -85,84 +82,5 @@ MontiCore](https://www.se-rwth.de/jobs/hiwi41/)
 
 - oder Sie bewerben sich initiativ
 
-### Industrielle Kooperation
 
-Sie haben Interesse an einer festen Arbeit oder an einer Stelle als 
-Werkstudent in der Industrie? 
-
-Aufgrund unseres guten Netzwerks zu Firmen und Forschungseinrichtungen 
-können wir öfter interessante Angebote aus den Bereichen: 
-
-- Modellbasiertes Systems Engineering
-- Entwicklung von Modellierungstechniken
-- Digitalisierung und smarte Cloud-Services
-- Autonomes Fahren
-- Robotik
-- Apps für Smartphones und andere mobile Geräte
-- Reaktive Architekturen im eingebetteten Systembereich
-- Cloud Computing
-- Projektentwicklung für Versicherungen, Banken
-- Machinelles Lernen
-- DevOps-Tätigkeiten
-
-vermitteln oder unser Netzwerk nutzen, um Sie für eine spannende 
-Arbeitsstelle mit einem innovativen Arbeitgeber in Kontakt zu bringen. 
-
-Sie als interessierter Software Engineering Studentin/Student der RWTH 
-(mit Studiengang Informatik, SSE, Data Science, ...) können so schon 
-während des Studiums Kontakte in die Industrie knüpfen. Dazu stellen 
-Sie uns einen Steckbrief und Ihren Lebenslauf zur Verfügung und wir 
-leiten diesen an unsere (und ausschließlich unsere!) 
-Kooperationspartner weiter. Gleichzeitig informieren wir Sie natürlich 
-darüber, bei welchen Partnern Ihr Profil in der Diskussion steht. Damit 
-wir Ihre Wünsche und Vorstellungen optimal verstehen können, möchten 
-wir Sie bitten, uns neben Steckbrief und Lebenslauf noch die folgenden 
-Informationen zur Verfügung zu stellen: 
-
-- Art des gewünschten Kontakts: Dauerstelle oder Werkstudent
-
-- Gewünschter Industriezweig
-
-- Konkrete Firmen, an denen Sie interessiert sind  
-
-- Gewünschte Tätigkeiten im Job (Design, Qualitätsmanagement, 
-Architekt, DevOps, ...) 
-
-- Informationen zur Region (z.B. Aachen, Süddeutschland, Wolfsburg, 
-Ruhrgebiet, weitere Regionen) 
-
-- Eigene Beschreibung, welche Vorkenntnisse Sie in welchem Rahmen und 
-bei wem bei uns am Lehrstuhl erworben haben 
-
-Ihre Fähigkeiten, Kenntnisse, bisherige Projekte und Erfahrungen 
-beschreiben Sie natürlich wie üblich im Lebenslauf. 
-
-Haben wir Ihr Interesse geweckt, dann senden Sie uns Ihre Vorstellungen 
-an: **stellen-boerse(at)se-rwth.de** 
-
-*Bitte beachten Sie:*
-
-- *Dieser Service ist ausschließlich für unsere eigenen Studierenden 
-und Kooperationspartner gedacht. Dies ist keine offizielle Stellenbörse 
-und schon gar nicht öffentlich.* 
-
-- *Formal ist dies keine Bewerbung bei uns. Es lassen sich also keine 
-Ansprüche irgendeiner Art aus der Einsendung ihrer Unterlagen ableiten. 
-Wir sowie alle Personen und Partner, die ihre Unterlagen sehen würden, 
-behandeln die Informationen trotzdem entsprechend vertraulich. 
-Datenschutz ist gewährleistet.* 
-
-- *Wir leiten nur Steckbrief und Lebenslauf an unsere Partner weiter, 
-nicht aber ihre Präferenzen und Wünsche. Mit ihrer Einsendung haben Sie 
-uns dazu automatisch ermächtigt.* 
-
-- *Wir melden uns gegebenenfalls auch mit weiteren Vorschlägen zurück.*
-
-- *Sollten Sie parallel an einer Promotion bei uns interessiert sein, 
-so dürfen Sie sich gerne unabhängig davon auch bei uns bewerben 
-(http://www.se-rwth.de/jobs/).* 
-
-- *Für befreundete Unternehmen: sollten Sie aktuell oder in jüngerer 
-Vergangenheit Kooperationspartner von uns sein, so melden Sie sich 
-gerne auch wenn Sie neue Stellen zu besetzen haben.* 
 
