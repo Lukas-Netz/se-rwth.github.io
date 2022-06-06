@@ -34,3 +34,13 @@ horizontal: false
     {% bibliography -f all-software-engineering-rwth-references -f books -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
+
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+
+## Further links:
+
+- [Publications](/publications)
+- [Topic sorted list of most interesting publications](/research)
+- [Books](/books)
+- [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
+- [Website of the SE](/main)

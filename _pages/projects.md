@@ -782,3 +782,15 @@ MBSE approach, especially for industry.
 <a name="MontiBelle"></a>
 
 Bernhard Rumpe, Chair of Software Engineering, RWTH Aachen
+
+
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+
+## Further links:
+
+- [Publications](/publications)
+- [Topic sorted list of most interesting publications](/research)
+- [Books](/books)
+- [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
+- [Website of the SE](/main)
+

@@ -88,4 +88,21 @@ conceptually related.
 - **Model-Driven Systems Engineering (MDSE)**
 - **Modeling Language Engineering (MLE)**
 
-Within research and industrial projects we are developing new methods, concepts, and tools for software engineering in general, for specific software systems, and also specific application domains where digitalisation is currently an issue. Working in this manner allows existing concepts and tools to be applied, evaluated, elaborated, and adapted within specific areas independently, and then to generalize and transfer them into the other working areas. For further information about our research topics applied and developed in the teams, please refer to [our publications and research](/topics).
+Within research and industrial projects we are developing new methods, 
+concepts, and tools for software engineering in general, for specific 
+software systems, and also specific application domains where 
+digitalisation is currently an issue. Working in this manner allows 
+existing concepts and tools to be applied, evaluated, elaborated, and 
+adapted within specific areas independently, and then to generalize and 
+transfer them into the other working areas. For further information 
+about our research topics applied and developed in the teams, please 
+refer to [our publications and research](/topics). 
+
+## Further links:
+
+- [Publications](/publications)
+- [Topic sorted list of most interesting publications](/research)
+- [Books](/books)
+- [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
+- [Website of the SE](/main)
+

@@ -28,11 +28,14 @@ engineering in teams to foster efficient research and development. Currently, th
 - [Model-Driven Systems Engineering (MDSE)](/working-teams/team-MDSE)
 - [Modeling Language Engineering (MLE)](/working-teams/team-MLE)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
-### Further links:
+## Further links:
+
 - [The list of our current team members](https://www.se-rwth.de/staff/)
-- [Main research topics](/topics)
-- [Some of our current activities](/activities)
-- [Most of our recent publications](/publications)
+- [Publications](/publications)
+- [Topic sorted list of most interesting publications](/research)
+- [Books](/books)
+- [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
+- [Website of the SE](/main)
+
