@@ -22,13 +22,13 @@ projects our chair is or has recently been part of.
 - [Internet of Production (IoP)](#IoP)
 - [Management Cockpit for University Chair Controlling (MaCoCo)](#MaCoCo)
 - [Modelling Solution for Complex Software Systems (ModelPlex)](#ModelPlex)
+- [MontiBelle - Intelligent Verification](#MontiBelle)
 - [The MontiCore Language Workbench](#MontiCore)
 - [MontiCore-based Generator framework for Enterprise Management (MontiGem)](#MontiGem)
 - [A Semantic Approach to Evolution Analysis in Model-Based Software Development (Semantic Diff)](#SemanticDiff)
 - [SensorCloud, a BMBF Trusted Cloud Computing project](#SensorCloud)
 - [Software Plattform Embedded Systems (SPES 2020 / SPES XT)](#SPES)
 - [SysML Workbench for the SPES Method (SpesML)](#SpesML)
-- [MontiBelle - Intelligent Verification](#MontiBelle)
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 <a name="ADD"></a>
@@ -710,9 +710,8 @@ develop an open solution for complex systems engineering improving
 quality and productivity, lead its industrialisation and ensure its 
 successful adoption by the industry. 
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
-<a name="MontiCore"></a>
-
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
+"100%" alt="" title="Trennlinie"></p> <a name="MontiBelle"></a> 
 
 ## MontiBelle - Intelligent Verification
 
@@ -735,8 +734,13 @@ coupled with an Isabelle code generator.
 </center>
 <br />
 
+These and the rapid increase of computation capabilities suggest that a 
+prominent application for reducing certification costs of critical 
+systems such as intelligent flight control systems or assistance 
+systems for air or road traffic management is not far in the future. 
+
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p> <a name="MontiCore"></a> 
+"100%" alt="" title="Trennlinie"></p> <a name="MontiCore"></a> <p><img 
 
 ## The MontiCore Language Workbench
 
