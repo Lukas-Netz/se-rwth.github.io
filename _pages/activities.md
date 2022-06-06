@@ -218,7 +218,7 @@ This company helps to engineer systems more efficiently and sustainable.
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
-## Further Activities, Outcomes And Digital Representations in the Web
+## Further Activities, Outcomes and Digital Representations in the Web
 
 - [Profile of the SE RWTH group at GitHub](https://se-rwth.github.io/)
 - [Bernhard Rumpe's Publications at DBLP Computer Science 
