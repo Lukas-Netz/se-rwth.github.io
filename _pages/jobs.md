@@ -1,11 +1,13 @@
 ---
 layout: page
 permalink: /jobs/
-title: Stellen am Lehrstuhl für Software Engineering 
+title: Jobs
 description: 
 order: 6
 nav: true
 ---
+
+## Stellen am Lehrstuhl für Software Engineering 
 
 Software ist essentieller Bestandteil sehr viele Innovationen und Kern 
 aller Ansätze zur Digitalisierung. 
