@@ -19,18 +19,17 @@ children:
       permalink: /phdtheses/
 ---
 
-* For download: [Bibtex file with most 
-papers](/assets/bibliography/all-software-engineering-rwth-references.bib)
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
-* [SoSyM Editorials](http://www.sosym.org/editorials/)
+#### Further publications: 
 
-* [Topic sorted list of most interesting publications](/topics)
-
+* For an easy use and download: [Bibtex file with most 
+  papers](/assets/bibliography/all-software-engineering-rwth-references.bib)
+* [List of interesting publications aggregated into topics](/topics)
 * [Books](/books)
-
 * [Ph.D Theses / Aachener Informatik-Berichte, Software Engineering](/phdtheses)
-
-* [Complete list of publications](https://www.se-rwth.de/publications/))
+* [SoSyM Editorials](http://www.sosym.org/editorials/)  
+* [Complete list of publications](https://www.se-rwth.de/publications/)
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
