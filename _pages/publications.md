@@ -21,7 +21,7 @@ children:
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
-#### Further publications: 
+#### Additional infos on publications: 
 
 * For an easy use and download: [Bibtex file with most 
   papers](/assets/bibliography/all-software-engineering-rwth-references.bib)
