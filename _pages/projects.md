@@ -740,7 +740,7 @@ systems such as intelligent flight control systems or assistance
 systems for air or road traffic management is not far in the future. 
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p> <a name="MontiCore"></a> <p><img 
+"100%" alt="" title="Trennlinie"></p> <a name="MontiCore"></a> 
 
 ## The MontiCore Language Workbench
 
