@@ -33,7 +33,7 @@ children:
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
-## Selected publications: 
+## Selected publications (descendent by time) 
 
 <div class="publications">
   {% for y in page.years %}
