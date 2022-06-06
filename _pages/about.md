@@ -37,7 +37,7 @@ as to customize and apply them to project and company specific needs.
    To define, improve and industrially apply <em>techniques</em>, <em>concepts</em>, and <em>methods</em> for innovative and <em>efficient development</em> of software and software-intensive systems, such that <em>high-quality</em> products can be developed in a <em>shorter period of time</em> and with flexible integration of <em>changing requirements</em>.
 </blockquote>
 
-#### Related publications
+#### Most interesting publications
 [Topic sorted list of most interesting publications](/topics)
 
 <p align="center">
