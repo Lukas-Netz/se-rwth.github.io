@@ -7,11 +7,11 @@ order: 2
 nav: true
 ---
 
-For details about the offered teaching by Prof. Bernhard Rumpe
+For details about the currently offered teaching by Prof. Bernhard Rumpe
 at the Chair of Software Engineering see the
 [SE RWTH website](https://www.se-rwth.de/teaching/).
 
-Recent lectures by Bernhard Rumpe and his group:
+Recent lectures by Bernhard Rumpe, Judith Michael and their group:
 
 <p align="center">
    <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
@@ -46,9 +46,9 @@ have to describe complex issues using models.
    <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
 </p>
 
-#### Model-Based Systems Engineering (MBSSE) +
+#### Model-Based Systems Engineering (MBSysE) +
 
-#### Model-Based Software Engineering (MBSSE)
+#### Model-Based Software Engineering (MBSE)  (= MBSSE)
 
 The lecture elaborates on model-based development of complex 
 cyber-physical systems. It covers the functional view of models in the 
