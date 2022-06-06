@@ -34,7 +34,12 @@ as to customize and apply them to project and company specific needs.
 
 #### Our Mission
 <blockquote>
-   To define, improve and industrially apply <em>techniques</em>, <em>concepts</em>, and <em>methods</em> for innovative and <em>efficient development</em> of software and software-intensive systems, such that <em>high-quality</em> products can be developed in a <em>shorter period of time</em> and with flexible integration of <em>changing requirements</em>.
+To define, improve and industrially apply <em>techniques</em>, 
+<em>concepts</em>, and <em>methods</em> for innovative and 
+<em>efficient development</em> of software and software-intensive 
+systems, such that <em>high-quality</em> products can be developed 
+in a <em>shorter period of time</em> and with flexible integration of 
+<em>changing requirements</em>.
 </blockquote>
 
 #### Most interesting publications
@@ -45,15 +50,39 @@ as to customize and apply them to project and company specific needs.
 </p>
 
 #### Professors
+
 - [Prof. Dr. rer. nat. Bernhard Rumpe](https://www.se-rwth.de/staff/rumpe/)
-- [Emeritus Prof. Dr.-Ing. Dr. h. c. Manfred Nagl](https://www.se-rwth.de/staff/nagl/)
 - [Prof. Dr. rer. nat. Horst Lichter](https://www2.swc.rwth-aachen.de/?page_id=68)
+- [Prof. Dr. Abigail Morrison](https://www.se-rwth.de/staff/morrison/)
+- [Emeritus Prof. Dr.-Ing. Dr. h. c. Manfred Nagl](https://www.se-rwth.de/staff/nagl/)
+
 
 <p align="center">
    <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
 </p>
 
-Our recent collaborators are BMW, the RTL/VOX TV sender group, FEV, Metro Cash Systems, Senacor, Adesso, DSA, Volkswagen, Daimler, Streetscooter, QSC, RegioIT, Siemens, and many others. Our work is organized within the following teams which are though conceptually related.
+Our recent collaborators are 
+Adesso, 
+BMW, 
+Conti,
+DSA, 
+FEV, 
+Ford,
+Mercedes-Benz, 
+Metro Cash Systems, 
+Porsche,
+QSC, 
+RegioIT, 
+RTL/VOX group, 
+Schäffler,
+Senacor, 
+Siemens, 
+Streetscooter, 
+Volkswagen, 
+ZF,
+and many others. 
+Our work is organized within the following teams which are though 
+conceptually related.
 - **Automotive and Cyber-Physical Systems (ASE)**
 - **Model-Based Assistance and Information Services (MBAIS)**
 - **Model-Driven Systems Engineering (MDSE)**
