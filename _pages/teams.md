@@ -30,7 +30,7 @@ engineering in teams to foster efficient research and development. Currently, th
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
-## Further links:
+#### Further links: 
 
 - [The list of our current team members](https://www.se-rwth.de/staff/)
 - [Publications](/publications)

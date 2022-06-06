@@ -98,7 +98,9 @@ transfer them into the other working areas. For further information
 about our research topics applied and developed in the teams, please 
 refer to [our publications and research](/topics). 
 
-## Further links:
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+
+#### Further links: 
 
 - [Publications](/publications)
 - [Topic sorted list of most interesting publications](/research)

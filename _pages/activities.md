@@ -313,7 +313,7 @@ This company helps to engineer systems more efficiently and sustainable.
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
-## Further links:
+#### Further links: 
 
 - [Publications](/publications)
 - [Topic sorted list of most interesting publications](/research)
