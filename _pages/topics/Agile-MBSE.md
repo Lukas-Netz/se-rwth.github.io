@@ -147,35 +147,6 @@ becomes an issue. In
 we have therefore discussed how to improve reliability while retaining 
 adaptivity.
 
-<div class="container">
-
-<div class="row">
-
-<div class="col-lg-4">
-<iframe width="300px" height="200px" src="https://www.youtube.com/embed/uisQxCwtoMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="carousel-caption" style="position: inherit;">
-    <h5>MBSE 1.1 Begriffserklärung - 1# Beispiel: Modelle</h5>
-</div>
-</div>
-
-<div class="col-lg-4">
-<iframe width="300px" height="200px" src="https://www.youtube.com/embed/j1vj1x8ENEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="carousel-caption" style="position: inherit;">
-<h5>MBSE 5.2 #1: Eigenschaften von Zuständen / Statecharts | Modellbasierte Softwarentwicklung</h5>
-</div>
-</div>
-
-<div class="col-lg-4">
-<iframe width="300px" height="200px" src="https://www.youtube.com/embed/BWas5WZny9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="carousel-caption" style="position: inherit;">
-    <h5>MBSE: Course-Piece 6.1 #1: Sequenzdiagramme - Beispiel: Struktur von Sequenzdiagrammen</h5>
-</div>
-</div>
-
-</div>
-
-</div>
-
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
