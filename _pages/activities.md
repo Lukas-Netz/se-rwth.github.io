@@ -30,9 +30,15 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
   </div>
 </div>
 
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
+"100%" alt="" title="Trennlinie"></p>
+
+
 <script async src="https://platform.twitter.com/widgets.js" 
     charset="utf-8"></script>
     
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
+"100%" alt="" title="Trennlinie"></p>
 
 ## Some Open Source Software
 
