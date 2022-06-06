@@ -32,6 +32,8 @@ papers](/assets/bibliography/all-software-engineering-rwth-references.bib)
 
 * [Complete list of publications](https://www.se-rwth.de/publications/))
 
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+
 ## Selected publications: 
 
 <div class="publications">
