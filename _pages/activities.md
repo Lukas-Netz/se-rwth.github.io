@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Activities + Digital and Organisational Results in the Web
+title: Activities, Organizational and Digital Outcomes
 permalink: /activities/
 nav: false
 horizontal: false
@@ -10,9 +10,11 @@ horizontal: false
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="ONzBuiDK"></script>
 
 We'd like to invite you to dive into the activities of our group. 
-Of course our [publications](/publications) are also interesting. 
-The links collected below will 
-provide you with interesting and helpful information. Occasionally news are 
+and some of their organizational and digital outcomes
+Of course our [publications](/publications) are the most interesting
+results (and thus presented separately). 
+The links collected below present 
+interesting and helpful information. Occasionally news are 
 published via [Twitter](https://twitter.com/SE_RWTH) and 
 [Facebook](https://www.facebook.com/SoftwareEngineering.RWTH/?pnref=story).
 
@@ -29,10 +31,6 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
     </div>
   </div>
 </div>
-
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
-
 
 <script async src="https://platform.twitter.com/widgets.js" 
     charset="utf-8"></script>
