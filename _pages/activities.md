@@ -10,9 +10,11 @@ horizontal: false
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="ONzBuiDK"></script>
 
 We'd like to invite you to dive into the activities of our group. 
-Of course our [publications](/publications) are also interesting. The links collected below will 
+Of course our [publications](/publications) are also interesting. 
+The links collected below will 
 provide you with interesting and helpful information. Occasionally news are 
-published via [Twitter](https://twitter.com/SE_RWTH) and [Facebook](https://www.facebook.com/SoftwareEngineering.RWTH/?pnref=story).
+published via [Twitter](https://twitter.com/SE_RWTH) and 
+[Facebook](https://www.facebook.com/SoftwareEngineering.RWTH/?pnref=story).
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
 "100%" alt="" title="Trennlinie"></p>
@@ -28,26 +30,59 @@ published via [Twitter](https://twitter.com/SE_RWTH) and [Facebook](https://www.
   </div>
 </div>
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" 
+    charset="utf-8"></script>
     
 
+## Some Open Source Software
 
+- [Language Workbench MontiCore Official 
+  Website](https://monticore.github.io/monticore/) 
+  <img src="../../assets/img/mc-banner.jpeg" alt="MontiCore Banner" 
+  style="display:block; margin: 20px auto;"> Starting in 2004, the 
+  language workbench MontiCore has been developed by the SE Group. 
+  Throughout the development process, the results of the latest research 
+  have been incorporated into the project. Of course, the newest 
+  insights are continuously integrated.
 
-## Software
-- [Language Workbench MontiCore Official Website](https://monticore.github.io/monticore/) <img src="../../assets/img/mc-banner.jpeg" alt="MontiCore Banner" style="display:block; margin: 20px auto;"> Starting in 2004, the language workbench MontiCore has been developed by the SE Group. Throughout the development process, the results of the latest research have been incorporated into the project. Of course, the newest insights are continuously integrated.
+- [The SSElab Portfolio of SE Services](https://sselab.de/lab1/) - 
+  SSElab is comprising a set of services, such as git, subversion, 
+  issue tracking, code generation facilities, wikis, storage, 
+  web-space, mailing services, web-based feedback, ppt2eps, and 
+  numerous others. It is open for general use and in use by our 
+  own development projects since 2007.
 
-- [The SSElab Portfolio of SE Services](https://sselab.de/lab1/) - SSElab is comprising a set of services, such as git, subversion, issue tracking, code generation facilities, wikis, storage, web-space, mailing services, web-based feedback, ppt2eps, and numerous others. It is open for general use and in use by our own development projects since 2007.
+- [Autonomous Driving Car Caroline at the DARPA Urban 
+  Challenge](https://www.christianberger.net/)  - The research 
+  project was focused on analyzing, designing, implementing, and 
+  evaluating a complex distributed system to realize autonomous 
+  driving for urban-like scenarios. The vehicle "Caroline" 
+  demonstrated its abilities by successfully participating in 
+  the [DARPA Urban Challenge 
+  2007](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2007)).
 
-- [Autonomous Driving Car Caroline at the DARPA Urban Challenge](https://www.christianberger.net/)  - The research project was focused on analyzing, designing, implementing, and evaluating a complex distributed system to realize autonomous driving for urban-like scenarios. The vehicle "Caroline" demonstrated its abilities by successfully participating in the [DARPA Urban Challenge 2007](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2007)).
+- [Delta-Simulink](https://github.com/RumpeIT/delta-simulink) 
+  is an extension for simulink to model variability using delta 
+  modelling. It constructs variants of Simulink models from a base 
+  model and a selected set of deltas (aka features).
 
-- [Delta-Simulink](https://github.com/RumpeIT/delta-simulink) is an extension for simulink to model variability using delta modelling. It constructs variants of Simulink models from a base model and a selected set of deltas (aka features).
-
-- [NESTML - Modelling Neuronal Cells of the Human Brain](https://github.com/nest/nestml) - NestML is a domain specific language that supports the specification of neuron models in a precise and concise syntax. Model equations can e.g. be given as an algorithm written in the built-in mathematical language. The differential equations are analyzed by NESTML to compute an exact solution if possible or handled by an appropriate numeric solver otherwise. Among others NESTML provides SI units, like "km/h" or "As".
+- [NESTML - Modelling Neuronal Cells of the Human 
+  Brain](https://github.com/nest/nestml) - NestML is a domain 
+  specific language that supports the specification of neuron models 
+  in a precise and concise syntax. Model equations can e.g. be given 
+  as an algorithm written in the built-in mathematical language. The 
+  differential equations are analyzed by NESTML to compute an exact 
+  solution if possible or handled by an appropriate numeric solver 
+  otherwise. Among others NESTML provides SI units, like "km/h" or "As".
 
 [//]: # (es gibt einen Fehler im Link)
-- [MontiSecArc (MSA)](https://git.rwth-aachen.de/monticore/MontiSecArc) is a Security Architecture Description Language. This repository contains tooling based on MontiCore for Security Architecture Analysis and development of generators to derive code from MSA models.
+- [MontiSecArc (MSA)](https://git.rwth-aachen.de/monticore/MontiSecArc) 
+  is a Security Architecture Description Language. This repository 
+  contains tooling based on MontiCore for Security Architecture Analysis 
+  and development of generators to derive code from MSA models.
 
-- [SE Commons](https://github.com/MontiCore/se-commons) is a collection of smaller utilities and tools.
+- [SE Commons](https://github.com/MontiCore/se-commons) is a 
+  collection of smaller utilities and tools.
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
@@ -55,16 +90,58 @@ published via [Twitter](https://twitter.com/SE_RWTH) and [Facebook](https://www.
 
 (see also [Books of RWTH Software Engineering Group](/books))
 
-- [[HKR21] K. Hölldobler, O. Kautz, B. Rumpe: MontiCore Language Workbench and Library Handbook: Edition 2021. Aachener Informatik-Berichte, Software Engineering Band 48. ISBN 978-3-8440-8010-0. Shaker Verlag, May 2021.](https://monticore.de/download/handbook.pdf/) <a href="https://monticore.de/download/handbook.pdf/"><img src="../../assets/img/handbook2021.gif" alt="MontiCore HandBook" style="height: 300px; width: auto; display: block; margin: 20px auto;"></a> This book describes the MontiCore workbench developed since 2004. It contains conceptual insights into language composition, refinement, extension and potential techniques to preserve language properties conservatively, but also concentrates on the technical realisation and use of the MontiCore workbench.
+- [[HKR21] K. Hölldobler, O. Kautz, B. Rumpe: 
+  MontiCore Language Workbench and Library Handbook: Edition 2021. 
+  Aachener Informatik-Berichte, Software Engineering Band 48. 
+  ISBN 978-3-8440-8010-0. Shaker Verlag, 
+  May 2021.](https://monticore.de/download/handbook.pdf/) 
+  <a href="https://monticore.de/download/handbook.pdf/"><img 
+  src="../../assets/img/handbook2021.gif" alt="MontiCore HandBook" 
+  style="height: 300px; width: auto; display: block; margin: 20px auto;"></a> 
+  This book describes the MontiCore workbench developed since 2004. 
+  It contains conceptual insights into language composition, refinement, 
+  extension and potential techniques to preserve language properties 
+  conservatively, but also concentrates on the technical realisation 
+  and use of the MontiCore workbench.
 
-- [SoSyM: Springer International Journal on Software And Systems Modelling](https://www.sosym.org/) <a href="https://www.sosym.org/"><img src="../../assets/img/sosym1.jpeg" alt="MontiCore HandBook" style="height: 55px; width: auto; display: block; margin: 20px auto;"></a> In 2001, Robert France and Prof. Rumpe founded the SoSym-Journal. Nowadays, it is the primary venue for articles about modelling, modelling languages and related issues in software and systems development.
+- [SoSyM: Springer International Journal on Software And Systems 
+  Modelling](https://www.sosym.org/) <a href="https://www.sosym.org/">
+  <img src="../../assets/img/sosym1.jpeg" alt="MontiCore HandBook" 
+  style="height: 55px; width: auto; display: block; margin: 20px auto;"></a> 
+  In 2001, Robert France and Prof. Rumpe founded the SoSym-Journal. 
+  Nowadays, it is the primary venue for articles about modelling, 
+  modelling languages and related issues in software and systems 
+  development.
 
-[SoSyM Journal Announcements via Mailing Group](https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_04be12d9-f889-4c1c-8522-1fab67b42636)
+- [[CFJ+16] B. Combemale, R. France, J. Jézéquel, B. Rumpe, J. Steel, 
+    D. Vojtisek: Engineering Modeling Languages: Turning Domain Knowledge 
+    into Tools. Chapman & Hall/CRC Innovations in Software Engineering and  
+    Software Development Series, November 2016.](http://mdebook.irisa.fr/) 
+    <a href="http://mdebook.irisa.fr/">
+    <img src="../../assets/img/Cover_EngineeringModelingLanguages.jpeg" 
+    alt="MontiCore HandBook" 
+    style="height: 300px; width: auto; display: block; margin: 20px auto;"></a> 
+    The book contains our view on how to design software languages 
+    consolidating our longtime experience gained through longtime 
+    research and within many industry projects. Technological progress 
+    requires languages that allow to build models for inter-human 
+    communication as well as human-computer-interaction. The companion 
+    website provides the complete sources of various examples of the 
+    book, and solutions to the exercises as well as other additional 
+    material.
 
-- [[CFJ+16] B. Combemale, R. France, J. Jézéquel, B. Rumpe, J. Steel, D. Vojtisek: Engineering Modeling Languages: Turning Domain Knowledge into Tools. Chapman & Hall/CRC Innovations in Software Engineering and Software Development Series, November 2016.](http://mdebook.irisa.fr/) <a href="http://mdebook.irisa.fr/"><img src="../../assets/img/Cover_EngineeringModelingLanguages.jpeg" alt="MontiCore HandBook" style="height: 300px; width: auto; display: block; margin: 20px auto;"></a> The book contains our view on how to design software languages consolidating our longtime experience gained through longtime research and within many industry projects. Technological progress requires languages that allow to build models for inter-human communication as well as human-computer-interaction. The companion website provides the complete sources of various examples of the book, and solutions to the exercises as well as other additional material.
-
-- [[Rum17] B. Rumpe: Agile Modeling with UML: Code Generation, Testing, Refactoring. Springer International, May 2017.](https://mbse.se-rwth.de/)
-- [[Rum16] B. Rumpe: Modeling with UML: Language, Concepts, Methods. Springer International, July 2016.](https://mbse.se-rwth.de/) <a href="https://mbse.se-rwth.de/"><img src="../../assets/img/Cover_AgileModelingWithUML.jpeg" alt="MontiCore HandBook" style="height: 300px; width: auto; display: block; margin: 20px auto;"></a> The two books describe our interpretation on how to use the UML and what concepts should be enhanced. Both are available in English or German and provide lots of supplemental material.
+- [[Rum17] B. Rumpe: Agile Modeling with UML: Code Generation, Testing, 
+  Refactoring. Springer International, May 2017.](https://mbse.se-rwth.de/)
+  
+- [[Rum16] B. Rumpe: Modeling with UML: Language, Concepts, Methods. 
+  Springer International, July 2016.](https://mbse.se-rwth.de/) 
+  <a href="https://mbse.se-rwth.de/">
+  <img src="../../assets/img/Cover_AgileModelingWithUML.jpeg" 
+  alt="MontiCore HandBook" 
+  style="height: 300px; width: auto; display: block; margin: 20px auto;"></a> 
+  The two books describe our interpretation on how to use the UML and 
+  what concepts should be enhanced. Both are available in English or 
+  German and provide lots of supplemental material.
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
