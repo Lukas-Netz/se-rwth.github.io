@@ -17,16 +17,19 @@ social: true  # includes social icons at the bottom of the page
 </p>
 
 ## Our Mission
-To define, improve and industrially apply <span 
-class="rwth-blue-text">techniques</span>, <span 
-class="rwth-blue-text">concepts</span>, and <span 
-class="rwth-blue-text">methods</span> for innovative and <span 
-class="rwth-blue-text">efficient development</span> of software and 
-software-intensive systems, such that <span 
-class="rwth-blue-text">high-quality</span> products can be developed in a 
-<span class="rwth-blue-text">shorter period of time</span> and with 
-flexible integration of <span class="rwth-blue-text">changing 
-requirements</span>.
+
+Improving software and systems development by identifying: 
+* <span class="rwth-blue-text">methods, concepts, tools</span> 
+  and <span class="rwth-blue-text">infrastructures</span> for 
+* <span class="rwth-blue-text">innovative</span> and 
+  <span class="rwth-blue-text">efficient</span> 
+  <span class="rwth-blue-text">incremental</span> development 
+* of software and software intensive 
+  <span class="rwth-blue-text">high quality systems</span> 
+* in <span class="rwth-blue-text">less time</span> while 
+* <span class="rwth-blue-text">flexibly integrating evolving 
+  requirements</span>.
+
 
 Bernhard Rumpe, Chair of Software Engineering, RWTH Aachen
 

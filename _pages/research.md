@@ -8,13 +8,13 @@ nav: true
 horizontal: false
 ---
 
-**Research mission**: Improving software & systems development
-by identifying:
-* **methods, concepts, tools** and **infrastructures** for
-* **efficient, highly iterative** development
-* of software intensive and **high quality products**
-* in **less time** while
-* incorporating **rapidly evolving requirements**.
+**Our research mission**: 
+Improving software and systems development by identifying: 
+* **methods, concepts, tools** and **infrastructures** for 
+* **innovative** and **efficient** **incremental** development 
+* of software and software intensive **high quality systems** 
+* in **less time** while 
+* **flexibly integrating evolving requirements**.
 
 We use **model-based development of software** (model-based software 
 engineering, MBSE), **generative and synthesis techniques**, and 
