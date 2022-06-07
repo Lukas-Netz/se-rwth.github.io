@@ -139,10 +139,32 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
   
 - [[Rum16] B. Rumpe: Modeling with UML: Language, Concepts, Methods. 
   Springer International, July 2016.](https://mbse.se-rwth.de/) 
-  <a href="https://mbse.se-rwth.de/">
-  <img src="../../assets/img/Cover_AgileModelingWithUML.jpeg" 
-  alt="MontiCore HandBook" 
-  style="height: 300px; width: auto; display: block; margin: 20px auto;"></a> 
+
+<center>
+<div class="row" style="width: 85%">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/model_uml_2.png title: 
+        "Modellierung mit UML" class: "img-fluid z-depth-1" 
+        href="http://mbse.se-rwth.de/book1/" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/agile_model_uml_2.png title: "Agile 
+        Modellierung mit UML" class: "img-fluid z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: 
+        assets/img/Modeling-with-UML--Language-Concepts-Methods.jpg title: 
+        "Modeling with UML" class: "img-fluid z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: 
+        assets/img/Agile-Modeling-with-UML--Code-Ceneration-Testing-Refactoring.jpg 
+        title: "Agile Modeling with UML" class: "img-fluid z-depth-1" %}
+    </div>
+</div>
+</center>
+<br />
+
   The two books describe our interpretation on how to use the UML and 
   what concepts should be enhanced. Both are available in English or 
   German and provide lots of supplemental material.
