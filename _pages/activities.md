@@ -21,23 +21,6 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
 "100%" alt="" title="Trennlinie"></p>
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-6" style="display: inherit;">
-      <div class="fb-page" style="margin: 0 auto" data-href="https://www.facebook.com/SoftwareEngineering.RWTH/" data-lazy="true" data-tabs="timeline" data-width="480" data-height="480" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/SoftwareEngineering.RWTH/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SoftwareEngineering.RWTH/">Lehrstuhl für Software Engineering</a></blockquote></div>
-    </div>
-    <div class="col-lg-6">
-      <a class="twitter-timeline" data-width="480" data-height="480" href="https://twitter.com/SE_RWTH?ref_src=twsrc%5Etfw">Tweets by SE_RWTH</a> 
-    </div>
-  </div>
-</div>
-
-<script async src="https://platform.twitter.com/widgets.js" 
-    charset="utf-8"></script>
-    
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
-
 ## Some Open Source Software
 
 - [Language Workbench MontiCore Official 
@@ -324,6 +307,22 @@ This company helps to engineer systems more efficiently and sustainable.
 - [Bernhard Rumpe's Quotes at 
   Wikiquote](https://en.wikiquote.org/wiki/Bernhard_Rumpe)
 
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6" style="display: inherit;">
+      <div class="fb-page" style="margin: 0 auto" data-href="https://www.facebook.com/SoftwareEngineering.RWTH/" data-lazy="true" data-tabs="timeline" data-width="480" data-height="480" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/SoftwareEngineering.RWTH/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SoftwareEngineering.RWTH/">Lehrstuhl für Software Engineering</a></blockquote></div>
+    </div>
+    <div class="col-lg-6">
+      <a class="twitter-timeline" data-width="480" data-height="480" href="https://twitter.com/SE_RWTH?ref_src=twsrc%5Etfw">Tweets by SE_RWTH</a> 
+    </div>
+  </div>
+</div>
+
+<script async src="https://platform.twitter.com/widgets.js" 
+    charset="utf-8"></script>
+    
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
 #### Further links: 
