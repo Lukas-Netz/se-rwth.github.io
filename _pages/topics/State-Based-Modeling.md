@@ -90,7 +90,8 @@ difference when we want to refine the specifier's model!).
 
 ## Our State Machine Formalism: I/O<sup>ω</sup> Automata
 [[Rum96]](https://www.se-rwth.de/topics/~rumpe/publications/diss_rumpe) 
-describes an I/O<sup>ω</sup>-automaton as (S, M<sub>in</sub>, M<sub>out</sub>, δ, I) consisting of:
+describes an I/O<sup>ω</sup>-automaton as (S, M<sub>in</sub>, 
+M<sub>out</sub>, δ, I) consisting of:
 
 - states S
 - input messages M<sub>in</sub>
@@ -98,7 +99,8 @@ describes an I/O<sup>ω</sup>-automaton as (S, M<sub>in</sub>, M<sub>out</sub>, 
 - transition relation δ ⊆ S x M<sub>in</sub> x S x M<sub>out</sub><sup>ω</sup>;
 - initial states I
 
-where M<sub>out</sub><sup>ω</sup> = M<sub>out</sub><sup>*ω*</sup> ∪ M<sub>out</sub><sup>∞</sup> is the set of all 
+where M<sub>out</sub><sup>ω</sup> = M<sub>out</sub><sup>*ω*</sup> 
+∪ M<sub>out</sub><sup>∞</sup> is the set of all 
 finite and infinite words over M<sub>out</sub>.
 
 Transition relation δ is nondeterministic and incomplete. Each transition has 
