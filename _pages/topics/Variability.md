@@ -123,6 +123,20 @@ variation. This is essential to capture the semantics of the UML.
 6. **Industrial introduction of SPL** based development needs organizational and 
 process adaptation and needs to be tailored to the individual company.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
 - [Evolution & Transformation of Models](/topics/Evolution)
@@ -131,17 +145,6 @@ process adaptation and needs to be tailored to the individual company.
 - [MontiCore - Language Workbench](/topics/MontiCore)
 - [Semantics of Modeling Languages](/topics/Semantics)
 - [Software Language Engineering (SLE)](/topics/Language-Engineering)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

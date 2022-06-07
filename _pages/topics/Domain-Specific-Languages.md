@@ -144,6 +144,20 @@ reusability of tooling and language infrastructures.
 4. [MontiCore](/topics/MontiCore) is a successful tooling infrastructure for the 
 development of DSLs.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
 - [Compositionality/Modularity of Models](/topics/Compositionality)
@@ -155,17 +169,6 @@ development of DSLs.
 - [Software Language Engineering (SLE)](/topics/Language-Engineering)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 - [Variability & Software Product Lines (SPL)](/topics/Variability)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

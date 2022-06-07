@@ -176,6 +176,20 @@ robotics applications.
 6. Delta-MontiArc explores an additive variability mechanism, well suited for an 
 agile start of SPL integration.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Automotive](/topics/Automotive)
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
@@ -187,17 +201,6 @@ agile start of SPL integration.
 - [Robotics](/topics/Robotics)
 - [Semantics of Modeling Languages](/topics/Semantics)
 - [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

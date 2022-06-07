@@ -88,6 +88,20 @@ heterogenous data.
 4. We designed a secure, high-performance storage for Demand-Response Systems 
 based on generative technologies from the MontiCore Language Workbench.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
 - [Cloud Computing & Enterprise Information Systems](/topics/Cloud)
@@ -97,17 +111,6 @@ based on generative technologies from the MontiCore Language Workbench.
 - [Software Language Engineering (SLE)](/topics/Language-Engineering)
 - [MontiCore - Language Workbench](/topics/MontiCore)
 - [Modeling Software Architecture](/topics/Software-Architecture)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

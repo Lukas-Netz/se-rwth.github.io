@@ -193,15 +193,11 @@ automotive software.
 5. A good building analysis is a prerequisite for every optimization. Machine 
 learning supports the analysis with various methods.
 
-## Related Topics
-- [Semantics of Modeling Languages](/topics/Semantics)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Evolution & Transformation of Models](/topics/Evolution)
-- [Modeling Software Architecture & the MontiArc 
-Tool](/topics/Software-Architecture)
-- [Automotive](/topics/Automotive)
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
 
-## Selected Topic-specific Publications
+## Selected Topic-Specific Publications
+
 <div class="publications">
   {% for k in page.keys %}
     {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
@@ -210,6 +206,17 @@ Tool](/topics/Software-Architecture)
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">
+
+## Related Topics
+- [Semantics of Modeling Languages](/topics/Semantics)
+- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
+- [Evolution & Transformation of Models](/topics/Evolution)
+- [Modeling Software Architecture & the MontiArc 
+Tool](/topics/Software-Architecture)
+- [Automotive](/topics/Automotive)
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+  title="Trennlinie">
 
 #### Further links: 
 

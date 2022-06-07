@@ -125,6 +125,20 @@ distribution and quality needs.
 4. We have developed architectural modeling techniques to describe CPS and 
 applied those to cars, robots and building infrastructures.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Automotive](/topics/Automotive)
 - [Autonomic Driving & Intelligent Driver 
@@ -134,17 +148,6 @@ Assistance](/topics/Autonomic-Driving)
 - [MontiArc - Architectural Modeling](/topics/Software-Architecture)
 - [Robotics](/topics/Robotics)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

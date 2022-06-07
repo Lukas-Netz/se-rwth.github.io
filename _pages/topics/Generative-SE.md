@@ -99,6 +99,20 @@ one model) cannot be used in agile projects.
 6. The [MontiCore](/topics/MontiCore) language workbench provides infrastructure 
 for generative software development.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
 - [Compositionality/Modularity of Models & Languages](/topics/Compositionality)
@@ -109,17 +123,6 @@ for generative software development.
 - [MontiCore - Language Workbench](/topics/MontiCore)
 - [UML/P](/topics/UML-P)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

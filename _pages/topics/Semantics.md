@@ -215,6 +215,20 @@ defined using semantics.
 6. Encoding of semantics in formal tools helps to execute analyzes, consistency 
 checks etc.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Compositionality/Modularity of Models & Languages](/topics/Compositionality)
 - [Domain-Specific Languages (DSLs)](topics/Domain-Specific-Languages)
@@ -224,17 +238,6 @@ checks etc.
 - [Variability & Software Product Lines (SPL)](/topics/Variability)
 - [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

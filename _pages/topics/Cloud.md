@@ -84,6 +84,20 @@ development time, increase flexibility and adaptivity.
 3. For connecting the Cloud with Cyber-Physical Systems it is especially 
 interesting to use configurable model-based technology.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
 - [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
@@ -93,17 +107,6 @@ interesting to use configurable model-based technology.
 - [Modeling Software Architecture](/topics/Software-Architecture)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 - [UML/P](/topics/UML-P)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

@@ -43,6 +43,20 @@ related interesting topics. Please also note the [MontiCore
 Website](http://monticore.de/) for details on the technology as well as access 
 to the UML/P itself.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
 - [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
@@ -53,17 +67,6 @@ to the UML/P itself.
 - [Modeling Software Architecture](/topics/Software-Architecture)
 - [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

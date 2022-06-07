@@ -206,6 +206,20 @@ Software Engineering:
 3. Transformation, tagging and delta languages can be automatically derived from 
 base languages.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Compositionality/Modularity of Models](/topics/Compositionality)
 - [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
@@ -214,17 +228,6 @@ base languages.
 - [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 - [Variability & Software Product Lines (SPL)](/topics/Variability)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

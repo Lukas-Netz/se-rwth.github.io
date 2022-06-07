@@ -165,6 +165,20 @@ established with UML/P.
 4. Executable UML/P is an extension of UML with Java, implemented using the 
 MontiCore language workbench.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Evolution & Transformation of Models](/topics/Evolution)
 - [Generative Software Engineering](/topics/Generative-SE)
@@ -174,17 +188,6 @@ MontiCore language workbench.
 - [Variability & Software Product Lines (SPL)](/topics/Variability)
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">
 
 #### Further links: 

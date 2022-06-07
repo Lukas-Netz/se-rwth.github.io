@@ -126,6 +126,20 @@ tasks by users.
 4. Autonomously driving cars exhibit lots of robotic characteristics and many 
 techniques used there for function validation can be carried over.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
 - [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
@@ -134,17 +148,6 @@ techniques used there for function validation can be carried over.
 - [MontiCore - Language Workbench](/topics/MontiCore)
 - [Semantics of Modeling Languages](/topics/Semantics)
 - [State Based Modeling (Automata)](/topics/State-Based-Modeling)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

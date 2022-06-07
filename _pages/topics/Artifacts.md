@@ -154,6 +154,20 @@ Furthermore, we created a customizable tool-chain which enables automated
 extraction and analyses of artifact data of model-driven systems engineering 
 projects.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Automotive](/topics/Automotive)
 - [Autonomic Driving & Intelligent Driver 
@@ -163,13 +177,6 @@ Assistance](/topics/Autonomic-Driving)
 - [MontiArc - Architectural Modeling](/topics/Software-Architecture)
 - [Robotics](/topics/Robotics)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-
-## Selected Topic-specific Publications
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">

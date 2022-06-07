@@ -174,6 +174,20 @@ transformations (refactoring techniques).
 5. A sound semantics for a state machine is given by a mapping to Focus streams 
 that is compatible with refinement and composition.
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 ## Related Topics
 - [Automotive](/topics/Automotive)
 - [Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
@@ -183,17 +197,6 @@ that is compatible with refinement and composition.
 - [Modeling Software Architecture](/topics/Software-Architecture)
 - [Semantics of Modeling Languages](/topics/Semantics)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
-## Selected Topic-specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">
