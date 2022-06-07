@@ -40,7 +40,7 @@ In cooperation with the WZL, MSE and Bewind as industrial partner, the
 goal of this project is to develop a guideline in the sense of a 
 procedure description for the implementation of an agile development 
 process by integrating agile and plan-driven methods as well as their 
-data-based support. Thus the project aims at (1) an increase of 
+data-based support. Thus, the project aims at (1) an increase of 
 effectiveness by a targeted addressing of requirements in the sense of 
 the agile idea shall be achieved, (2) an improvement of efficiency by 
 avoiding unwanted iterations due to improved data transparency shall be 
@@ -87,7 +87,7 @@ modeling methodology for the design of such systems. In AutoKnigge, a
 dynamic framework specifying vehicle behavior is to be developed. The 
 vehicles ought to be able to select appropriate behavioral patterns 
 based on a situation and hence, to perform corresponding cooperative 
-manouvers. Furthermore a set of behavioral rules is to be defined which 
+maneuvers. Furthermore, a set of behavioral rules is to be defined which 
 serves as a guidelines catalogue for cooperative vehicles. 
 
 #### Selected publications AutoKnigge, cf. [EMA and MontiSim publications](#EMA), as well
@@ -480,11 +480,11 @@ successful adoption by the industry.
 
 ## MontiBelle - Intelligent Verification
 
-Based on a well-estabilished mathematical dataflow-theory, we apply 
+Based on a well-established mathematical dataflow-theory, we apply 
 logic, knowledge representation and intelligent reasoning to software 
 engineering to perform correctness proofs, execute symbolic tests or 
 find counterexamples. The theorem prover Isabelle is a mature and 
-fundamental tool, which allows to represent knowledge as a collection 
+fundamental tool, which allows representing knowledge as a collection 
 of definitions and theorems and reason about systems. To increase the 
 usability we provide a high-level API encapsulating the low-level logic 
 engine as well as a domain-specific modeling language as front end 
@@ -647,9 +647,6 @@ solving semantic model evolution analysis problems.
 
 #### Selected publications
 
-- [Kau21] O. Kautz:
-[Model Analyses Based on Semantic Differencing and Automatic Model Repair.](https://www.se-rwth.de/phdtheses/Diss-Kautz-Model-Analyses-Based-on-Semantic-Differencing-and-Automatic-Model-Repair.pdf)
-In: Aachener Informatik-Berichte, Software Engineering, Band 46. ISBN 978-3-8440-7926-5. Shaker Verlag, April 2021.
 - [DKMR20] I. Drave, O. Kautz, J. Michael, B. Rumpe:
 [Pre-Study on the Usefulness of Difference Operators for Modeling Languages in Software Development.](https://se-rwth.de/publications/Pre-Study-on-the-Usefulness-of-Difference-Operators-for-Modeling-Languages-in-Software-Development.pdf)
 RWTH Aachen University, Technical Report. AIB-2020-05. May 2020.
@@ -693,7 +690,7 @@ In Cloud Computing the user no longer owns all the devices which
 process personal data. To lower scepticism, the project SensorCloud 
 investigates techniques to understand and compensate all adoption 
 barriers in a scenario consisting of cloud applications that utilize 
-sensors and actuators in private places. This project adresse the 
+sensors and actuators in private places. This project addresses the 
 interdisciplinary, i.e. social and technical research challenges for 
 the trustworthy integration of sensor and actuator devices with the 
 Cloud Computing paradigm. Most importantly, these challenges include 
