@@ -36,25 +36,10 @@ Engineering.
 ### Promotionsstellen für wissenschaftliche Mitarbeiter:innen
 
 - [Big Data-Architekturen und AI für Mobilität der 
-Zukunft](/assets/pdf/WiMi.CatenaX.ZF.pdf){:target="_blank"} 
+Zukunft](/assets/pdf/WiMi.CatenaX.ZF.pdf)
 
-- [Wissenschaftsinduzierte Retrospektive 
-Code-Analyse](/assets/pdf/WiMi.RCA.pdf){:target="_blank"} 
-
-- [Modell-getriebene und KI-gestützte 
-Systementwicklung](/assets/pdf/WiMi.KIZAM.pdf){:target="_blank"} 
-
-- [Digitale Zwillinge in der 
-Produktion](/assets/pdf/WiMi.IoP.pdf){:target="_blank"} 
-
-- [Modell-basierte und generative Entwicklung von 
-Assistenzsystemen](/assets/pdf/WiMi.AssistiveSystems.pdf){:target="_blank"} 
-
-- [Modellbasierte Semantische 
-Evolution](/assets/pdf/WiMi-MBSE-SemanticDifferencing.pdf){:target="_blank"} 
-
-- [Software Language Engineering für die 
-Digitalisierung](/assets/pdf/Software_Language_Engineering_fuer_die_Digitalisierung.pdf){:target="_blank"} 
+- [Einsatz von NLP im Automobilen Ziele- und Anforderungsmanagement](
+/assets/pdf/WiMi.KIZAM.pdf)
 
 - **oder Sie bewerben sich initiativ**
 
@@ -73,14 +58,20 @@ Projekte sind vorhanden.
 ### Hiwi-Stellen
 
 - [Design und Pflege von 
-Webinhalten](/assets/pdf/21.06.25.HiWi.Web.pdf){:target="_blank"} 
+Webinhalten](/assets/pdf/21.06.25.HiWi.Web.pdf)
+
+- [InviDas: Entwicklung einer Plattform zur Vermittlung von 
+Datenschutzkonzepten für Smart-Wearables](/assets/pdf/22.05.17.Invidas.Hiwi.pdf)
 
 - [MaCoCo: Entwicklung eines webbasierten Management Cockpits fuer das 
 Lehrstuhl 
-Controlling](/assets/pdf/19.07.04.MaCoCo.pdf){:target="_blank"} 
+Controlling](/assets/pdf/19.07.04.MaCoCo.pdf)
 
 - [Weiterentwicklung und Qualitässicherung der Language Workbench 
 MontiCore](https://www.se-rwth.de/jobs/hiwi41/) 
+
+- [SemDiff: Entwicklung von Tools zur automatisierten semantischen 
+Modelldifferenzierung](/assets/pdf/22.01.18.HiWi.SemDiff.pdf)
 
 - oder Sie bewerben sich initiativ
 
