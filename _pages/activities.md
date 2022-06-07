@@ -141,16 +141,7 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
   Springer International, July 2016.](https://mbse.se-rwth.de/) 
 
 <center>
-<div class="row" style="width: 85%">
-    <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/model_uml_2.png title: 
-        "Modellierung mit UML" class: "img-fluid z-depth-1" 
-        href="http://mbse.se-rwth.de/book1/" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/agile_model_uml_2.png title: "Agile 
-        Modellierung mit UML" class: "img-fluid z-depth-1" %}
-    </div>
+<div class="row" style="width: 43%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: 
         assets/img/Modeling-with-UML--Language-Concepts-Methods.jpg title: 
