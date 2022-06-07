@@ -52,11 +52,19 @@
         {% endfor %}
       {% endif %}
 
+      {% if entry.type == "techreport" %}
+        Technical Report
+      {% endif %}
+
       {% if entry.institution %}
         {{entry.institution}},
         {% if entry.number %}
           {{entry.number}},
         {% endif %}
+      {% endif %}
+
+      {% if entry.type == "proceedings" %}
+        Proceedings
       {% endif %}
 
       {% if entry.volume %}
