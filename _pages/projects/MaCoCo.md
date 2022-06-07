@@ -6,15 +6,25 @@ nav: false
 keys: [GHK+20, ANV+18]
 ---
 
-**A research project of RWTH Aachen University realized by the Controlling Group and Software Engineering Group**
+**A research project of RWTH Aachen University realized by the Chair of Management Accounting and the 
+Chair of Software Engineering**
 
-Within the **MaCoCo (Management Cockpit for Controlling) project** we realize a multi-user web-application for the decentralized management and controlling of organizational processes within the chairs or institutes of a university. The project was startet in 2016. The key elements of the project focus on finance, staff and project organization.
 
-In the development of web-applications the frontend and backend are implemented separately and often use different programming languages. Developers of both parts have to communicate intensively and have to adjust their implementation to the corresponding other side. Consequently, this increases the risk for communication overhead and inconsistencies.
+Within the **MaCoCo (Management Cockpit for Controlling) project** we realize a multi-user enterprise information system
+for the 
+decentralized management and controlling of organizational processes within the chairs or institutes of a university 
+[GHK+20](https://www.se-rwth.de/publications/Generated-Enterprise-Information-Systems-MDSE-for-Maintainable-Co-Development-of-Frontend-and-Backend.pdf). 
+The project was started in 2016. The key elements of the project focus on finance, staff and project organization.
 
-Thus, large parts of the code of MaCoCo is generated with the [MontiCore (MC) language workbenchand code generation framework](http://monticore.de/) to ensure a highly adaptable system. Lead users are involved actively in the development process to be able to provide a useful solution.
+We follow an agile software development paradigm, which strongly involves future users in the conceptualization process.
+Moreover, large parts of the MaCoCo application are generated
+[ANV+18](https://www.se-rwth.de/publications/Generated-Enterprise-Information-Systems-MDSE-for-Maintainable-Co-Development-of-Frontend-and-Backend.pdf) 
+from Domain-Specific Languages (DSLs) developed with 
+the [MontiCore (MC) language workbenchand code generation framework](http://monticore.de/). 
+This combination ensures a highly adaptable system. 
 
-The MaCoCo project is funded by the RWTH Aachen University and jointly realized by the chairs of Controlling and Software Engineering.
+The MaCoCo project is funded by the RWTH Aachen University and jointly realized by the two Chairs 
+of Management Accounting and Software Engineering.
 
 ## Impressions
 
@@ -65,20 +75,6 @@ The MaCoCo project is funded by the RWTH Aachen University and jointly realized 
   </a>
 </div>
 <br>
-
-**-- Only reachable from RWTH network --**
-
-The [user manual](https://macoco.rwth-aachen.de/w/index.php/) provides detailed information about MaCoCo functionalities and our [online test version](https://macoco.rwth-aachen.de/w/index.php/Testversion).
-
-## MaCoCo in a nutshell:
-- Enterprise Information System
-- Agile, Model-Driven Software Engineering
-- Code Generators
-- Cr-eation and use of domain-specific languages (DSLs)
-- User centered development process
-- Web Application
-- Angular Frontend (Typescript/HTML)
-- Java Backend
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">

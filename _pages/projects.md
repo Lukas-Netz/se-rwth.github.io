@@ -434,7 +434,7 @@ In: S. Dustdar, E. Yu, C. Salinesi, D. Rieu, V. Pant, editors, International Con
 
 Within the [MaCoCo (Management Cockpit for 
 Controlling)](/projects/MaCoCo) project we 
-realize a multi-user web-application for the decentralized management 
+realize a multi-user enterprise information system for the decentralized management 
 and controlling of organizational processes within the chairs or 
 institutes of a university. The key elements of the project focus on 
 finance, staff and project organization. 
@@ -446,7 +446,7 @@ highly adaptable system. Lead users are involved actively in the
 development process to be able to provide a useful solution. 
 
 The MaCoCo project is funded by the RWTH Aachen University and jointly 
-realized by the chairs of Controlling and Software Engineering. 
+realized by the two Chairs of Management Accounting and Software Engineering. 
 
 #### Selected publications
 
