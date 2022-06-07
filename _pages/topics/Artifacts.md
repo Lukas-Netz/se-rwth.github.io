@@ -164,7 +164,7 @@ Assistance](/topics/Autonomic-Driving)
 - [Robotics](/topics/Robotics)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 
-## Selected Related Publications
+## Selected Topic-specific Publications
 <div class="publications">
   {% for k in page.keys %}
     {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}

@@ -135,7 +135,7 @@ process adaptation and needs to be tailored to the individual company.
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">
 
-## Selected Related Publications
+## Selected Topic-specific Publications
 
 <div class="publications">
   {% for k in page.keys %}
