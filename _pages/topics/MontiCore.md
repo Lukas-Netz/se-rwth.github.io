@@ -74,9 +74,6 @@ access to MontiCore itself.
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
-
 ## Selected Topic-Specific Publications
 
 <div class="publications">
