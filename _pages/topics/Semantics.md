@@ -8,7 +8,7 @@ importance: 1
 keys: [KRV10,HR04,BKR95,BHP+98,GKR96,BKR96,BCGR09a,BCGR09,BCR07,BCR07b,CGR08,MRR10,MRR11d,MRR11a,MRR11f,BR07,EFL+99,BGH+97,BGH+98,GR11,CGR09,GRR10,Rum17,Rum12,LRS+10,Rum96]
 ---
 
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 We investigate analysis, synthesis, evolution, definition of views, and 
 abstraction based on models. For all these purposes, we need a sound semantical 
 foundation of the meaning of the models.
@@ -201,7 +201,7 @@ asynchronously communicating agents, which can be regarded as active objects.
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. Semantics of modeling languages helps to understand, analyze and manipulate 
 its models.
 2. Semantics is precisely defined only using mathematic theories.

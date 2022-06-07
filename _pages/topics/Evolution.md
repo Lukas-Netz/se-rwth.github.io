@@ -8,7 +8,7 @@ importance: 1
 keys: [CFJ+16,Rum04c,Rum12,LRS+10,MMR10,PR94,KPR97,KR18a,PR99,PR01,PR03,Rum12,MRR11d,MRR11e,MRR10,RSW+15,HRRS11,HRRS12,HHL+13,HRR+11,HRW15,Wei12]
 ---
 
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 Models are central artifacts in model-driven development (MDD). However, 
 software changes over time and so do models. Many of the new requirements 
 imposed by stakeholders, technology adaptations, or bug and performance 
@@ -76,7 +76,7 @@ external visible behavior is taken to consideration, and "hierarchical
 decomposition", where a black box behavior is decomposed into an (forthwith 
 immutable) architecture.
 
-## Refactoring of models
+## Refactoring of Models
 Refactoring aims to improve the internal structure while preserving its 
 observable behavior and became prominent with agile development. In 
 [[PR01]](https://www.se-rwth.de/topics/~rumpe/publications/Roots-of-Refactoring.pdf) 
@@ -104,7 +104,7 @@ we provide the mapping of UML's class diagrams to Alloy allowing to understand
 semantic differences between refactoring steps on data structures by exhibiting 
 concrete data sets (object structures) as witness of semantic differences.
 
-## Understanding model differences
+## Understanding Model Differences
 While syntactic differences of models are relatively easy to understand, it is 
 an interesting question that given two models, e.g. where one evolved from the 
 other, and a clear semantics (see [Semantics of Modeling 
@@ -117,7 +117,7 @@ semantic based approaches for this.
 We also applied compatibility checking of evolved models on Simulink, e.g., in 
 [[RSW+15]](https://www.se-rwth.de/publications/Behavioral-Compatibility-of-Simulink-Models-for-Product-Line-Maintenance-and-Evolution.pdf).
 
-## Delta transformations to describe software variability
+## Delta Transformations to Describe Software variability
 Software product line engineering is most effective, if planned already on the 
 modeling level. For this purpose, we developed the delta approach for modeling. 
 Each delta describes a coherent set of changes on a model. A set of deltas 
@@ -142,7 +142,7 @@ languages from any modeling language in
 and 
 [[HRW15]](https://www.se-rwth.de/publications/Systematically-Deriving-Domain-Specific-Transformation-Languages.pdf).
 
-## Model transformation language development
+## Model Transformation Language Development
 As we work with transformations on models in various forms, we are very much 
 interested in defining these transformations in an effective and easily 
 understandable form. Today's approaches are concentrated on the abstract syntax 
@@ -161,7 +161,7 @@ several sublanguages of the [UML](/topics/Unified-Modeling-Language) and
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. Model transformation is a central concept for model driven development, that 
 enables model-based evolution.
 2. Refactoring on models is effective, when assisted by appropriate tools.

@@ -8,7 +8,7 @@ importance: 1
 keys: [KRS12,ZPK+11,HRR12,RRW13c,RRW14a,GRJA12,HRRW12,BR12b,BBR07,RRW12,KPR12,FPPR12,KLPR12]
 ---
 
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 Cyber-physical systems (CPS) are **software controlled, collaborating physical 
 machines**. In 
 [[KRS12]](https://www.se-rwth.de/publications/Cyber-Physical-Systems-eine-Herausforderung-an-die-Automatisierungstechnik.pdf) 
@@ -113,7 +113,7 @@ energy subdomain of CPS.
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. CPS tackles two core challenges:
   - Lack of integration of calculus and automaton theory, and
   - Heterogeneity of domains need integration of heterogeneous modeling 

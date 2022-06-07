@@ -7,7 +7,7 @@ img:
 importance: 1
 keys: [BKR+17,BKRW19,BRKW17a,BR07,PR99,HRR12,RRW13c,RRW14a,HRR10,RRRW15b,HRR+11,HRRS11,HKR+11,HRRS12,GHK+07,GHK+08,GKPR08,MRR13,Rin14,MRR14b,MMR10,HRR98,HKR+16]
 ---
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 **Distributed interactive systems** have become more and more important in the 
 last decades. It is becoming the standard case that a system is distributed. 
 Typically, these systems consist of subsystems and components such as
@@ -163,7 +163,7 @@ reconfiguration behavior via mode automata that describe when to switch modes.
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. Distributed Software Architecture can be modeled in hierarchically decomposed 
 systems using message passing.
 2. The communication paradigm, advanced composition and refinement techniques 

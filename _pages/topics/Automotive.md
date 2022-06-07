@@ -9,7 +9,7 @@ keys: [GRJA12,BR12b,BR12,BBR07,GHK+07,GHK+08,HKM+13,HRRW12,RSW+15]
 
 ---
 
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 Development of software for automotive systems has become increasingly complex. 
 Sophisticated driver assistance, infotainment and Car2X-communication systems as 
 well as advanced active and passive safety-systems result in complex, 
@@ -39,13 +39,13 @@ hardware involved. By producing sensor input from the simulation and comparison
 of expected and actual behavior, subsystems may be automatically validated and 
 thus developed in an agile way.
 
-## Modeling logical architecture: function nets
+## Modeling Logical Architecture: Function Nets
 The conceptual gap between requirements and the logical architecture of a car is 
 closed in [[GHK+07]](#GHK+07) and [[GHK+08]](#GHK+08). Here, feature views 
 modeled as a function net are used to implement the mapping between 
 feature-related requirements and the complete logical architecture of a car.
 
-## Variability of car software
+## Variability of Car Software
 Automotive functions that may be derived from a feature view are often developed 
 in Matlab/Simulink. As variability needs also to be handled in development 
 artifacts, we extended Matlab/Simulink with delta modeling techniques (see also 
@@ -72,7 +72,7 @@ device in different variants and thus allows to understand incompatibilities.
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
 alt="" title="Trennlinie"></p>
 
-## Summary
+## Key Statements
 1. A consistent requirement management leads to a more stable and predictable 
 development of automotive systems.
 2. Various functional and architectural variants need to be explicitly managed 

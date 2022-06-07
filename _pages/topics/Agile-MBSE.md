@@ -9,7 +9,7 @@ keys: [Rum17, Rum16, CEG+14, Rum12, Sch12, Rum11, Kra10, LRS+10, MRR10,
        HKR+09, FHR08, KRV06, GKR+06a, GKR+06b, Rum04c, Rum03, PR03, Rum02]
 ---
 
-## Summary of Most Relevant Papers
+## Summary of Most Relevant Topic Papers
 
 Many developers and project managers think that the use of models in software 
 development yields heavy-weight, tedious development processes. They believe 
@@ -153,13 +153,14 @@ adaptivity.
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
+
 1. Model-based development becomes interesting, when the model language is the 
 central notation and thus replacing the programming language.
 2. Tooling for MBSE must include code and test generation as well as type and 
 context condition checking already on models. These techniques must be quick and 
 thus modular and incremental.
-3. Agile concepts, such as refactoring, evolution, and automatic testing can be 
+3. Agile concepts, especially as refactoring, evolution, and automatic testing can be 
 established with UML/P.
 4. Executable UML/P is an extension of UML with Java, implemented using the 
 MontiCore language workbench.

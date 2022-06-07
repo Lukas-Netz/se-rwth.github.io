@@ -8,7 +8,7 @@ importance: 1
 keys: [RRW12,RRW13c,RRRW15b,THR+13,BBR07,BR12b]
 ---
 
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 We consider modern robotics as a special field of [Cyber-Physical 
 Systems](/topics/Cyber-Physical-Systems) (CPS) which is defined by an inherent 
 heterogeneity of involved domains, relevant platforms, and real world 
@@ -115,7 +115,7 @@ millions of miles for safety validation in the car domain.
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
 alt="" title="Trennlinie"></p>
 
-## Summary
+## Key Statements
 1. Development of robotics applications is highly complex and requires 
 abstraction, e.g using appropriate abstract modeling techniques.
 2. Domain specific modeling languages (DSLs) apply perfect to model tasks of 

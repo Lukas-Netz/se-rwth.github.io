@@ -8,7 +8,7 @@ importance: 1
 keys: []
 ---
 
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 The UML/P is a realization of a subset of the modeling languages of the 
 [UML](/topics/Unified-Modeling-Language) with particular focus on applicability 
 for programming, i.e., modeling of software systems (the "P" in UML/P stands for 

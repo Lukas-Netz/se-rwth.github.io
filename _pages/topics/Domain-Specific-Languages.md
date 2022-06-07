@@ -7,7 +7,7 @@ img:
 importance: 1
 keys: [GHK+07,FPR02,SRV+10,CFJ+16,KRV07b,KRV10,GR11,GKR+07,KRV08,Voe11,CBCR15,CCF+15a,KRV07,LRS+10,Wei12,GKR+06a]
 ---
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 People are modeling everywhere. Both science and philosophy use models to 
 understand and describe the concepts and phenomena in their fields. Engineering 
 disciplines use models to describe the systems they want to design. **We all use 
@@ -134,7 +134,7 @@ MontiCore Website.
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. DSLs are a promising technology to deal with complexity of software products 
 and the pervasion of software into various domains.
 2. Quality assurance and efficient ways to create, manage, and evolve DSLs are 

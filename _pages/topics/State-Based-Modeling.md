@@ -7,7 +7,7 @@ img:
 importance: 1
 keys: [GKR96,BCR07b,BCGR09a,BCGR09,PR94,RK96,Rum96,KPR97,Rum16,Rum17,GR95,BR07,RRW14a,THR+13,FLP+11b]
 ---
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 Today we see that many computer science theories are based on state machines in 
 various forms including Petri nets or temporal logics. Software engineering is 
 particularly interested in using state machines for **modeling systems**.
@@ -159,7 +159,7 @@ as well as in building management systems in
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. I/O<sup>ω</sup> automata (state machines) can be used for I/O-specification 
 of components, objects, agents.
 2. Semantics of finitely depictable state machine models can be mapped to 

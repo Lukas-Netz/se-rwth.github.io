@@ -8,7 +8,7 @@ importance: 1
 keys: [R+10,BR12,BBR07,BR12b,BBH+13,MMR10,HKR12]
 ---
 
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 From the viewpoint of software engineering, **intelligent driver assistance** 
 and, in particular, **autonomous driving** is an interesting and demanding 
 challenge, because it includes the development of complex software embedded 
@@ -76,7 +76,7 @@ Without those agile development would not have been possible.
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
 alt="" title="Trennlinie"></p>
 
-## Summary
+## Key Statements
 1. Automatic, repeatable tests speed up the development process.
 2. Testing of sensor-based functions works best by simulating the sensoric input 
 on realistic scenarios.

@@ -8,7 +8,7 @@ importance: 1
 keys: [Rum16,Rum17,Sch12,GR11,BCGR09,BCGR09a,BCR07,CGR08,GRR10,MRR11e,MRR11c,MRR11f,MRR11a,MRR11d,FHR08,BGH+98,Rum04c,Rum02,FPR02,EFL+99,SRV+10,FEL+98,KER99]
 ---
 
-## Summary of Selected Papers 
+## Summary of Most Relevant Topic Papers 
 
 This website sketches our contributions to the Unified Modeling 
 Language (UML) only. For detailed discussion see the more specific 
@@ -70,7 +70,7 @@ A very early discussion on the challenges for the UML discussed by the
 pUML group can be found at 
 [[KER99]](https://www.se-rwth.de/topics/~rumpe/publications/UML-Semantics-FAQ.pdf). 
 
-## Summary
+## Key Statements
 
 1. UML is a big language with many forms of uses.
 

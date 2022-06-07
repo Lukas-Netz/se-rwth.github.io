@@ -8,7 +8,7 @@ importance: 1
 keys: [KRR14,HHK+14,KRS12,HHK+15a,PR13,HKR12,FPPR12,KPR12]
 ---
 
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 As web-based application and service architectures are continuing to **grow in 
 complexity, criticality and into new application domains**, their development, 
 integration, evolution, migration, operation and migration poses ever more and 
@@ -77,7 +77,7 @@ enabling reduction of building energy costs.
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
 alt="" title="Trennlinie"></p>
 
-## Summary
+## Key Statements
 1. Model-based, generative development of cloud-based systems helps to reduce 
 development time, increase flexibility and adaptivity.
 2. Models can be used for architecture as well as domain and data modeling.

@@ -7,7 +7,7 @@ img:
 importance: 1
 keys: [BR07,HKR+09,HKR+07,KRV10,KRV08,KRV07,Voe11.RRRW15b,KKR+09,CBCR15,CCF+15a]
 ---
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 "Divide and conquer" as well as "abstraction" are the most fundamental 
 strategies to deal with complexity. Complex (software) systems become manageable 
 when divided into modules (horizontally, vertically and/or hierarchically). 
@@ -65,7 +65,7 @@ of domain specific languages, which we published together with related topics in
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. Modularity and composition are applicable in and desired for the whole life 
 cycle of .MBSE - just as for conventional software engineering.
 2. Modeling language(s) used in a large project must assist modularity and 

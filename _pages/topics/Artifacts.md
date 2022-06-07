@@ -7,7 +7,7 @@ img:
 importance: 1
 keys: [Gre19, BHR+18, BGRW18, GHR17, BGRW17]
 ---
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 Developing modern software solutions has become an increasingly complex and time 
 consuming process. As both the requirements and expectations towards modern 
 software increase, the need for the development of increasingly large and 
@@ -140,7 +140,7 @@ the artifacts they work with.
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. Modeling artifacts and their relations tackles two problems of complex 
 development systems:
   - Making implicit knowledge about process, structures, and artifacts explicit, 

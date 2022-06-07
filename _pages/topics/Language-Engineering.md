@@ -7,7 +7,7 @@ img:
 importance: 1
 keys: [Rum16,Rum17,KRV07b,Kra10,KRV10,CFJ+16,CBCR15,CCF+15a,SRV+10,BEK+18a,BEK+18b,BEK+19,KRV10,Voe11,KRV08,HMSNRW16,RRRW15b,HRW15,Wei12,GLRR15,HHK+15,HHK+13]
 ---
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 Identifying or engineering appropriate languages for the various activities in 
 software and systems development is one of the most important issues in Software 
 Engineering. Even programming languages are still subject of improvement. For 
@@ -38,7 +38,7 @@ definition of concrete and abstract syntax of a language
 but is much more a framework for compositional language design 
 [[KRV10]](https://www.se-rwth.de/publications/MontiCore-a-Framework-for-Compositional-Development-of-Domain-Specific-Languages.pdf).
 
-## Language Engineering in The Large
+## Language Engineering in the Large
 To efficiently engineer languages in the large, we need all the help that we can 
 get. As software languages are software too, it is not surprising that the 
 following techniques are largely discussed in [[CFJ+16]](#CFJ+16) and they 
@@ -118,7 +118,7 @@ rules in a reasonably explicit form. Thus, language derivation can be partially
 understood as model transformation on a metalanguage. We so far successfully 
 conceived three language derivation techniques.
 
-## Transformation languages in concrete syntax
+## Transformation Languages in Concrete Syntax
 Instead of using a fully generic transformation language, such as 
 [ATL](http://www.eclipse.org/atl/), that is applicable to a base language B, we 
 automatically derive a transformation language T(B) that merges elements of the 
@@ -139,7 +139,7 @@ not only derives the new languages T(B), but the tool infrastructure behind T
 also generates the transformation engine necessary to execute transformations 
 defined in T(B) (which finally transform models of the base language B).
 
-## Tagging languages
+## Tagging Languages
 A **tagging model** is used in the context of a base model M and adds additional 
 information in form of tags to the elements defined in M. This, for example, can 
 be used to add technology-specific information or advice on how code generation, 
@@ -168,7 +168,7 @@ defining the possible form and values that tags may have, as well as which kind
 of model elements they can be applied to and therefore acts as type definition 
 for tags.
 
-## Delta languages
+## Delta Languages
 Another way of deriving new languages from existing languages is described in 
 [[HHK+15]](https://www.se-rwth.de/publications/Systematic-synthesis-of-delta-modeling-languages.pdf) 
 and 
@@ -189,7 +189,7 @@ context.
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. Software Language Engineering requires elaborate tooling to assist (partially 
 automated) language development.
 2. "Language Engineering in The Large" is based on techniques well known from 

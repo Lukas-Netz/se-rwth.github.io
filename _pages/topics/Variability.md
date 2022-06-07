@@ -7,7 +7,7 @@ img:
 importance: 1
 keys: [GKPR08,GHK+08,GRJA12,HRR+11,HRRS12,HKM+13,HRRS12,HHK+15,CGR09,GR11,FPR02]
 ---
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 Most products, such as cars, printers, mobile phones, etc., exist in various 
 variants. Software for product variants is quite similar, but typically differs 
 in new or additional features that sometimes deeply affect the software's 
@@ -25,7 +25,7 @@ Variability is to a larger extent related to evolution. We discuss our
 approaches to evolution understanding in [evolution & transformation of 
 models](/topics/Evolution).
 
-## Feature diagrams and Views
+## Feature Diagrams and Views
 Feature diagrams describe variability in a top down fashion in the problem 
 space. We studied the application of this top down approach, e.g., in the 
 automotive domain in 
@@ -109,7 +109,7 @@ steps and understand the effects.
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. Products often exist in various variants. Variants are managed in a Software 
 Product Line (SPL) that captures commonalities and differences.
 2. Modeling variants explicitly is essential to tame complexity of otherwise 

@@ -8,7 +8,7 @@ importance: 1
 keys: [Rum12,Rum11,Rum16,Rum17,Sch12,KRV10,GKR+06a,HRR12,KRV06,GKR+06b,Wei12,Rum04c,Rum03,Rum02]
 ---
 
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 In [Agile Model-Based Software Engineering](/Agile-MBSE), we clarify that 
 generating software is crucial to successfully integrated modeling in 
 development processed. Modeling will only become an integral to industrial 
@@ -82,7 +82,7 @@ in
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. Generation of code and tests is a core capability for model-based software 
 engineering (MBSE).
 2. Generators depend on the source modeling language, a precise clarification of 

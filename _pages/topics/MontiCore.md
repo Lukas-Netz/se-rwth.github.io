@@ -8,7 +8,7 @@ importance: 1
 keys: [HKR21,]
 ---
 
-## Overview of Selected Papers
+## Summary of Most Relevant Topic Papers
 
 [MontiCore](http://monticore.de/) is a language workbench for the 
 efficient development of domain-specific languages. 

@@ -8,7 +8,7 @@ importance: 1
 keys: [KPRS19, DKMR19, EJK+19, KNP+19, BKRW19, DEKR19, DGH+19, KRRS19, RW18, KR18a, DGH+18, KMS+18, BKRW17, GLPR15, KLPR12, MRR11g, MRR11d, MRR11b, RR11, FLP+11, BR07]
 ---
 
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 Our resarch on artificial intelligence divides into modeling deep learning and 
 applying artificial intelligence to different application domains. We developed
 
@@ -177,7 +177,7 @@ these circumstances.
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
 
-## Summary
+## Key Statements
 1. MontiAnna is a model-driven framework for the design and training of deep 
 neural networks.
 1. Semantic differencing is a non-trivial task that facilitates developers in 

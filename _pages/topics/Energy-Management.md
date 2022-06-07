@@ -7,7 +7,7 @@ img:
 importance: 1
 keys: [FPPR12,KPR12,FLP+11b,KLPR12]
 ---
-## Summary of Selected Papers
+## Summary of Most Relevant Topic Papers
 In the past years it became more and more evident that saving energy and 
 reducing CO2 emissions is an important challenge. Today housing, offices, shops 
 and other buildings are responsible for 40% of the overall energy consumption 
@@ -78,7 +78,7 @@ performance storage that is able to capture sensor data and DR-signals.
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
 alt="" title="Trennlinie"></p>
 
-## Summary
+## Key Statements
 1. We defined a practically used DSL for modelling structure and functionality 
 of buildings and facilities using MontiCore.
 2. Specification and analysis for buildings, closing the loop in the lifecycle 
