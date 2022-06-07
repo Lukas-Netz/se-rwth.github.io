@@ -106,5 +106,5 @@ refer to [our publications and research](/topics).
 - [Topic sorted list of most interesting publications](/topics)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
-- [Website of the SE](/)
+- [Website of the SE](https://www.se-rwth.de)
 

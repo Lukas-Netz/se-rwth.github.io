@@ -322,15 +322,14 @@ This company helps to engineer systems more efficiently and sustainable.
 
 <script async src="https://platform.twitter.com/widgets.js" 
     charset="utf-8"></script>
-    
+
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
-#### Further links: 
+#### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/research)
+- [Topic sorted list of most interesting publications](/topics)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
-- [Videos](https://www.se-rwth.de/videochannel/)
-- [Website of the SE](/main)
+- [Website of the SE](https://www.se-rwth.de)
 

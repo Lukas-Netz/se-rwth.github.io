@@ -112,13 +112,12 @@ title="Trennlinie">
 - [MontiCore - Language Workbench](/topics/MontiCore)
 - [Modeling Software Architecture](/topics/Software-Architecture)
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
-#### Further links: 
+#### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/research)
+- [Topic sorted list of most interesting publications](/topics)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
-- [Website of the SE](/main)
+- [Website of the SE](https://www.se-rwth.de)

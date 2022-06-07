@@ -113,13 +113,12 @@ title="Trennlinie">
 - [Mo-re videos of the Darpa Urban Challenge 
 2007](https://www.youtube.com/results?search_query=Darpa%20Urban%20Challenge&sm=3) 
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
-#### Further links: 
+#### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/research)
+- [Topic sorted list of most interesting publications](/topics)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
-- [Website of the SE](/main)
+- [Website of the SE](https://www.se-rwth.de)
