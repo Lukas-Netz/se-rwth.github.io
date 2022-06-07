@@ -107,7 +107,7 @@ to describe desired or unwanted object structures. These language integration
 mechanisms are presented there as well.
 
 In the last decade, we implemented a **language workbench** called 
-[MontiCore](https://www.se-rwth.de/topics/MontiCore.php) which is initially 
+[MontiCore](/topics/MontiCore) which is initially 
 described in [[GKR+06a]](#GKR+06a). 
 On top of that, we realized most of the language components of the UML/P in 
 [[Sch12]](#Sch12). This includes a 

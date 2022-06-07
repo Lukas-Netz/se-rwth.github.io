@@ -19,7 +19,7 @@ But UML and its tooling still are much less elaborate and hence subject to
 extensive syntactic, semantic, and methodic improvement.
 
 In various domains, however, it is more appropriate to employ [Domain Specific 
-Languages (DSLs)](http://www.se-rwth.de/topics/Domain-Specific-Languages.php) to 
+Languages (DSLs)](/topics/Domain-Specific-Languages) to 
 enable non-software developers specifying properties, configuring their systems, 
 etc. in terms of established domain concepts and corresponding language 
 elements. With increasing digitalization, we expect a growth in DSLs and 
@@ -79,10 +79,10 @@ these components, for example the basic language for full qualified names,
 constants, (Boolean) expressions, or imperative statements, should be designed 
 in a reusable form.
 
-In a second dimension, we want to decompose the tooling along the activities 
+In a second dimension, we decompose the tooling along the activities 
 (frontend: model processing, context conditions, internal transformations, 
 backend: printing) and decompose each of these activities along the individual 
-language components. [MontiCore](https://www.se-rwth.de/topics/MontiCore.php) 3, 
+language components. [MontiCore](/topics/MontiCore) 3, 
 e.g., is able to decompose the frontend language processing along the 
 decomposition of the language itself 
 [[KRV10]](https://www.se-rwth.de/publications/MontiCore-a-Framework-for-Compositional-Development-of-Domain-Specific-Languages.pdf), 
@@ -94,7 +94,7 @@ backend code generation based on different targets and different sublanguages
 In a second dimension, we want to decompose the tooling along the activities 
 (frontend: model processing, context conditions, internal transformations, 
 backend: printing) and decompose each of these activities along the individual 
-language components. [MontiCore](https://www.se-rwth.de/topics/MontiCore.php) 3, 
+language components. [MontiCore](/topics/MontiCore) 3, 
 e.g., is able to decompose the frontend language processing along the 
 decomposition of the language itself 
 [[KRV10]](https://www.se-rwth.de/publications/MontiCore-a-Framework-for-Compositional-Development-of-Domain-Specific-Languages.pdf), 

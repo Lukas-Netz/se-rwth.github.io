@@ -48,7 +48,7 @@ The core of this approach are several modeling languages that describe different
 aspects of a cloud-based system in a concise and technology-agnostic way. 
 **Software architecture and infrastructure models** describe the system and its 
 physical distribution on a large scale. 
-[UML/P](https://www.se-rwth.de/topics/UML-P.php) models, and class diagrams in 
+[UML/P](/topics/UML-P) models, and class diagrams in 
 particular, describe several other aspects of the system, such as its **domain 
 and data models**, its interfaces and interactions, and its monitoring and 
 scaling capabilities. Among other tools, **code generators** most prominently 

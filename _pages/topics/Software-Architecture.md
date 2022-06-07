@@ -92,7 +92,7 @@ design. MontiArc has thus been extended in two different ways, **hierarchical
 variability modeling** and **delta-modeling**, in order to explore ways to 
 enable architectural modeling of variants defined in a product line.
 
-In [[HRR+11]](https://www.se-rwth.de/topics/Software-Architecture.php#HRR+11), 
+In [[HRR+11]](#HRR+11), 
 we explored a variability mechanism based on MontiArc that allows specifying 
 component variants fully integrated at any level of the component hierarchy. 
 Here, variation points may have hierarchical dependencies. Associated variants 

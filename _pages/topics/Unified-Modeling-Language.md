@@ -91,7 +91,7 @@ generation as well as for high-level analysis.
 - [MontiCore - Language Workbench](/topics/MontiCore)
 - [Semantics of Modeling Languages](/topics/Semantics)
 - [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [UML/P](https://www.se-rwth.de/topics/UML-P.php)
+- [UML/P](/topics/UML-P)
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
 title="Trennlinie">
