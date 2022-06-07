@@ -20,7 +20,7 @@ We follow an agile software development paradigm, which strongly involves future
 Moreover, large parts of the MaCoCo application are generated
 [ANV+18](https://www.se-rwth.de/publications/Generated-Enterprise-Information-Systems-MDSE-for-Maintainable-Co-Development-of-Frontend-and-Backend.pdf) 
 from Domain-Specific Languages (DSLs) developed with 
-the [MontiCore (MC) language workbenchand code generation framework](http://monticore.de/). 
+the [MontiCore (MC) language workbench and code generation framework](http://monticore.de/). 
 This combination ensures a highly adaptable system. 
 
 The MaCoCo project is funded by the RWTH Aachen University and jointly realized by the two Chairs 

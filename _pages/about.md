@@ -103,8 +103,8 @@ refer to [our publications and research](/topics).
 #### Further links: 
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/research)
+- [Topic sorted list of most interesting publications](/topics)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
-- [Website of the SE](/main)
+- [Website of the SE](/)
 
