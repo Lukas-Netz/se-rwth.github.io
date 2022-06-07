@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Model-Based Assistance and Information Services (MBAIS)
+title: Model-Based Assistance and Information Services
 permalink: /working-teams/team-MBAIS
 nav: false
 ---
@@ -15,18 +15,10 @@ nav: false
             behavioural data, and broad range of possible end-users. Thus, the need for 
             (a) assistive and (b) information services and systems grows. We meet these 
             challenges by using models and model-based software engineering as foundation 
-            to develop data-centric information systems.
+            to develop data-centric information systems and assistive systems.
         </div>
         <div class="col-lg-4">
             <img src="../../assets/img/SE_MBAIS_logo.png" alt="SE_MBAIS_logo" style="width:100%; height: 100px; margin: 0 auto; display: block">
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row" style="margin-bottom: 20px">
-        <div class="col-lg-12">
-            <img src="../../assets/img/teams/mbais_topics.png" alt="mbais_topics" style="width:100%; height: 100%; margin: 0 auto; display: block">
         </div>
     </div>
 </div>
@@ -88,15 +80,8 @@ The group members already have experiences in the following domains:
 - Industry 4.0
 - Smart Homes
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
-
-### Research Questions
-
-- What are further evolvement steps in theoretical foundations of model based code generation? How is it possible to combine different languages?
-- What are the domain specific modelling languages and methods required for the creation of web information systems? How are these engineered, integrated, and reused? How does this translate to modeling tools, analysis, transformations, and code generators?
-- What are the domain specific modelling languages and methods required for assistance services? What are the architectural components and how are they interrelated?
-- How is it possible to ensure privacy-by-design of information and assistive systems in combination by using model-based software engineering? What aspects are relevant to be represented in privacy information portals to support privacy preservation for end users?
+Contact us for more information on our research as well as cooperation and 
+know-how exchange or join us for a bachelor/master thesis or a PhD!
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
 "100%" alt="" title="Trennlinie"></p>
@@ -143,10 +128,6 @@ Currently, the Model-Based Assistance and Information Services working group con
         </div>
     </div>
 </div>
-
-<h5> Join the Team: </h5>
-
-<p style="color: red; float: left; padding-right: 4px;"> Job offer: </p> [Modell-basierte und generative Entwicklung von Assistenzsystemen](https://www.se-rwth.de/jobs/WiMi.AssistiveSystems.pdf)
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
 "100%" alt="" title="Trennlinie"></p>
