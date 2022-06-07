@@ -109,6 +109,9 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
+<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
+title="Trennlinie">
+
 #### Further links: 
 
 - [Publications](/publications)
