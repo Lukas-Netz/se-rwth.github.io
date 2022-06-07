@@ -7,21 +7,15 @@ nav: false
 
 ### Working Group
 
-<div class="container">
-    <div class="row" style="margin-bottom: 20px">
-        <div class="col-lg-8">
-            Informatics as a research discipline must constantly face new challenges such 
-            as heterogeneous information sources, growing amounts of structural and 
-            behavioural data, and broad range of possible end-users. Thus, the need for 
-            (a) assistive and (b) information services and systems grows. We meet these 
-            challenges by using models and model-based software engineering as foundation 
-            to develop data-centric information systems and assistive systems.
-        </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/SE_MBAIS_logo.png" alt="SE_MBAIS_logo" style="width:100%; height: 100px; margin: 0 auto; display: block">
-        </div>
-    </div>
-</div>
+<img src="../../assets/img/SE_MBAIS_logo.png" alt="mbais-logo" style="float: right; height: 100px;">
+
+Informatics as a research discipline must constantly face new challenges such 
+as heterogeneous information sources, growing amounts of structural and 
+behavioural data, and broad range of possible end-users. Thus, the need for 
+(a) assistive and (b) information services and systems grows. We meet these 
+challenges by using models and model-based software engineering as foundation 
+to develop data-centric information systems and assistive systems.
+
 
 <h5 style="font-weight: bold"> Model-Based Software Engineering </h5>
 
