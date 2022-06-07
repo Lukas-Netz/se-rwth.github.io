@@ -20,7 +20,7 @@ Agility enables efficient evolution, correction and extension. As such, it seems
 to conflict with modeling.
 
 One of our research hypotheses 
-[[Rum04c]](https://www.se-rwth.de/topics/Agile-MBSE.php#Rum04c), hence, can be 
+[[Rum04c]](#Rum04c), hence, can be 
 phrased like this: **"Using an executable, yet abstract and multi-view modeling 
 language for modeling, designing, and programming supports agile development 
 process."**
@@ -35,7 +35,7 @@ languages is crucial.
 ## Execution of UML and DSLs
 
 We discussed the question whether **UML should be executable** in 
-[[Rum02]](https://www.se-rwth.de/topics/Agile-MBSE.php#Rum02). We found code 
+[[Rum02]](#Rum02). We found code 
 generation a promising approach for larger subsets of the UML language, but also 
 identified a number of challenges. We therefore started our research agenda to 
 solve these challenges in order to make model-based software engineering (MBSE) 
@@ -44,9 +44,9 @@ UML fits for that purpose. Not only the deficiencies of existing UML tools, but
 also the UML language itself need to be adapted to fit the needs of an agile 
 software development process.
 
-In [[Rum03]](https://www.se-rwth.de/topics/Agile-MBSE.php#Rum03) we discussed 
+In [[Rum03]](#Rum03) we discussed 
 how modeling of tests helps to increase reuse and efficiency. In 
-[[GKR+06b]](https://www.se-rwth.de/topics/Agile-MBSE.php#GKR+06b), for example, 
+[[GKR+06b]](#GKR+06b), for example, 
 we concentrate on the integration of models and ordinary programming language 
 code.
 
@@ -75,8 +75,8 @@ code.
 </center>
 <br />
 
-In [[Rum12]](https://www.se-rwth.de/topics/Agile-MBSE.php#Rum12), 
-[[Rum11]](https://www.se-rwth.de/topics/Agile-MBSE.php#Rum11), 
+In [[Rum12]](#Rum12), 
+[[Rum11]](#Rum11), 
 [[Rum16]](http://www.se-rwth.de/mbse/), and 
 [[Rum17]](http://www.se-rwth.de/mbse/) [(online versions available 
 here)](http://www.se-rwth.de/mbse/), the **UML/P**, a variant of the UML 
@@ -98,8 +98,8 @@ following figure.
 Detailed discussions on how to use the UML/P for **code generation**, testing 
 and on how to refactor structural models such as class diagrams, as well as 
 behavioral models such as Statecharts, can be found in 
-[[Rum12]](https://www.se-rwth.de/topics/Agile-MBSE.php#Rum12), 
-[[Rum11]](https://www.se-rwth.de/topics/Agile-MBSE.php#Rum11), 
+[[Rum12]](#Rum12), 
+[[Rum11]](#Rum11), 
 [[Rum17]](http://www.se-rwth.de/mbse/), and 
 [[Rum16]](http://www.se-rwth.de/mbse/). Integrated use of UML/P languages 
 demands forms of language integration, such as, using object diagrams in the OCL 
@@ -108,9 +108,9 @@ mechanisms are presented there as well.
 
 In the last decade, we implemented a **language workbench** called 
 [MontiCore](https://www.se-rwth.de/topics/MontiCore.php) which is initially 
-described in [[GKR+06a]](https://www.se-rwth.de/topics/Agile-MBSE.php#GKR+06a). 
+described in [[GKR+06a]](#GKR+06a). 
 On top of that, we realized most of the language components of the UML/P in 
-[[Sch12]](https://www.se-rwth.de/topics/Agile-MBSE.php#Sch12). This includes a 
+[[Sch12]](#Sch12). This includes a 
 precise definition of the textual languages, type checks, checks for other 
 context conditions within and between UML sub-languages and a framework for the 
 implementation of code generators.
@@ -119,15 +119,15 @@ implementation of code generators.
 Agile development requires many specific activities, techniques and concepts. 
 Links to further research can be found below. Some of this research, e.g., 
 includes a general discussion of how to **manage and evolve models** 
-[[LRS+10]](https://www.se-rwth.de/topics/Agile-MBSE.php#LRS+10) or a precise 
+[[LRS+10]](#LRS+10) or a precise 
 definition for **model composition** as well as model languages 
-[[HKR+09]](https://www.se-rwth.de/topics/Agile-MBSE.php#HKR+09). 
+[[HKR+09]](#HKR+09). 
 Compositionality is particularly important and must be designed carefully as it 
 allows the tools to analyze and generate incrementally, thus being much more 
 agile than today's modeling tools. We also discussed in detail what 
 **refactoring** means and how refactoring looks like in the various modeling and 
 programming languages 
-[[PR03]](https://www.se-rwth.de/topics/Agile-MBSE.php#PR03). The UML/P is 
+[[PR03]](#PR03). The UML/P is 
 implemented in such a way that models can be specified **free of redundancies** 
 even in different levels of abstraction, which enhances refactoring and 
 evolution techniques on models. To better understand the effect of an evolved 
@@ -136,7 +136,7 @@ design, we discuss the need for semantic differencing in
 
 When models are the central notation, **model quality** becomes an important 
 issue. Therefore, we have described a set of general requirements for model 
-quality in [[FHR08]](https://www.se-rwth.de/topics/Agile-MBSE.php#FHR08). We 
+quality in [[FHR08]](#FHR08). We 
 distinguished between internal and external quality. External quality refers to 
 the correctness and completeness of a model with respect to the original that it 
 describes, while internal quality refers to the model presentation and thus 
