@@ -779,12 +779,6 @@ methodically substantiated and will pave the way to a comprehensive
 MBSE approach, especially for industry. 
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
-<a name="MontiBelle"></a>
-
-Bernhard Rumpe, Chair of Software Engineering, RWTH Aachen
-
-
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
 
 #### Further links: 
 
