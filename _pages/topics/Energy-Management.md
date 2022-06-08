@@ -5,7 +5,7 @@ permalink: /topics/Energy-Management/
 description: 
 img: 
 importance: 1
-keys: [FPPR12,KPR12,FLP+11b,KLPR12]
+keys: [FPPR12,KPR12,FLP+11a,KLPR12]
 ---
 ## Summary of Most Relevant Topic Papers
 In the past years it became more and more evident that saving energy and 
@@ -53,7 +53,7 @@ States**. Proposed by the DIN EN ISO 16484 a state based approach should be used
 to describe the functional behavior of facilities. We adapted the well known 
 concept of state machines to be able to describe different states of a facility 
 and to validate it against the monitored values 
-[[FLP+11b]](https://www.se-rwth.de/publications/State-Based-Modeling-of-Buildings-and-Facilities.pdf). 
+[[FLP+11a]](https://www.se-rwth.de/publications/State-Based-Modeling-of-Buildings-and-Facilities.pdf). 
 We show how our data model, the constraint rules and the evaluation approach to 
 compare sensor data can be applied 
 [[KLPR12]](https://www.se-rwth.de/publications/Modeling-cyber-physical-systems-model-driven-specification-of-energy-efficient-buildings.pdf).
