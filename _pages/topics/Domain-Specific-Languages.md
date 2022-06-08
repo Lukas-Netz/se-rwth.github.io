@@ -71,7 +71,7 @@ Languages](/topics/Semantics). The aspect of **variability in syntax and
 semantics** for DSLs in general and UML in particular has been discussed in 
 [[GR11]](#GR11).
 
-In [FHR08] we discuss metrics and potential guidelines, that help to achieve 
+In [[FHR08]](#FHR08) we discuss metrics and potential guidelines, that help to achieve 
 high quality models and extend this into a collection of design guidelines for 
 DSLs in [KKP+09]. Our experience shows that these guidelines tremendously 
 improve the quality of DSLs. They target and enable suitability, reuse, 
