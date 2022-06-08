@@ -7,7 +7,8 @@ img:
 importance: 1
 keys: [Rum16,Rum17,Sch12,GR11,BCGR09,BCGR09a,BCR07b,BCR07,CGR08,GRR10,MRR11e,
         MRR11c,MRR11f,MRR11a,MRR11d,FHR08,BGH+98,Rum04c,Rum02,FPR02,
-        EFL+99,SRV+10,FEL+98,KER99]
+        EFL+99,SRV+10,FEL+98,KER99,BHP+98,
+        MRR11d,Rum11,MRR11e,MRR11a,Rum16,Rum12,MRR11f,Rum17,MRR11c,Sch12]
 ---
 
 ## Summary of Most Relevant Topic Papers 
@@ -23,7 +24,7 @@ books [[Rum16]](http://www.se-rwth.de/mbse/) and
 
 UML's semantic variation points are discussed in 
 [[GR11]](https://www.se-rwth.de/publications/Modeling-Language-Variability.pdf). 
-We discuss formal semantics for UML [[BHP+98]]() and describe UML 
+We discuss formal semantics for UML [[BHP+98]](#BHP+98) and describe UML 
 semantics using the "system model" 
 [[BCGR09]](https://www.se-rwth.de/publications/Considerations-and-Rationale-for-a-UML-System-Model.pdf), 
 [[BCGR09a]](https://www.se-rwth.de/publications/Definition-of-the-UML-system-model.pdf), 

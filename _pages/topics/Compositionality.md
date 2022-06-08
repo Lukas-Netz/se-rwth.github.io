@@ -5,7 +5,8 @@ permalink: /topics/Compositionality/
 description: 
 img: 
 importance: 1
-keys: [BR07,HKR+09,HKR+07,KRV10,KRV08,KRV07,Voe11.RRRW15b,RRRW15b,KKR+09,GLRR15,CBCR15,CCF+15a]
+keys: [BR07,HKR+09,HKR+07,KRV10,KRV08,KRV07,Voe11,RRRW15b,KKP+09,
+       GLRR15,CBCR15,CCF+15a]
 ---
 ## Summary of Most Relevant Topic Papers
 "Divide and conquer" as well as "abstraction" are the most fundamental 
