@@ -7,7 +7,7 @@ img:
 importance: 1
 keys: [Rum16,Rum17,Sch12,GR11,BCGR09,BCGR09a,BCR07b,BCR07,CGR08,GRR10,MRR11e,
         MRR11c,MRR11f,MRR11a,MRR11d,FHR08,BGH+98a,Rum04c,Rum02,FPR02,
-        EFLR99a,SRVK10,FEL+98,KER99,BHP+98,
+        EFLR99,SRVK10,FEL+98,KER99,BHP+98,
         MRR11d,Rum11,MRR11e,MRR11a,Rum16,Rum12,MRR11f,Rum17,MRR11c,Sch12]
 ---
 
@@ -64,7 +64,7 @@ The question how to adapt and extend the UML led to
 [[FPR02]](https://www.se-rwth.de/topics/~rumpe/publications/Product-Line-Annotations-with-UML-F.pdf) 
 on product line annotations for UML and to more general discussions and 
 insights on how to use meta-modeling for defining and adapting the UML 
-[[EFLR99a]](https://www.se-rwth.de/topics/~rumpe/publications/Meta-Modeling-Semantics-of-UML.pdf), 
+[[EFLR99]](https://www.se-rwth.de/topics/~rumpe/publications/Meta-Modeling-Semantics-of-UML.pdf), 
 [[SRVK10]](https://www.se-rwth.de/publications/Metamodelling-State-of-the-Art-and-Research-Challenges.pdf) 
 and potentially use the UML even as formal notation 
 [[FEL+98]](https://www.se-rwth.de/topics/~rumpe/publications/The-UML-as-a-formal-modeling-notation-CSI-Journal-Version.pdf). 

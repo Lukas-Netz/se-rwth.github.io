@@ -6,7 +6,7 @@ description:
 img: 
 importance: 1
 keys: [KRV10,HR04,BKR95,BHP+98,GKR96,BKR96,BCGR09a,BCGR09,BCR07,BCR07b,
-    CGR08,MRR10,MRR11d,MRR11a,MRR11f,BR07,EFLR99a,BGH+97,BGH+98a,GR11,CGR09,
+    CGR08,MRR10,MRR11d,MRR11a,MRR11f,BR07,EFLR99,BGH+97,BGH+98a,GR11,CGR09,
     GRR10,Rum17,Rum12,LRSS10,Rum96]
 ---
 
@@ -103,7 +103,7 @@ Internet or cyber-physical systems, it does not exhibit concepts of objects and
 classes.
 
 We also discussed a **meta-modeling approach** 
-[[EFLR99a]](https://www.se-rwth.de/topics/~rumpe/publications/Meta-Modeling-Semantics-of-UML.pdf). 
+[[EFLR99]](https://www.se-rwth.de/topics/~rumpe/publications/Meta-Modeling-Semantics-of-UML.pdf). 
 As nothing is as mighty and comfortable as mathematical theories, one needs to 
 carefully design the semantics in particular if a concept of the language does 
 not have a direct representation in the semantics domain. Using a meta-model to 

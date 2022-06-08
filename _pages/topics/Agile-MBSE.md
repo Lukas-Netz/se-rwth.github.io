@@ -6,7 +6,7 @@ description:
 img: 
 importance: 1
 keys: [Rum17, Rum16, CEG+14, Rum12, Sch12, Rum11, Kra10, LRSS10, MRR10, 
-       HKR+09, FHR08, KRV06, GKR+06a, GKR+06b, Rum04c, Rum03, PR03, Rum02]
+       HKR+09, FHR08, KRV06, GKR+06a, GKRS06, Rum04c, Rum03, PR03, Rum02]
 ---
 
 ## Summary of Most Relevant Topic Papers
@@ -46,7 +46,7 @@ software development process.
 
 In [[Rum03]](#Rum03) we discussed 
 how modeling of tests helps to increase reuse and efficiency. In 
-[[GKR+06b]](#GKR+06b), for example, 
+[[GKRS06]](#GKRS06), for example, 
 we concentrate on the integration of models and ordinary programming language 
 code.
 
