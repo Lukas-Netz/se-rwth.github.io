@@ -231,7 +231,7 @@ title="Trennlinie">
 
 ## Related Topics
 - [Compositionality/Modularity of Models & Languages](/topics/Compositionality)
-- [Domain-Specific Languages (DSLs)](topics/Domain-Specific-Languages)
+- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
 - [Evolution & Transformation of Models](/topics/Evolution)
 - [MontiCore - Language Workbench](/topics/MontiCore)
 - [Software Language Engineering (SLE)](/topics/Language-Engineering)
