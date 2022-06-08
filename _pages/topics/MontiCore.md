@@ -5,7 +5,7 @@ permalink: /topics/MontiCore/
 description: 
 img: 
 importance: 1
-keys: [HKR21,]
+keys: [HKR21]
 ---
 
 ## Summary of Most Relevant Topic Papers
