@@ -6,7 +6,7 @@ description:
 img: 
 importance: 1
 keys: [GKR96,BCR07b,BCGR09a,BCGR09,PR94,RK96,Rum96,KPR97,Rum16,Rum17,GR95,
-        BR07,RRW14a,THR+13,FLP+11a]
+        BR07,RRW14a,THR+13,FLP+11b]
 ---
 ## Summary of Most Relevant Topic Papers
 Today we see that many computer science theories are based on state machines in 
@@ -157,7 +157,7 @@ a modeling language combining state machines and an architectural description
 language in 
 [[THR+13]](https://www.se-rwth.de/publications/A-New-Skill-Based-Robot-Programming-Language-Using-UML-P-Statecharts.pdf) 
 as well as in building management systems in 
-[[FLP+11a]](https://www.se-rwth.de/publications/State-Based-Modeling-of-Buildings-and-Facilities.pdf).
+[[FLP+11b]](https://www.se-rwth.de/publications/State-Based-Modeling-of-Buildings-and-Facilities.pdf).
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
 title="Trennlinie">
