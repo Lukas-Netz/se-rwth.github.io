@@ -5,7 +5,7 @@ permalink: /topics/Unified-Modeling-Language/
 description: 
 img: 
 importance: 1
-keys: [Rum16,Rum17,Sch12,GR11,BCGR09,BCGR09a,BCR07b,BCR07,CGR08,GRR10,MRR11e,
+keys: [Rum16,Rum17,Sch12,GR11,BCGR09,BCGR09a,BCR07b,BCR07a,CGR08,GRR10,MRR11e,
         MRR11c,MRR11f,MRR11a,MRR11d,FHR08,BGH+98a,Rum04c,Rum02,FPR02,
         EFLR99,SRVK10,FEL+98,KER99,BHP+98,
         MRR11d,Rum11,MRR11e,MRR11a,Rum16,Rum12,MRR11f,Rum17,MRR11c,Sch12]
@@ -30,7 +30,7 @@ semantics using the "system model"
 [[BCGR09a]](https://www.se-rwth.de/publications/Definition-of-the-UML-system-model.pdf), 
 [[BCR07b]](https://www.se-rwth.de/~rumpe/publications20042008/Towards-a-System-Model-for-UML.-Part-3.-The-State-Machine-Model.pdf) 
 and 
-[[BCR07]](https://www.se-rwth.de/~rumpe/publications20042008/Towards-a-System-Model-for-UML.-Part-2.-The-Control-Model.pdf). 
+[[BCR07a]](https://www.se-rwth.de/~rumpe/publications20042008/Towards-a-System-Model-for-UML.-Part-2.-The-Control-Model.pdf). 
 They have e.g. been applied to define class diagram semantics 
 [[CGR08]](https://www.se-rwth.de/~rumpe/publications20042008/System-Model-Semantics-of-Class-Diagrams.pdf) 
 and activity diagram semantics 

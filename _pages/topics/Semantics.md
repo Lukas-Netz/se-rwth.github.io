@@ -5,9 +5,9 @@ permalink: /topics/Semantics/
 description: 
 img: 
 importance: 1
-keys: [KRV10,HR04,BKR95,BHP+98,GKR96,BKR96,BCGR09a,BCGR09,BCR07,BCR07b,
+keys: [KRV10,HR04,BKR95,BHP+98,GKR96,BKR96,BCGR09a,BCGR09,BCR07a,BCR07b,
     CGR08,MRR10,MRR11d,MRR11a,MRR11f,BR07,EFLR99,BGH+97,BGH+98a,GR11,CGR09,
-    GRR10,Rum17,Rum12,LRSS10,Rum96]
+    Rin14,GRR10,Rum17,Rum12,LRSS10,Rum96]
 ---
 
 ## Summary of Most Relevant Topic Papers
@@ -71,7 +71,7 @@ for the UML in
 and discuss the rationale for it in 
 [[BCGR09]](https://www.se-rwth.de/publications/Considerations-and-Rationale-for-a-UML-System-Model.pdf). 
 See also 
-[[BCR07]](https://www.se-rwth.de/~rumpe/publications20042008/Towards-a-System-Model-for-UML.-Part-2.-The-Control-Model.pdf) 
+[[BCR07a]](https://www.se-rwth.de/~rumpe/publications20042008/Towards-a-System-Model-for-UML.-Part-2.-The-Control-Model.pdf) 
 and 
 [[BCR07b]](https://www.se-rwth.de/~rumpe/publications20042008/Towards-a-System-Model-for-UML.-Part-3.-The-State-Machine-Model.pdf) 
 for more detailed versions and 
