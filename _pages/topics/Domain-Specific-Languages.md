@@ -5,7 +5,9 @@ permalink: /topics/Domain-Specific-Languages/
 description: 
 img: 
 importance: 1
-keys: [GHK+07,FPR02,SRV+10,CFJ+16,KRV07b,KRV10,GR11,GKR+07,KRV08,Voe11,CBCR15,CCF+15a,KRV07,LRS+10,Wei12,GKR+06a]
+keys: [GHK+07,FPR02,SRV+10,CFJ+16,KRV07b,KRV10,GR11,GKR+07,KRV08,Voe11,
+       CBCR15,CCF+15a,KRV07,LRS+10,Wei12,GKR+06a,
+       FHR08,KKP+09,Kra10,ZPK+11,Sch12]
 ---
 ## Summary of Most Relevant Topic Papers
 People are modeling everywhere. Both science and philosophy use models to 
