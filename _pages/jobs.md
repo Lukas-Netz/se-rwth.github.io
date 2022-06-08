@@ -68,7 +68,7 @@ Lehrstuhl
 Controlling](/assets/pdf/19.07.04.MaCoCo.pdf)
 
 - [Weiterentwicklung und Qualitässicherung der Language Workbench 
-MontiCore](https://www.se-rwth.de/jobs/hiwi41/) 
+MontiCore](/jobs/MC-HiWi/) 
 
 - [SemDiff: Entwicklung von Tools zur automatisierten semantischen 
 Modelldifferenzierung](/assets/pdf/22.01.18.HiWi.SemDiff.pdf)
