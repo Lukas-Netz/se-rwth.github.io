@@ -17,6 +17,9 @@ children:
     - title: divider
     - title: Ph.D. Theses
       permalink: /phdtheses/
+    - title: divider
+    - title: Bibtex
+      permalink: /assets/bibliography/all-software-engineering-rwth-references.bib
 ---
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
