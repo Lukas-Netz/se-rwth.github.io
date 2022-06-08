@@ -6,7 +6,7 @@ description:
 img: 
 importance: 1
 keys: [Rum16,Rum17,Sch12,GR11,BCGR09,BCGR09a,BCR07b,BCR07a,CGR08,GRR10,MRR11e,
-        MRR11c,MRR11f,MRR11a,MRR11d,FHR08,BGH+98a,Rum04c,Rum02,FPR02,
+        MRR11c,MRR11f,MRR11a,MRR11d,FHR08,BGH+98a,Rum04c,Rum02,PFR02,
         EFLR99,SRVK10,FEL+98,KER99,BHP+98,
         MRR11d,Rum11,MRR11e,MRR11a,Rum16,Rum12,MRR11f,Rum17,MRR11c,Sch12]
 ---
@@ -61,7 +61,7 @@ and how to use modeling in agile development projects
 [[Rum02]](https://www.se-rwth.de/topics/~rumpe/publications/Executable-Modeling-with-UML-A-Vision-or-a-Nightmare.pdf). 
 
 The question how to adapt and extend the UML led to 
-[[FPR02]](https://www.se-rwth.de/topics/~rumpe/publications/Product-Line-Annotations-with-UML-F.pdf) 
+[[PFR02]](https://www.se-rwth.de/topics/~rumpe/publications/Product-Line-Annotations-with-UML-F.pdf) 
 on product line annotations for UML and to more general discussions and 
 insights on how to use meta-modeling for defining and adapting the UML 
 [[EFLR99]](https://www.se-rwth.de/topics/~rumpe/publications/Meta-Modeling-Semantics-of-UML.pdf), 

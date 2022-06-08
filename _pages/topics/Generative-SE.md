@@ -5,7 +5,7 @@ permalink: /topics/Generative-SE/
 description: 
 img: 
 importance: 1
-keys: [Rum12,Rum11,Rum16,Rum17,Sch12,KRV10,GKR+06a,HRR12,KRV06,GKRS06,
+keys: [Rum12,Rum11,Rum16,Rum17,Sch12,KRV10,GKRS06,HRR12,KRV06,GKRS06,
     Wei12,Rum04c,Rum03,Rum02]
 ---
 
@@ -31,7 +31,7 @@ In
 we developed a **flexible, modular and reusable code generator** for the UML/P 
 based on the MontiCore language workbench 
 ([[KRV10]](https://www.se-rwth.de/publications/MontiCore-a-Framework-for-Compositional-Development-of-Domain-Specific-Languages.pdf), 
-[[GKR+06a]](https://www.se-rwth.de/~rumpe/publications20042008/MontiCore-1.0-Ein-Framework-zur-Erstellung-und-Verarbeitung-domaenenspezifischer-Sprachen.pdf)). 
+[[GKRS06]](https://www.se-rwth.de/~rumpe/publications20042008/MontiCore-1.0-Ein-Framework-zur-Erstellung-und-Verarbeitung-domaenenspezifischer-Sprachen.pdf)). 
 With MontiCore, we can easily define extensions of languages as well as new 
 language combinations. Thus, we can reuse the defined UML/P sublanguages and 
 generation techniques in various [projects](/projects).

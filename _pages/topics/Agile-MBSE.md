@@ -6,7 +6,7 @@ description:
 img: 
 importance: 1
 keys: [Rum17, Rum16, CEG+14, Rum12, Sch12, Rum11, Kra10, LRSS10, MRR10, 
-       HKR+09, FHR08, KRV06, GKR+06a, GKRS06, Rum04c, Rum03, PR03, Rum02]
+       HKR+09, FHR08, KRV06, GKRS06, GKRS06, Rum04c, Rum03, PR03, Rum02]
 ---
 
 ## Summary of Most Relevant Topic Papers
@@ -108,7 +108,7 @@ mechanisms are presented there as well.
 
 In the last decade, we implemented a **language workbench** called 
 [MontiCore](/topics/MontiCore) which is initially 
-described in [[GKR+06a]](#GKR+06a). 
+described in [[GKRS06]](#GKRS06). 
 On top of that, we realized most of the language components of the UML/P in 
 [[Sch12]](#Sch12). This includes a 
 precise definition of the textual languages, type checks, checks for other 

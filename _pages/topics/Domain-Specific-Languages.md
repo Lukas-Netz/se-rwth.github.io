@@ -5,8 +5,8 @@ permalink: /topics/Domain-Specific-Languages/
 description: 
 img: 
 importance: 1
-keys: [GHK+07,FPR02,SRVK10,CFJ+16,KRV07b,KRV10,GR11,GKR+07,KRV08,Voe11,
-       CBCR15,CCF+15a,KRV07a,LRSS10,Wei12,GKR+06a,
+keys: [GHK+07,PFR02,SRVK10,CFJ+16,KRV07b,KRV10,GR11,GKR+07,KRV08,Voe11,
+       CBCR15,CCF+15a,KRV07a,LRSS10,Wei12,GKRS06,
        FHR08,KKP+09,Kra10,ZPK+11,Sch12]
 ---
 ## Summary of Most Relevant Topic Papers
@@ -37,7 +37,7 @@ languages such as the [Unified Modeling Language
 (UML)](/topics/Unified-Modeling-Language) provide a high level of abstraction to 
 deal with complexity, these languages are usually still too technical (hence UML 
 profiles are useful, as discussed in [[GHK+07]](#GHK+07) and 
-[[FPR02]](https://www.se-rwth.de/topics/~rumpe/publications/Product-Line-Annotations-with-UML-F.pdf)). 
+[[PFR02]](https://www.se-rwth.de/topics/~rumpe/publications/Product-Line-Annotations-with-UML-F.pdf)). 
 DSLs address both of these problems. Non-ICT experts benefit from DSLs by being 
 able to transfer already familiar language concepts to the new application. 
 Experienced users benefit by having a smaller mental gap between the software 
@@ -130,7 +130,7 @@ this DSL.
 
 ### MontiCore
 More details about the MontiCore DSL workbench can be found in 
-[[GKR+06a]](#GKR+06a), [[KRV08]](#KRV08), [[KRV10]](#KRV10) as well as the 
+[[GKRS06]](#GKRS06), [[KRV08]](#KRV08), [[KRV10]](#KRV10) as well as the 
 MontiCore Website.
 
 <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 

@@ -5,7 +5,7 @@ permalink: /topics/Software-Architecture/
 description: 
 img: 
 importance: 1
-keys: [BKR+17,BKRW19,BRKW17a,BR07,PR99,HRR12,RRW13c,RRW14a,HRR10,RRRW15b,
+keys: [BKRW17,BKRW19,BKRW17a,BR07,PR99,HRR12,RRW13c,RRW14a,HRR10,RRRW15b,
         HRR+11,HRRS11,HKR+11,HRRS12,GHK+07,GHK+08,GKPR08,MRR13,Rin14,
         MRR14b,MMR10,HRR98,HKR+16,BHH+17,BKRW17a]
 ---
@@ -33,7 +33,7 @@ Messages can be
 streams, state machines, components, as well as expressive forms of composition 
 and refinement ([see here for Semantics](/topics/Semantics)). We leverage this, 
 for instance, to enable a semantic differentinc of component & connector 
-architectures [[BKR+17]](#BKR+17) [[BKRW19]](#BKRW19).
+architectures [[BKRW17]](#BKRW17) [[BKRW19]](#BKRW19).
 
 Some challenges in the design and implementation of these systems are the 
 development of an appropriate architectural decomposition of the system and 

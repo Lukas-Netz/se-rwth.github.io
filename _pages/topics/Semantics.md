@@ -5,7 +5,7 @@ permalink: /topics/Semantics/
 description: 
 img: 
 importance: 1
-keys: [KRV10,HR04,BKR95,BHP+98,GKR96,BKR96,BCGR09a,BCGR09,BCR07a,BCR07b,
+keys: [KRV10,HR04,BKR95,BHP+98,GKR96,KRB96,BCGR09a,BCGR09,BCR07a,BCR07b,
     CGR08,MRR10,MRR11d,MRR11a,MRR11f,BR07,EFLR99,BGH+97,BGH+98a,GR11,CGR09,
     Rin14,GRR10,Rum17,Rum12,LRSS10,Rum96]
 ---
@@ -60,7 +60,7 @@ and
 (including 
 [[GKR96]](https://www.se-rwth.de/topics/~rumpe/publications/Enhancing-the-SysLab-System-Model-with-State.pdf) 
 and 
-[[BKR96]](https://www.se-rwth.de/topics/~rumpe/publications/A-stream-based-mathematical-model-for-distributed-information-processing-systems-SysLab-system-model.pdf)).
+[[KRB96]](https://www.se-rwth.de/topics/~rumpe/publications/A-stream-based-mathematical-model-for-distributed-information-processing-systems-SysLab-system-model.pdf)).
 
 The **System Model** for the full UML however became a rather large mathematical 
 theory, that captures object-oriented communication (method calls, dynamic 

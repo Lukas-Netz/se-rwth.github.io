@@ -6,7 +6,7 @@ description:
 img: 
 importance: 1
 keys: [GKPR08,GHK+08,GRJA12,HRR+11,HRRS12,HKM+13,HRRS12,HHK+15,CGR09,
-        GR11,FPR02,HRRS11]
+        GR11,PFR02,HRRS11]
 ---
 ## Summary of Most Relevant Topic Papers
 Most products, such as cars, printers, mobile phones, etc., exist in various 
@@ -87,7 +87,7 @@ Additionally, we investigated a method to model syntactic language variability
 through **language product lines**.
 
 In 
-[[FPR02]](https://www.se-rwth.de/topics/~rumpe/publications/Product-Line-Annotations-with-UML-F.pdf) 
+[[PFR02]](https://www.se-rwth.de/topics/~rumpe/publications/Product-Line-Annotations-with-UML-F.pdf) 
 we discussed how to apply annotation to the UML to describe product variation 
 points.
 
