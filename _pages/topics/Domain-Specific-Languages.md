@@ -5,8 +5,8 @@ permalink: /topics/Domain-Specific-Languages/
 description: 
 img: 
 importance: 1
-keys: [GHK+07,FPR02,SRV+10,CFJ+16,KRV07b,KRV10,GR11,GKR+07,KRV08,Voe11,
-       CBCR15,CCF+15a,KRV07,LRS+10,Wei12,GKR+06a,
+keys: [GHK+07,FPR02,SRVK10,CFJ+16,KRV07b,KRV10,GR11,GKR+07,KRV08,Voe11,
+       CBCR15,CCF+15a,KRV07a,LRSS10,Wei12,GKR+06a,
        FHR08,KKP+09,Kra10,ZPK+11,Sch12]
 ---
 ## Summary of Most Relevant Topic Papers
@@ -48,7 +48,7 @@ engineering, which requires more than fundamental contirbutions, such as a
 carefully defined grammar and corresponding translation programs. Productive 
 usage of a language also requires extensive tool support. [Generative Software 
 Engineering](/topics/Generative-SE) techniques are at the center of attention 
-for attempts to meet these challenges. In [[SRV+10]](#SRV+10) we discuss the 
+for attempts to meet these challenges. In [[SRVK10]](#SRVK10) we discuss the 
 state of the art and current efforts to develop languages through meta 
 modeling.
 
@@ -115,12 +115,12 @@ of powerful tooling. We have implemented the [MontiCore](/topics/MontiCore) DSL
 workbench as a realization of all the aforementioned concepts regarding DSLs. It 
 is available as a stand alone tool as well as a **collection of Eclipse 
 plugins**. It also creates stand alone tools as well as tailored Eclipse-based 
-plugins for the defined DSLs [[KRV07]](#KRV07). We **generate editors** with 
+plugins for the defined DSLs [[KRV07a]](#KRV07a). We **generate editors** with 
 syntax highlighting, syntactic and semantic content assist and auto completion, 
 graphical outlines, error reporting, hyperlinks, etc., from the DSL's definition 
 only.
 
-In [[LRS+10]](#LRS+10) we discuss the need for evolution and management of 
+In [[LRSS10]](#LRSS10) we discuss the need for evolution and management of 
 models. We especially identify the need for comfortable transformation 
 languages. Therefore, [[Wei12]](#Wei12) presents a tool that creates an 
 **infrastructure for transformations** that are specifically dedicated to an 

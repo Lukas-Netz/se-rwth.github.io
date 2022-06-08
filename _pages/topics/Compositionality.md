@@ -5,7 +5,7 @@ permalink: /topics/Compositionality/
 description: 
 img: 
 importance: 1
-keys: [BR07,HKR+09,HKR+07,KRV10,KRV08,KRV07,Voe11,RRRW15b,KKP+09,
+keys: [BR07,HKR+09,HKR+07,KRV10,KRV08,KRV07a,Voe11,RRRW15b,KKP+09,
        GLRR15,CBCR15,CCF+15a]
 ---
 ## Summary of Most Relevant Topic Papers
@@ -39,7 +39,7 @@ the definition of Domain-Specific Languages (DSLs) or [Domain-Specific Modeling
 Languages](/topics/Domain-Specific-Languages) (DSMLs). Since DSLs are becoming 
 increasingly popular, reuse of DSL fragments (i.e., language components) is 
 vital to achieve an efficient development process. But the accompanying 
-infrastructure needs to be modular as well (as described in [[KRV07]](#KRV07)). 
+infrastructure needs to be modular as well (as described in [[KRV07a]](#KRV07a)). 
 Infrastructure, such as validation or editor functionality, should be reusable 
 if parts of the underlying DSL are reused, e.g., as part of another language. 
 [[Voe11]](#Voe11) provides the underlying technology for compositional language 

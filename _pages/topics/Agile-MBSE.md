@@ -5,7 +5,7 @@ permalink: /topics/Agile-MBSE/
 description: 
 img: 
 importance: 1
-keys: [Rum17, Rum16, CEG+14, Rum12, Sch12, Rum11, Kra10, LRS+10, MRR10, 
+keys: [Rum17, Rum16, CEG+14, Rum12, Sch12, Rum11, Kra10, LRSS10, MRR10, 
        HKR+09, FHR08, KRV06, GKR+06a, GKR+06b, Rum04c, Rum03, PR03, Rum02]
 ---
 
@@ -119,7 +119,7 @@ implementation of code generators.
 Agile development requires many specific activities, techniques and concepts. 
 Links to further research can be found below. Some of this research, e.g., 
 includes a general discussion of how to **manage and evolve models** 
-[[LRS+10]](#LRS+10) or a precise 
+[[LRSS10]](#LRSS10) or a precise 
 definition for **model composition** as well as model languages 
 [[HKR+09]](#HKR+09). 
 Compositionality is particularly important and must be designed carefully as it 

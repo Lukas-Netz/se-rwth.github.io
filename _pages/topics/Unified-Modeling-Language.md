@@ -6,8 +6,8 @@ description:
 img: 
 importance: 1
 keys: [Rum16,Rum17,Sch12,GR11,BCGR09,BCGR09a,BCR07b,BCR07,CGR08,GRR10,MRR11e,
-        MRR11c,MRR11f,MRR11a,MRR11d,FHR08,BGH+98,Rum04c,Rum02,FPR02,
-        EFL+99,SRV+10,FEL+98,KER99,BHP+98,
+        MRR11c,MRR11f,MRR11a,MRR11d,FHR08,BGH+98a,Rum04c,Rum02,FPR02,
+        EFLR99a,SRVK10,FEL+98,KER99,BHP+98,
         MRR11d,Rum11,MRR11e,MRR11a,Rum16,Rum12,MRR11f,Rum17,MRR11c,Sch12]
 ---
 
@@ -55,7 +55,7 @@ We also discuss how to ensure and identify model quality
 [[FHR08]](https://www.se-rwth.de/~rumpe/publications20042008/Modellqualitaet-als-Indikator-fuer-Softwarequalitaet-eine-Taxonomie.pdf), 
 how models, views and the system under development correlate to each 
 other 
-[[BGH+98]](https://www.se-rwth.de/topics/~rumpe/publications/Systems-Views-and-Models-of-UML.pdf) 
+[[BGH+98a]](https://www.se-rwth.de/topics/~rumpe/publications/Systems-Views-and-Models-of-UML.pdf) 
 and how to use modeling in agile development projects 
 [[Rum04c]](https://www.se-rwth.de/topics/~rumpe/publications20042008/Agile-Modeling-with-the-UML.pdf), 
 [[Rum02]](https://www.se-rwth.de/topics/~rumpe/publications/Executable-Modeling-with-UML-A-Vision-or-a-Nightmare.pdf). 
@@ -64,8 +64,8 @@ The question how to adapt and extend the UML led to
 [[FPR02]](https://www.se-rwth.de/topics/~rumpe/publications/Product-Line-Annotations-with-UML-F.pdf) 
 on product line annotations for UML and to more general discussions and 
 insights on how to use meta-modeling for defining and adapting the UML 
-[[EFL+99]](https://www.se-rwth.de/topics/~rumpe/publications/Meta-Modeling-Semantics-of-UML.pdf), 
-[[SRV+10]](https://www.se-rwth.de/publications/Metamodelling-State-of-the-Art-and-Research-Challenges.pdf) 
+[[EFLR99a]](https://www.se-rwth.de/topics/~rumpe/publications/Meta-Modeling-Semantics-of-UML.pdf), 
+[[SRVK10]](https://www.se-rwth.de/publications/Metamodelling-State-of-the-Art-and-Research-Challenges.pdf) 
 and potentially use the UML even as formal notation 
 [[FEL+98]](https://www.se-rwth.de/topics/~rumpe/publications/The-UML-as-a-formal-modeling-notation-CSI-Journal-Version.pdf). 
 

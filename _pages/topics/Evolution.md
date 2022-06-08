@@ -5,7 +5,7 @@ permalink: /topics/Evolution/
 description: 
 img: 
 importance: 1
-keys: [CFJ+16,Rum04c,Rum12,LRS+10,MMR10,PR94,KPR97,KR18a,PR99,PR01,PR03,
+keys: [CFJ+16,Rum04c,Rum12,LRSS10,MMR10,PR94,KPR97,KR18a,PR99,PR01,PR03,
     Rum12,MRR11d,MRR11e,MRR10,RSW+15,HRRS11,HRRS12,HHK+13,HHL+13,HRR+11,HRW15,Wei12]
 ---
 
@@ -39,7 +39,7 @@ development concepts for a new and effective kind of development process.
 
 An overview on current technologies for evolving models within a language and 
 across languages is given in 
-[[LRS+10]](https://www.se-rwth.de/publications/Model-Evolution-and-Management.pdf). 
+[[LRSS10]](https://www.se-rwth.de/publications/Model-Evolution-and-Management.pdf). 
 We refined this with a focus on evolving architecture descriptions for critical 
 software-intensive systems 
 [[MMR10]](https://www.se-rwth.de/publications/Evolving-Software-Architecture-Descriptions-of-Critical-Systems.pdf).

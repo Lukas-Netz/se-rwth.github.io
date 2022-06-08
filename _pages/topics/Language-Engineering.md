@@ -5,7 +5,7 @@ permalink: /topics/Language-Engineering/
 description: 
 img: 
 importance: 1
-keys: [Rum16,Rum17,KRV07b,Kra10,KRV10,CFJ+16,CBCR15,CCF+15a,SRV+10,
+keys: [Rum16,Rum17,KRV07b,Kra10,KRV10,CFJ+16,CBCR15,CCF+15a,SRVK10,
     BEK+18a,BEK+18b,BEK+19,KRV10,Voe11,KRV08,HMSNRW16,RRRW15b,
     HRW15,Wei12,GLRR15,HHK+15,HHK+13,GR11,CGR09]
 ---
@@ -59,7 +59,7 @@ To improve understanding of language engineering, we have defined the terms
 and how to capitalize on this in 
 [[CCF+15a]](https://www.se-rwth.de/publications/Globalizing-Domain-Specific-Languages2.pdf). 
 In 
-[[SRV+10]](https://www.se-rwth.de/publications/Metamodelling-State-of-the-Art-and-Research-Challenges.pdf), 
+[[SRVK10]](https://www.se-rwth.de/publications/Metamodelling-State-of-the-Art-and-Research-Challenges.pdf), 
 we discuss the possibilities and the challenges using metamodels for language 
 definition, identifying, for instance, the need for metamodel merging and 
 inferencing, as well as assistance for their evolution. Of course, we also 

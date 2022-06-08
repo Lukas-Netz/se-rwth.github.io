@@ -6,8 +6,8 @@ description:
 img: 
 importance: 1
 keys: [KRV10,HR04,BKR95,BHP+98,GKR96,BKR96,BCGR09a,BCGR09,BCR07,BCR07b,
-    CGR08,MRR10,MRR11d,MRR11a,MRR11f,BR07,EFL+99,BGH+97,BGH+98,GR11,CGR09,
-    GRR10,Rum17,Rum12,LRS+10,Rum96]
+    CGR08,MRR10,MRR11d,MRR11a,MRR11f,BR07,EFLR99a,BGH+97,BGH+98a,GR11,CGR09,
+    GRR10,Rum17,Rum12,LRSS10,Rum96]
 ---
 
 ## Summary of Most Relevant Topic Papers
@@ -103,7 +103,7 @@ Internet or cyber-physical systems, it does not exhibit concepts of objects and
 classes.
 
 We also discussed a **meta-modeling approach** 
-[[EFL+99]](https://www.se-rwth.de/topics/~rumpe/publications/Meta-Modeling-Semantics-of-UML.pdf). 
+[[EFLR99a]](https://www.se-rwth.de/topics/~rumpe/publications/Meta-Modeling-Semantics-of-UML.pdf). 
 As nothing is as mighty and comfortable as mathematical theories, one needs to 
 carefully design the semantics in particular if a concept of the language does 
 not have a direct representation in the semantics domain. Using a meta-model to 
@@ -124,7 +124,7 @@ object interaction, today called sequence diagram, and a complete description of
 object interactions, which obviously needs additional mechanisms, e.g., a 
 sequential, parallel or iterative composition of sequence diagrams.
 
-[[BGH+98]](https://www.se-rwth.de/topics/~rumpe/publications/Systems-Views-and-Models-of-UML.pdf) 
+[[BGH+98a]](https://www.se-rwth.de/topics/~rumpe/publications/Systems-Views-and-Models-of-UML.pdf) 
 discusses the relationships between system, a view and a complete model in the 
 context of the UML.
 
@@ -189,7 +189,7 @@ In [[Rum17]](http://www.se-rwth.de/mbse/) (and its German version
 variety of code and test case generation, refactoring and evolution techniques 
 to make UML semantics amenable to developers without exposing the formalism 
 behind. In 
-[[LRS+10]](https://www.se-rwth.de/publications/Model-Evolution-and-Management.pdf) 
+[[LRSS10]](https://www.se-rwth.de/publications/Model-Evolution-and-Management.pdf) 
 we have discussed evolution and related issues in greater detail.
 
 ## Streams and Automata as Semantic Foundation
