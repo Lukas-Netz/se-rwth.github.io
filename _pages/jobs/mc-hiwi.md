@@ -41,7 +41,7 @@ Als zielstrebige(r) Student(in) haben Sie überdurchschnittliche Ergebnisse in I
 - Erfahrung in der Entwicklung von Modellierungssprachen
 
 **Interessierte Studenten/Studentinnen wenden sich bitte an:\
-Nico Jansen: [jansen@se-rwth.de](jansen@se-rwth.de)**
+Nico Jansen: [jansen@se-rwth.de](mailto:jansen@se-rwth.de)**
 
 RWTH Aachen\
 Lehrstuhl für Informatik 3 (Softwaretechnik)\
