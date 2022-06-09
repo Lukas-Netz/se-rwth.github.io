@@ -52,8 +52,16 @@
         {% endfor %}
       {% endif %}
 
-      {% if entry.type == "techreport" %}
-        Technical Report
+      {% if entry.type == "techreport" or entry.type == "Technical Report" or entry.type == "Technischer Bericht" %}
+        {%if (entry.language == "german" or entry.language == "German") %}
+          Technischer Bericht,
+        {% else %}
+          Technical Report,
+        {% endif %}
+      {% endif %}
+
+      {% if entry.type == "Informatik-Bericht" %}
+        Informatik-Bericht,
       {% endif %}
 
       {% if entry.institution %}
