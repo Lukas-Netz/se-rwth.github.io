@@ -9,12 +9,12 @@
     <div class="author" style="display: inline">
       {% for author in entry.author_array %}
         {% if forloop.length == 1 %}
-            {{author.first | slice:0}}. {{author.last}}:
+            {{author.first | slice:0}}. {{author.prefix}} {{author.last}}:
         {% else %}
           {% unless forloop.last %}
-            {{author.first| slice:0}}. {{author.last}},
+            {{author.first| slice:0}}. {{author.prefix}} {{author.last}},
           {% else %}
-            {{author.first| slice:0}}. {{author.last}}:
+            {{author.first| slice:0}}. {{author.prefix}} {{author.last}}:
           {% endunless %}
         {% endif %}
       {% endfor %}
@@ -22,9 +22,9 @@
       {% unless entry.author %}
         {% for editor in entry.editor_array %}
             {% unless forloop.last %}
-                  {{editor.first| slice:0}}. {{editor.last}},
+                  {{editor.first| slice:0}}. {{editor.prefix}} {{editor.last}},
             {% else %}
-                  {{editor.first| slice:0}}. {{editor.last}} (Eds.):
+                  {{editor.first| slice:0}}. {{editor.prefix}} {{editor.last}} (Eds.):
             {% endunless %}
         {% endfor %}
       {% endunless %}
@@ -45,9 +45,9 @@
       {% if entry.author and entry.editor %}
         {% for editor in entry.editor_array %}
           {% unless forloop.last %}
-            {{editor.first| slice:0}}. {{editor.last}},
+            {{editor.first| slice:0}}. {{editor.prefix}} {{editor.last}},
           {% else %}
-            {{editor.first| slice:0}}. {{editor.last}} (Eds.),
+            {{editor.first| slice:0}}. {{editor.prefix}} {{editor.last}} (Eds.),
           {% endunless %}
         {% endfor %}
       {% endif %}
