@@ -52,6 +52,13 @@
         {% endfor %}
       {% endif %}
 
+      {% if entry.institution %}
+        {{entry.institution}},
+        {% if entry.number %}
+          {{entry.number}},
+        {% endif %}
+      {% endif %}
+
       {% if entry.type == "techreport" or entry.type == "Technical Report" or entry.type == "Technischer Bericht" %}
         {%if (entry.language == "german" or entry.language == "German") %}
           Technischer Bericht,
@@ -62,17 +69,6 @@
 
       {% if entry.type == "Informatik-Bericht" %}
         Informatik-Bericht,
-      {% endif %}
-
-      {% if entry.institution %}
-        {{entry.institution}},
-        {% if entry.number %}
-          {{entry.number}},
-        {% endif %}
-      {% endif %}
-
-      {% if entry.type == "proceedings" %}
-        Proceedings
       {% endif %}
 
       {% if entry.volume %}
@@ -101,6 +97,9 @@
       {% endif %}
       {% if entry.year %}
         {{entry.year}}.
+      {% endif %}
+      {% if entry.note %}
+        {{entry.note}}.
       {% endif %}
     </div>
 
