@@ -606,3 +606,12 @@ html.transition *:after {
 .carousel-caption h5 {
     font-size: 15px;
 }
+
+// Responsive_img
+.staff-pics {
+  width:200px; 
+  height: 300px; 
+  object-fit: cover; 
+  margin: 0 auto; 
+  display: block
+}

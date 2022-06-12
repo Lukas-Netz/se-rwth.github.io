@@ -50,12 +50,46 @@ in a <em>shorter period of time</em> and with flexible integration of
 </p>
 
 #### Professors
-
-- [Prof. Dr. rer. nat. Bernhard Rumpe](https://www.se-rwth.de/staff/rumpe/)
-- [Prof. Dr. rer. nat. Horst Lichter](https://www2.swc.rwth-aachen.de/?page_id=68)
-- [Prof. Dr. Abigail Morrison](https://www.se-rwth.de/staff/morrison/)
-- [Emeritus Prof. Dr.-Ing. Dr. h. c. Manfred Nagl](https://www.se-rwth.de/staff/nagl/)
-
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 mt-3 mt-md-0">
+          {% responsive_image 
+            path: assets/img/staff/rumpe.jpg 
+            class: "staff-pics z-depth-1"
+            alt: "Bernhard Rumpe"
+            title: "Bernhard Rumpe"
+            href: "https://www.se-rwth.de/~rumpe"
+            caption: "Prof. Dr. rer. nat. Bernhard Rumpe" %}
+        </div>
+        <div class="col-sm-3 mt-3 mt-md-0">
+          {% responsive_image 
+            path: assets/img/staff/lichter.jpg 
+            class: "staff-pics z-depth-1"
+            alt: "Horst Lichter"
+            title: "Horst Lichter"
+            href: "https://www.swc.rwth-aachen.de/teammember/horst-lichter/"
+            caption: "Prof. Dr. rer. nat. Horst Lichter" %}
+        </div>
+        <div class="col-sm-3 mt-3 mt-md-0">
+          {% responsive_image 
+            path: assets/img/staff/morrison.jpg 
+            class: "staff-pics z-depth-1"
+            alt: "Abigail Morrison"
+            title: "Abigail Morrison"
+            href: "https://www.se-rwth.de/~morrison"
+            caption: "Prof. Dr. Abigail Morrison" %}
+        </div>
+        <div class="col-sm-3 mt-3 mt-md-0">
+          {% responsive_image 
+            path: assets/img/staff/nagl.jpg 
+            class: "staff-pics z-depth-1"
+            alt: "Manfred Nagl"
+            title: "Manfred Nagl"
+            href: "https://www.se-rwth.de/~nagl"
+            caption: "Emeritus Prof. Dr.-Ing. Dr. h. c. Manfred Nagl" %}
+        </div>
+    </div>
+</div>
 
 <p align="center">
    <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
