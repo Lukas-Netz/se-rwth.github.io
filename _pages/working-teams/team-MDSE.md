@@ -89,65 +89,23 @@ Currently, the model-driven systems engineering working group consists of:
 
 ### Research Partners
 
-In ongoing and successfully finished resarch projects, we have collaborated with various partners from industry and academy, including:
+In ongoing and successfully finished research projects, we have collaborated with various partners from industry and academy, including:
 
-<div class="container">
-    <div class="row" style="margin-bottom: 20px">
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/bmw.png" alt="bmw" style="width: 100px; height: 100px; object-fit: cover; margin: 0 auto; display: block">
-        </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/bosch.jpeg" alt="bosch" style="width: auto; height: 100px; margin: 0 auto; display: block">
-        </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/dsa.png" alt="dsa" style="width: 100px; height: 100px; object-fit: cover; margin: 0 auto; display: block">
-        </div>
-    </div>
-    <div class="row" style="margin-bottom: 20px">
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/fev.png" alt="fev" style="width: auto; height: 70px; margin: 0 auto; display: block">
-        </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/ford.png" alt="ford" style="width: auto; height: 80px; margin: 0 auto; display: block">
-        </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/huberlin.png" alt="huberlin" style="width: auto; height: 95px; margin: 0 auto; display: block">
-        </div>
-    </div>
-    <div class="row" style="margin-bottom: 20px">
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/insystems.jpeg" alt="insystems" style="width: 280px; height: 70px; margin: 0 auto; display: block">
-        </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/itemis.png" alt="itemis" style="width: auto; height: 58px; margin: 0 auto; display: block">
-        </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/puresystems.jpeg" alt="puresystems" style="width: auto; height: 50px; margin: 0 auto; display: block">
-        </div>
-    </div>
-    <div class="row" style="margin-bottom: 20px">
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/rec.png" alt="rec" style="width: auto; height: 63px; margin: 0 auto; display: block">
-        </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/siemens.jpeg" alt="siemens" style="width: auto; height: 70px; margin: 0 auto; display: block">
-        </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/symeo.jpeg" alt="symeo" style="width: auto; height: 70px; margin: 0 auto; display: block">
-        </div>
-    </div>
-    <div class="row" style="margin-bottom: 20px">
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/tubraunschweig.png" alt="tubraunschweig" style="width: 200px; height: auto; margin: 0 auto; display: block">
-        </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/tuclausthal.png" alt="tuclausthal" style="width: auto; height: 70px; margin: 0 auto; display: block">
-        </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/research-partners/tumuenchen.png" alt="tumuenchen" style="width: auto; height: 70px; margin: 0 auto; display: block">
-        </div>
-    </div>
-</div>
+- BMW Group
+- Bosch
+- DSA Daten- und Systemtechnik GmbH
+- FEV Europe GmbH
+- Ford Motor Company
+- Humboldt-Universität zu Berlin
+- InSystems Automation GmbH
+- Itemis AG
+- pure-systems GmbH
+- Robotics Equipment Corporation GmbH
+- Siemens AG - Deutschland
+- Symeo GmbH
+- TU Braunschweig
+- TU Clausthal
+- TU München
 
 <p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
 "100%" alt="" title="Trennlinie"></p>
