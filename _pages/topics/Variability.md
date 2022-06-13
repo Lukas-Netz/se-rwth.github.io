@@ -107,8 +107,7 @@ measures for an SPL based future with efficient development of high quality
 systems. Categorization and priorization. (3) Implementing the most promising 
 steps and understand the effects.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 1. Products often exist in various variants. Variants are managed in a Software 
@@ -124,8 +123,7 @@ variation. This is essential to capture the semantics of the UML.
 6. **Industrial introduction of SPL** based development needs organizational and 
 process adaptation and needs to be tailored to the individual company.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -135,8 +133,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
@@ -147,8 +144,7 @@ title="Trennlinie">
 - [Semantics of Modeling Languages](/topics/Semantics)
 - [Software Language Engineering (SLE)](/topics/Language-Engineering)
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 #### Further links:
 

@@ -159,8 +159,7 @@ language in
 as well as in building management systems in 
 [[FLP+11b]](https://www.se-rwth.de/publications/State-Based-Modeling-of-Buildings-and-Facilities.pdf).
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 1. I/O<sup>ω</sup> automata (state machines) can be used for I/O-specification 
@@ -175,8 +174,7 @@ transformations (refactoring techniques).
 5. A sound semantics for a state machine is given by a mapping to Focus streams 
 that is compatible with refinement and composition.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -186,8 +184,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Automotive](/topics/Automotive)
@@ -199,8 +196,7 @@ title="Trennlinie">
 - [Semantics of Modeling Languages](/topics/Semantics)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 #### Further links:
 

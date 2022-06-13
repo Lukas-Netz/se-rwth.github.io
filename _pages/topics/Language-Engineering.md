@@ -188,8 +188,7 @@ such as [MontiArc](/topics/Software-Architecture) to add and modify components
 as well as channels, but also have been applied to Simulink in an industrial 
 context.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 1. Software Language Engineering requires elaborate tooling to assist (partially 
@@ -206,8 +205,7 @@ Software Engineering:
 3. Transformation, tagging and delta languages can be automatically derived from 
 base languages.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -217,8 +215,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Compositionality/Modularity of Models](/topics/Compositionality)
@@ -229,8 +226,7 @@ title="Trennlinie">
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 - [Variability & Software Product Lines (SPL)](/topics/Variability)
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 #### Further links:
 

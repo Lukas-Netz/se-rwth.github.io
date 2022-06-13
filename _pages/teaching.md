@@ -13,9 +13,7 @@ at the Chair of Software Engineering see the
 
 Recent lectures by Bernhard Rumpe, Judith Michael and their group:
 
-<p align="center">
-   <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
-</p>
+{% include trennlinie.html %}
 
 #### Introduction to Software Engineering (SWT, in German)
 
@@ -25,9 +23,7 @@ requirements elicitation, software architecture and design as well as
 the implementation, generation and quality assurance with tests. The 
 lecture uses primarily the modeling language UML. 
 
-<p align="center">
-   <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
-</p>
+{% include trennlinie.html %}
 
 #### Software Language Engineering (SLE)
 
@@ -42,9 +38,7 @@ and semantic analysis and generation techniques are discussed. DSLs are
 always suitable where non-computer scientists deal with computers and 
 have to describe complex issues using models. 
 
-<p align="center">
-   <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
-</p>
+{% include trennlinie.html %}
 
 #### Model-Based Systems Engineering (MBSysE) +
 
@@ -68,9 +62,7 @@ twins and thus an integrated software/systems view on a joint modeling
 approach is inevitable. We can see this integrative need e.g. by the 
 overlap between the SysML and UML modeling languages. 
 
-<p align="center">
-   <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
-</p>
+{% include trennlinie.html %}
 
 #### Innovations in Software Engineering (ISE)
 
@@ -86,9 +78,7 @@ Engineering,    A formal technique for evolving hierarchically
 decomposed systems,    Semantic of Modelling Languages, Model Based 
 Artificial Intelligence, Smart Verification of UML and SysML Models. 
 
-<p align="center">
-   <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
-</p>
+{% include trennlinie.html %}
 
 #### Digitalization (Judith Michael, Bernhard Rumpe) 
 
@@ -105,7 +95,7 @@ automotive, automation, health, production or public Infrastructure.
 
 
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

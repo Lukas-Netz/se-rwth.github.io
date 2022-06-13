@@ -137,8 +137,7 @@ analyses, we are able to better understand not only the artifacts and their
 relations within a project, but also the type of tools which are involved and 
 the artifacts they work with.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 1. Modeling artifacts and their relations tackles two problems of complex 
@@ -154,8 +153,7 @@ Furthermore, we created a customizable tool-chain which enables automated
 extraction and analyses of artifact data of model-driven systems engineering 
 projects.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -165,8 +163,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Automotive](/topics/Automotive)
@@ -178,7 +175,7 @@ Assistance](/topics/Autonomic-Driving)
 - [Robotics](/topics/Robotics)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

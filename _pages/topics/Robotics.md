@@ -24,8 +24,7 @@ assembly tasks in industrial contexts as well as planned and unplanned logistic
 tasks. We apply this to indoor robots interacting with humans as well as to 
 industrial robots as well as to autonomously driving cars.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
-alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Modeling Robotic Application Architectures and Behavior
 Describing a robot's software architecture and its behavior in integrated 
@@ -95,8 +94,7 @@ language profiles for UML/P Statecharts and UML/P class diagrams, which allows
 to reuse much of the UML/P framework for modeling, model validation, code 
 generation, and editor generation.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
-alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Autonomous Driving
 Many of the concepts we learnt in engineering autonomic robotics come from 
@@ -112,8 +110,7 @@ that this a main enabler for intensive regression testing and thus agile
 development and has now become the primary technique for virtually driving 
 millions of miles for safety validation in the car domain.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
-alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Key Statements
 1. Development of robotics applications is highly complex and requires 
@@ -126,8 +123,7 @@ tasks by users.
 4. Autonomously driving cars exhibit lots of robotic characteristics and many 
 techniques used there for function validation can be carried over.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -137,8 +133,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
@@ -149,8 +144,7 @@ title="Trennlinie">
 - [Semantics of Modeling Languages](/topics/Semantics)
 - [State Based Modeling (Automata)](/topics/State-Based-Modeling)
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 #### Further links:
 

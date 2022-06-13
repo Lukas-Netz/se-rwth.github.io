@@ -150,8 +150,7 @@ becomes an issue. In
 we have therefore discussed how to improve reliability while retaining 
 adaptivity.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 
@@ -165,8 +164,7 @@ established with UML/P.
 4. Executable UML/P is an extension of UML with Java, implemented using the 
 MontiCore language workbench.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -176,8 +174,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Evolution & Transformation of Models](/topics/Evolution)
@@ -187,7 +184,7 @@ title="Trennlinie">
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 - [Variability & Software Product Lines (SPL)](/topics/Variability)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

@@ -76,8 +76,7 @@ of Management Accounting and Software Engineering.
 </div>
 <br>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Research Topics:
 - [Agile Model Based Software Engineering](/topics/Agile-MBSE)
@@ -87,8 +86,7 @@ title="Trennlinie">
 - [UML/P](/topics/UML-P)
 - [Unified Modeling Language (UML)](https://www.se-rwth.de/topics/Unified-Modeling-Language.php)
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Publications
 <div class="publications">

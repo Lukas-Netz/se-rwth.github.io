@@ -35,8 +35,7 @@ such programming expertise and can ensure that translation of
 engineering practices.
 
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ### Research Questions
 
@@ -46,8 +45,7 @@ engineering practices.
 - How can we leverage architecture description languages to facilitate the separation of concerns required for efficient language integration and reuse?
 - How does an agile process framework look like that optimally assists various kinds of development processes?
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ### Team Members
 
@@ -84,8 +82,7 @@ Currently, the model-driven systems engineering working group consists of:
     </div>
 </div>
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ### Research Partners
 
@@ -107,8 +104,7 @@ In ongoing and successfully finished research projects, we have collaborated wit
 - TU Clausthal
 - TU München
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 
 ### Publications

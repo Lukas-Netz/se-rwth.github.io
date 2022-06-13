@@ -27,7 +27,7 @@ horizontal: false
   </div>
 {% endfor %}
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 <div class="publications">
   {% for k in page.keys %}
@@ -35,7 +35,7 @@ horizontal: false
   {% endfor %}
 </div>
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 
 A. Borkowski/ M. Nagl (Guest Editors). Proc. of the First Polish-German Workshop on Research Cooperation in Computer 
@@ -106,7 +106,7 @@ in Computer Science". Applied Computer Science Band 13, 339 S., Carl Hanser Verl
 H.J. Schneider/M. Nagl (Hrsg.). Programmiersprachen. 4, Fachtagung der Gesellschaft für Informatik. 
 Informatik-Fachberichte Band 1, 270 S., Springer-Verlag, 1976.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

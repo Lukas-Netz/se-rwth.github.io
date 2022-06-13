@@ -56,8 +56,7 @@ around our  main research topics, application domains, and tools. Each
 topic page describes the our contributions to this topic in a 
 consolidated, compact form. 
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Foundations of Model-Based Software Engineering
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
@@ -76,8 +75,7 @@ consolidated, compact form.
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 - [Modeling Software Architecture](/topics/Software-Architecture)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Application Domains
 - [Robotics](/topics/Robotics)
@@ -87,16 +85,14 @@ Assistance](/topics/Autonomic-Driving)
 - [Energy Management](/topics/Energy-Management)
 - [Cloud Computing & Enterprise Information Systems](/topics/Cloud)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Our Most Important Software Tools
 - [MontiCore - Language Workbench for DSLs](/topics/MontiCore)
 - [UML/P - Executable Modeling with UML](/topics/UML-P)
 - [MontiArc - Architectural Modeling](/topics/Software-Architecture)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Upcoming Research Topics
 
@@ -109,7 +105,7 @@ articles. We assume results will be published in the near future:
   (fitting to the RWTH Internet of Production Excellence Cluster, IOP) 
 
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

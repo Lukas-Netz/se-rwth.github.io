@@ -25,7 +25,7 @@ horizontal: false
   </div>
 {% endfor %}
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 <div class="publications">
   {% for k in page.keys %}
@@ -34,7 +34,7 @@ horizontal: false
 </div>
 
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

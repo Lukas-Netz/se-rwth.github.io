@@ -80,8 +80,7 @@ as well as the advantages and perils of using modeling languages for programming
 in 
 [[Rum02]](https://www.se-rwth.de/topics/~rumpe/publications/Executable-Modeling-with-UML-A-Vision-or-a-Nightmare.pdf).
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 1. Generation of code and tests is a core capability for model-based software 
@@ -99,8 +98,7 @@ one model) cannot be used in agile projects.
 6. The [MontiCore](/topics/MontiCore) language workbench provides infrastructure 
 for generative software development.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -110,8 +108,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
@@ -124,7 +121,7 @@ title="Trennlinie">
 - [UML/P](/topics/UML-P)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

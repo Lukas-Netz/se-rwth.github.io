@@ -26,7 +26,7 @@ engineering in teams to foster efficient research and development. Currently, th
 - [Model-Driven Systems Engineering (MDSE)](/working-teams/team-MDSE)
 - [Modeling Language Engineering (MLE)](/working-teams/team-MLE)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links: 
 

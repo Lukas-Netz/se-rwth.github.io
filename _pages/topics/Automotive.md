@@ -69,8 +69,7 @@ describes an approach to use logical and model checking techniques to identify
 commonalities and differences of two Simulink models describing the same control 
 device in different variants and thus allows to understand incompatibilities.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
-alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Key Statements
 1. A consistent requirement management leads to a more stable and predictable 
@@ -82,8 +81,7 @@ based on automatic simulations.
 4. The quality of autonomous driving cars and smart assistance systems is 
 assured using automatic simulations.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -93,8 +91,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
@@ -107,7 +104,7 @@ title="Trennlinie">
 - [Robotics](/topics/Robotics)
 - [Variability & Software Product Lines (SPL)](/topics/Variability)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

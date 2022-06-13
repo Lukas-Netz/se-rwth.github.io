@@ -63,8 +63,7 @@ in form of a conceptual model of the compositional, so called "globalized" use
 of domain specific languages, which we published together with related topics in 
 [[CCF+15a]](https://www.se-rwth.de/publications/Globalizing-Domain-Specific-Languages2.pdf).
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 1. Modularity and composition are applicable in and desired for the whole life 
@@ -79,8 +78,7 @@ solutions based on DSLs.
 5. If the UML Standard would have followed a truly modular way, we would have an 
 even better UML.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -90,8 +88,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
@@ -106,7 +103,7 @@ title="Trennlinie">
 - [UML/P](/topics/UML-P)
 - [Variability & Software Product Lines (SPL)](/topics/Variability)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

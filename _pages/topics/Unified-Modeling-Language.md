@@ -85,8 +85,7 @@ generation as well as for high-level analysis.
 
 4. Tooling is necessary to use UMl in agile projects.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -96,8 +95,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
@@ -110,8 +108,7 @@ title="Trennlinie">
 - [Software Language Engineering (SLE)](/topics/Language-Engineering)
 - [UML/P](/topics/UML-P)
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 #### Further links:
 

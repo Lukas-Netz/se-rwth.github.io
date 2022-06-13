@@ -12,9 +12,7 @@ social: true  # includes social icons at the bottom of the page
 </div> 
 
 <br>
-<p align="center">
-   <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
-</p>
+{% include trennlinie.html %}
 
 ## Our Mission
 
@@ -33,7 +31,7 @@ Improving software and systems development by identifying:
 
 *Bernhard Rumpe, Chair of Software Engineering, RWTH Aachen*
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links: 
 

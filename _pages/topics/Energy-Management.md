@@ -75,8 +75,7 @@ Also **Demand Response Systems** are used to distribute energy more equally over
 time and enable a consumption during peak loads. We developed a secure high 
 performance storage that is able to capture sensor data and DR-signals.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
-alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Key Statements
 1. We defined a practically used DSL for modelling structure and functionality 
@@ -88,8 +87,7 @@ heterogenous data.
 4. We designed a secure, high-performance storage for Demand-Response Systems 
 based on generative technologies from the MontiCore Language Workbench.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -99,8 +97,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
@@ -112,7 +109,7 @@ title="Trennlinie">
 - [MontiCore - Language Workbench](/topics/MontiCore)
 - [Modeling Software Architecture](/topics/Software-Architecture)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

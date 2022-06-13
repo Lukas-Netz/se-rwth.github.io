@@ -110,8 +110,7 @@ measured actual data against the desired specification, e.g to save energy. In
 we discuss how such a specification approach improves development quality in the 
 energy subdomain of CPS.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 1. CPS tackles two core challenges:
@@ -125,8 +124,7 @@ distribution and quality needs.
 4. We have developed architectural modeling techniques to describe CPS and 
 applied those to cars, robots and building infrastructures.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -136,8 +134,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Automotive](/topics/Automotive)
@@ -149,7 +146,7 @@ Assistance](/topics/Autonomic-Driving)
 - [Robotics](/topics/Robotics)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

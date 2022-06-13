@@ -45,9 +45,7 @@ in a <em>shorter period of time</em> and with flexible integration of
 #### Most interesting publications
 [Topic sorted list of most interesting publications](/topics)
 
-<p align="center">
-   <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
-</p>
+{% include trennlinie.html %}
 
 #### Professors
 <div class="container">
@@ -91,9 +89,7 @@ in a <em>shorter period of time</em> and with flexible integration of
     </div>
 </div>
 
-<p align="center">
-   <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
-</p>
+{% include trennlinie.html %}
 
 Our recent collaborators are 
 Adesso, 
@@ -132,7 +128,7 @@ transfer them into the other working areas. For further information
 about our research topics applied and developed in the teams, please 
 refer to [our publications and research](/topics). 
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links: 
 

@@ -200,8 +200,7 @@ various extensions including automata
 semantic basis for the kind of systems, we have in focus: distributed, 
 asynchronously communicating agents, which can be regarded as active objects.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 1. Semantics of modeling languages helps to understand, analyze and manipulate 
@@ -215,8 +214,7 @@ defined using semantics.
 6. Encoding of semantics in formal tools helps to execute analyzes, consistency 
 checks etc.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -226,8 +224,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Compositionality/Modularity of Models & Languages](/topics/Compositionality)
@@ -239,8 +236,7 @@ title="Trennlinie">
 - [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 #### Further links:
 

@@ -20,7 +20,7 @@ as language composition or derivation. Besides improving languages workbenches a
 methodologies, guidelines and pattern for modeling language engineering are essential to facilitate 
 language engineering and improve the resulting modeling languages.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width ="100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ### Research Questions
 
@@ -29,7 +29,7 @@ language engineering and improve the resulting modeling languages.
 - What are the software languages required for efficient systems engineering with domain experts? How are software languages engineered, integrated, and reused? How does this translate to modeling tools, synthesis, analyses, transformations, and code generators?
 - How can we leverage language derivation to facilitate the development of supporting languages such as transformation, variability or tagging languages?
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width ="100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ### Team Members
 
@@ -80,7 +80,7 @@ Currently, the modeling language engineering working group consists of:
     </div>
 </div>
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width ="100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ### Teaching
 
@@ -108,7 +108,7 @@ Additionally, we always have ideas for interesting Bachelor and Master theses in
 - Semantics of modeling languages and models and their differences
 - Methodologies and tutorials for using Language workbench
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width ="100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ### Publications
 

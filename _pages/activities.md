@@ -20,8 +20,7 @@ interesting and helpful information. Occasionally news are
 published via [Twitter](https://twitter.com/SE_RWTH) and 
 [Facebook](https://www.facebook.com/SoftwareEngineering.RWTH/?pnref=story).
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Some Open Source Software
 
@@ -76,7 +75,7 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
 - [SE Commons](https://github.com/MontiCore/se-commons) is a 
   collection of smaller utilities and tools.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Latest Books
 
@@ -148,7 +147,7 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
   what concepts should be enhanced. Both are available in English or 
   German and provide lots of supplemental material.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Videos / Channels
 
@@ -163,7 +162,7 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
    Problems.](http://videos.rennes.inria.fr/invites/rumpe/index.htm)
    Invited Talk. Inria/Irisa. Rennes, 2003.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Related Organisations
 
@@ -219,7 +218,7 @@ This company helps to engineer systems more efficiently and sustainable.
 - [REGINA e.V.](https://regina.ac/) - Regionaler Industrieclub 
   Informatik Aachen is an independent network for the ICT area around Aachen.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Further Activities, Outcomes and Digital Representations in the Web
 
@@ -314,7 +313,7 @@ This company helps to engineer systems more efficiently and sustainable.
 - [Bernhard Rumpe's Quotes at 
   Wikiquote](https://en.wikiquote.org/wiki/Bernhard_Rumpe)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 <div class="container">
   <div class="row">
@@ -340,7 +339,7 @@ This company helps to engineer systems more efficiently and sustainable.
 <script async src="https://platform.twitter.com/widgets.js" 
     charset="utf-8"></script>
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

@@ -133,8 +133,7 @@ More details about the MontiCore DSL workbench can be found in
 [[GKRS06]](#GKRS06), [[KRV08]](#KRV08), [[KRV10]](#KRV10) as well as the 
 MontiCore Website.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 1. DSLs are a promising technology to deal with complexity of software products 
@@ -146,8 +145,7 @@ reusability of tooling and language infrastructures.
 4. [MontiCore](/topics/MontiCore) is a successful tooling infrastructure for the 
 development of DSLs.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -157,8 +155,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
@@ -172,7 +169,7 @@ title="Trennlinie">
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 - [Variability & Software Product Lines (SPL)](/topics/Variability)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

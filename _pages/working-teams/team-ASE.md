@@ -24,8 +24,7 @@ test, and verify maintainable and extensible solutions. To achieve this goal our
 
 Contact us for more information on our research as well as cooperations and know-how exchange or join us for a bachelor/master thesis or a PhD!
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ### Team Members
 
@@ -76,7 +75,7 @@ We are always looking for motivated students eager to explore new technologies s
 - Development processes in the automotive domain
 - Generative test-driven development
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width ="100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ### Research Partners
 

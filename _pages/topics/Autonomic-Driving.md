@@ -73,8 +73,7 @@ particular the SSElab storage, versioning and management services
 [[HKR12]](https://www.se-rwth.de/publications/SSELab-A-Plug-In-Based-Framework-for-Web-Based-Project-Portals.pdf). 
 Without those agile development would not have been possible.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
-alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Key Statements
 1. Automatic, repeatable tests speed up the development process.
@@ -85,8 +84,7 @@ scenarios, which is not that complicated.
 4. Software-intensive functions in embedded domains can be developed using agile 
 methods.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -96,8 +94,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Automotive](/topics/Automotive)
@@ -113,7 +110,7 @@ title="Trennlinie">
 - [Mo-re videos of the Darpa Urban Challenge 
 2007](https://www.youtube.com/results?search_query=Darpa%20Urban%20Challenge&sm=3) 
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

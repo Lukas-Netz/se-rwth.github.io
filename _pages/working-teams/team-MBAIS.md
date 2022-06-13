@@ -77,8 +77,7 @@ The group members already have experiences in the following domains:
 Contact us for more information on our research as well as cooperation and 
 know-how exchange or join us for a bachelor/master thesis or a PhD!
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ### Team Members 
 
@@ -123,8 +122,7 @@ Currently, the Model-Based Assistance and Information Services working group con
     </div>
 </div>
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-"100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ### Publications
 

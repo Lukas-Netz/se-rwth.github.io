@@ -176,8 +176,7 @@ situations. The application of neural networks also allows to classify unknown
 sensor and actor information (e.g. type of sensor/actor). Figure 5 illustrates 
 these circumstances.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 1. MontiAnna is a model-driven framework for the design and training of deep 
@@ -193,8 +192,7 @@ automotive software.
 5. A good building analysis is a prerequisite for every optimization. Machine 
 learning supports the analysis with various methods.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -204,8 +202,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Semantics of Modeling Languages](/topics/Semantics)
@@ -215,7 +212,7 @@ title="Trennlinie">
 Tool](/topics/Software-Architecture)
 - [Automotive](/topics/Automotive)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

@@ -57,8 +57,7 @@ implement big parts of the system's technical aspects and provide
 technology-agnostic, ease-to-use interfaces for the cloud-based application's 
 actual business logic.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
-alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 We have applied these technologies to various cloud systems, cars, buildings, 
 smart phones, mobile computing devices, and various other kinds of sensors. We 
@@ -74,8 +73,7 @@ compare these to the building specification. We use cloud technologies to
 maintain data, dynamically execute calculations and host management services 
 enabling reduction of building energy costs.
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" 
-alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Key Statements
 1. Model-based, generative development of cloud-based systems helps to reduce 
@@ -84,8 +82,7 @@ development time, increase flexibility and adaptivity.
 3. For connecting the Cloud with Cyber-Physical Systems it is especially 
 interesting to use configurable model-based technology.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -95,8 +92,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
@@ -108,7 +104,7 @@ title="Trennlinie">
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 - [UML/P](/topics/UML-P)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 

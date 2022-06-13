@@ -7,9 +7,7 @@ order: 7
 nav: true
 ---
 
-<p align="center">
-   <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
-</p>
+{% include trennlinie.html %}
 
 <div class="row justify-content-sm-center mb-5">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -32,9 +30,7 @@ nav: true
     </div>
 </div>
 
-<p align="center">
-   <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
-</p>
+{% include trennlinie.html %}
 
 ## Arrival 
 
@@ -94,10 +90,7 @@ currently in German only).
 - Use our carpark on the left behind the building.
 This pre-located Google map may help plan your travel.
 
-<p align="center">
-   <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie">
-</p>
-
+{% include trennlinie.html %}
 
 ## Accommodation
 

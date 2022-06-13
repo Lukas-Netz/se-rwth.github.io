@@ -162,8 +162,7 @@ interface diagrams. The latter [[HKR+16]](#HKR+16) allows developers to
 associate component configurations to modes and to specify dynamic 
 reconfiguration behavior via mode automata that describe when to switch modes.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" 
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Key Statements
 1. Distributed Software Architecture can be modeled in hierarchically decomposed 
@@ -178,8 +177,7 @@ robotics applications.
 6. Delta-MontiArc explores an additive variability mechanism, well suited for an 
 agile start of SPL integration.
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Selected Topic-Specific Publications
 
@@ -189,8 +187,7 @@ title="Trennlinie">
   {% endfor %}
 </div>
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 ## Related Topics
 - [Automotive](/topics/Automotive)
@@ -204,8 +201,7 @@ title="Trennlinie">
 - [Semantics of Modeling Languages](/topics/Semantics)
 - [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
 
-<img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt=""
-title="Trennlinie">
+{% include trennlinie.html %}
 
 #### Further links:
 

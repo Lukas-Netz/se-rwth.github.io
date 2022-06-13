@@ -22,7 +22,7 @@ children:
       permalink: /assets/bibliography/all-software-engineering-rwth-references.bib
 ---
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Additional infos on publications: 
 
@@ -34,16 +34,13 @@ children:
 * [SoSyM Editorials](http://www.sosym.org/editorials/)  
 * [Complete list of publications](https://www.se-rwth.de/publications/)
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 ## Selected publications (descendent by time) 
 
 <div class="publications">
   {% for y in page.years %}
-    <p>
-      <img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = 
-      "100%" alt="" title="Trennlinie">
-    </p>
+    {% include trennlinie.html %}
     <h2 class="year">{{y}}</h2>
     {% bibliography -f all-software-engineering-rwth-references -q 
     @*[year={{y}}]* %}
@@ -51,7 +48,7 @@ children:
 </div>
 
 
-<p><img src="{{ '/assets/img/balken.jpg' | relative_url }}" width = "100%" alt="" title="Trennlinie"></p>
+{% include trennlinie.html %}
 
 #### Further links:
 
