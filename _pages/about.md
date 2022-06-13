@@ -52,7 +52,7 @@ in a <em>shorter period of time</em> and with flexible integration of
 #### Professors
 <div class="container">
     <div class="row">
-        <div class="col-sm-3 mt-3 mt-md-0">
+        <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-0">
           {% responsive_image 
             path: assets/img/staff/rumpe.jpg 
             class: "staff-pics z-depth-1"
@@ -61,7 +61,7 @@ in a <em>shorter period of time</em> and with flexible integration of
             href: "https://www.se-rwth.de/~rumpe"
             caption: "Prof. Dr. rer. nat. Bernhard Rumpe" %}
         </div>
-        <div class="col-sm-3 mt-3 mt-md-0">
+        <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-0">
           {% responsive_image 
             path: assets/img/staff/lichter.jpg 
             class: "staff-pics z-depth-1"
@@ -70,7 +70,7 @@ in a <em>shorter period of time</em> and with flexible integration of
             href: "https://www.swc.rwth-aachen.de/teammember/horst-lichter/"
             caption: "Prof. Dr. rer. nat. Horst Lichter" %}
         </div>
-        <div class="col-sm-3 mt-3 mt-md-0">
+        <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-0">
           {% responsive_image 
             path: assets/img/staff/morrison.jpg 
             class: "staff-pics z-depth-1"
@@ -79,7 +79,7 @@ in a <em>shorter period of time</em> and with flexible integration of
             href: "https://www.se-rwth.de/~morrison"
             caption: "Prof. Dr. Abigail Morrison" %}
         </div>
-        <div class="col-sm-3 mt-3 mt-md-0">
+        <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-0">
           {% responsive_image 
             path: assets/img/staff/nagl.jpg 
             class: "staff-pics z-depth-1"
