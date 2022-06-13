@@ -70,8 +70,8 @@ rss_icon: false
 
 contact_note: 
 
-google_analytics: UA-215544380-2 # out your google-analytics code
-google_analytics_4: G-4LGXGPBZBZ # google-analytics 4 mess ID
+google_analytics: XXXXXXXXX # out your google-analytics code
+google_analytics_4: XXXXXXXXX # google-analytics 4 mess ID
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
