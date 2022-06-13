@@ -26,9 +26,12 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
 ## Some Open Source Software
 
 - [Language Workbench MontiCore Official 
-  Website](https://monticore.github.io/monticore/) 
-  <img src="../../assets/img/mc-banner.jpeg" alt="MontiCore Banner" 
-  style="display:block; margin: 20px auto;"> Starting in 2004, the 
+  Website](https://monticore.github.io/monticore/)
+  <a href="https://monticore.github.io/monticore/">
+    <img src="../../assets/img/mc-banner.jpeg"
+    alt="MontiCore Banner" style="display:block; margin: 20px auto;">
+  </a>
+  Starting in 2004, the 
   language workbench MontiCore has been developed by the SE Group. 
   Throughout the development process, the results of the latest research 
   have been incorporated into the project. Of course, the newest 
