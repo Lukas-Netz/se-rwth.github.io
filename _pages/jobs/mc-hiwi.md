@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hiwi-Stellen
-permalink: /jobs/MC-HiWi
+permalink: /jobs/mc-hiwi
 nav: false
 ---
 **Weiterentwicklung und Qualitässicherung der Language Workbench MontiCore**
