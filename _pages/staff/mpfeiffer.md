@@ -11,7 +11,7 @@ nav: false
           <img class="staff-pics z-depth-1" src="../../assets/img/staff/mpfeiffer.png" 
                alt="Mathias Pfeiffer" style="float: left;">
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-0">
+        <div class="col-lg-4 col-md-4 col-sm-6 mt-3 mt-md-0">
           Software Engineering<br>
           Department of Computer Science 3<br>
           RWTH Aachen University<br>
