@@ -26,10 +26,12 @@ We use **model-based development of software** (model-based software
 engineering, MBSE), **generative and synthesis techniques**, and 
 model-driven digitalisation of system development. 
 
+{% comment %}
 **Keywords**: Models, MBSE, UML, SysML, Variability, MontiCore, DSL, 
 Modelling Languages, Architecture, Design, Requirements, Generation,
 Synthesis, Automation, Tools,
-Software Engineering, Agility. 
+Software Engineering, Agility.
+{% endcomment %}
 
 During our scientific endeavour we contributed a number of 
 [publications](http://www.se-rwth.de/publications) to this mission and 
@@ -67,23 +69,35 @@ consolidated, compact form.
 - [Compositionality & Modularity of Models](/topics/Compositionality)
 - [Cyber Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
 - [Generative Software Engineering](/topics/Generative-SE)
-- [State Based Modeling (Automata)](/topics/State-Based-Modeling)
+- [Modeling Software Architecture](/topics/Software-Architecture)
+- [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
 - [Variability & Software Product Lines (SPL)](/topics/Variability)
-- [Domain Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
+- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
+- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 - [Software Language Engineering (SLE)](/topics/Language-Engineering)
 - [Semantics of Modeling Languages](/topics/Semantics)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Modeling Software Architecture](/topics/Software-Architecture)
+
+{% comment %}
+- [Model-Driven Systems Engineering](/topics/Model-Driven-Systems-Engineering)
+- [Model-Based Assistive Systems](/topics/Model-Based-Assistive-Systems)
+{% endcomment %}
 
 {% include trennlinie.html %}
 
 ## Application Domains
-- [Robotics](/topics/Robotics)
 - [Automotive](/topics/Automotive)
-- [Autonomic Driving & Intelligent Driver 
-Assistance](/topics/Autonomic-Driving)
-- [Energy Management](/topics/Energy-Management)
-- [Cloud Computing & Enterprise Information Systems](/topics/Cloud)
+- [Autonomic Driving & Intelligent Driver
+    Assistance](/topics/Autonomic-Driving)
+- [Cloud Computing Applications](/topics/Cloud)
+- [Robotics](/topics/Robotics)
+- [Smart Energy Management](/topics/Energy-Management)
+
+{% comment %}
+- [Models in Enterprise Information System Development](/topics/Enterprise-Information-Systems)
+- [Internet of Things (IoT)](/topics/IoT)
+- [Digital Twins and Digital Shadows in Engineering, Operation and Production](/topics/Digital-Twins)
+{% endcomment %}
+
 
 {% include trennlinie.html %}
 
@@ -92,18 +106,25 @@ Assistance](/topics/Autonomic-Driving)
 - [UML/P - Executable Modeling with UML](/topics/UML-P)
 - [MontiArc - Architectural Modeling](/topics/Software-Architecture)
 
+{% comment %}
+- [MontiGem - Generating Enterprise Management Systems](/topics/MontiGem)
+- [MontiThings - Modeling the IoT](/topics/MontiThings)
+{% endcomment %}
+
+
+{% comment %}
 {% include trennlinie.html %}
+
 
 ## Upcoming Research Topics
 
 Fresh research topics not necessarily already come with published 
 articles. We assume results will be published in the near future:
 
-- Digital Twins and Digital Shadows in Engineering, Production and Operation
 - SysML 2.0
 - Modelling in Production 
-  (fitting to the RWTH Internet of Production Excellence Cluster, IOP) 
-
+  (fitting to the RWTH Internet of Production Excellence Cluster, IOP)
+{% endcomment %}
 
 {% include trennlinie.html %}
 
