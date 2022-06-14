@@ -34,12 +34,12 @@ As an extension, a DSL is used to describe the graphical layout of the user
 interface in a comfortable way. Again the GUI sub-language is well
 integrated with the class diagram models allowing to directly describe
 what to visualize based on the storage structure in the database
-(see~\autoref{fig:GUIcomponents} for some of the possible
+(see the figure for some of the possible
 visualizations).
 
 The internal architecture of the MontiGem generator includes the three
-typical main processes: reading, transformation and generation (see
-\autoref{fig:Slide5}), while generation produces a whole lot of
+typical main processes: reading, transformation and generation, 
+while generation produces a whole lot of
 resulting Java classes, Typescript and HTML files and related artifacts.
 
 
@@ -63,36 +63,6 @@ application with changing models and thus the co-evolution of the
 models and the handwritten additional functionality during the entire
 development process.
 
-## Selected Topic-Specific Publications
-
-<div class="publications">
-  {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
-  {% endfor %}
-</div>
-
-{% include trennlinie.html %}
-
-## Related Topics
-- [Evolution & Transformation of Models](/topics/Evolution)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [UML/P](/topics/UML-P)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Variability & Software Product Lines (SPL)](/topics/Variability)
-
-{% include trennlinie.html %}
-
-#### Further links:
-
-- [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
-- [Books](/books)
-- [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
-- [Website of the SE](https://www.se-rwth.de)
-
-
-
 
 The input of the generator for such enterprise management systems can
 be expanded to allow the tagging of existing models [[GLRR15]](#GLRR15),
@@ -106,3 +76,35 @@ overview system. Current extensions adapt and extend MontiGem for
 mobile applications, further graphical representation components as
 well as the development of information portals in the Internet of
 Things domain.
+
+{% include trennlinie.html %}
+
+## Selected Topic-Specific Publications
+
+<div class="publications">
+  {% for k in page.keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
+
+{% include trennlinie.html %}
+
+## Related Topics
+- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
+- [Generative Software Engineering](/topics/Generative-SE)
+- [MontiCore - Language Workbench](/topics/MontiCore)
+- [UML/P](/topics/UML-P)
+- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
+- [Model-Based Assistive Systems](/topics/Model-Based-Assistive-Systems)
+- [Models in Enterprise Information System Development](/topics/Enterprise-Information-Systems)
+- [Digital Twins and Digital Shadows in Engineering, Operation and Production](/topics/Digital-Twins)
+
+{% include trennlinie.html %}
+
+#### Further links:
+
+- [Publications](/publications)
+- [Topic sorted list of most interesting publications](/topics)
+- [Books](/books)
+- [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
+- [Website of the SE](https://www.se-rwth.de)
