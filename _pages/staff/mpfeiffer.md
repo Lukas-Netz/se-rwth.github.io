@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mathias Pfeiffer, M.Sc. RWTH
-permalink: /staff/mpfeiffer/
+permalink: /staff/Mathias.Pfeiffer/
 nav: false
 ---
 
