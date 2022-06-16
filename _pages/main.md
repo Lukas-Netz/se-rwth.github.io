@@ -37,13 +37,10 @@ Improving software and systems development by identifying:
 
 * Sie könnten an einer der renommiertesten deutschen Universitäten im 
   Bereich Informatik forschen! 
-
 * Wir suchen engagierte wissenschaftliche Mitarbeiterinnen und 
   Mitarbeiter mit Interesse an einer Promotion im Software Engineering.
-
 * [Hier gibt es Details: 
   https://www.se-rwth.de/jobs/](https://www.se-rwth.de/jobs/) 
-
 * Oder melden Sie sich bei Bernhard Rumpe, rumpe@se-rwth.de. Eine 
   aussagekräftige Bewerbungsunterlage ist dabei hilfreich. 
 
@@ -51,15 +48,12 @@ Improving software and systems development by identifying:
 
 * You can elaborate your knowlede at one of the most renowned German 
   universities in the field of Computer Science!
-
 * We are looking for dedicated academics
   interested in a doctorate in software engineering
   and especially the enhancement and application of 
   modelling techniques in engineering and science.
-
 * [Here are details:
   https://www.se-rwth.de/jobs/](https://www.se-rwth.de/jobs/)
-
 * Or contact Bernhard Rumpe, rumpe@se-rwth.de. 
   Meaningful application documents are helpful.
 
