@@ -115,7 +115,8 @@ desired or unwanted object structures, are presented there as well.
 </center>
 <br />
 
-In the last decade, we implemented a **language workbench** called MontiCore (see \autoref{subsec:MC})
+In the last decade, we implemented a **language workbench** called MontiCore 
+(see [MontiCore - Language Workbench for DSLs](/topics/MontiCore))
 that was first described in [[GKR+06]](#GKR+06). On top of MontiCore, we
 realized most of the language components of the UML/P [[Sch12]](#Sch12).
 This work includes a precise definition of textual languages, type checks, checks for context conditions within and between
