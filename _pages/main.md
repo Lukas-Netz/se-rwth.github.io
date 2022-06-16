@@ -70,6 +70,11 @@ Improving software and systems development by identifying:
 
 #### Research links: 
 
+Main Research TopicsWe are interested in quite a number of foundational 
+and applied topics. Below we have collected especially interesting 
+publications around our main research topics, application domains, and 
+tools. Further links to research are:  
+
 - [Publications](/publications)
 - [Research](/topics)
 - [Topic sorted list of most interesting publications](/topics)
