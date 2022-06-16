@@ -9,19 +9,10 @@ nav: true
 
 For details about the currently offered teaching by Prof. Bernhard Rumpe
 at the Chair of Software Engineering see the
-[SE RWTH website](https://www.se-rwth.de/teaching/).
+[SE RWTH teaching website](https://www.se-rwth.de/teaching/).
 
-Recent lectures by Bernhard Rumpe, Judith Michael and their group:
-
-{% include trennlinie.html %}
-
-#### Introduction to Software Engineering (SWT, in German)
-
-This lecture introduces the foundations for the engineering of complex 
-software systems. Covered topics are development process models, 
-requirements elicitation, software architecture and design as well as 
-the implementation, generation and quality assurance with tests. The 
-lecture uses primarily the modeling language UML. 
+Here you see the recent lectures by Bernhard Rumpe, 
+Judith Michael and their group:
 
 {% include trennlinie.html %}
 
@@ -37,6 +28,9 @@ texts, etc. Examples such as UML, domain-specific languages ​​(DSL), XML
 and semantic analysis and generation techniques are discussed. DSLs are 
 always suitable where non-computer scientists deal with computers and 
 have to describe complex issues using models. 
+
+* Master level, usually given in Summer 
+* Mainly for Computer Science
 
 {% include trennlinie.html %}
 
@@ -62,6 +56,9 @@ twins and thus an integrated software/systems view on a joint modeling
 approach is inevitable. We can see this integrative need e.g. by the 
 overlap between the SysML and UML modeling languages. 
 
+* Master level, usually given in Winter 
+* For various Engineering courses as well as Computer Science.
+
 {% include trennlinie.html %}
 
 #### Innovations in Software Engineering (ISE)
@@ -78,6 +75,9 @@ Engineering,    A formal technique for evolving hierarchically
 decomposed systems,    Semantic of Modelling Languages, Model Based 
 Artificial Intelligence, Smart Verification of UML and SysML Models. 
 
+* Master level, optionally given in Summer (not each year)
+* Mainly for Computer Science.
+
 {% include trennlinie.html %}
 
 #### Digitalization (Judith Michael, Bernhard Rumpe) 
@@ -93,12 +93,29 @@ developments that are advancing the digitalization of their economic
 sector and provide practical examples. This includes domains such as 
 automotive, automation, health, production or public Infrastructure. 
 
+* Master level, optionally given in Summer (not each year)
+* for Computer Science but also a general audience
+
+
+{% include trennlinie.html %}
+
+#### Introduction to Software Engineering (SWT, in German)
+
+This lecture introduces the foundations for the engineering of complex 
+software systems. Covered topics are development process models, 
+requirements elicitation, software architecture and design as well as 
+the implementation, generation and quality assurance with tests. The 
+lecture uses primarily the modeling language UML. 
+
+* Bachelor level, always given in Winter
+* Mandatory for Computer Science and various other Curricula
 
 
 {% include trennlinie.html %}
 
 #### Further links:
 
+- [SE RWTH teaching website](https://www.se-rwth.de/teaching/)
 - [Publications](/publications)
 - [Topic sorted list of most interesting publications](/topics)
 - [Books](/books)
