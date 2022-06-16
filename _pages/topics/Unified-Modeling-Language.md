@@ -2,13 +2,13 @@
 layout: page
 title: Unified Modeling Language (UML)
 permalink: /topics/Unified-Modeling-Language/
-description: 
-img: 
+description:
+img:
 importance: 1
-keys: [KER99, Rum16, Rum17, Sch12, GR11, BHP+98, BCGR09, BCGR09a, 
-    BCR07b, BCR07a, CGR08, MRR11e, MRR11c, MRR11f, MRR11a, MRR11d, GRR10, 
-    FHR08, BGH+98b, Rum04c,Rum02, PFR02, EFLR99b, FEL+98, SRVK10, Rum04c, 
-    Rum03, Rum02] 
+keys: [KER99, Rum16, Rum17, Sch12, GR11, BHP+98, BCGR09, BCGR09a,
+       BCR07b, BCR07a, CGR08, MRR11e, MRR11c, MRR11f, MRR11a, MRR11d, GRR10,
+       FHR08, BGH+98b, Rum04c,Rum02, PFR02, EFLR99b, FEL+98, SRVK10, Rum04c,
+       Rum03, Rum02]
 ---
 
 
@@ -19,7 +19,8 @@ defining a semantics for the entire UML, have been well-known for a
 long time [[KER99]](#KER99). Thus, many of our contributions build on 
 the UML variant UML/P  which is suitable for programming. UML/P is 
 described in [[Rum16]](#Rum16) and [[Rum17]](#Rum17) and implemented in 
-a first version in [[Sch12]](#Sch12) (see [UML/P - Executable Modeling with UML](/topics/UML-P)). 
+a first version in [[Sch12]](#Sch12) 
+(see [UML/P - Executable Modeling with UML](/topics/UML-P)). 
 
 Defining variants of a modeling language in a systematic way is useful 
 for adapting the language to domain or project specific needs. Thus, 
