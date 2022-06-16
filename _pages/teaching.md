@@ -29,7 +29,7 @@ and semantic analysis and generation techniques are discussed. DSLs are
 always suitable where non-computer scientists deal with computers and 
 have to describe complex issues using models. 
 
-* Master level, usually given in Summer 
+* Master level, usually given in summer 
 * Mainly for Computer Science
 
 {% include trennlinie.html %}
@@ -56,8 +56,8 @@ twins and thus an integrated software/systems view on a joint modeling
 approach is inevitable. We can see this integrative need e.g. by the 
 overlap between the SysML and UML modeling languages. 
 
-* Master level, usually given in Winter 
-* For various Engineering courses as well as Computer Science.
+* Master level, usually given in winter 
+* For Computer Science and various Engineering curicula.
 
 {% include trennlinie.html %}
 
@@ -75,7 +75,7 @@ Engineering,    A formal technique for evolving hierarchically
 decomposed systems,    Semantic of Modelling Languages, Model Based 
 Artificial Intelligence, Smart Verification of UML and SysML Models. 
 
-* Master level, optionally given in Summer (not each year)
+* Master level, optionally given in summer (not each year)
 * Mainly for Computer Science.
 
 {% include trennlinie.html %}
@@ -93,7 +93,7 @@ developments that are advancing the digitalization of their economic
 sector and provide practical examples. This includes domains such as 
 automotive, automation, health, production or public Infrastructure. 
 
-* Master level, optionally given in Summer (not each year)
+* Master level, optionally given in summer (not each year)
 * for Computer Science but also a general audience
 
 
@@ -107,15 +107,18 @@ requirements elicitation, software architecture and design as well as
 the implementation, generation and quality assurance with tests. The 
 lecture uses primarily the modeling language UML. 
 
-* Bachelor level, always given in Winter
-* Mandatory for Computer Science and various other Curricula
-
+* Bachelor level, always given in winter
+* Mandatory for Computer Science and various other curricula
 
 {% include trennlinie.html %}
 
-#### Further links:
+#### Teaching links:
 
 - [SE RWTH teaching website](https://www.se-rwth.de/teaching/)
+- [SE practicals, seminars website](https://www.se-rwth.de/teaching/)
+
+#### Further links:
+
 - [Publications](/publications)
 - [Topic sorted list of most interesting publications](/topics)
 - [Books](/books)
