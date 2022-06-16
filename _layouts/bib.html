@@ -35,11 +35,19 @@
     
     <div class="periodical" style="display: inline">
       {% if entry.journal %}
-        In: {{entry.journal}},
+        {% if entry.author %}
+          In: {{entry.journal}},
+        {% else %}
+          {{entry.journal}},
+        {% endif %}
       {% endif %}
 
       {% if entry.booktitle %}
-        In: {{entry.booktitle}},
+        {% if entry.author %}
+          In: {{entry.booktitle}},
+        {% else %}
+          {{entry.booktitle}},
+        {% endif %}
       {% endif %}
 
       {% if entry.author and entry.editor %}
@@ -70,9 +78,12 @@
       {% if entry.type == "Informatik-Bericht" %}
         Informatik-Bericht,
       {% endif %}
-
       {% if entry.volume %}
-        Volume {{entry.volume}}{% if entry.number %}({{entry.number}}){% endif %},
+        {%if (entry.language == "german" or entry.language == "German") %}
+          Band {{entry.volume}}{% if entry.number %}({{entry.number}}){% endif %},
+        {% else %}
+          Volume {{entry.volume}}{% if entry.number %}({{entry.number}}){% endif %},
+        {% endif %}
       {% endif %}
       {% if entry.chapter %}
         ch. {{entry.chapter}},
