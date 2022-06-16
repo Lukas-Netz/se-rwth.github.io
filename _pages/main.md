@@ -65,14 +65,22 @@ Improving software and systems development by identifying:
 
 {% include trennlinie.html %}
 
+#### General links: 
 
-#### Further links: 
+- [About us](/about) 
+- [Jobs](/jobs)
+- [Teaching](/teaching)
+- [Contact](/contact)
+- [Website of the SE](https://www.se-rwth.de/)
+
+
+#### research links: 
 
 - [Publications](/publications)
+- [Research](/topics)
 - [Topic sorted list of most interesting publications](/topics)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
-- [Website of the SE](https://www.se-rwth.de/)
 
 
 
