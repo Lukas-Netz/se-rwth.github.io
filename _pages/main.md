@@ -68,7 +68,7 @@ Improving software and systems development by identifying:
 - [Website of the SE](https://www.se-rwth.de/)
 
 
-#### research links: 
+#### Research links: 
 
 - [Publications](/publications)
 - [Research](/topics)
