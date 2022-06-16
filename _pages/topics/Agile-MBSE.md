@@ -154,7 +154,7 @@ in [[KRV06]](#KRV06). However, it may be that not all of the participants in
 a project need to be physically at the same place and fully available
 anymore [[JWCR18]](#JWCR18).
 
-We expect that the use of models at runtime will soon become an agile
+We expect that the use of **models at runtime** will soon become an agile
 and efficient development technique. It allows developers to defer
 design decisions to runtime adaptation and configuration of systems.
 However, reliability then becomes an issue. In [[CEG+14]](#CEG+14) we have
