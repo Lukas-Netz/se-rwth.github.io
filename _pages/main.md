@@ -17,16 +17,16 @@ social: true  # includes social icons at the bottom of the page
 ## Our Mission
 
 Improving software and systems development by identifying: 
-* <span class="rwth-blue-text">methods, concepts, tools</span> 
-  and <span class="rwth-blue-text">infrastructures</span> for 
-* <span class="rwth-blue-text">innovative</span> and 
-  <span class="rwth-blue-text">efficient</span> 
-  <span class="rwth-blue-text">incremental</span> development 
+* **methods, concepts, tools** 
+  and **infrastructures** for 
+* **innovative** and 
+  **efficient** 
+  **incremental** development 
 * of software and software intensive 
-  <span class="rwth-blue-text">high quality systems</span> 
-* in <span class="rwth-blue-text">less time</span> while 
-* <span class="rwth-blue-text">flexibly integrating evolving 
-  requirements</span>.
+  **high quality systems** 
+* in **less time** while 
+* **flexibly integrating evolving 
+  requirements**.
 
 
 *Bernhard Rumpe, Chair of Software Engineering, RWTH Aachen*

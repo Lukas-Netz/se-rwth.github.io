@@ -17,15 +17,15 @@ keys: [KRV10,HR17,HR04,RKB95,
 ## Summary of Most Relevant Topic Papers
 
 To deal with model analysis, synthesis, evolution, definition of views,
-and abstraction based on models, we need a \emph{sound semantic foundation
-of the meaning of the models}.
+and abstraction based on models, we need a **sound semantic foundation
+of the meaning of the models**.
 
-We also need a proper semantics when applying a given language to \emph{new
-domains}, such as monitoring energy consumption or modeling flight
-safety rules for the European air traffic (see
-\autoref{sec:ApplicationDomains}).
+We also need a proper semantics when applying a given language to **new
+domains**, such as monitoring energy consumption or modeling flight
+safety rules for the European air traffic.
 We do this regularly with our language workbench MontiCore
 [[KRV10,HR17]](#KRV10,HR17).
+
 
 
 ## The Meaning of Semantics and its Principles
@@ -38,48 +38,69 @@ attached to any kind of modeling language and an often used narrow
 interpretation, that uses ``semantic'' synonymously to behavior of a
 program.
 
-Each modeling language, whether it be \emph{UML or a DSL deserves a semantics},
+Each modeling language, whether it be **UML or a DSL deserves a semantics**,
 even if the language itself is for modeling structure, such as Class
 Diagrams or Architecture Description Languages. Furthermore, modeling
-languages are \emph{not necessarily executable} and as their main \emph{purpose is
-abstraction} from implementation details, they are usually not fully
-determined, but exhibit forms of \emph{underspecification}. We discuss a very
+languages are **not necessarily executable** and as their main **purpose is
+abstraction** from implementation details, they are usually not fully
+determined, but exhibit forms of **underspecification**. We discuss a very
 general framework for semantics definition in [[HR04]](#HR04). At the core,
-we use a denotational semantics, which is basically a mapping $M$ from
-source language $L$ (syntax) into a target language respectively a
-target domain $S$ (semantic domain). In \autoref{fig:Mapping} we see a
+we use a denotational semantics, which is basically a mapping M from
+source language L (syntax) into a target language respectively a
+target domain S (semantic domain). In the following figure we see a
 combination of functions, where the first simplifies the syntax
 language by mapping redundant concepts to their simplest form (less
 concepts used, but usually more complex models).
 
+
 <center>
 <div class="row" style="width: 50%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/StructureSemanticDomain.png 
-           title: "Semantics" 
+        {% responsive_image path: assets/img/ComposedSemanticMapping.png 
+           title: "Composed semantic mapping" 
            class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
 <br />
 
-While many attempts of defining semantics only give examples on how the mapping 
-M looks like, we advocate an explicit and precise definition of M to be able to 
-analyze or compare the semantics of models. For instance, refinement and 
-evolution of models rely on such explicit denotational semantics.
+While many attempts of defining semantics only give examples on how
+mapping M looks like, we advocate an explicit and precise definition
+of M to be able to analyze or compare the semantics of models. For example,
+refinement and evolution of models rely on such explicit denotational
+semantics.
+
 
 ## System Model as Semantic Domain
-To define a semantic domain we use a **mathematical theory**, that allows us to 
-explicitly specify the desired properties of the target system, we are aiming 
-at. We call this theory **System Model**. Its first version is explicitly 
-defined in 
-[[BKR95]](https://www.se-rwth.de/topics/~rumpe/publications/Ein-strombasiertes-mathematisches-Modell-verteilter-informationsverarbeitender-Systeme-Syslab-Systemmodell.pdf) 
-and 
-[[BHP+98]](https://www.se-rwth.de/topics/~rumpe/publications/Software-and-System-Modeling-Based-on-a-Unified-Formal-Semantics.pdf) 
-(including 
-[[GKR96]](https://www.se-rwth.de/topics/~rumpe/publications/Enhancing-the-SysLab-System-Model-with-State.pdf) 
-and 
-[[KRB96]](https://www.se-rwth.de/topics/~rumpe/publications/A-stream-based-mathematical-model-for-distributed-information-processing-systems-SysLab-system-model.pdf)).
+
+To define a semantic domain we use a mathematical theory, that allows
+us to explicitly specify the desired properties of the target system,
+we are aiming at. We call the developed theory **System Model**. Its first
+version is explicitly defined in [[RKB95]](#RKB95) and [[BHP+98]](#BHP+98)
+(including work from [[GKR96]](#GKR96), [[KRB96]](#KRB96) and [[RK96]](#RK96)).
+
+The **System Model** for the full UML, however, became a rather large
+mathematical theory, that captures object-oriented communication (method
+calls, dynamic lookup, inheritance, object identity) as well as distributed
+systems at various levels as states and state machines. We therefore
+developed the full system model for the UML in [[BCGR09a]](#BCGR09a) and discuss
+the rationale for it in [[BCGR09]](#BCGR09). See also [[BCR07a]](#BCR07a) and
+[[BCR07b]](#BCR07b) for more detailed versions and [[CGR08]](#CGR08) for an application
+on class diagrams. The following figure shows the structure of the semantic 
+domain as a model hierarchy within the mathematical model.
+
+<center>
+<div class="row" style="width: 50%">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/StructureSemanticDomain.png 
+           title: "Structure of the semantic domain: The system model" 
+           class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</center>
+<br />
+
+XXX
 
 The **System Model** for the full UML however became a rather large mathematical 
 theory, that captures object-oriented communication (method calls, dynamic 
@@ -98,70 +119,72 @@ for more detailed versions and
 for an application on class diagrams. Here we see the hierarchy of the 
 mathematical model:
 
-The system model and its variants are used for a variety of tool embeddings of 
-the semantic domain. 
-[[MRR10]](https://www.se-rwth.de/publications/A-Manifesto-for-Semantic-Model-Differencing.pdf) 
-explains the case for semantic model differencing as opposed to syntactic 
-comparison. For example in 
-[[MRR11d]](https://www.se-rwth.de/publications/ADDiff-Semantic-Differencing-for-Activity-Diagrams.pdf) 
-(based on 
-[[MRR11a]](https://www.se-rwth.de/publications/An-Operational-Semantics-for-Activity-Diagrams-using-SMV.pdf)) 
-we encoded a part of the semantics, big enough to handle differences of activity 
-diagrams based on their semantics, in 
-[[MRR11f]](https://www.se-rwth.de/publications/Semantically-Configurable-Consistency-Analysis-for-Class-and-Object-Diagrams.pdf) 
-we compare class and object diagrams based on their semantics, and in , we 
-investigate semantic differencing of component & connector architectures.
+The system model and its variants are used for a variety of tool
+embeddings of the semantic domain. We provide a structured approach for
+system model-based modeling language semantics definitions
+in [[GRR09]](#GRR09). [[MRR10]](#MRR10) explains the case for semantic model
+differencing as opposed to syntactic comparison. In
+[[MRR11d]](#MRR11d) (based on [[MRR11a]](#MRR11a)) we encoded a part of the
+semantics, big enough to handle differences of activity diagrams based
+on their semantics, and in [[MRR11f]](#MRR11f) we compare class and object
+diagrams based on their semantics.
 
-In 
-[[BR07]](https://www.se-rwth.de/~rumpe/publications20042008/Modulare-hierarchische-Modellierung-als-Grundlage-der-Software-und-Systementwicklung.pdf) 
-we have defined a much simpler mathematical model for **distributed systems** 
-based on black-box behaviors of components, hierarchical decomposition, but also 
-the sound mathematical theory of streams for refinement and composition. While 
-this semantic model is useful for distributed real-time systems, such as cloud, 
-Internet or cyber-physical systems, it does not exhibit concepts of objects and 
+In [[BR07]](#BR07) we have defined a much simpler mathematical model for
+distributed systems based on black-box behaviors of components,
+hierarchical decomposition, but also the sound mathematical theory of
+streams for refinement and composition. While this semantic model is
+useful for distributed real-time systems, such as Cloud, Internet
+of Things or
+CPS, it does not exhibit concepts of objects and
 classes.
 
-We also discussed a **meta-modeling approach** 
-[[EFLR99]](https://www.se-rwth.de/topics/~rumpe/publications/Meta-Modeling-Semantics-of-UML.pdf). 
-As nothing is as mighty and comfortable as mathematical theories, one needs to 
-carefully design the semantics in particular if a concept of the language does 
-not have a direct representation in the semantics domain. Using a meta-model to 
-describe the semantics is appealing, because the syntactic domain L is 
-meta-modeled anyway, but also demanding, because both the semantic domain S and 
-the mapping M need to be encoded using meta-modeling instead of mathematical 
-concepts. We learnt, that meta-modeling is limited, e.g., in its expressibility 
-as well as due to finiteness.
+We also discussed a **meta-modeling approach** [[EFLR99b]](#EFLR99b).
+As nothing is
+as mighty and comfortable as mathematical theories, one needs to
+carefully design the semantics in particular if a concept of the
+language does not have a direct representation in the semantics domain.
+Using a meta-model to describe the semantics is appealing, because the
+syntactic domain L is meta-modeled anyway, but also demanding,
+because both the semantic domain S and the mapping M need to be
+encoded using meta-modeling instead of mathematical concepts. We
+learned, that meta-modeling is limited, e.g., in its expressiveness as
+well as due to finiteness.
+
 
 ## Semantics of UML and Object-Orientation
-In the early days, when modeling technology was still in its infancy it was of 
-interest to precisely understand objects, classes, inheritance, their 
-interactions and also how modeling technologies, like the upcoming UML, describe 
-those. 
-[[BGH+97]](https://www.se-rwth.de/topics/~rumpe/publications/Exemplary-and-Complete-Object-Interaction-Descriptions-WS-Version.pdf) 
-discusses potential modeling languages for the description of an exemplaric 
-object interaction, today called sequence diagram, and a complete description of 
-object interactions, which obviously needs additional mechanisms, e.g., a 
-sequential, parallel or iterative composition of sequence diagrams.
 
-[[BGH+98a]](https://www.se-rwth.de/topics/~rumpe/publications/Systems-Views-and-Models-of-UML.pdf) 
-discusses the relationships between system, a view and a complete model in the 
-context of the UML.
+In the early days, when modeling technology was still in its infancy, it
+was of interest to precisely understand objects, classes, inheritance,
+their interactions and also how modeling technologies, like the
+upcoming UML, describe those. [[BGH+97]](#BGH+97) discusses potential
+modeling languages for the description of an exemplary object
+interaction, today called Sequence Diagram, and a complete description
+of object interactions, which obviously needs additional mechanisms,
+e.g., a sequential, parallel or iterative composition of Sequence
+Diagrams.
+
+Furthermore, [[BGH+98b]](#BGH+98b) discusses the relationships between system, a
+view and a
+complete model in the context of the UML.
+
 
 ## Abstraction, Underspecification and Executability
-A modeling language is only a good language, if it allows to abstract away from 
-certain implementation details. **Abstraction** however often means that its 
-models are not fully determining the original, but exhibit 
-**underspecification**. Underspecification is regarded as freedom of the 
-developer or even of the implementation to choose the best solution with respect 
-to the given constraining specification. It is an intrinsic property of a good 
-modeling language to allow underspecification.
 
-As a consequence a semantic mapping of an (underspecified) model into a single 
-running programm cannot be correct or useful (to capture the semantics 
-adequate). To tackle **underspecification** we use a set-based mapping. This 
-means a single model is mapped to a set of possible implementations all of which 
-fulfill the constraints given by the model. This approach has important 
-advantages:
+A modeling language is only a good language, if it allows to abstract
+from implementation details. **Abstraction** however often
+means that its models are not fully determining the original, but
+exhibit **underspecification**. Underspecification is regarded as freedom
+of the developer or even of the implementation to choose the best
+solution with respect to the given constraining specification. It is an
+intrinsic property of a good modeling language to allow
+underspecification.
+
+As a consequence a semantic mapping of an (underspecified) model into a
+single running program cannot be correct or useful in order to capture the
+semantics adequate. To tackle **underspecification**, we use a set-based
+mapping. This means a single model is mapped to a set of possible
+implementations all of which fulfill the constraints given by the
+model. This approach has several advantages:
 
 1. Each element in the semantics can be an **executable implementation**, we 
 just do not know, which of them will be the final implementation.
@@ -173,51 +196,50 @@ everything that has not explicitly been forbidden by the specification.
 4. **Refinement** of a model on the syntactic level maps to set inclusion on the 
 semantics.
 
-Using sets of executable systems in the semantic mapping combines the 
-denotational approach with an operational approach that is perfectly suited for 
-semantics for modeling languages.
+Using sets of executable systems in the semantic mapping combines the
+denotational approach with an operational approach that is perfectly
+suited for semantics for modeling languages.
+
 
 ## Semantic Variation Points
-In the standardization of the UML the contributors had some challenges to agree 
-on the meaning of quite a few modeling concepts. To some extent this is due to 
-political reasons (tool vendors try to push their already implemented solution), 
-but to a large extent this is also due to the attempt of the UML to describe 
-phenomena in various real world and application domains as well as 
-software/technical domains. As it is a bad idea to capture different phenomena 
-with the same syntactical concept, the UML Standard introduces the **semantic 
-variantion point** without describing precisely what it means and how to 
-describe it.
 
-In 
-[[GR11]](https://www.se-rwth.de/publications/Modeling-Language-Variability.pdf), 
-[[CGR09]](https://www.se-rwth.de/publications/Variability-within-Modeling-Language-Definitions.pdf) 
-we have discussed the general requirements for a framework to describe semantic 
-and syntactic variations of a modeling language. We also introduced a mechanism 
-to describe variations (1) of the syntax, (2) of the semantic domain, and (3) of 
-the semantic mapping using feature trees for class diagrams and for object 
-diagrams in 
-[[MRR11f]](https://www.se-rwth.de/publications/Semantically-Configurable-Consistency-Analysis-for-Class-and-Object-Diagrams.pdf) 
-as well as activity diagrams in 
-[[GRR10]](https://www.se-rwth.de/publications/Towards-a-Semantics-of-Activity-Diagrams-with-Semantic-Variation-Points.pdf). 
-Feature trees are a perfect concept to capture variation points and denotational 
-semantics based on a system model allowing to explicitly describe the effect of 
-the variant.
+In the standardization of the UML the contributors had some challenges
+to agree on the meaning of quite a few modeling concepts. To some
+extent this is due to political reasons (tool vendors try to push their
+already implemented solution), but to a large extent this is also due
+to the attempt of the UML to describe phenomena in various real world
+and application domains as well as software/technical domains. As it is
+a bad idea to capture different phenomena with the same syntactical
+concept, the UML standard introduces the **semantic variation point**
+without describing precisely what it means and how to describe it.
 
-In [[Rum17]](http://www.se-rwth.de/mbse/) (and its German version 
-[[Rum12]](http://www.se-rwth.de/mbse/)) we have embodied the semantics in a 
-variety of code and test case generation, refactoring and evolution techniques 
-to make UML semantics amenable to developers without exposing the formalism 
-behind. In 
-[[LRSS10]](https://www.se-rwth.de/publications/Model-Evolution-and-Management.pdf) 
-we have discussed evolution and related issues in greater detail.
+In [[GR11]](#GR11), [[CGR09]](#CGR09) we have discussed the general requirements
+for a framework to describe semantic and syntactic variations of a
+modeling language. We also introduced a mechanism to describe
+variations (1) of the syntax, (2) of the semantic domain, and (3) of
+the semantic mapping using feature trees for class diagrams and for
+object diagrams in [[MRR11f]](#MRR11f) as well as activity diagrams in
+[[GRR10]](#GRR10). Feature trees are a perfect concept to capture variation
+points and denotational semantics based on a system model allowing to
+explicitly describe the effect of the variant.
+
+In [[Rum17]](#Rum17) (or its German version [[Rum12]](#Rum12)) we have embodied
+the semantics in a variety of **code and test case generation,
+refactoring and evolution techniques** to make UML semantics amenable to
+developers without exposing the formalism behind. Additionally, 
+[[LRSS10]](#LRSS10) discusses evolution and related issues in greater detail.
+
 
 ## Streams and Automata as Semantic Foundation
-We also have used the mathematical concept of streams (e.g., Broy/Stolen: 
-Specification and Development of Interactive Systems, springer, 2001) and 
-various extensions including automata 
-[[Rum96]](https://www.se-rwth.de/topics/~rumpe/publications/diss_rumpe) as 
-semantic basis for the kind of systems, we have in focus: distributed, 
-asynchronously communicating agents, which can be regarded as active objects.
+
+It is also noteworthy that we have used the mathematical concept of
+**streams** (e.g., [[BS01, RR11]](#BS01, RR11) also discussed in [[RW18]](#RW18))
+and various extensions including **automata**
+[[Rum96]](#Rum96) as semantic basis for the kind of systems, we have in
+focus: distributed, asynchronously communicating agents, which can be
+regarded as active objects.
+We illustrate our state machine formalism and its stream-based composition in
+with [State-Based Modeling (Automata)](/topics/State-Based-Modeling).
 
 {% include trennlinie.html %}
 
