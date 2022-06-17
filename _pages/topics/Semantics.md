@@ -8,8 +8,8 @@ importance: 1
 keys: [KRV10,HR17,HR04,RKB95,
     BHP+98,GKR96,KRB96,RK96,BCGR09a,
     BCGR09,BCR07a,BCR07b,CGR08,GRR09,
-    MRR10,MRR11d,MRR11a,MRR11f,BR07,
-    EFLR99b,BGH+97,BGH+98b,GR11,CGR09,
+    MRR10,MRR11d,MRR11a,MRR11f,BKRW17,BR07,
+    EFLR99b,BGH+97,BGH+98a,GR11,CGR09,
     GRR10,Rum17,Rum12,LRSS10,
     BS01,RW18,Rum96]
 ---
@@ -124,8 +124,10 @@ in [[GRR09]](#GRR09). [[MRR10]](#MRR10) explains the case for semantic model
 differencing as opposed to syntactic comparison. In
 [[MRR11d]](#MRR11d) (based on [[MRR11a]](#MRR11a)) we encoded a part of the
 semantics, big enough to handle differences of activity diagrams based
-on their semantics, and in [[MRR11f]](#MRR11f) we compare class and object
-diagrams based on their semantics.
+on their semantics. In [[MRR11f]](#MRR11f) we compare class and object
+diagrams based on their semantics and in [[BKRW17]](#BKRW17) we 
+look at the semantic differences between variants of component and 
+connector architectures similar to SysML' BDDs. 
 
 In [[BR07]](#BR07) we have defined a much simpler mathematical model for
 distributed systems based on black-box behaviors of components,
