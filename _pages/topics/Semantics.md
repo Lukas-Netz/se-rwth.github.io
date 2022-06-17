@@ -24,7 +24,7 @@ We also need a proper semantics when applying a given language to **new
 domains**, such as monitoring energy consumption or modeling flight
 safety rules for the European air traffic.
 We do this regularly with our language workbench MontiCore
-[[KRV10,HR17]](#KRV10,HR17).
+[[KRV10]](#KRV10), [[HR17]](#HR17).
 
 
 
@@ -233,7 +233,7 @@ developers without exposing the formalism behind. Additionally,
 ## Streams and Automata as Semantic Foundation
 
 It is also noteworthy that we have used the mathematical concept of
-**streams** (e.g., [[BS01, RR11]](#BS01, RR11) also discussed in [[RW18]](#RW18))
+**streams** (e.g., [[BS01]](#BS01) [[RR11]](#RR11) also discussed in [[RW18]](#RW18))
 and various extensions including **automata**
 [[Rum96]](#Rum96) as semantic basis for the kind of systems, we have in
 focus: distributed, asynchronously communicating agents, which can be
