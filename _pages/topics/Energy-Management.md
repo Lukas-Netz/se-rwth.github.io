@@ -39,7 +39,7 @@ Technical University Braunschweig the ICT tool **Energy Navigator** (see
 the following figure).
 
 <center>
-<div class="row" style="width: 50%">
+<div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/ena_screen.png 
            title: "StruScreenshot of the Energy Navigator software" 
@@ -51,7 +51,7 @@ the following figure).
 
 During the design phase, the Energy Navigator's *Active Functional
 Specification (AFS)*
-[[FPPR12,KPR12]](#FPPR12,KPR12)
+[[FPPR12]](#FPPR12), [[KPR12]](#KPR12)
 is used for technical specification
 of building services already.
 Resulting from a lack of process integration the AFS can close the loop
@@ -62,7 +62,7 @@ the following figure). The results can be reused to adapt the model or to
 find faults in the implementation.
 
 <center>
-<div class="row" style="width: 50%">
+<div class="row" style="width: 40%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/ena_loop.png 
            title: "The Energy Navigators' process loop" 
@@ -74,28 +74,28 @@ find faults in the implementation.
 
 Within the Energy Navigator a DSL is used to enable the domain expert to
 express his specific domain knowledge via first class language concepts.
-These concepts include Rules, Functions, Characteristics, Metrics, Time
-Routines and States. Proposed by the DIN EN ISO 16484 a state based
+These concepts include **Rules, Functions, Characteristics, Metrics, Time
+Routines and States**. Proposed by the DIN EN ISO 16484 a state based
 approach should be used to describe the functional behavior of facilities.
 We adapted the well known concept of state machines to be able to describe
 different states of a facility and to validate it against the monitored
 values [[FLP+11b]](#FLP+11b). We show how our data model, the constraint rules and
 the evaluation approach to compare sensor data can be applied [[KLPR12]](#KLPR12).
 
-Moving up the scale we investigated several existing approaches for energy
-efficient neighborhoods that aim at moving from a local, building specific
+Moving up the scale we investigated several existing approaches for **energy
+efficient neighborhoods** that aim at moving from a local, building specific
 optimum to a more global optimum. By efficiently using results of simulation
 and optimization calculated optimal set points for local consumption and
 generation can be utilized. Therefore information from several heterogeneous
 data sources, such as single sensor data, structural data, data on installed
 devices, geospatial data or weather data is needed. Based on existing
-approaches we developed a *Neighborhood Information Model* that
-follows a metamodel-based approached and utilized code generation techniques
+approaches we developed a **Neighborhood Information Model** that
+follows a **metamodel-based** approached and utilized code generation techniques
 to automatically generate adapters between heterogeneous data models. Following
 this approach we are able to fully integrate the data sources on an abstract
-level and are still *extensible at runtime*.
+level and are still **extensible at runtime**.
 
-Also *Demand Response Systems* are used to distribute energy more equally over
+Also **Demand Response Systems** are used to distribute energy more equally over
 time and enable a consumption during peak loads. We developed a secure high
 performance storage that is able to capture sensor data and DR signals.
 
