@@ -5,44 +5,63 @@ permalink: /topics/Semantics/
 description: 
 img: 
 importance: 1
-keys: [KRV10,HR04,BKR95,BHP+98,GKR96,KRB96,BCGR09a,BCGR09,BCR07a,BCR07b,
-    CGR08,MRR10,MRR11d,MRR11a,MRR11f,BR07,EFLR99,BGH+97,BGH+98a,GR11,CGR09,
-    BKRW17,Rin14,GRR10,Rum17,Rum12,LRSS10,Rum96]
+keys: [KRV10,HR17,HR04,RKB95,
+    BHP+98,GKR96,KRB96,RK96,BCGR09a,
+    BCGR09,BCR07a,BCR07b,CGR08,GRR09,
+    MRR10,MRR11d,MRR11a,MRR11f,BR07,
+    EFLR99b,BGH+97,BGH+98b,GR11,CGR09,
+    GRR10,Rum17,Rum12,LRSS10,
+    BS01,RW18,Rum96]
 ---
 
 ## Summary of Most Relevant Topic Papers
-We investigate analysis, synthesis, evolution, definition of views, and 
-abstraction based on models. For all these purposes, we need a sound semantical 
-foundation of the meaning of the models.
 
-We also need a proper semantics when applying a given language to new domains, 
-such as monitoring energy consumption or modeling flight safety rules for the 
-European air traffic (see our other [publications](/publications)). We do this 
-regularly with our language workbench MontiCore 
-[[KRV10]](https://www.se-rwth.de/publications/MontiCore-a-Framework-for-Compositional-Development-of-Domain-Specific-Languages.pdf).
+To deal with model analysis, synthesis, evolution, definition of views,
+and abstraction based on models, we need a \emph{sound semantic foundation
+of the meaning of the models}.
+
+We also need a proper semantics when applying a given language to \emph{new
+domains}, such as monitoring energy consumption or modeling flight
+safety rules for the European air traffic (see
+\autoref{sec:ApplicationDomains}).
+We do this regularly with our language workbench MontiCore
+[[KRV10,HR17]](#KRV10,HR17).
+
 
 ## The Meaning of Semantics and its Principles
-Over the years we have developed a clear understanding of what the **semantics** 
-of a model and a modeling language is. For example in 
-[[HR04]](https://www.se-rwth.de/~rumpe/publications20042008/Meaningful-Modeling-Whats-the-Semantics-of-Semantics.pdf) 
-we discussed different forms of semantics and what they can be used for. We in 
-particular distinguish between "meaning" that can be attached to any kind of 
-modeling language and an often used narrow interpretation, that uses "semantics" 
-synonymously to behavior of a programm.
 
-Each modeling language, let it be **UML or a DSL deserves a semantics**, even if 
-the language itself is for modeling structure, such as class diagrams or 
-architecture description languages. Furthermore, modeling languages are **not 
-necessarily executable** and as their main **purpose is abstraction** from 
-implementation details, they are usually not fully determined, but exhibit forms 
-of **underspecification**. We discuss a very general framework for semantics 
-definition in 
-[[HR04]](https://www.se-rwth.de/~rumpe/publications20042008/Meaningful-Modeling-Whats-the-Semantics-of-Semantics.pdf). 
-At the core, we use a denotational semantics, which is basically a mapping M 
-from source language L (syntax) into a target language respectively a target 
-domain S (semantic domain). Here we see a combination of functions, where the 
-first simplifies the syntax language by mapping redundant concepts to their 
-simplest form (less concepts used, but usually more complex models):
+Over the years we have developed a clear understanding of what the
+semantics of a model and a modeling language is. For example in
+[[HR04]](#HR04) we discussed different forms of semantics and what they can
+be used for. We, in particular, distinguish between ``meaning'' that can be
+attached to any kind of modeling language and an often used narrow
+interpretation, that uses ``semantic'' synonymously to behavior of a
+program.
+
+Each modeling language, whether it be \emph{UML or a DSL deserves a semantics},
+even if the language itself is for modeling structure, such as Class
+Diagrams or Architecture Description Languages. Furthermore, modeling
+languages are \emph{not necessarily executable} and as their main \emph{purpose is
+abstraction} from implementation details, they are usually not fully
+determined, but exhibit forms of \emph{underspecification}. We discuss a very
+general framework for semantics definition in [[HR04]](#HR04). At the core,
+we use a denotational semantics, which is basically a mapping $M$ from
+source language $L$ (syntax) into a target language respectively a
+target domain $S$ (semantic domain). In \autoref{fig:Mapping} we see a
+combination of functions, where the first simplifies the syntax
+language by mapping redundant concepts to their simplest form (less
+concepts used, but usually more complex models).
+
+<center>
+<div class="row" style="width: 50%">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/StructureSemanticDomain.png 
+           title: "Semantics" 
+           class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</center>
+<br />
 
 While many attempts of defining semantics only give examples on how the mapping 
 M looks like, we advocate an explicit and precise definition of M to be able to 
