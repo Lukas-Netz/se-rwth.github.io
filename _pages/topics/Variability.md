@@ -5,10 +5,14 @@ permalink: /topics/Variability/
 description: 
 img: 
 importance: 1
-keys: [GKPR08,GHK+08,GRJA12,HRR+11,HRRS12,HKM+13,HRRS12,HHK+15,CGR09,
-        GR11,PFR02,HRRS11]
+keys: [GHK+08,GRJA12,HKM+13,
+        HHK+15,BEK+19,GKPR08,
+        HRR+11,HRRS12,CGR09,
+        GR11,FPR02,BEK+18b]
 ---
+
 ## Summary of Most Relevant Topic Papers
+
 Most products, such as cars, printers, mobile phones, etc., exist in various 
 variants. Software for product variants is quite similar, but typically differs 
 in new or additional features that sometimes deeply affect the software's 
@@ -20,78 +24,67 @@ Product Lines have many benefits, they:
 - decrease time to market,
 - lead to better software quality,
 - improve reuse, and
-- reduce bug fix time.
+- reduce bug fix time  
+  [[GHK+08]](#GHK+08) [[GRJA12]](#GRJA12) [[HKM+13]](#HKM+13) [[HHK+15]](#HHK+15) [[BEK+19]](#BEK+19).
 
 Variability is to a larger extent related to evolution. We discuss our 
 approaches to evolution understanding in [evolution & transformation of 
 models](/topics/Evolution).
 
+
 ## Feature Diagrams and Views
-Feature diagrams describe variability in a top down fashion in the problem 
-space. We studied the application of this top down approach, e.g., in the 
-automotive domain in 
-[[GKPR08]](https://www.se-rwth.de/topics/~/rumpe/publications20042008/Modeling-Variants-of-Automotive-Systems-using-Views.pdf). 
-They suffer from the need to first decompose the problem space and understand 
-possible features in order to build the feature diagram before being able to 
-apply it. In 
-[[GHK+08]](https://www.se-rwth.de/~rumpe/publications20042008/Modelling-Automotive-Function-Nets-with-Views-for-Features-Variants-and-Modes.pdf) 
-and 
-[[GKPR08]](https://www.se-rwth.de/topics/~/rumpe/publications20042008/Modeling-Variants-of-Automotive-Systems-using-Views.pdf) 
-we also speak of a 150% model. This normally enforces a product line definition 
-phase in which the requirements and features need to be collected which creates 
-additional costs. Among others we discuss decreasing these costs in 
-[[GRJA12]](https://www.se-rwth.de/publications/High-Level-Requirements-Management-and-Complexity-Costs-in-Automotive-Development-Projects-A-Problem-Statement.pdf).
+
+Feature diagrams are a popular mechanism to describe variability in a top
+down fashion, e.g., in the automotive domain [[GHK+08]](#GHK+08) using 150%
+models. Reducing overhead and associated costs is discussed in
+[[GRJA12]](#GRJA12). Feature diagrams suffer from the need to first decompose the
+problem space and understand possible features in order to build the feature
+diagram before being able to apply it. In [[GHK+08]](#GHK+08) and [[GKPR08]](#GKPR08) we
+also speak of a 150% model. This normally enforces a product line definition
+phase in which the requirements and features need to be collected which
+creates additional costs. Among others we discuss decreasing these costs
+in [[GRJA12]](#GRJA12).
+
 
 ## Delta Modeling
-We discuss **delta modeling** as a bottom up SPL modeling technique in 
-[[HRR+11]](https://www.se-rwth.de/publications/Hierarchical-Variability-Modeling-for-Software-Architectures.pdf). 
-Deltas can both be used as subsitute and as extension to traditional feature 
-based development. Deltas allow us to build a product line incrementally 
-starting with a base variant when the need for a new feature arises. Starting 
-with a core version, each delta describes the changes necessary to derive a new 
-variant. Deltas allow to add, replace, modify and delete components of a model 
-resp. implementation and is thus rather general.
 
-Each *set of valid deltas* configures a product variant. We have successfully 
-applied delta modeling to the architectural analysis and design language (ADL) 
-[MontiArc](/topics/Software-Architecture) by creating **Delta-MontiArc** 
-([[HRR+11]](https://www.se-rwth.de/publications/Hierarchical-Variability-Modeling-for-Software-Architectures.pdf) 
-and 
-[[HRRS12]](https://www.se-rwth.de/publications/Evolving-Delta-oriented-Software-Product-Line-Architectures.pdf)) 
-as well as applied it to Simulink creating **Delta-Simulink** 
-[[HKM+13]](https://www.se-rwth.de/publications/First-Class-Variability-Modeling-in-Matlab-Simulink.pdf). 
-Deltas can not only describe spacial variability but also temporal variability 
-which allows using them for **software product line evolution** 
-[[HRRS12]](https://www.se-rwth.de/publications/Evolving-Delta-oriented-Software-Product-Line-Architectures.pdf).
+Delta modeling is a bottom up technique starting with a small, but complete
+base variant. Features are additive, but also can modify the base variant.
+A set of commonly applicable deltas configures a system variant. We discuss
+the application of this technique to Delta-MontiArc [[HRR+11]](#HRR+11) and
+to Delta-Simulink [[HKM+13]](#HKM+13). Deltas can not only describe spacial
+variability but also temporal variability which allows for using them for
+software product line evolution [[HRRS12]](#HRRS12). 
 
-In 
-[[HHK+15]](https://www.se-rwth.de/publications/Systematic-synthesis-of-delta-modeling-languages.pdf) 
-we have generalized this approach to the general question, how to synthesize a 
-delta modeling language based on a given modeling language. Thus deltas can 
-generally be applied to other languages too.
+In [[HHK+15]](#HHK+15) we have
+generalized this approach to investigate, how to synthesize a delta
+modeling language based on a given modeling language. Thus deltas can
+generally be applied to almost any language.
+
 
 ## Variability in Language Definitions
-On a related line of research, we also have studied **variability of modeling 
-languages**, which allows us to define and reason about syntactic and **semantic 
+
+On a related line of research, we also have studied **variability of
+modeling languages**, which allows us to define and reason about syntactic and **semantic 
 variation points**, which is, e.g., in the UML a big topic as it seems the UML 
 standard will otherwise not be able to accommodate all stakeholder 
 requirements.
 
-For this purpose we defined a systematic way to define variants of modeling 
-languages 
-[[CGR09]](https://www.se-rwth.de/publications/Variability-within-Modeling-Language-Definitions.pdf). 
-We applied this research, e.g., in the form of semantic language refinement on 
-state charts in 
-[[GR11]](https://www.se-rwth.de/publications/Modeling-Language-Variability.pdf). 
+For this purpose we defined a systematic way to define variants of
+modeling languages [[CGR09]](#CGR09). We applied this research, e.g., in the
+form of semantic language refinement on state charts in [[GR11]](#GR11).
 Additionally, we investigated a method to model syntactic language variability 
 through **language product lines**.
 
-In 
-[[PFR02]](https://www.se-rwth.de/topics/~rumpe/publications/Product-Line-Annotations-with-UML-F.pdf) 
-we discussed how to apply annotation to the UML to describe product variation 
-points.
+In [[FPR02]](#FPR02) we discussed how to apply annotation to the UML to
+describe product variation points.
+Current work continues this line of research to support the definition
+and development of 150% language families for textual and generative
+modeling languages [[BEK+18b]](#BEK+18b) [[BEK+19]](#BEK+19).
+
 
 ## SPL and Delta Modeling in Industry
+
 We have introduced SPL and delta modeling in several companies and are proud of 
 succesfully helping companies to manage their variants. We also learnt, that 
 industrial success means that each company needs a tailored process that fits 
@@ -108,6 +101,7 @@ systems. Categorization and priorization. (3) Implementing the most promising
 steps and understand the effects.
 
 {% include trennlinie.html %}
+
 
 ## Key Statements
 1. Products often exist in various variants. Variants are managed in a Software 
