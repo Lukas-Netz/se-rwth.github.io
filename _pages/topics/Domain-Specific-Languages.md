@@ -43,7 +43,9 @@ As software systems have become essential components of nearly all
 innovative products, increasingly many non-ICT experts now find themselves
 working with these systems. Furthermore, complexity of software-based
 systems is increasing.
-While modeling languages such as UML provide a high level of abstraction to
+While modeling languages such as the 
+[Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
+provide a high level of abstraction to
 deal with complexity, these languages are usually still too technical (hence
 UML profiles are useful, as discussed in [[GHK+07]](#GHK+07) and [[PFR02]](#PFR02)).
 DSLs address both of these problems. **Non-ICT experts benefit from DSLs**
@@ -58,7 +60,8 @@ language
 necessitate the fundamentals, such as a carefully defined grammar and
 corresponding translation programs. Productive usage of a language also
 requires
-extensive tool support. Generative software engineering techniques are at the
+extensive tool support. 
+[Generative Software Engineering](/topics/Generative-SE) techniques are at the
 center of attention for attempts to meet these challenges. In [[SRVK10]](#SRVK10) we
 discuss the state of the art and current efforts to develop languages through
 meta-modeling.
@@ -78,7 +81,7 @@ case MontiCore.
 
 
 <center>
-<div class="row" style="width: 50%">
+<div class="row" style="width: 70%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/dsl01.png 
         title: "The role of DSLs in a model-based software engineering process" 
@@ -103,7 +106,8 @@ In [[FHR08]](#FHR08), we discuss **metrics and potential guidelines**, that help
 achieve high quality models and extend this into a **collection of design
 guidelines for DSLs** in [[KKP+09]](#KKP+09).
 
-Another important aspect is how to **define the semantics** of DSLs.
+Another important aspect is how to define the [semantics](/topics/Semantics) 
+of DSLs.
 Variability in syntax and semantics for DSLs in general
 and UML in particular has been discussed in [[GR11]](#GR11).
 For an extensive discussion on semantics we refer the reader to
@@ -168,7 +172,7 @@ this DSL.
 
 ### MontiCore
 
-More details about the [MontiCore - Language Workbench for DSLs](/topics/MontiCore) 
+More details about the [MontiCore Language Workbench for DSLs](/topics/MontiCore) 
 can be found in 
 [[GKRS06]](#GKRS06), [[KRV08]](#KRV08), [[KRV10]](#KRV10) as well as the 
 [MontiCore Website](http://www.monticore.de/).
