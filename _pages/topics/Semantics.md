@@ -100,8 +100,6 @@ domain as a model hierarchy within the mathematical model.
 </center>
 <br />
 
-XXX
-
 The **System Model** for the full UML however became a rather large mathematical 
 theory, that captures object-oriented communication (method calls, dynamic 
 lookup, inheritance, object identity) as well as distributed systems at various 
