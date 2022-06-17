@@ -114,7 +114,7 @@ prominent application for reducing certification costs of critical systems such
 as intelligent flight control systems or assistance systems for air or road 
 traffic management is not far in the future 
 [[KRRS19]](https://www.se-rwth.de/publications/Model-Based-Engineering-for-Avionics-Will-Specification-and-Formal-Verification-Based-on-Broys-Streams-Become-Feasible.pdf) 
-[[HRR12]](https://www.se-rwth.de/publications/MontiArc-Architectural-Modeling-of-Interactive-Distributed-and-Cyber-Physical-Systems.pdf) 
+XXX [[HRR12]](https://www.se-rwth.de/publications/MontiArc-Architectural-Modeling-of-Interactive-Distributed-and-Cyber-Physical-Systems.pdf) 
 [[RR11]](https://www.se-rwth.de/publications/A-Little-Synopsis-on-Streams-Stream-Processing-Functions-and-State-Based-Stream-Processing.pdf) 
 [[BR07]](https://www.se-rwth.de/~rumpe/publications20042008/Modulare-hierarchische-Modellierung-als-Grundlage-der-Software-und-Systementwicklung.pdf). 
 Figure 3 overviews the most important constituents of the verification 

@@ -102,7 +102,7 @@ serves from requirements modeling [[RRW12]](#RRW12) to the complete
 development of CPS software [[RRSW17]](#RRSW17).
 
 
-#### Energy Efficiency
+#### Buildings 
 
 Smart and energy efficient buildings embody large amounts of IT technology.
 There is a multitude of networked systems and sensors to continuously

@@ -26,6 +26,7 @@ Nevertheless, it has reached a point, where the models themselves are becoming
 rather complex.
 This clearly rises the need for suitable mechanisms for **modularity
 within and between models**.
+
 A modular approach for MBSE cannot only help us mastering complexity, but is
 also a key enabler for model-based engineering of heterogeneous software
 systems as discussed in [[HKR+09]](#HKR+09).
@@ -36,6 +37,7 @@ A **compositional approach** has to take into account several levels of
 the entire MBSE process, starting with the respective modeling language in
 use, the models themselves and, eventually, any generated software
 components.
+
 We have examined various aspects of model composition in [[HKR+07]](#HKR+07),
 describing a mathematical view on what model composition should be.
 It defines the mechanisms of encapsulation, and referencing through
@@ -47,16 +49,20 @@ Languages](/topics/Domain-Specific-Languages) (DSLs).
 As DSLs are becoming more and more popular, the efficient reuse of DSL
 fragments (i.e., language components) is vital to achieve an efficient
 development process.
+
 But aside from the language definition, the accompanying infrastructure
 needs to be modular as well (as described in [[KRV07b]](#KRV07b)).
 Infrastructure such as validation or editor functionality should be reusable
 if parts of the underlying DSL are reused, e.g., as part of another
-language. [[Voe11]](#Voe11) provides the underlying technology for compositional
+language. 
+
+[[Voe11]](#Voe11) provides the underlying technology for compositional
 language development, which we, e.g., applied to Robotics control
 [[RRRW15b]](#RRRW15b) and nowadays investigate under the umbrella term of 
 [Software Language Engineering (SLE)](/topics/Language-Engineering).
 Based on the experiences in language design, we also have developed a set of
 guidelines to estimate the quality of a DSL in [[KKP+09]](#KKP+09).
+
 We have summarized our approach to composition and the challenges that need
 to be solved in [[CBCR15]](#CBCR15), which describes a conceptual model of the
 compositional, so called "globalized" use of domain specific languages,
