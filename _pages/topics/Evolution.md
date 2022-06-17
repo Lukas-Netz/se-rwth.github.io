@@ -5,162 +5,164 @@ permalink: /topics/Evolution/
 description: 
 img: 
 importance: 1
-keys: [CFJ+16,Rum04c,Rum12,LRSS10,MMR10,PR94,KPR97,KR18a,PR99,PR01,PR03,
-    Rum12,MRR11d,MRR11e,MRR10,RSW+15,HRRS11,HRRS12,HHK+13,HHL+13,
-    HRR+11,HRW15,Wei12,AHRW17b]
+keys: [CFJ+16,Rum04c,Rum12,LRSS10,
+    MMR10,PR94,KPR97,PR99,KR18a,PR01,
+    PR03,Hoe18,MRR11d,MRR11e,MRR10,
+    RSW+15,HRRS11,HRR+11,HRRS12,
+    HHK+13,HRW15,Wei12,HHR+15,
+    AHRW17,AHRW17b]
 ---
 
 ## Summary of Most Relevant Topic Papers
-Models are central artifacts in model-driven development (MDD). However, 
-software changes over time and so do models. Many of the new requirements 
-imposed by stakeholders, technology adaptations, or bug and performance 
-improvements do not only affect the implementation, but also require an 
-evolution, refinement or refactoring of the models describing the system.
 
-When models play a central role in the development process, it is therefore 
-necessary to provide a well-founded, methodologically sound and tool-based 
-assistance for evolving models according to changing needs. 
-[[CFJ+16]](https://www.crcpress.com/Engineering-Modeling-Languages/Combemale-France-Jezequel-Rumpe-Steel-Vojtisek/p/book/9781466583733) 
-discusses several of the following.
+Models are central artifacts in model-driven software development (MDD).
+However, software **changes over time** and so do models. Many of the new
+requirements imposed by stakeholders, technology adaptations, or bug and
+performance improvements do not only affect the implementation, but also
+require an evolution, refinement or refactoring of the models describing the
+system. When models play a central role in the development process, it is
+therefore necessary to provide a well-founded, methodologically sound and
+tool-based assistance for evolving models according to changing needs.
+[[CFJ+16]](#CFJ+16) discusses several of the following.
+
 
 ## Evolution
-[Agile methods](/topics/Agile-MBSE), such as XP or Scrum, to a large extent rely 
-on the ability to evolve the system due to changing requirements, architectural 
-improvements and incremental functional extensions. While agile methods 
-generally use code as their central artifacts, a model-driven method 
-concentrates on modeling artifacts. In 
-[[Rum04c]](https://www.se-rwth.de/topics/~rumpe/publications20042008/Agile-Modeling-with-the-UML.pdf) 
-and [[Rum12]](http://www.se-rwth.de/mbse/) we describe an agile model-based 
-method that relies on iterated and fully automatic generation of larger parts of 
-the code as well as tests from models, which in turn enables us to apply 
-evolutionary techniques directly on the various kinds of models, e.g. ,the UML. 
-We argue that combining automatic and repeatable code generation with 
-tool-assistance for model transformation allows to combine agile and model-based 
-development concepts for a new and effective kind of development process.
 
-An overview on current technologies for evolving models within a language and 
-across languages is given in 
-[[LRSS10]](https://www.se-rwth.de/publications/Model-Evolution-and-Management.pdf). 
-We refined this with a focus on evolving architecture descriptions for critical 
-software-intensive systems 
-[[MMR10]](https://www.se-rwth.de/publications/Evolving-Software-Architecture-Descriptions-of-Critical-Systems.pdf).
+[Agile methods](/topics/Agile-MBSE), 
+such as XP or Scrum, rely to a large extent on the ability to
+evolve the system due to changing requirements, architectural improvements and
+incremental functional extensions. While agile methods use code as their
+central artifacts, a model-driven method concentrates on modeling artifacts. 
+
+In
+[[Rum04c]](#Rum04c) and [[Rum12]](#Rum12) we describe an agile, model-based method that
+relies on iterated and fully automatic generation of larger parts of the code
+as well as tests from models, which in turn enables us to apply evolutionary
+techniques directly on the various kinds of models, e.g., the UML. We argue that
+combining automatic and repeatable code generation with tool-assistance for
+model transformation allows to combine agile and model-based development
+concepts for a new and effective kind of development process.
+
+An overview on current technologies for evolving models within a language and
+across languages is given in [[LRSS10]](#LRSS10). We refined this with a focus on
+evolving architecture descriptions for critical software-intensive systems
+[[MMR10]](#MMR10).
+
 
 ## Refinement
-Refinement is a specialized form of transformation of models that adds 
-information, while all conclusions a developer could derive from the abstract 
-model still hold. Stepwise refinement is therefore an important development 
-technique as it prevents unwanted surprises when abstract models are 
-implemented.
 
-In 
-[[PR94]](https://www.se-rwth.de/topics/~rumpe/publications/A-new-Concept-of-Refinement-used-for-Behaviour-Modelling-with-Automata-FME.pdf) 
-we developed a precise understanding of automaton refinement that is especially 
-useful for software development, as it uses a loose semantics approach, where no 
-implicit assumptions are made that need to be invalidated in the refinement 
-steps. In 
-[[KPR97]](https://www.se-rwth.de/topics/~rumpe/publications/Feature-Specification-and-Refinement-with-State-Transition-Diagrams.pdf) 
-we applied this refinement concept to feature specifications.
+Refinement is a specialized form of transformation of models that adds
+informational details, while all conclusions a developer could derive
+from the abstract model still hold. Such an addition may for example be
+the structural refinement of the state space of state machine, but also
+the reduction of underspecification expressed as alternative behaviors.
+Stepwise refinement is therefore an important development technique as
+it prevents unwanted surprises when abstract models are implemented.
 
-In 
-[[KR18a]](https://www.se-rwth.de/publications/On-Computing-Instructions-to-Repair-Failed-Model-Refinements.pdf) 
-we developed a concrete modeling language independent method under meaningful 
-assumptions that enables to repair failed model refinements. The method is 
-especially useful for identifying the syntactic modeling elements of one model 
-causing that the model is no refinement of another model.
+In [[PR94]](#PR94) we developed a precise understanding of automaton refinement
+that is especially useful for software development, as it uses a loose
+semantics approach, where no implicit assumptions are made that need to be
+invalidated in the refinement steps. In [[KPR97]](#KPR97) we applied this refinement
+concept to feature specifications.
 
-Finally, we developed a powerful set of refinement rules for pipe-and-filter 
-architectures in 
-[[PR99]](https://www.se-rwth.de/topics/~rumpe/publications/Refinement-of-Pipe-and-Filter-Architectures.pdf). 
-Its rules allow us to refactor the internal structure of an architecture, while 
-retaining respectively refining the externally promised behavior. We speak of 
-"glass box" refinement as opposed to "black box" refinement, where only the 
-external visible behavior is taken to consideration, and "hierarchical 
-decomposition", where a black box behavior is decomposed into an (forthwith 
-immutable) architecture.
+Finally, we developed a powerful set of refinement rules for pipe-and-filter
+architectures in [[PR99]](#PR99). Its rules allow us to refactor the internal
+structure of an architecture, while retaining respectively refining the
+externally promised behavior. We speak of "glass box" refinement as opposed
+to
+"black box" refinement, where only the external visible behavior is taken to
+consideration, and "hierarchical decomposition", where a black box behavior
+is
+decomposed into an (forthwith immutable) decomposed architecture.
+
+As performing a refinement step is error-prone, we present a language
+independent and fully automated
+method to **repair failed model refinements** [[KR18a]](#KR18a). This is possible by identifying
+syntactic changes that does not lead to refined
+models.
+
 
 ## Refactoring of Models
-Refactoring aims to improve the internal structure while preserving its 
-observable behavior and became prominent with agile development. In 
-[[PR01]](https://www.se-rwth.de/topics/~rumpe/publications/Roots-of-Refactoring.pdf) 
-we, hence, traced back refactoring of programs to related techniques e.g. known 
-from math or theorem provers. In 
-[[PR03]](https://www.se-rwth.de/topics/~rumpe/publications/Refactoring-of-Programs-and-Specifications.pdf) 
-we have discussed, the existing refactoring techniques for specifications and 
-models. We, e.g., found a number of well defined refactoring techniques for 
-state machines, logic formula, or data models that come from formal methods, but 
-have not yet found their application in software development. In 
-[[Rum12]](http://www.se-rwth.de/mbse/) we therefore discuss refactoring 
-techniques for various UML diagrams in detail.
 
-If a model refactoring is actually a refinement, then dependent artifacts are 
-not affected at all. However, it may be that a refactoring does have effect on 
-related artifacts. In 
-[[MRR11d]](https://www.se-rwth.de/publications/ADDiff-Semantic-Differencing-for-Activity-Diagrams.pdf), 
-we discuss a technique to identify semantic differences for UML's activity 
-diagrams. It can be used to understand the effects of a refactoring resp. 
-evolutionary change.
+Refactoring aims to improve the internal structure while preserving its
+observable behavior and became prominent with agile development. In [[PR01]](#PR01) we traced back refactoring of programs to related techniques,
+e.g., known from math or theorem provers. In [[PR03]](#PR03) we have discussed the
+existing refactoring techniques for specifications and models. 
 
-In 
-[[MRR11e]](https://www.se-rwth.de/publications/CD2Alloy-Class-Diagrams-Analysis-Using-Alloy-Revisited.pdf) 
-we provide the mapping of UML's class diagrams to Alloy allowing to understand 
-semantic differences between refactoring steps on data structures by exhibiting 
-concrete data sets (object structures) as witness of semantic differences.
+We, e.g., found
+a number of well-defined refactoring techniques for state machines, logic
+formula, or data models that come from formal methods, but have not yet found
+their application in software development. In [[Rum12]](#Rum12) we therefore discuss
+refactoring techniques for various UML diagrams in detail. Additionally,
+libraries of reusable refactorings for class diagrams and MontiArc models were
+developed [[Hoe18]](#Hoe18).
+
+If a model refactoring is actually a refinement, then dependent artifacts are
+not affected at all. However, it may be that a refactoring does have effect on
+related artifacts. In [[MRR11d]](#MRR11d) we discuss a technique to identify semantic
+differences for UML's activity diagrams. It can be used to understand the
+effects of a refactoring resp. evolutionary change.
+
+It is important to understand semantic differences between refactoring steps on data
+structures by exhibiting concrete data sets (object structures) as a witness of
+semantic differences.
+Thus, we provide a mapping of UML class diagrams to Alloy [[MRR11e]](#MRR11e).
+
 
 ## Understanding Model Differences
-While syntactic differences of models are relatively easy to understand, it is 
-an interesting question that given two models, e.g. where one evolved from the 
-other, and a clear semantics (see [Semantics of Modeling 
-Languages](/topics/Semantics)), what are the semantic differences between those 
-models? In 
-[[MRR10]](https://www.se-rwth.de/publications/A-Manifesto-for-Semantic-Model-Differencing.pdf) 
-we discussed the necessity for this and since then have defined a number of 
-semantic based approaches for this.
 
-We also applied compatibility checking of evolved models on Simulink, e.g., in 
-[[RSW+15]](https://www.se-rwth.de/publications/Behavioral-Compatibility-of-Simulink-Models-for-Product-Line-Maintenance-and-Evolution.pdf).
+While syntactic differences of models are relatively easy to understand, it is
+an interesting question
+what the semantic differences between two given models are, where one
+evolved from the
+other, and what their clear semantics is. In [[MRR10]](#MRR10) we discussed the
+necessity for this and since then have defined a number of semantic-based
+approaches for this (see
+[Semantics of Modeling Languages](/topics/Semantics)).
+We also applied **compatibility checking of evolved models** on Simulink, e.g., in
+[[RSW+15]](#RSW+15), where we identified in which system context a component can be
+replaced safely by another version and still achieve the same functionality.
+
+
 
 ## Delta Transformations to Describe Software variability
-Software product line engineering is most effective, if planned already on the 
-modeling level. For this purpose, we developed the delta approach for modeling. 
-Each delta describes a coherent set of changes on a model. A set of deltas 
-applicable to a base model thus describes a model variant (see also 
-[Variability](/topics/Variability)).
 
-We successfully applied delta modeling for software architectures 
-[[HRRS11]](https://www.se-rwth.de/publications/Delta-Modeling-for-Software-Architectures.pdf) 
-and extended this into a hierarchical approach in 
-[[HRR+11]](https://www.se-rwth.de/publications/Hierarchical-Variability-Modeling-for-Software-Architectures.pdf).
+Software product line engineering is most effective if planned already on the
+modeling level. For this purpose, we developed the delta approach for modeling.
+Each delta describes a coherent set of changes on a model. A set of deltas
+applicable to a base model thus describes a model variant (see also
+Variability in XXXautoref{subsec:SPL}).
 
-Second, we discussed in 
-[[HRRS12]](https://www.se-rwth.de/publications/Evolving-Delta-oriented-Software-Product-Line-Architectures.pdf), 
-how to evolve a complete product line architecture, by merging deltas, or 
-extracting sub-deltas etc., which allows us to keep a product line up to date 
-and free of undesired waste.
+We successfully applied delta modeling for software architectures [[HRRS11]](#HRRS11)
+and extended this into a hierarchical approach in [[HRR+11]](#HRR+11). Second, we
+discussed in [[HRRS12]](#HRRS12), how to evolve a complete product line architecture,
+by merging deltas or extracting sub-deltas, etc., which allows us to keep a
+product line up to date and free of undesired waste. Third, based on the
+experience we gained from applying the delta approach to one particular
+language, we developed an approach to systematically derive delta languages
+from any modeling language in [[HHK+13]](#HHK+13) and [[HRW15]](#HRW15).
 
-Third, based on the experience we gained from applying the delta approach to one 
-particular language, we developed an approach to systematically derive delta 
-languages from any modeling language in 
-[[HHK+13]](https://www.se-rwth.de/publications/Engineering-Delta-Modeling-Languages.pdf) 
-and 
-[[HRW15]](https://www.se-rwth.de/publications/Systematically-Deriving-Domain-Specific-Transformation-Languages.pdf).
 
 ## Model Transformation Language Development
-As we work with transformations on models in various forms, we are very much 
-interested in defining these transformations in an effective and easily 
-understandable form. Today's approaches are concentrated on the abstract syntax 
-of a modeling language, which a typical developer should not be aware of at all. 
-We intensively demand for better transformation languages.
 
-In 
-[[Wei12]](https://www.se-rwth.de/publications/Generierung-domaenenspezifischer-Transformationssprachen.pdf), 
-we, thus, present a technique that derives a transformation language from a 
-given base language. Such a transformation language reuses larger parts of the 
-concrete syntax of the base language and enriches it by patterns and control 
-structures for transformations. We have successfully applied this engine to 
-several sublanguages of the [UML](/topics/Unified-Modeling-Language) and 
-[DSLs](/topics/Domain-Specific-Languages).
+As we do deal with transformations on models in various forms, we are very much
+interested in defining these transformations in an effective and easily
+understandable form. Today's approaches are focussing on the abstract syntax
+of a modeling language, which a typical developer should not be aware of at
+all. We heavily demand better transformation languages. Thus, in 
+[[Wei12]](#Wei12) [[HRW15]](#HRW15) [[Hoe18]](#Hoe18) we present a technique that derives a
+transformation language
+from a given base language. Such a transformation language reuses larger parts
+of the concrete syntax of the base language and enriches it by patterns and
+control structures for transformations. We have successfully applied this
+engine on several [UML](/topics/Unified-Modeling-Language) sub-languages and 
+[DSLs](/topics/Domain-Specific-Languages)
+[[HRW15]](#HRW15) [[HHR+15]](#HHR+15) [[AHRW17]](#AHRW17) 
+[[AHRW17b]](#AHRW17b) [[Hoe18]](#Hoe18).
+
 
 {% include trennlinie.html %}
+
 
 ## Key Statements
 1. Model transformation is a central concept for model driven development, that 
