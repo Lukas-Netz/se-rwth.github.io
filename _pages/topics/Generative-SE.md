@@ -5,80 +5,87 @@ permalink: /topics/Generative-SE/
 description: 
 img: 
 importance: 1
-keys: [Rum12,Rum11,Rum16,Rum17,Sch12,KRV10,GKRS06,HRR12,KRV06,GKRS06,
-    Wei12,Rum04c,Rum03,Rum02]
+keys: [Rum12,Rum11,Rum16,Rum17,
+        Sch12,Hab16,HRR12,AMN+19,
+        KRV10,GKR+06,KRV06,GKRS06,
+        GHK+15,GHK+15a,Wei12,HRW15,
+        Hoe18,HHR+15,AHRW17,
+        Rum04c,Rum03,Rum02]
 ---
 
 ## Summary of Most Relevant Topic Papers
-In [Agile Model-Based Software Engineering](/topics/Agile-MBSE), we clarify that 
-generating software is crucial to successfully integrated modeling in 
-development processed. Modeling will only become an integral to industrial 
-software engineering, if automated derivation of executable code and smooth 
-integration with handwritten code become commonplace.
 
-We therefore examined various aspects of code generation. For instance, in 
-[[Rum12]](http://mbse.se-rwth.de/book2/), 
-[[Rum11]](http://mbse.se-rwth.de/book1/), 
-[[Rum16]](http://www.se-rwth.de/mbse/), and 
-[[Rum17]](http://www.se-rwth.de/mbse/) we define the language family 
-[UML/P](/topics/UML-P) (a reduced and semantically sound derivate of the UML) 
-which is designed specifically for product and test code generation from class 
-diagrams, object diagrams, Statecharts, and sequence diagrams as shown in the 
-following figure.
+We believe that
+**modeling will only become an integral part of the process in many industrial
+projects**, if **automatic derivation of executable code** and **smooth integration
+with handwritten code** is a standard feature of its tooling.
 
-In 
-[[Sch12]](https://www.se-rwth.de/phdtheses/Diss-Schindler-Eine-Werkzeuginfrastruktur-zur-agilen-Entwicklung-mit-der-UML-P.pdf), 
-we developed a **flexible, modular and reusable code generator** for the UML/P 
-based on the MontiCore language workbench 
-([[KRV10]](https://www.se-rwth.de/publications/MontiCore-a-Framework-for-Compositional-Development-of-Domain-Specific-Languages.pdf), 
-[[GKRS06]](https://www.se-rwth.de/~rumpe/publications20042008/MontiCore-1.0-Ein-Framework-zur-Erstellung-und-Verarbeitung-domaenenspezifischer-Sprachen.pdf)). 
-With MontiCore, we can easily define extensions of languages as well as new 
-language combinations. Thus, we can reuse the defined UML/P sublanguages and 
-generation techniques in various [projects](/projects).
+In [Agile Model-Based Software Engineering](/topics/Agile-MBSE), we clarify that generating
+software is an important capability for a tooling infrastructure that
+successfully assists modeling in the development process. 
+We therefore examined various aspects of generation. For instance, in
+[[Rum12]](#Rum12) [[Rum11]](#Rum11) [[Rum16]](#Rum16) [[Rum17]](#Rum17)
+(see also [MBSE website](http://mbse.se-rwth.de/))
+we define the language family UML/P (a
+simplified and semantically sound derivate of the UML) which is designed
+specifically for product and test code generation from class diagrams,
+object diagrams, Statecharts and sequence diagrams as shown in this figure:
 
-Our architectural analysis and design language 
-[MontiArc](/topics/Software-Architecture) is also based on this generation 
-technology. As described in 
-[[HRR12]](https://www.se-rwth.de/publications/MontiArc-Architectural-Modeling-of-Interactive-Distributed-and-Cyber-Physical-Systems.pdf) 
-it can be used for the cloud systems, as well as [cyber-physical 
-systems](/topics/Cyber-Physical-Systems), such as [cars](/topics/Automotive) or 
-[robotics](/topics/Robotics). MontiArc also has been applied to various 
-[projects](/projects).
+<center>
+<div class="row" style="width: 50%">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/UMLP.jpg title: "UMPL/P" class: 
+        "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</center>
+<br />
 
-Tooling and especially generators will only be successful in practical projects, 
-if they have an appropriate impact on the development process, i.e., development 
-processes need to be adapted or completely reshaped according to the 
-availability of a generator. In 
-[[KRV06]](https://www.se-rwth.de/~rumpe/publications20042008/Roles-in-Software-Development-using-Domain-Specific-Modeling-Languages.pdf), 
-we discuss additional roles necessary in a model-based software development 
-project (while other roles either vanish or their workload can greatly be 
-reduced).
+We developed several generators, e.g.,
+a flexible, modular and reusable **generator for
+the UML/P** [[Sch12]](#Sch12),
+a generator for generating simulation components out of the
+architectural analysis and design language MontiArc [[Hab16]](#Hab16)
+(used for the cloud as well as cyber-physical systems (CPS),
+such as cars or robotics [[HRR12]](#HRR12),
+see [MontiArc](/topics/Software-Architecture))
+or the generator MontiGEM [[AMN+19]](#AMN+19) for enterprise information systems 
+(see [MontiGem](/topics/MontiGem)).
+All of them are based on the MontiCore language workbench [[KRV10]](#KRV10) [[GKR+06]](#GKR+06).
+With MontiCore we are able to easily define extensions of languages as well
+as new combinations and thus are able to reuse the defined UML/P
+sub-languages and generation techniques in various applied projects.
 
-The generation gap problem is addressed in 
-[[GKRS06]](https://www.se-rwth.de/~rumpe/publications20042008/Integration-von-Modellen-in-einen-codebasierten-Softwareentwicklungsprozess.pdf). 
-There, we discuss mechanisms to keep generated and handwritten code separated, 
-while integrating them in the product and enabling the repetitive generation 
-(which is much more valuable than one-shot generation).
+Tooling and especially generators will only be successful in practical projects,
+if they have an appropriate impact on the development process, i.e., **development
+processes need to be adapted** or completely reshaped according to the
+availability of a generator. In [[KRV06]](#KRV06), we discuss additional roles
+necessary in a model-based software development project (while other roles
+either vanish or their workload can greatly be reduced).
 
-For various purposes, including preparation of a model for generation, it is 
-helpful to define model transformations. We can create transformation languages 
-in concrete syntax, that reuse the underlying language concepts. In 
-[[Wei12]](https://www.se-rwth.de/publications/Generierung-domaenenspezifischer-Transformationssprachen.pdf) 
-we show how this looks like. Even more important we describe how to 
-systematically derive a transformation language in concrete syntax. Since then 
-we have applied this technique successfully for several UML sub-languages and 
-domain-specific languages.
+Working with **generated and handwritten code** leads to
+challenges related with continuous repetitive generation
+(the generation gap problem).
+In [[GKRS06]](#GKRS06) [[GHK+15]](#GHK+15) [[GHK+15a]](#GHK+15a) we discuss mechanisms to keep generated and handwritten code
+separated, while integrating them in the product and enabling the repetitive
+generation (which is much more valuable than one-shot generation).
 
-Sometimes executability can be a disadvantageous characteristics for a modeling 
-language, especially when people start modeling concrete algorithms instead of 
-abstract properties. We therefore discuss needs and advantages of executable 
-modeling with UML in agile projects in 
-[[Rum04c]](https://www.se-rwth.de/topics/~rumpe/publications20042008/Agile-Modeling-with-the-UML.pdf), 
-how to apply UML for testing in 
-[[Rum03]](https://www.se-rwth.de/topics/~rumpe/publications/Model-Based-Testing-of-Object-Oriented-Systems.pdf) 
-as well as the advantages and perils of using modeling languages for programming 
-in 
-[[Rum02]](https://www.se-rwth.de/topics/~rumpe/publications/Executable-Modeling-with-UML-A-Vision-or-a-Nightmare.pdf).
+For various purposes, including preparation of a model for generation, it is
+helpful to define **model transformations**. We are able to create
+transformation languages in concrete syntax, that reuse the underlying
+language concepts [[Wei12]](#Wei12) [[HRW15]](#HRW15) [[Hoe18]](#Hoe18). Even more important, we describe
+how to systematically derive a transformation language in concrete syntax.
+Since then, we have applied this technique successfully for several UML
+sub-languages and DSLs [[HHR+15]](#HHR+15) [[AHRW17]](#AHRW17) [[Hoe18]](#Hoe18) 
+(see [Evolution & Transformation of Models](/topics/Evolution)).
+
+Sometimes **executability** can be a disadvantageous characteristics for a
+modeling language, especially when people start modeling concrete algorithms
+instead of abstract properties. We therefore discuss needs and advantages of
+executable modeling with UML in agile projects in [[Rum04c]](#Rum04c), how to
+apply UML for testing in [[Rum03]](#Rum03) as well as the advantages and perils
+of using modeling languages for programming in [[Rum02]](#Rum02).
+
 
 {% include trennlinie.html %}
 
