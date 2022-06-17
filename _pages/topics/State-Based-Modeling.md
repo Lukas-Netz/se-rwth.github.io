@@ -162,7 +162,7 @@ composition in general. Further investigation is necessary.
 
 All our knowledge about state machines is being embedded in the model-based
 development method for the UML in [[Rum16]](#Rum16) and [[Rum17]](#Rum17).
-Furthermore, we applied it to robotics (cf. [Robotics](/topics/Robotics)) with
+Furthermore, we applied it to robotics (see also [Robotics](/topics/Robotics)) with
 the MontiArcAutomaton infrastructure ([[RRW14a]](#RRW14a), see also
 [Modeling Software Architecture](/topics/Software-Architecture)), a
 modeling language combining state machines and an architectural description
