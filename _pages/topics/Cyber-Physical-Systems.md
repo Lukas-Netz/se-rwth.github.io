@@ -5,33 +5,36 @@ permalink: /topics/Cyber-Physical-Systems/
 description: 
 img: 
 importance: 1
-keys: [KRS12,ZPK+11,HRR12,RRW13c,RRW14a,GRJA12,HRRW12,BR12b,BBR07,RRW12,KPR12,FPPR12,KLPR12]
+keys: [Lee08a,KRS12,RW18,ZPK+11,
+       HRR12,KRRW17,GRJA12,HRRW12,
+       BR12b,BBR07,KRSvW18a,AHRW17b,
+       RSW+15,KRR+16,RRS+16,
+       RRW13c,Wor16,RRW14a,RRW12,
+       RRSW17,KPR12,FPPR12,KLPR12]
 ---
 
 ## Summary of Most Relevant Topic Papers
-Cyber-physical systems (CPS) are **software controlled, collaborating physical 
-machines**. In 
-[[KRS12]](https://www.se-rwth.de/publications/Cyber-Physical-Systems-eine-Herausforderung-an-die-Automatisierungstechnik.pdf) 
-we discuss that this new term arises mainly due to the increased ability of 
-computers to sense their environment and to interact with their contexts in 
-various ways. As consequence, CPS are usually designed as distributed networks 
-of interacting nodes and physical devices (machines) that carry out certain 
-tasks. Often some of these devices are mobile (robots or autonomous cars, but 
-also smart phones, airplanes and drones) and interaction with humans is 
-essential. CPS are therefore complex in several dimensions: they embody 
-characteristics of physical, networked, computational-intensive, and of 
-human-interactive systems. Furthermore, they typically cannot be developed as 
-monolithic systems, but need to be developed as open, composable, evolving, and 
-scalable architectures.
 
-Nowadays, CPS are found in many domains, including aerospace, 
-[automotive](/topics/Automotive), [energy](/topics/Energy-Management), health 
-care, manufacturing, and [robotics](/topics/Robotics). Many distributed CPS use 
-a virtual communication network mapped to the Internet or telecommunication 
-infrastructure. Hence, teaching software engineering for CPS becomes 
-increasingly important. To understand the challenge in this, we performed a 
-three-year study on teaching model-driven engineering with CPS, which is 
-reported in .
+CPS are software controlled, collaborating
+physical machines [[Lee08a]](#Lee08a) [[KRS12]](#KRS12). This new term arises mainly due
+to the increased ability of computers to sense their environment and to
+interact with their contexts in various ways. As consequence, CPS are
+usually designed as distributed networks of interacting nodes and
+physical devices (machines) that carry out certain tasks. Often some of
+these devices are mobile (robots or autonomous cars, but also
+smart phones, airplanes and drones) and interaction with humans is
+essential. CPS are therefore complex in several dimensions: they embody
+characteristics of physical, networked, computational-intensive, and of
+human-interactive systems. Furthermore, they typically cannot be
+developed as monolithic systems, but need to be developed as open,
+composable, evolving, and scalable architectures (see also
+X[Modeling Software Architecture](/topics/Software-Architecture)).
+
+Nowadays, CPS are found in many domains, including aerospace,
+[automotive](/topics/Automotive), [energy](/topics/Energy-Management), 
+healthcare, manufacturing, and [robotics](/topics/Robotics). Many
+distributed CPS use a virtual communication network mapped to the
+internet or telecommunication infrastructure.
 
 At its heart, CPS engineering suffers from the problem that control theory, 
 built on integration and differentiation calculus used by almost any engineering 
@@ -40,75 +43,76 @@ machines](/topics/State-Based-Modeling) are not very well integrated and thus do
 not allow us to describe CPS in an integrated way. Many attempts have been made, 
 but a good standard yet has to emerge.
 
-The complexity and heterogeneity of CPS introduces a wide conceptual gap between 
-problem and solution domains. Model-driven engineering of such systems can 
-decrease this gap by using models as abstractions and thus facilitate a more 
-efficient development of robust CPS.
+The **complexity and heterogeneity** of CPS introduces a wide conceptual gap
+between problem and solution domains. Model-driven engineering of such
+systems can decrease this gap by using models as abstractions and thus
+facilitate a more efficient development of robust CPS [[RW18]](#RW18).
 
 
-## Modeling CPS
-For the aviation domain, we have developed a modeling language 
-[[ZPK+11]](https://www.se-rwth.de/publications/On-Demand-Data-Analysis-and-Filtering-for-Inaccurate-Flight-Trajectories.pdf) 
-that allows to specify flight conditions including trajectories, status of the 
-airplanes and their devices, weather conditions, and pilot capabilities. This 
-modeling language allows [EuroControl](https://www.eurocontrol.int/) to 
-operationalize correct flight behavior as well as specify and detect 
-"interesting events".
+### CPS Application Domains
 
-As long term interest, we intensively do research on how to improve the 
-engineering for distributed automotive systems as well. For example 
-[[HRR12]](https://www.se-rwth.de/publications/MontiArc-Architectural-Modeling-of-Interactive-Distributed-and-Cyber-Physical-Systems.pdf) 
-outlines our proposal for an architecture centric development approach, which we 
-apply to robotics in 
-[[RRW13c]](https://www.se-rwth.de/publications/MontiArcAutomaton-Modeling-Architecture-and-Behavior-of-Robotic-Systems.pdf) 
-and 
-[[RRW14a]](https://www.se-rwth.de/publications/Architecture-and-Behavior-Modeling-of-Cyber-Physical-Systems-with-MontiArcAutomaton.pdf).
+For the aviation domain, we have developed a modeling
+language [[ZPK+11]](#ZPK+11) that allows to specify flight conditions
+including trajectories, status of the airplanes and their devices,
+weather conditions, and pilot capabilities. This modeling language
+allows EuroControl to operationalize correct flight behavior as well as
+specify and detect **interesting events**.
 
-## CPS & Automotive
-Automotive is a highly innovative CPS subdomain. Therefore we discuss in 
-[[GRJA12]](https://www.se-rwth.de/publications/High-Level-Requirements-Management-and-Complexity-Costs-in-Automotive-Development-Projects-A-Problem-Statement.pdf) 
-what an OEMs needs to understand about costs arising from requirements 
-complexities and from cross-plattform dependencies in their automotive 
-development projects. Transforming a set of individual projects with similar 
-requirements and technology into a product line for a central part of a car is 
-discussed in 
-[[HRRW12]](https://www.se-rwth.de/publications/Einfuehrung-eines-Produktlinienansatzes-in-die-automotive-Softwareentwicklung-am-Beispiel-von-Steuergeraetesoftware.pdf).
+As long term interest, we
+intensively do research on how to improve the engineering for
+distributed automotive systems as well. For example [[HRR12]](#HRR12) [[KRRW17]](#KRRW17),
+outline our proposal for an architecture centric development approach.
 
-In 
-[[BR12b]](https://www.se-rwth.de/publications/Autonomous-Driving-5-Years-after-the-Urban-Challenge-The-Anticipatory-Vehicle-as-a-Cyber-Physical-System.pdf) 
-we discuss current and future processes and tools for development of autonomous 
-driving cars based on our experiences in building such a car and using 
-sophisticated simulation techniques for the context of autonomous robots (cars). 
-In 
-[[BBR07]](https://www.se-rwth.de/~rumpe/publications20042008/Software-and-Systems-Engineering-Process-and-Tools-for-the-Development-of-Autonomous-Driving-Intelligence.pdf) 
-we describe that fully automatic simulation of the cars' cyber physical 
-contexts' and fully automatic checking of the robots behavior leads to an highly 
-efficient development process with high quality results.
 
-## CPS & Robotics
-Robotics is another highly innovative CPS subdomain. It is characterized by an 
-inherent heterogeneity of involved domains, platforms, and increasing set of 
-challenges. Engineering of robotics applications requires composition and 
-interaction of complex, distributed systems as well. We developed a component & 
-connector architecture description language suitable for the specific challenges 
-in robotics 
-[[RRW13c]](https://www.se-rwth.de/publications/MontiArcAutomaton-Modeling-Architecture-and-Behavior-of-Robotic-Systems.pdf) 
-as well as in 
-[[RRW14a]](https://www.se-rwth.de/publications/Architecture-and-Behavior-Modeling-of-Cyber-Physical-Systems-with-MontiArcAutomaton.pdf) 
-and partially position it as a requirements modeling language family in 
-[[RRW12]](https://www.se-rwth.de/publications/A-Requirements-Modeling-Language-for-the-Component-Behavior-of-Cyber-Physical-Robotics-Systems.pdf).
+#### Automotive
 
-## CPS & Buildings
-Smart and energy efficient buildings embody a lot of IT technology. There is a 
-multitude of networked systems and sensors to continuously control the 
-building's "behavior". We have built the Energy Navigator described in 
-[[KPR12]](https://www.se-rwth.de/publications/Der-Energie-Navigator.pdf) and 
-[[FPPR12]](https://www.se-rwth.de/publications/The-Energy-Navigator-A-Web-Platform-for-Performance-Design-and-Management.pdf)) 
-to be able to model the specifications of such buildings in order to control the 
-measured actual data against the desired specification, e.g to save energy. In 
-[[KLPR12]](https://www.se-rwth.de/publications/Modeling-cyber-physical-systems-model-driven-specification-of-energy-efficient-buildings.pdf) 
-we discuss how such a specification approach improves development quality in the 
+**Automotive** is a highly innovative CPS subdomain. We discuss
+in [[GRJA12]](#GRJA12) what an OEMs needs to understand about costs arising
+from requirements complexities and from cross-platform dependencies in
+their automotive development projects. Transforming a set of individual
+projects with similar requirements and technology into a product line
+for a central part of an automotive system is discussed
+in [[HRRW12]](#HRRW12).
+Another important aspect are
+current and future processes and tools for
+development of **autonomous driving cars**.
+We discuss this in [[BR12b]](#BR12b) based on our experiences in
+building such a car and using sophisticated simulation techniques for
+the context of autonomous robots (cars).
+Moreover,
+fully automatic simulation of the cyber-physical contexts of cars
+and fully automatic checking of the robots behavior leads to an highly
+efficient development process with high quality results [[BBR07]](#BBR07).
+Optimized code-generators [[KRSvW18a]](#KRSvW18a)
+and domain specific code
+generation [[AHRW17b]](#AHRW17b) are key for CPS. Moreover, we have extended our work
+from individual CPS to **product lines of CPS** [[RSW+15]](#RSW+15) [[KRR+16]](#KRR+16) [[RRS+16]](#RRS+16).
+
+
+#### Robotics
+
+**Robotics** is another highly innovative CPS subdomain. It is characterized
+by an inherent heterogeneity of involved domains, platforms, and
+increasing set of challenges. Engineering of robotics applications
+requires composition and interaction of complex, distributed systems as
+well. We developed a component and connector architecture description
+language suitable for the specific challenges in
+robotics [[RRW13c]](#RRW13c) [[Wor16]](#Wor16) as well as in [[RRW14a]](#RRW14a). This language
+serves from requirements modeling [[RRW12]](#RRW12) to the complete
+development of CPS software [[RRSW17]](#RRSW17).
+
+
+#### Energy Efficiency
+
+Smart and energy efficient buildings embody large amounts of IT technology.
+There is a multitude of networked systems and sensors to continuously
+control the building's **behavior**. We have built the Energy
+Navigator [[KPR12]](#KPR12) [[FPPR12]](#FPPR12) to be able to model the specifications of
+such buildings in order to control the measured actual data against the
+desired specification, e.g to save energy. In [[KLPR12]](#KLPR12) we discuss
+how such a specification approach improves development quality in the
 energy subdomain of CPS.
+
 
 {% include trennlinie.html %}
 
@@ -121,8 +125,9 @@ energy subdomain of CPS.
 distribution and quality needs.
 3. CPS are typically not built from scratch, but evolve as new components 
 (services, devices, machines) are added.
-4. We have developed architectural modeling techniques to describe CPS and 
-applied those to cars, robots and building infrastructures.
+4. We have developed architectural modeling techniques similar to the SysML 
+to describe CPS and among others we have 
+applied those to cars, robots, avionics and building infrastructures.
 
 {% include trennlinie.html %}
 
