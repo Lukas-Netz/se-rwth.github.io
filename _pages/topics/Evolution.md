@@ -125,13 +125,13 @@ replaced safely by another version and still achieve the same functionality.
 
 
 
-## Delta Transformations to Describe Software variability
+## Delta Transformations to Describe Software Variability
 
 Software product line engineering is most effective if planned already on the
 modeling level. For this purpose, we developed the delta approach for modeling.
 Each delta describes a coherent set of changes on a model. A set of deltas
 applicable to a base model thus describes a model variant (see also
-Variability in XXXautoref{subsec:SPL}).
+[Variability & Software Product Lines (SPL)](/topics/Variability)).
 
 We successfully applied delta modeling for software architectures [[HRRS11]](#HRRS11)
 and extended this into a hierarchical approach in [[HRR+11]](#HRR+11). Second, we

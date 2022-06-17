@@ -63,8 +63,7 @@ consolidated, compact form.
 ## Foundations of Model-Based Software Engineering
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
 - [Artifacts in Complex Development Projects](/topics/Artifacts)
-- [Artificial Intelligence in Software 
-   Engineering](/topics/Artificial-Intelligence-in-Software-Engineering)
+- [Artificial Intelligence in Software Engineering](/topics/Artificial-Intelligence-in-Software-Engineering)
 - [Evolution & Transformation of Models](/topics/Evolution)
 - [Compositionality & Modularity of Models](/topics/Compositionality)
 - [Cyber Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
