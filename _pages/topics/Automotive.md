@@ -64,7 +64,8 @@ quality from the beginning in [[DGH+19]](#DGH+19) and [[KMS+18]](#KMS+18).
 Automotive functions that may be derived from a feature view are often
 developed in Matlab/Simulink. As variability needs also to be handled
 in development artifacts, we extended Matlab/Simulink with
-Delta-Modeling techniques (see also XXXautoref{subsec:SPL}). A core Simulink
+Delta-Modeling techniques (see also 
+[Variability and SPL](/topics/Variability)). A core Simulink
 model represents the base variant that is transformed to another
 variant by applying deltas to it. A delta contains modifications that
 add, remove or modify existing model elements. This way, features of an

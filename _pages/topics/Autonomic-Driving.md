@@ -48,8 +48,8 @@ as, with its increasing complexity, software becomes a demanding driver of the
 overall systems development process and not just an add-on.
 
 **Caroline**
-- a completely autonomous car - and participated in the [Darpa Urban 
-Challenge](http://archive.darpa.mil/grandchallenge/), where our car was driving 
+is a completely autonomous car, with which we participated in the [Darpa Urban 
+Challenge](http://archive.darpa.mil/grandchallenge/). There our car was driving 
 autonomously in an urban area for hours. We successfully achieved the best place 
 as newcomers (and best non-Americans). This resulted from a number of facts, 
 including the rigorous application of **agile development methods**, such as XP 
