@@ -26,8 +26,8 @@ Defining variants of a modeling language in a systematic way is useful
 for adapting the language to domain or project specific needs. Thus, 
 **semantic variation points** of the UML are first discussed in 
 [[GR11]](#GR11). It discusses formal semantics for UML 
-[[BHP+98]](#BHP+98) and describes UML semantics using the ``System 
-Model'' [[BCGR09]](#BCGR09), [[BCGR09a]](#BCGR09a), [[BCR07b]](#BCR07b) 
+[[BHP+98]](#BHP+98) and describes UML semantics using the *"System 
+Model"* [[BCGR09]](#BCGR09), [[BCGR09a]](#BCGR09a), [[BCR07b]](#BCR07b) 
 and [[BCR07a]](#BCR07a). Semantic variation points have, e.g., been 
 applied to define class diagram semantics [[CGR08]](#CGR08). 
 
@@ -47,7 +47,7 @@ use modeling in **agile development projects**
 [[Rum04c,Rum02]](#Rum04c,Rum02). The figure below demonstrates the 
 principal forms of uses of UML models in agile development projects. 
 The exemplary diagrams, namely object diagrams and sequence diagrams, 
-are used for test case definition, whereas the more ``complete'' 
+are used for test case definition, whereas the more complete 
 diagrams are used for code generation (see also 
 [Generative Software Engineering](/topics/Generative-SE)). 
 

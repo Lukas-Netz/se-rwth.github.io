@@ -33,9 +33,9 @@ We do this regularly with our language workbench MontiCore
 Over the years we have developed a clear understanding of what the
 semantics of a model and a modeling language is. For example in
 [[HR04]](#HR04) we discussed different forms of semantics and what they can
-be used for. We, in particular, distinguish between ``meaning'' that can be
+be used for. We, in particular, distinguish between *"meaning"* that can be
 attached to any kind of modeling language and an often used narrow
-interpretation, that uses ``semantic'' synonymously to behavior of a
+interpretation, that uses *"semantic"* synonymously to behavior of a
 program.
 
 Each modeling language, whether it be **UML or a DSL deserves a semantics**,

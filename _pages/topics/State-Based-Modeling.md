@@ -89,7 +89,7 @@ incomplete state machines.
 This is much better suited for behavioral refinements than the concept of
 ignoring messages or error handling in cases where no explicit transition is
 given.
-The main disadvantage of ``implicit ignoring'' is that you never know
+The main disadvantage of *"implicit ignoring"* is that you never know
 whether the specifier intended this as desired behavior or just did not care
 -- which is a big difference when aiming to refine the specifier's model.
 
