@@ -6,6 +6,7 @@ description:
 img: 
 importance: 1
 keys: [GRJA12,GHK+07,GHK+08,
+        BR12b,BR12,BBR07,
         DGH+19,KMS+18,HKM+13,
         HRRW12,KRR+16,RRS+16,
         RSW+15]
@@ -27,6 +28,20 @@ describe a requirements management that connects with features in all
 phases of the development process helps to handle complex development
 tasks and thus stabilizes the development of automotive systems.
 
+## Autonomous driving
+
+Quality assurance, especially of safety-related functions, is crucial to
+successfully deploy autonomous vehicles. In the Carolo project (see
+[[BR12b]](#BR12b),[[BR12]](#BR12) and [Autonomous Driving & Intelligent Driver
+Assistance](/topics/Autonomic-Driving)), we have developed a rigorous test
+infrastructure for intelligent, sensor-based functions through fully-automatic
+simulation (not only visualization) of the car within its surrounding: the city,
+pedestrians and especially other cars [[BBR07]](#BBR07). Beside the simulation
+of a complete autonomous car with its sensors and actors, the simulation
+environment may also be used to test dedicated subsystems without any real
+hardware involved. By producing sensor input from the simulation and comparison
+of expected and actual behavior, subsystems may be automatically validated and
+thus developed in an agile way.
 
 ## Modeling Logical Architecture: Function Nets
 
