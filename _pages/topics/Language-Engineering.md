@@ -5,46 +5,62 @@ permalink: /topics/Language-Engineering/
 description: 
 img: 
 importance: 1
-keys: [Rum16,Rum17,KRV07b,Kra10,KRV10,CFJ+16,CBCR15,CCF+15a,SRVK10,
-    BEK+18a,BEK+18b,BEK+19,KRV10,Voe11,KRV08,HMSNRW16,RRRW15b,
-    HRW15,Wei12,GLRR15,HHK+15,HHK+13,GR11,CGR09]
+keys: [Rum16,Rum17,HWR14,
+        HR17,KRV07b,KRV10,
+        HRW18,CFJ+16,CBCR15,
+        BEK+18b,CCF+15a,CKM+18,
+        SRVK10,Voe11,KRV08,
+        HMSNRW16,Naz17,RRRW15b,
+        BBC+18,HHK+13,HHK+15,
+        HRW15,GLRR15,BDL+18,
+        BJRW18,Wei12,Hoe18,
+        BEK+18a, BEK+19, CGR09, 
+        GR11, Kra10]
 ---
+
+[//]: # Bem: einige Key's absichtlich nicht im Text refernziert: CGR09, GR11, Kra10
+
 ## Summary of Most Relevant Topic Papers
-Identifying or engineering appropriate languages for the various activities in 
-software and systems development is one of the most important issues in Software 
-Engineering. Even programming languages are still subject of improvement. For 
-many other activities, such as architectural design, behavioral modeling, and 
-data structure specifications, we use the general purpose [Unified Modeling 
+
+Identifying or engineering appropriate languages for the various activities
+in software and systems development is one of the most important issues in
+software engineering. Even programming languages are still subject to
+improvement. For many other activities, such as architectural design,
+behavioral modeling, and data structure specifications, we use the general
+purpose [Unified Modeling 
 Language (UML) ](/topics/Unified-Modeling-Language) 
-[[Rum16]](http://www.se-rwth.de/mbse/), [[Rum17]](http://www.se-rwth.de/mbse/). 
-But UML and its tooling still are much less elaborate and hence subject to 
-extensive syntactic, semantic, and methodic improvement.
+[[Rum16]](#Rum16) [[Rum17]](#Rum17). Nevertheless, UML and its tooling still are much less
+elaborate and hence subject to extensive syntactic, semantic, and methodical
+improvement.
 
 In various domains, however, it is more appropriate to employ [Domain Specific 
-Languages (DSLs)](/topics/Domain-Specific-Languages) to 
-enable non-software developers specifying properties, configuring their systems, 
-etc. in terms of established domain concepts and corresponding language 
-elements. With increasing digitalization, we expect a growth in DSLs and 
-increasing efforts in their efficient engineering, integration, and 
-composition.
+Languages (DSLs)](/topics/Domain-Specific-Languages) to enable
+non-software developers specifying properties, configuring their systems,
+etc. in terms of established domain concepts and corresponding language
+elements. DSLs have already achieved a significant degree of penetration in industry [[HWR14]](#HWR14).
+With the upcoming age of digitalization, we thus expect DSLs
+to grow even stronger and
+therefore also involve increasing effort in their efficient engineering, integration and composition.
 
-Designing DSLs is challenging, because, on one hand, they need to be precise 
-enough for being processed by a computer and, on the other hand, comprehensible 
-by humans. Monolithic design of a language can already benefit from methods for 
-language engineering in the small including design guidelines and tooling. The 
-[MontiCore language workbench](/topics/MontiCore) is such a tool to assist 
-development of languages. It, for example, provides techniques for an integrated 
-definition of concrete and abstract syntax of a language 
-[[KRV07b]](https://www.se-rwth.de/~rumpe/publications20042008/Integrated-Definition-of-Abstract-and-Concrete-Syntax-for-Textual-Languages.pdf), 
-[[Kra10]](https://www.se-rwth.de/phdtheses/Diss-Krahn-MontiCore-Agile-Entwicklung-von-domaenenspezifischen-Sprachen-im-Software-Engineering.pdf), 
-but is much more a framework for compositional language design 
-[[KRV10]](https://www.se-rwth.de/publications/MontiCore-a-Framework-for-Compositional-Development-of-Domain-Specific-Languages.pdf).
+Design of a DSL is a complex task, because, on one hand, it needs to be
+precise enough for being processed by a computer and, on the other hand,
+comprehensible by humans. Monolithic design of a language can already
+benefit from methods for language engineering in the small including design
+guidelines and tooling. The [MontiCore language workbench](/topics/MontiCore) 
+[[HR17]](#HR17) is such
+a tool to assist development of languages. It provides, e.g.,
+techniques for an integrated definition of concrete and abstract syntax of a
+language [[KRV07b]](#KRV07b) [[Kra10]](#Kra10), but is much more a framework for
+compositional language design [[KRV10]](#KRV10) [[HRW18]](#HRW18).
+
+
 
 ## Language Engineering in the Large
-To efficiently engineer languages in the large, we need all the help that we can 
-get. As software languages are software too, it is not surprising that the 
-following techniques are largely discussed in [[CFJ+16]](#CFJ+16) and they 
-help:
+
+To efficiently engineer languages in the large, we need all the help that we
+can get. As software languages are software too, it is not surprising that
+the following techniques largely discussed in [[CFJ+16]](#CFJ+16) help:
+
 
 1. Elaborate tooling to assist language development.
 2. Reuse of tools, e.g. for parsing and for parameterizable pretty printing.
@@ -53,140 +69,141 @@ help:
 5. **Refinement** and **adaptation** of existing languages.
 6. **Automatic derivation** of new languages from existing ones.
 
-To improve understanding of language engineering, we have defined the terms 
-**language** and **language components** in 
-[[CBCR15]](https://www.se-rwth.de/publications/Conceptual-Model-of-the-Globalization-for-Domain-Specific-Languages.pdf) 
-and how to capitalize on this in 
-[[CCF+15a]](https://www.se-rwth.de/publications/Globalizing-Domain-Specific-Languages2.pdf). 
-In 
-[[SRVK10]](https://www.se-rwth.de/publications/Metamodelling-State-of-the-Art-and-Research-Challenges.pdf), 
-we discuss the possibilities and the challenges using metamodels for language 
-definition, identifying, for instance, the need for metamodel merging and 
-inferencing, as well as assistance for their evolution. Of course, we also 
+To improve understanding of language engineering, we have defined the terms
+**language** and **language components** in [[CBCR15]](#CBCR15) 
+[[BEK+18b]](#BEK+18b) and how to
+capitalize on this from a global perspective in [[CCF+15a]](#CCF+15a) 
+[[CKM+18]](#CKM+18). Additionally, we discuss
+the possibilities and the challenges using **metamodels for language
+definition** [[SRVK10]](#SRVK10), identifying, for instance, the need for
+metamodel merging and
+inference, as well as assistance for their evolution .
+
+Of course, we also 
 consider variability for modeling languages and have investigated a method to 
 model syntactic language [variability](/topics/Variability) through **language 
 product lines** 
-[[BEK+18a]](https://www.se-rwth.de/publications/Controlled-and-Extensible-Variability-of-Concrete-and-Abstract-Syntax-with-Independent-Language-Features.pdf) 
-[[BEK+18b]](https://www.se-rwth.de/publications/Modeling-Language-Variability-with-Reusable-Language-Components.pdf) 
-[[BEK+19]](https://www.se-rwth.de/publications/Systematic-Composition-of-Independent-Language-Features.pdf).
+[[BEK+18a]](#BEK+18a) 
+[[BEK+18b]](#BEK+18b) 
+[[BEK+19]](BEK+19).
+
 
 ## Language and Tool Composition
-(for details see also [Compositionality/Modularity of 
-Models](/topics/Compositionality))
 
-"Divide et Impera" is the core concept of managing large and complex tasks. 
-Language design therefore needs to be decomposed along several dimensions: 
-First, we want to decompose the language in **language components**. Some of 
-these components, for example the basic language for full qualified names, 
-constants, (Boolean) expressions, or imperative statements, should be designed 
+**Divide and conquer** is one of the core concepts for managing large and
+complex tasks.
+Language design therefore needs to be decomposed along several dimensions:
+First, we want to decompose the language in language
+components [[BEK+18b]](#BEK+18b).
+Some of these components, for example the basic language for full qualified
+names, constants, expressions, or imperative statements, should be designed
 in a reusable form.
 
-In a second dimension, we decompose the tooling along the activities 
-(frontend: model processing, context conditions, internal transformations, 
-backend: printing) and decompose each of these activities along the individual 
-language components. [MontiCore](/topics/MontiCore) 3, 
-e.g., is able to decompose the frontend language processing along the 
-decomposition of the language itself 
-[[KRV10]](https://www.se-rwth.de/publications/MontiCore-a-Framework-for-Compositional-Development-of-Domain-Specific-Languages.pdf), 
-[[Voe11]](https://www.se-rwth.de/phdtheses/Diss-Voelkel-Kompositionale-Entwicklung-domaenenspezifischer-Sprachen.pdf), 
-[[KRV08]](https://www.se-rwth.de/staff/rumpe/publications20042008/MontiCore-Modular-Development-of-Textual-Domain-Specific-Languages.pdf),
-[[HMSNRW16]](https://www.se-rwth.de/publications/Compositional-Language-Engineering-using-Generated-Extensible-Static-Type-Safe-Visitors.pdf). MontiCore also assists modular decomposition of the 
-backend code generation based on different targets and different sublanguages 
-[[RRRW15b]](https://www.se-rwth.de/publications/Language-and-Code-Generator-Composition-for-Model-Driven-Engineering-of-Robotics-Component-and-Connector-Systems.pdf).
-In a second dimension, we want to decompose the tooling along the activities 
-(frontend: model processing, context conditions, internal transformations, 
-backend: printing) and decompose each of these activities along the individual 
-language components. [MontiCore](/topics/MontiCore) 3, 
-e.g., is able to decompose the frontend language processing along the 
-decomposition of the language itself 
-[[KRV10]](https://www.se-rwth.de/publications/MontiCore-a-Framework-for-Compositional-Development-of-Domain-Specific-Languages.pdf), 
-[[Voe11]](https://www.se-rwth.de/phdtheses/Diss-Voelkel-Kompositionale-Entwicklung-domaenenspezifischer-Sprachen.pdf), 
-[[KRV08]](https://www.se-rwth.de/~rumpe/publications20042008/MontiCore-Modular-Development-of-Textual-Domain-Specific-Languages.pdf), 
-[[HMSNRW16]](https://www.se-rwth.de/publications/Compositional-Language-Engineering-using-Generated-Extensible-Static-Type-Safe-Visitors.pdf). 
-MontiCore also assists modular decomposition of the backend code generation 
-based on different targets and different sublanguages 
-[RRRW15b](https://www.se-rwth.de/publications/Language-and-Code-Generator-Composition-for-Model-Driven-Engineering-of-Robotics-Component-and-Connector-Systems.pdf).
+In a second dimension, we decompose the tooling along the activities
+(front-end: model processing, context conditions, internal transformations,
+backend: printing) and decompose each of these activities along the
+individual language components. MontiCore 3 [[HR17]](#HR17), e.g., is able to
+decompose the front-end language processing along the decomposition of the
+language itself [[KRV10]](#KRV10) [[Voe11]](#Voe11) [[KRV08]](#KRV08) 
+[[HMSNRW16]](#HMSNRW16) [[Naz17]](#Naz17) [[RRRW15b]](#RRRW15b). 
+
+MontiCore also
+assists modular decomposition of the backend code generation based on
+different targets and different sublanguages [[RRRW15b]](#RRRW15b) 
+[[BBC+18]](#BBC+18) (cf. [Compositionality/Modularity of 
+Models](/topics/Compositionality).
+
 
 ## Language Derivation
-**Language derivation** is, to our believe, a promising technique to develop new 
-languages for a specific purpose that are relying on existing basic languages. 
-Formally, a language derivation is a mapping D, that maps a base language B into 
-another language D(B). This mapping produces new languages, not models.
 
-To automatically derive such new languages D(B) or, at least, assist such 
-derivation with tools, the base language B itself has to be modeled explicitly, 
-for instance as a metamodel or as a grammar together with its well-formedness 
-rules in a reasonably explicit form. Thus, language derivation can be partially 
-understood as model transformation on a metalanguage. We so far successfully 
-conceived three language derivation techniques.
+**Language derivation** is, to our believe, a promising technique to **develop new
+languages** for a specific purpose that are relying on existing basic
+languages [[HHK+13]](#HHK+13) [[HHK+15]](#HHK+15) [[HRW15]](#HRW15) 
+[[GLRR15]](#GLRR15) [[BDL+18]](#BDL+18) [[BJRW18]](#BJRW18).
+Formally, a language derivation is a mapping **D**, that maps a base language **B**
+into another language **D(B)**. This mapping produces new languages, not models.
+To automatically derive such new languages **D(B)** or, at least, assist such
+derivation with tools, the base language **B** itself has to be modeled
+explicitly, for instance as a metamodel or as a grammar together with its
+well-formedness rules in a reasonably explicit form. Thus, language
+derivation can be partially understood as model transformation on a
+metalanguage. We, so far, successfully conceived three language derivation
+techniques.
 
-## Transformation Languages in Concrete Syntax
-Instead of using a fully generic transformation language, such as 
-[ATL](http://www.eclipse.org/atl/), that is applicable to a base language B, we 
-automatically derive a transformation language T(B) that merges elements of the 
-concrete syntax of B with generic - and thus reusable - elements for defining 
-transformations on B models. The result is a comprehensible and easy applicable 
-transformation language that modelers find familiar, because it systematically 
-reuses the syntax of the base language B. Automatic derivation of such 
-transformation languages using concrete syntax of the base language is described 
-in 
-[[HRW15]](https://www.se-rwth.de/publications/Systematically-Deriving-Domain-Specific-Transformation-Languages.pdf) 
-and 
-[[Wei12]](https://www.se-rwth.de/publications/Generierung-domaenenspezifischer-Transformationssprachen.pdf).
 
-Because the language derivation operator T is applicable to any language, we 
-have successfully applied it to class diagrams, object diagrams, 
-[MontiArc](/topics/Software-Architecture), Automata, and more. The operator T 
-not only derives the new languages T(B), but the tool infrastructure behind T 
-also generates the transformation engine necessary to execute transformations 
-defined in T(B) (which finally transform models of the base language B).
+#### Transformation Languages in Concrete Syntax
 
-## Tagging Languages
-A **tagging model** is used in the context of a base model M and adds additional 
-information in form of tags to the elements defined in M. This, for example, can 
-be used to add technology-specific information or advice on how code generation, 
-model merging and other algorithmic transformations have to handle the tagged 
-elements. Tags can, for example, instruct a persistence generator, whose data 
-model classes are mapped into single transportable DAOs or add security 
-restrictions to data objects. For activity diagrams, tags can describe, where to 
-find the appropriate activity implementation, etc.
+Instead of using a fully generic transformation language that is applicable
+to a base language **B**, we automatically derive a transformation language **T(B)**
+that merges elements of the concrete syntax of **B** with generic - and thus
+reusable - elements for defining transformations on **B** models. The result is
+a comprehensible and easy applicable transformation language that modelers
+find familiar, because it systematically reuses the syntax of the base
+language **B**. Automatic derivation of such transformation languages using
+concrete syntax of the base language is described in
+[[HRW15]](#HRW15) [[Wei12]](#Wei12) [[Hoe18]](#Hoe18).
 
-Tagging models share the idea of UML's stereotypes, but are not part of the base 
-model. Instead the separate tagging model references the base model. This has 
-the advantages (1) that the base model can be reused without technology specific 
-pollution, (2) several different tag models are possible for the same base model 
-in different technological spaces (e.g., iPhone, Android or Windows clients), 
-and (3) a tag model can also be reused for different base models.
+As the language derivation operator **T** is applicable to any language, we
+have successfully applied it to, e.g., class diagrams, object diagrams, MontiArc,
+Automata. The operator **T** not only derives the new languages **T(B)**, but
+the tool infrastructure behind **T** also generates the transformation engine
+necessary to execute transformations defined in **T(B)** (which finally transform
+models of the base language **B**).
 
-A **tagging language** is the language of the tagging models and thus is highly 
-dependent on the base language that it tags (i.e., it must be aware of the 
-modeling elements of the base language). 
-[[GLRR15]](https://www.se-rwth.de/publications/Engineering-Tagging-Languages-for-DSLs.pdf) 
-describes how to systematically derive tagging languages from a base language 
-and how code for processing tagging models can be generated automatically.
 
-This also rests on the concept of a **tag definition language**, which allows 
-defining the possible form and values that tags may have, as well as which kind 
-of model elements they can be applied to and therefore acts as type definition 
-for tags.
+#### Tagging Languages
+
+A **tagging model** is used in the context of a base model **M** and adds additional
+information in form of tags to the elements defined in **M**. This, for example,
+can be used to add technology-specific information or advice on how code
+generation, model merging and other algorithmic transformations have to
+handle the tagged elements. Tags can, for example, instruct a persistence
+generator, whose data model classes are mapped into single transportable
+DAOs or add security restrictions to data objects. For activity diagrams,
+tags can describe, where to find the appropriate activity implementation,
+etc.
+
+Tagging models share the idea of UML's stereotypes, but are not part of the
+base model. Instead the separate tagging model references the base model. This
+has the advantages (1) that the base model can be reused without technology
+specific pollution, (2) several different tag models are possible for the same
+base model in different technological spaces (e.g., iPhone, Android or Windows
+clients), and (3) a tag model can also be reused for different base models.
+
+A **tagging language** is the language of the tagging models and thus is highly
+dependent on the base language that it tags (i.e., it must be aware of the
+modeling elements of the base language). [[GLRR15]](#GLRR15) describes how to
+systematically derive tagging languages from a base language and how code for
+processing tagging models can be generated automatically.
+
+This also rests on the concept of a tag definition language, which allows
+defining the possible form and values that tags may have, as well as which
+kind of model elements they can be applied to and therefore acts as type
+definition for tags.
+
 
 ## Delta Languages
-Another way of deriving new languages from existing languages is described in 
-[[HHK+15]](https://www.se-rwth.de/publications/Systematic-synthesis-of-delta-modeling-languages.pdf) 
-and 
-[[HHK+13]](https://www.se-rwth.de/publications/Engineering-Delta-Modeling-Languages.pdf), 
-where a base language B is used to derive a delta language Delta(B). The delta 
-language Delta(B) enables to explicitly describe differences between a base 
-model of B and the model variant (also of B). This helps to define system 
-variability in a bottom-up fashion. A delta model describes which model elements 
-are added, modified, or deleted on the base model. Thus delta approach is 
-popular for the management of [Variability and Software Product Lines 
-(SPL)](/topics/Variability).
 
-Delta language techniques are specifically suited for architectural languages, 
-such as [MontiArc](/topics/Software-Architecture) to add and modify components 
-as well as channels, but also have been applied to Simulink in an industrial 
-context.
+Another way of deriving new languages from
+existing languages is described in [[HHK+15]](#HHK+15) and [[HHK+13]](#HHK+13), where a
+base language **B** is used to derive a delta language **Delta(B)**. The delta
+language **Delta(B)** enables to explicitly describe differences between a base
+model of **B** and the model variant (also of **B**). This helps to define system
+variability in a bottom-up fashion. A delta model describes which model
+elements are added, modified, or deleted on the base model. Thus delta
+approach is popular for the management of Variability and Software Product
+Lines (SPL) (see [Variability and Software Product Lines 
+(SPL)](/topics/Variability)).
+Again the delta operator transforms a base language **B** into a language **Delta(B)**
+allowing to describe delta models. Each delta model can be applied individually
+and therefore n deltas amount to 2^n variants (modulo application
+dependencies
+and orders).
+
+Delta language techniques are **specifically suited for architectural languages**,
+such as MontiArc to add and modify components as well as channels, but also
+have been **applied to Simulink in an industrial context**.
+
 
 {% include trennlinie.html %}
 
