@@ -5,75 +5,78 @@ permalink: /topics/Enterprise-Information-Systems/
 description:
 img:
 importance: 1
-keys: [KRR14,HHK+14,KRS12,HHK+15a,PR13,HKR12,FPPR12,KPR12]
+keys: [KRV10,MSNRR15a,Loo17,
+        Rei16,AMN+19,ANV+18,
+        ELR+17,Mi19]
 ---
 
-[//]: # Bem: Dies ist der ALTE TEXT aus der Cloud.md
-
 ## Summary of Most Relevant Topic Papers
-As web-based application and service architectures are continuing to **grow in 
-complexity, criticality and into new application domains**, their development, 
-integration, evolution, migration, operation and migration poses ever more and 
-ever larger challenges to Software Engineering. In 
-[[KRR14]](https://www.se-rwth.de/publications/Trusted-Cloud-Computing.pdf), we 
-discuss in detail the paradigm of **Cloud Computing that is arising out of a 
-convergence of existing and new technologies**. It promises to enable new 
-business models, to lower the barrier for web-based innovations and to increase 
-the efficiency and cost-effectiveness of web development.
 
-Cloud-based systems pose a multitude of different challenges. The demand for 
-**seamless scalability** with system load leads to highly distributed 
-infrastructures and software architectures that can grow and shrink at runtime. 
-The lack of standards, complemented by the variety of proprietary infrastructure 
-and service providers, leads to a high degree of **technological 
-heterogeneity**. High availability and interconnectivity with a multitude of 
-clients leads to complex **evolution and maintenance** processes. These 
-challenges come coupled with distinct requirements posed by the individual 
-application domain. Application classes like **Internet of Things** as described 
-in 
-[[HHK+14]](https://www.se-rwth.de/publications/User-driven-Privacy-Enforcement-for-Cloud-based-Services-in-the-Internet-of-Things.pdf), 
-**Cyber-Physical Systems** described in 
-[[KRS12]](https://www.se-rwth.de/publications/Cyber-Physical-Systems-eine-Herausforderung-an-die-Automatisierungstechnik.pdf), 
-**Big Data, App and Service Ecosystems** bring attention to aspects like 
-responsiveness, privacy and open platforms. Regardless of the application 
-domain, developers of such systems are in need for **robust methods** and 
-**efficient, easy-to-use languages and tools**. For example, in 
-[[HHK+14]](https://www.se-rwth.de/publications/User-driven-Privacy-Enforcement-for-Cloud-based-Services-in-the-Internet-of-Things.pdf) 
-and 
-[[HHK+15a]](https://www.se-rwth.de/publications/A-Comprehensive-Approach-to-Privacy-in-the-Cloud-based-Internet-of-Things.pdf), 
-we discuss how to handle privacy in the cloud.
+Enterprise Information Systems (EIS) provide information to different user
+groups as main system goal. To be more precise, it is important to be able
+to create,
+read, update and delete data (CRUD). We use model-based methods to
+support these functionalities.
+Different types of models are used in the context of EIS:
+structural models to describe data structures, dynamic models to describe
+business processes, functional models to describe software functions or
+graphical user interface (GUI) models to describe graphical user interfaces.
+Usually, these models
+are developed using 
+[Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages).
 
-In 
-[[PR13]](https://www.se-rwth.de/publications/Modeling-Cloud-Architectures-as-Interactive-Systems.pdf), 
-we tackle these challenges by perusing a **model-based, generative approach**. 
-The core of this approach are several modeling languages that describe different 
-aspects of a cloud-based system in a concise and technology-agnostic way. 
-**Software architecture and infrastructure models** describe the system and its 
-physical distribution on a large scale. 
-[UML/P](/topics/UML-P) models, and class diagrams in 
-particular, describe several other aspects of the system, such as its **domain 
-and data models**, its interfaces and interactions, and its monitoring and 
-scaling capabilities. Among other tools, **code generators** most prominently 
-take these models as input and generate application-specific frameworks that 
-implement big parts of the system's technical aspects and provide 
-technology-agnostic, ease-to-use interfaces for the cloud-based application's 
-actual business logic.
+Using our experiences in the model-based generation of code with
+MontiCore [[KRV10]](#KRV10) [[HR17]](#HR17) 
+(cf. [MontiCore](/topics/MontiCore)),
+we developed several generators for data-centric applications.
+The following figure shows the main concepts for these approaches:
+Models from different DSLs are used as input for the generator in combination
+with predefined templates. As an output large parts of the information system
+are produced: the databases, data communication and infrastructure as well as
+the GUIs for different users and roles. Missing parts have to be added as
+handwritten code, such as application logic.
 
-{% include trennlinie.html %}
+<center>
+<div class="row" style="width: 70%">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/eis_mbse_overview.png 
+        title: "Main concepts of information systems developed with mbse methods" 
+        class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</center>
+<br />
 
-We have applied these technologies to various cloud systems, cars, buildings, 
-smart phones, mobile computing devices, and various other kinds of sensors. We 
-also developed a successful and technologically sound framework for web based 
-software portals 
-[[HKR12]](https://www.se-rwth.de/publications/SSELab-A-Plug-In-Based-Framework-for-Web-Based-Project-Portals.pdf) 
-that we offer under sselab.de for general use. Another set of cloud systems 
-helps to deal with energy management and is described in 
-[[FPPR12]](https://www.se-rwth.de/publications/The-Energy-Navigator-A-Web-Platform-for-Performance-Design-and-Management.pdf) 
-and [[KPR12]](https://www.se-rwth.de/publications/Der-Energie-Navigator.pdf). It 
-continuously monitors building operation systems to derive operational data and 
-compare these to the building specification. We use cloud technologies to 
-maintain data, dynamically execute calculations and host management services 
-enabling reduction of building energy costs.
+The **MontiCore Data Explorer (MontiDEx)** code generator was used
+for the automatic generation of customizable, extensible data-centric
+business applications from UML/P Class Diagrams 
+[[MSNRR15a]](#MSNRR15a) [[Rot17]](#Rot17).
+It processes models to generate data-centric applications in Java and
+Java Swing. The department has developed further generators such as
+MontiEE [[Loo17]](#Loo17) or MontiWIS [[Rei16]](#Rei16).
+
+The most recent generator, **MontiGem** [[AMN+19]](#AMN+19), was successfully
+applied
+in an application project for the financial controlling of the chairs of RWTH
+Aachen University, the MaCoCo project [[ANV+18]](#ANV+18). With MontiGem it is
+possible to generate large parts of data centric business applications: The
+data-structure and communication infrastructure, functions to access,
+retrieve and store the data, the GUIs, and parts of the access
+control (see also XXXautoref{subsec:MontiGEM}).
+
+Enterprise Information Systems are currently facing new challenges: 
+The General Data Protection Regulation (GDPR), in application since May 2018,
+marks a new era in data privacy. This regulations are also relevant for EIS
+dealing with private data.
+Thus, we investigate the architecture of Cloud Services for
+the Digital me in a Privacy-Aware Environment [[ELR+17]](#ELR+17).
+Further approaches go beyond architectural aspects: [[Mi19]](#Mi19)
+discusses a privacy preserving data model and system architecture.
+The user-centered view on the system design allows to track who does
+what, when, why, where and how with personal data and can make this
+information available for users in an information portal.
+
+
 
 {% include trennlinie.html %}
 
