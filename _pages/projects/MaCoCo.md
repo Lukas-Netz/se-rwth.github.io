@@ -13,12 +13,12 @@ Chair of Software Engineering**
 Within the **MaCoCo (Management Cockpit for Controlling) project** we realize a multi-user enterprise information system
 for the 
 decentralized management and controlling of organizational processes within the chairs or institutes of a university 
-[GHK+20](https://www.se-rwth.de/publications/Generated-Enterprise-Information-Systems-MDSE-for-Maintainable-Co-Development-of-Frontend-and-Backend.pdf). 
+[[GHK+20](#GHK+20).
 The project was started in 2016. The key elements of the project focus on finance, staff and project organization.
 
 We follow an agile software development paradigm, which strongly involves future users in the conceptualization process.
 Moreover, large parts of the MaCoCo application are generated
-[ANV+18](https://www.se-rwth.de/publications/Generated-Enterprise-Information-Systems-MDSE-for-Maintainable-Co-Development-of-Frontend-and-Backend.pdf) 
+[[ANV+18](#ANV+18)
 from Domain-Specific Languages (DSLs) developed with 
 the [MontiCore (MC) language workbench and code generation framework](http://monticore.de/). 
 This combination ensures a highly adaptable system. 

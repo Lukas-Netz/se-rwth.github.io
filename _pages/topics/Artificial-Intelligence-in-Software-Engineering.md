@@ -33,12 +33,12 @@ taking learning into account at all stages of a development process and at
 runtime. At our chair we have developed MontiAnna, a family of domain specific 
 languages for the consice description of the architecture of (1) a neural 
 network, (2) its training, and (3) the training data 
-[[KNP+19]](https://www.se-rwth.de/publications/Modeling-and-Training-of-Neural-Processing-Systems.pdf). 
+[[KNP+19]](#KNP+19).
 What's more, using MontiCore language composition we have developed a technique 
 to integrate neural networks into larger software architectures 
-[[KRRW17]](https://www.se-rwth.de/publications/Modeling-Architectures-of-Cyber-Physical-Systems.pdf) 
+[[KRRW17]](#KRRW17)
 as standardized machine learning components 
-[[KPRS19]](https://www.se-rwth.de/publications/On-the-Engineering-of-AI-Powered-Systems.pdf). 
+[[KPRS19]](#KPRS19).
 This enables the compiler to support the systems engineer by automating the 
 lifecycle of such components. Thereby, we support multiple learning approaches 
 such as supervised learning, reinforcement learning, generative adversarial 
@@ -56,32 +56,32 @@ usually an infinite set, detecting whether the semantic difference is empty and
 effectively computing a diff witnesses are no trivial tasks.
 
 - 
-[[MRR11d]](https://www.se-rwth.de/publications/ADDiff-Semantic-Differencing-for-Activity-Diagrams.pdf) 
+[[MRR11d]](#MRR11d)
 describes a semantic differencing operator for activity diagrams.
 - 
-[[MRR11b]](https://www.se-rwth.de/publications/CDDiff-Semantic-Differencing-for-Class-Diagrams.pdf) 
+[[MRR11b]](#MRR11b)
 presents a semantic differencing operator for class diagrams.
 - 
-[[DKMR19]](https://www.se-rwth.de/publications/Semantic-Evolution-Analysis-of-Feature-Models.pdf) 
+[[DKMR19]](#DKMR19)
 describes a semantic differencing operator for feature diagrams.
 - 
-[[DEKR19]](https://www.se-rwth.de/publications/Semantic-Differencing-of-Statecharts-for-Object-oriented-Systems.pdf) 
+[[DEKR19]](#DEKR19)
 discusses a semantic differencing operator for statecharts.
 - 
-[[BKRW17]](https://www.se-rwth.de/publications/Semantic-Differencing-for-Message-Driven-Component-and-Connector-Architectures.pdf) 
+[[BKRW17]](#BKRW17)
 and 
-[[BKRW19]](https://www.se-rwth.de/publications/Continuously-Analyzing-Finite-Message-Driven-Time-Synchronous-Component-and-Connector-Systems-During-Architecture-Evolution.pdf) 
+[[BKRW19]](#BKRW19)
 present semantic differencing operators for automaton variants describing the 
 behavior of interactive systems.
 - 
-[[MRR11g]](https://www.se-rwth.de/publications/Summarizing-Semantic-Model-Differences.pdf) 
+[[MRR11g]](#MRR11g)
 describes a method for summarizing semantic model differences to condensate and 
 increase the amount of information provided by semantic differencing operators.
 
 We further developed a modeling language-independent method for determining 
 syntactic changes that are responsible for the existence of semantic differences 
 in 
-[[KR18a]](https://www.se-rwth.de/publications/On-Computing-Instructions-to-Repair-Failed-Model-Refinements.pdf). 
+[[KR18a]](#KR18a).
 The method relies on a search in a tree where the nodes of the tree represent 
 possible changes to models. As an example for semantic differencing, Figure 2 
 depicts the two class diagrams *cd1* and *cd2* and the object structures *os1* 
@@ -113,10 +113,10 @@ These and the rapid increase of computation capabilities suggest that a
 prominent application for reducing certification costs of critical systems such 
 as intelligent flight control systems or assistance systems for air or road 
 traffic management is not far in the future 
-[[KRRS19]](https://www.se-rwth.de/publications/Model-Based-Engineering-for-Avionics-Will-Specification-and-Formal-Verification-Based-on-Broys-Streams-Become-Feasible.pdf) 
-[[HRR12]](https://www.se-rwth.de/publications/MontiArc-Architectural-Modeling-of-Interactive-Distributed-and-Cyber-Physical-Systems.pdf) 
-[[RR11]](https://www.se-rwth.de/publications/A-Little-Synopsis-on-Streams-Stream-Processing-Functions-and-State-Based-Stream-Processing.pdf) 
-[[BR07]](https://www.se-rwth.de/~rumpe/publications20042008/Modulare-hierarchische-Modellierung-als-Grundlage-der-Software-und-Systementwicklung.pdf). 
+[[KRRS19]](#KRRS19),
+[[HRR12]](#HRR12),
+[[RR11]](#RR11),
+[[BR07]](#BR07).
 Figure 3 overviews the most important constituents of the verification 
 framework.
 
@@ -129,10 +129,10 @@ are captured by structured, comprehensible, formal models. This enables early
 consistency checking and verification as well as model-based testing. Crucial 
 for the latter is automated test case derivation. For automotive software 
 engineering, 
-[[EJK+19]](https://www.se-rwth.de/publications/Applying-Product-Line-Testing-for-the-Electric-Drive-System.pdf), 
-[[DGH+19]](https://www.se-rwth.de/publications/SMArDT-modeling-for-automotive-software-testing.pdf), 
-[[DGH+18]](https://www.se-rwth.de/publications/Model-Based-Testing-of-Software-Based-System-Functions.pdf), 
-[[KMS+18]](https://www.se-rwth.de/publications/Improving-Model-based-Testing-in-Automotive-Software-Engineering.pdf) 
+[[EJK+19]](#EJK+19),
+[[DGH+19]](#DGH+19),
+[[DGH+18]](#DGH+18),
+[[KMS+18]](#KMS+18)
 describe a methodology to test system requirements automatically. Our method is 
 realized for a variant of SysML activity diagrams and statecharts. The modeling 
 languages are tailored towards testing automotive software and automatic test 
@@ -155,16 +155,16 @@ a suitable test environment.
 Nowadays modern systems generate a massive amount of observable data. This data 
 can be used to optimize the operation efficiency and prevent unneeded CO2 
 emission or reduce costs. 
-[[FLP+11]](https://www.se-rwth.de/publications/Der-Energie-Navigator-Performance-Controlling-fuer-Gebaeude-und-Anlagen.pdf), 
-[[GLPR15]](https://www.se-rwth.de/publications/Energieeffiziente-Staedte--Herausforderungen-und-Loesungen-aus-Sicht-des-Software-Engineerings.pdf). 
+[[FLP+11]](#FLP+11),
+[[GLPR15]](#GLPR15).
 E.g. a building’s ventilation system consists of multiple sensors and actors 
 measuring observable data over time (time series data). Each operation mode of a 
 ventilation system can be clearly assigned to a combination of specific sensor 
 and actor behavior within a system 
-[[KLPR12]](https://www.se-rwth.de/publications/Modeling-cyber-physical-systems-model-driven-specification-of-energy-efficient-buildings.pdf). 
+[[KLPR12]](#KLPR12).
 This creates a structural and behavioural system theoretical view on buildings 
 as cyber-physical systems (digital twin) 
-[[RW18]](https://www.se-rwth.de/publications/Abstraction-and-Refinement-in-Hierarchically-Decomposable-and-Underspecified-CPS-Architectures.pdf).
+[[RW18]](#RW18).
 
 The digital modelling of buildings and their facilities as well as the 
 availability of sensor and actor data enables the implementation of Big Data 

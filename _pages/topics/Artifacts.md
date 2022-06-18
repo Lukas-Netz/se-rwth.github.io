@@ -14,7 +14,7 @@ software increase, the need for the development of increasingly large and
 complex systems arises. In general, the larger the developed system needs to be 
 the more developers will be involved in the creation process in order to finish 
 the project in an acceptable timespan 
-[[BGRW17]](https://www.se-rwth.de/publications/Taming-the-Complexity-of-Model-Driven-Systems-Engineering.pdf). 
+[[BGRW17]](#BGRW17).
 Often problems arise when large groups of people have to cooperate on the same 
 project over a longer period of time. For example, architectural decisions made 
 years ago, might be difficult to understand once the responsible architect moved 
@@ -31,7 +31,7 @@ relations comes from artifacts using others, e.g., via importing types and
 signatures. This form of usage strongly differs from generation dependencies, 
 where one artifact is generated, compiled, and transformed from or to other 
 artifacts 
-[[BGRW18]](https://www.se-rwth.de/publications/On-the-Need-for-Artifact-Models-in-Model-Driven-Systems-Engineering-Projects.pdf). 
+[[BGRW18]](#BGRW18).
 An MDD project usually entails a number of potentially dependent process steps, 
 where a chain of artifact generations, compilations, and packagings arises. 
 During these steps a multitude of artifacts are created, read or even executed. 
@@ -45,7 +45,7 @@ involved and how these artifacts are related to each other in MDD projects.
 Leaving the domain of software development and entering the domain of cyber 
 physical systems (CPS) engineering the problem of complex project structures 
 becomes even more pressing 
-[[BHR+18]](https://www.se-rwth.de/publications/On-the-Need-for-Artifact-Models-in-Model-Driven-Systems-Engineering-Projects.pdf). 
+[[BHR+18]](#BHR+18).
 Here, development projects have a much wider range. Now, not only the relations 
 of processes, structures, and artifacts of one single domain, for instance 
 mechanical engineering, need to be understood but their relations within and 
@@ -76,14 +76,14 @@ artifact data can be used as input for software tools for further processing.
 At this chair we developed a methodology providing modeling techniques and 
 corresponding tooling which help to understand artifacts in complex development 
 structures 
-[[GHR17]](https://www.se-rwth.de/publications/Towards-a-Sustainable-Artifact-Model-Artifacts-in-Generator-Based-Model-Driven-Projects.pdf). 
+[[GHR17]](#GHR17).
 We provide a way to define a custom artifact model for a project, department or 
 a company which describes artifacts and their relations. Additionally, we 
 provide a customizable tool-chain which extracts artifact information and 
 performs analyses on this artifact data. This data then can be further used by 
 analysts or software tools to help understand, analyze, and improve complex 
 development projects 
-[[Gre19]](https://www.se-rwth.de/phdtheses/Diss-Greifenberg-Artefaktbasierte-Analyse-modellgetriebener-Softwareentwicklungsprojekte.pdf).
+[[Gre19]](#Gre19).
 
 ## Understanding architectures, substructures & erosion
 One example for an analysis based on the artifacts and their relations is 

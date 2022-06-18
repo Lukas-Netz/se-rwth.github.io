@@ -105,15 +105,15 @@ theory, that captures object-oriented communication (method calls, dynamic
 lookup, inheritance, object identity) as well as distributed systems at various 
 levels as states and statemachines. We therefore developed the full system model 
 for the UML in 
-[[BCGR09a]](https://www.se-rwth.de/publications/Definition-of-the-UML-system-model.pdf) 
+[[BCGR09a]](#BCGR09a)
 and discuss the rationale for it in 
-[[BCGR09]](https://www.se-rwth.de/publications/Considerations-and-Rationale-for-a-UML-System-Model.pdf). 
+[[BCGR09]](#BCGR09).
 See also 
-[[BCR07a]](https://www.se-rwth.de/~rumpe/publications20042008/Towards-a-System-Model-for-UML.-Part-2.-The-Control-Model.pdf) 
+[[BCR07a]](#BCR07a)
 and 
-[[BCR07b]](https://www.se-rwth.de/~rumpe/publications20042008/Towards-a-System-Model-for-UML.-Part-3.-The-State-Machine-Model.pdf) 
+[[BCR07b]](#BCR07b)
 for more detailed versions and 
-[[CGR08]](https://www.se-rwth.de/~rumpe/publications20042008/System-Model-Semantics-of-Class-Diagrams.pdf) 
+[[CGR08]](#CGR08)
 for an application on class diagrams. Here we see the hierarchy of the 
 mathematical model:
 
