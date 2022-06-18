@@ -9,7 +9,7 @@ keys: [NPR13,HHR+15,RRRW15b,
         WCB17,BKL+18]
 ---
 
-[//] # Bem: dies ist nur der Text aus HMR+19; TODO: #28
+[//]: # Bem: dies ist nur der Text aus HMR+19; TODO: #28
 
 In line with our mission, our research contributions to the Internet of
 Things and Industry 4.0 focus on modeling techniques to support and

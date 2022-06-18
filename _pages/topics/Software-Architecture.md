@@ -81,20 +81,34 @@ abstraction mechanisms for the integration of abstract viewpoints. The presented
 theory consists of a set of theorems and provides a basis for architectural 
 modeling without sticking to a concrete syntax of a modeling language.
 
-## MontiArc - Architecture Modeling and Architectural Programming
 
-The architectural design language MontiArc has been developed for modeling 
-distributed interactive systems. It captures active components (agents, actors) 
-of a logical or physical distribution, their interfaces (ports), the 
-communication infrastructure between the components, and a hierarchic 
-decomposition. MontiArc is a full ADL, although we have omitted some 
-uninteresting concepts from the AADL standard and could then optimize others.
+## MontiArc - Architecture Modeling with Semantics
 
-MontiArc is described in [[HRR12]](#HRR12) in detail. MontiArc is a textual 
-language and comes with an eclipse-integrated editor. It provides a simulation 
-framework that can execute behavior implemented in Java and attached to MontiArc 
-models in a declarative way so that analysis on MontiArc models becomes 
-possible.
+MontiArc [[HRR10]](#HRR10) [[Hab16]](#Hab16) is a framework for modeling and simulation
+of software architectures that has been developed for modeling
+distributed interactive systems using [MontiCore](/topics/MontiCore).
+
+The domain of the architecture description language (ADL) MontiArc are
+information-flow architectures which describe the components of a
+(software) system and their message-based communication.
+Hence, MontiArc captures active components (agents, actors) of a logical
+or physical distribution, their interfaces (ports), the communication
+infrastructure between components, and hierarchical decomposition. A
+component is a unit which executes computations or stores data. It may
+have arbitrary complexity and size being a subsystem or a single
+function. A component has an explicitly defined interface via which it
+communicates with its environment. It is implemented as a textual
+language and comes with an eclipse-integrated editor.
+
+On one hand MontiArc is an architecture description language that helps
+modeling distributed systems by supporting the user with context
+condition (well-formedness rules) checks and analyses. On the other hand
+MontiArc serves a simulation environment and a code generator to generate
+simulation components out of MontiArc models.
+MontiArc provides a timed, event-based simulation framework that can
+execute behavior implemented in Java and attached to MontiArc models in
+a declarative way so that analysis and validation of MontiArc models
+becomes possible [[Hab16]](#Hab16).
 
 Because the language MontiArc is **designed for extensibility** , several 
 sublanguages for behavior may be embedded directly within component definitions. 
@@ -102,6 +116,9 @@ MontiArc is e.g. extended with automata to **MontiArcAutomaton**
 [[RRW13c]](#RRW13c), [[Wor16]](#Wor16) and 
 [[RRW14a]](#RRW14a), with Cloud-constructs to ClArc [[NPR13]](#NPR13), 
 and with security annotations to MontiSecArc [[HHR+15]](#HHR+15). 
+
+
+## MontiArc - Architecture Programming
 
 In [[HRR10]](#HRR10), an extension of MontiArc with Java is presented, which 
 becomes a full programming language that exhibits architecture, data structure 
