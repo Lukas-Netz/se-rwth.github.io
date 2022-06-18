@@ -61,7 +61,8 @@ environmental context, as well as the spatial context.
 We have investigated the modeling of these contexts primary for the active
 assisted living and smart home domain [[MS17]](#MS17).
 Recent research discusses the context model for user-centered privacy-driven
-systems in the IoT domain including special aspects for the use in combination with process mining
+systems in the IoT domain including special aspects for the use in 
+combination with process mining
 systems [[Mi19]](#Mi19).
 
 The mark-up of online manuals for non-smart devices [[SM18]](#SM18) 
