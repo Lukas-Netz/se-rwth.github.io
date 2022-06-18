@@ -93,7 +93,6 @@ consolidated, compact form.
 - [Smart Energy Management](/topics/Energy-Management)
 
 {% comment %}
-- [Models in Enterprise Information System Development](/topics/Enterprise-Information-Systems)
 - [Internet of Things (IoT)](/topics/IoT)
 - [Digital Twins and Digital Shadows in Engineering, Operation and Production](/topics/Digital-Twins)
 {% endcomment %}
