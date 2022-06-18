@@ -53,7 +53,8 @@ Recent research discusses the context model for user-centered privacy-driven
 systems in the IoT domain including special aspects for the use in combination with process mining
 systems [[Mi19]](#Mi19).
 
-The mark-up of online manuals for non-smart devices~\cite{SM18} as well as
+The mark-up of online manuals for non-smart devices [[SM18]](#SM18) 
+as well as
 websites [[SM19]](#SM19) is one further step to provide human-centered
 assistance.
 Using these approaches reduces system set-up time and improves flexibility
