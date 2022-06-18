@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Models in Enterprise Information System Development
+title: Modelling Enterprise Information Systems
 permalink: /topics/Enterprise-Information-Systems/
 description:
 img:

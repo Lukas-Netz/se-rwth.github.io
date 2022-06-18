@@ -145,7 +145,8 @@ Our research manifests in project results with large and small partners from ind
 
 <h5 style="font-weight: bold"> Application Domains </h5>
 
-- [Cloud Computing & Enterprise Information Systems](/topics/Cloud)
+- [Model-based Cloud Computing Applications](/topics/Cloud)
+- [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
 - [Energy-Management](/topics/Energy-Management)
 
 <h5 style="font-weight: bold"> Our Most Important Software Tools </h5>

@@ -229,7 +229,8 @@ agile start of SPL integration.
 ## Related Topics
 - [Automotive](/topics/Automotive)
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Cloud Computing & Enterprise Information Systems](/topics/Cloud)
+- [Model-based Cloud Computing Applications](/topics/Cloud)
+- [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
 - [Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
 - [Generative Software Engineering](/topics/Generative-SE)
 - [Modeling Software Architecture](/topics/Software-Architecture)

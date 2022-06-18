@@ -129,7 +129,8 @@ assured using automatic simulations.
 
 ## Related Topics
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Cloud Computing & Enterprise Information Systems](/topics/Cloud)
+- [Model-based Cloud Computing Applications](/topics/Cloud)
+- [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
 - [Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
 - [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
 - [MontiArc - Architectural Modeling](/topics/Software-Architecture)
