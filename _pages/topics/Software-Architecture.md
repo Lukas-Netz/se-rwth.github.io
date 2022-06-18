@@ -232,6 +232,7 @@ agile start of SPL integration.
 - [Model-based Cloud Computing Applications](/topics/Cloud)
 - [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
 - [Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
+- [Model-Driven Systems Engineering](/topics/Model-Driven-Systems-Engineering)
 - [Generative Software Engineering](/topics/Generative-SE)
 - [Modeling Software Architecture](/topics/Software-Architecture)
 - [MontiCore - Language Workbench](/topics/MontiCore)

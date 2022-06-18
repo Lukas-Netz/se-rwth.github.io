@@ -61,6 +61,7 @@ consolidated, compact form.
 {% include trennlinie.html %}
 
 ## Foundations of Model-Based Software Engineering
+
 - [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
 - [Artifacts in Complex Development Projects](/topics/Artifacts)
 - [Artificial Intelligence in Software Engineering](/topics/Artificial-Intelligence-in-Software-Engineering)

@@ -132,6 +132,7 @@ assured using automatic simulations.
 - [Model-based Cloud Computing Applications](/topics/Cloud)
 - [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
 - [Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
+- [Model-Driven Systems Engineering](/topics/Model-Driven-Systems-Engineering)
 - [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
 - [MontiArc - Architectural Modeling](/topics/Software-Architecture)
 - [MontiCore - Language Workbench](/topics/MontiCore)

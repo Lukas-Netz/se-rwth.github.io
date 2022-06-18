@@ -130,6 +130,7 @@ based on generative technologies from the MontiCore Language Workbench.
 - [Model-based Cloud Computing Applications](/topics/Cloud)
 - [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
 - [Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
+- [Model-Driven Systems Engineering](/topics/Model-Driven-Systems-Engineering)
 - [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
 - [Generative Software Engineering](/topics/Generative-SE)
 - [Software Language Engineering (SLE)](/topics/Language-Engineering)
