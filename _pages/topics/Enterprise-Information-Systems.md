@@ -62,7 +62,7 @@ Aachen University, the MaCoCo project [[ANV+18]](#ANV+18). With MontiGem it is
 possible to generate large parts of data centric business applications: The
 data-structure and communication infrastructure, functions to access,
 retrieve and store the data, the GUIs, and parts of the access
-control (see also XXXautoref{subsec:MontiGEM}).
+control.
 
 Enterprise Information Systems are currently facing new challenges: 
 The General Data Protection Regulation (GDPR), in application since May 2018,
