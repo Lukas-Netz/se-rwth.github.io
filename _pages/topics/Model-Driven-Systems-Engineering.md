@@ -7,13 +7,17 @@ img:
 importance: 1
 keys: [FND+98,GHK+08a,KMS+18,DGH+19,WCB17,BKL+18]
 ---
+
+## Summary of Most Relevant Topic Papers
+
 Systems engineering is the interdisciplinary engineering and management that
 focuses on the design and management of complex CPS over
 their life cycles. Systems engineering can and should be applied to a great
 variety of fields from automotive, to avionics and robotics.
 
 We have a long tradition on contributing to systems engineering in
-automotive [[FND+98]](#FND+98)[[GHK+08a]](#GHK+08a), which recently culminated in developing a
+automotive [[FND+98]](#FND+98)[[GHK+08a]](#GHK+08a), 
+which recently culminated in developing a
 new comprehensive model-driven development process for automotive software
 function testing with the BMW Group [[KMS+18]](#KMS+18) [[DGH+19]](#DGH+19). 
 In this, we

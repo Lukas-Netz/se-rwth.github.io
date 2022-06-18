@@ -5,7 +5,9 @@ permalink: /topics/Model-Based-Assistive-Systems/
 description:
 img:
 importance: 1
-keys: [ELR+17,HMR+19,Ma17,Mi13,Mi18,MM15,SM19]
+keys: [HMR+19,Ma17,Mi13,Mi18,
+        MM13,MM15,MS17,
+        Mi19,SM18,SM19,ELR+17]
 ---
 
 The aim of information services and systems is to turn data into useful
@@ -15,7 +17,7 @@ they (1) provide situational support for human behaviour (2) based on
 information from previously stored and real-time monitored structural context
 and behaviour data (3) at the time the person needs or asks for it [[HMR+19]](#HMR+19).
 
-The figure shows the main components of such an assistive
+The figure below shows the main components of such an assistive
 system according to the architectural patterns for model
 centered architecture solutions [[Ma17]](#Ma17) .
 Information about human behavior is collected via sensors or smart devices
@@ -26,7 +28,16 @@ The support engine decides which next step should be provided as behavior
 support for the assisted person. This support can be provided as
 step-by-step information multi-modal on different kinds of devices.
 
-
+<center>
+<div class="row" style="width: 40%">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/as_overview.png 
+           title: "Main concepts of systems for human assistance" 
+           class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</center>
+<br />
 
 For both, information and assistive services and systems, the application of
 agile, model-based and generative methods (see 
