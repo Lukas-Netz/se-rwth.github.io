@@ -12,6 +12,8 @@ keys: [RRW12,QGC+09,RRW13c,
         ABK+17,THR+13,BRS+15]
 ---
 
+[//]: # TODO: Video' Embedding is missing, siehe: https://www.se-rwth.de/topics/Robotics.php
+
 ## Summary of Most Relevant Topic Papers
 
 Robotics can be considered a special field of [Cyber-Physical 
