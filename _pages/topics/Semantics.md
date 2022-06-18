@@ -5,7 +5,7 @@ permalink: /topics/Semantics/
 description: 
 img: 
 importance: 1
-keys: [KRV10,HR17,HR04,RKB95,
+keys: [KRV10,HKR21,HR04,RKB95,
     BHP+98,GKR96,KRB96,RK96,BCGR09a,
     BCGR09,BCR07a,BCR07b,CGR08,GRR09,
     MRR10,MRR11d,MRR11a,MRR11f,BKRW17,BR07,
@@ -24,7 +24,7 @@ We also need a proper semantics when applying a given language to **new
 domains**, such as monitoring energy consumption or modeling flight
 safety rules for the European air traffic.
 We do this regularly with our language workbench MontiCore
-[[KRV10]](#KRV10), [[HR17]](#HR17).
+[[KRV10]](#KRV10), [[HKR21]](#HKR21).
 
 
 

@@ -6,7 +6,7 @@ description:
 img: 
 importance: 1
 keys: [Rum16,Rum17,HWR14,
-        HR17,KRV07b,KRV10,
+        HKR21,KRV07b,KRV10,
         HRW18,CFJ+16,CBCR15,
         BEK+18b,CCF+15a,CKM+18,
         SRVK10,Voe11,KRV08,
@@ -47,7 +47,7 @@ precise enough for being processed by a computer and, on the other hand,
 comprehensible by humans. Monolithic design of a language can already
 benefit from methods for language engineering in the small including design
 guidelines and tooling. The [MontiCore language workbench](/topics/MontiCore) 
-[[HR17]](#HR17) is such
+[[HKR21]](#HKR21) is such
 a tool to assist development of languages. It provides, e.g.,
 techniques for an integrated definition of concrete and abstract syntax of a
 language [[KRV07b]](#KRV07b) [[Kra10]](#Kra10), but is much more a framework for

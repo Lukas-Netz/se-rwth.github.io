@@ -26,7 +26,7 @@ are developed using
 [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages).
 
 Using our experiences in the model-based generation of code with
-MontiCore [[KRV10]](#KRV10) [[HR17]](#HR17) 
+MontiCore [[KRV10]](#KRV10) [[HKR21]](#HKR21) 
 (cf. [MontiCore](/topics/MontiCore)),
 we developed several generators for data-centric applications.
 The following figure shows the main concepts for these approaches:

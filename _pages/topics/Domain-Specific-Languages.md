@@ -9,7 +9,7 @@ keys: [GHK+07,PFR02,SRVK10,
         CFJ+16,KRV07b,KRV10,
         FHR08,KKP+09,GR11,
         GKR+07,KRV08,Voe11,
-        HR17,Sch12,HRW18,
+        HKR21,Sch12,HRW18,
         CBCR15,CCF+15a,KRV07a,
         GKR+06,LRSS10,Wei12]
 ---
@@ -122,7 +122,7 @@ development of DSLs in [[GKR+07]](#GKR+07), [[KRV08]](#KRV08) and [[Voe11]](#Voe
 Modularity has been successfully applied in various areas of the DSL
 development process, such as concrete and abstract syntax, context
 conditions, and symbol table structures and has been implemented in our
-language workbench [MontiCore](/topics/MontiCore) [[HR17]](#HR17).
+language workbench [MontiCore](/topics/MontiCore) [[HKR21]](#HKR21).
 
 We can **compose independently developed languages** into **integrated families of
 DSLs**, which allows us to describe a system from various viewpoints using these

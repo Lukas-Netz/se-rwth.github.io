@@ -5,7 +5,7 @@ permalink: /topics/MontiGem/
 description:
 img:
 importance: 1
-keys: [AMN+20a,HR17,GHK+15a,DGH+18,GLRR15]
+keys: [AMN+20a,HKR21,GHK+15a,DGH+18,GLRR15]
 ---
 MontiGem [[AMN+20a]](#AMN+20a) is a generator for
 data-centric business applications. To a large
@@ -50,7 +50,7 @@ generator target itself is written in a modular way allowing to reuse
 parts in a rather independent way. Secondly, templates are used allowing
 developers to add functionality in the systematic manner. They can, e.g.,
 add additional methods to all generated classes of certain kind. Thirdly,
-the TOP mechanism created in MontiCore [[HR17]](#HR17) is applied for all
+the TOP mechanism created in MontiCore [[HKR21]](#HKR21) is applied for all
 kinds of creative classes allowing to efficiently add handwritten code
 extensions to the generated classes, while fully retaining the
 ability to intentionally re-generate everything every time. For that
