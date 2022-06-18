@@ -133,7 +133,7 @@ Our research manifests in project results with large and small partners from ind
 
 - [Automotive](/topics/Automotive)
 - [Automated Driving & Intelligent Driver Assistance](/topics/Autonomic-Driving)
-- [Robotics](/topics/Robotics)
+- [Robotics Architectures and Tasks](/topics/Robotics)
 
 <h5 style="font-weight: bold"> Our Most Important Software Tools </h5>
 

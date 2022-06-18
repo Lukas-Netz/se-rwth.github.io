@@ -142,7 +142,7 @@ methods.
 - [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
 - [Modeling Software Architecture](/topics/Software-Architecture)
 - [MontiCore - Language Workbench](/topics/MontiCore)
-- [Robotics](/topics/Robotics)
+- [Robotics Architectures and Tasks](/topics/Robotics)
 
 ## Youtube Videos of the Darpa Urban Challenge 2007
 - [Channel of teamcarolo (9 videos)](https://www.youtube.com/user/teamcarolo)

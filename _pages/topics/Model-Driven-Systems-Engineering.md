@@ -46,7 +46,7 @@ framework for machining based on these concepts [[BKL+18]](#BKL+18).
 ## Related Topics
 - [Generative Software Engineering](/topics/Generative-SE)
 - [MontiCore - Language Workbench](/topics/MontiCore)
-- [Robotics](/topics/Robotics)
+- [Robotics Architectures and Tasks](/topics/Robotics)
 - [Automotive](/topics/Automotive)
 - [Digital Twins and Digital Shadows in Engineering, Operation and Production](/topics/Digital-Twins)
 - [Internet of Things (IoT)](/topics/IoT)

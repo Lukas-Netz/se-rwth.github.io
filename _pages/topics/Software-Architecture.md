@@ -235,7 +235,7 @@ agile start of SPL integration.
 - [Generative Software Engineering](/topics/Generative-SE)
 - [Modeling Software Architecture](/topics/Software-Architecture)
 - [MontiCore - Language Workbench](/topics/MontiCore)
-- [Robotics](/topics/Robotics)
+- [Robotics Architectures and Tasks](/topics/Robotics)
 - [Semantics of Modeling Languages](/topics/Semantics)
 - [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
 

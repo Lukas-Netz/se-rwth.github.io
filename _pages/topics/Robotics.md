@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Robotics
+title: Modeling Robotics Architectures and Tasks
 permalink: /topics/Robotics/
 description: 
 img: 

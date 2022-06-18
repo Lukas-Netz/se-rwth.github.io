@@ -87,8 +87,9 @@ consolidated, compact form.
 - [Automotive](/topics/Automotive)
 - [Autonomic Driving & Intelligent Driver
     Assistance](/topics/Autonomic-Driving)
+- [Robotics Architectures and Tasks](/topics/Robotics)
 - [Cloud Computing Applications](/topics/Cloud)
-- [Robotics](/topics/Robotics)
+- [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
 - [Smart Energy Management](/topics/Energy-Management)
 
 {% comment %}

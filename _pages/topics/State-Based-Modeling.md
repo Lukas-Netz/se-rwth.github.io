@@ -162,7 +162,8 @@ composition in general. Further investigation is necessary.
 
 All our knowledge about state machines is being embedded in the model-based
 development method for the UML in [[Rum16]](#Rum16) and [[Rum17]](#Rum17).
-Furthermore, we applied it to robotics (see also [Robotics](/topics/Robotics)) with
+Furthermore, we applied it to robotics (see also
+[Robotics Architectures and Tasks](/topics/Robotics)) with
 the MontiArcAutomaton infrastructure ([[RRW14a]](#RRW14a), see also
 [Modeling Software Architecture](/topics/Software-Architecture)), a
 modeling language combining state machines and an architectural description
@@ -203,7 +204,7 @@ that is compatible with refinement and composition.
 - [Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
 - [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
 - [Evolution & Transformation of Models](/topics/Evolution)
-- [Robotics](/topics/Robotics)
+- [Robotics Architectures and Tasks](/topics/Robotics)
 - [Modeling Software Architecture](/topics/Software-Architecture)
 - [Semantics of Modeling Languages](/topics/Semantics)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)

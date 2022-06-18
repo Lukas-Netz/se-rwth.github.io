@@ -172,7 +172,7 @@ Assistance](/topics/Autonomic-Driving)
 - [Domain Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
 - [Energy Management](/topics/Energy-Management)
 - [MontiArc - Architectural Modeling](/topics/Software-Architecture)
-- [Robotics](/topics/Robotics)
+- [Robotics Architectures and Tasks](/topics/Robotics)
 - [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
 
 {% include trennlinie.html %}

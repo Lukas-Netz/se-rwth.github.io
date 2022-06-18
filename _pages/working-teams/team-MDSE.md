@@ -132,7 +132,7 @@ We've arranged our publications by topic for your convenience below:
 
 - [Automotive](/topics/Automotive)
 - [Automated Driving & Intelligent Driver Assistance](/topics/Autonomic-Driving)
-- [Robotics](/topics/Robotics)
+- [Robotics Architectures and Tasks](/topics/Robotics)
 
 <h5 style="font-weight: bold"> Our Most Important Software Tools </h5>
 

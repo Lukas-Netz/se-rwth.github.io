@@ -136,7 +136,7 @@ assured using automatic simulations.
 - [MontiArc - Architectural Modeling](/topics/Software-Architecture)
 - [MontiCore - Language Workbench](/topics/MontiCore)
 - [Modeling Software Architecture](/topics/Software-Architecture)
-- [Robotics](/topics/Robotics)
+- [Robotics Architectures and Tasks](/topics/Robotics)
 - [Variability & Software Product Lines (SPL)](/topics/Variability)
 
 {% include trennlinie.html %}
