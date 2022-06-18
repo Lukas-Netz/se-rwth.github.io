@@ -8,7 +8,7 @@ importance: 1
 keys: [GHK+08,GRJA12,HKM+13,
         HHK+15,BEK+19,GKPR08,
         HRR+11,HRRS12,CGR09,
-        GR11,FPR02,BEK+18b]
+        GR11,PFR02,BEK+18b]
 ---
 
 ## Summary of Most Relevant Topic Papers
@@ -76,7 +76,7 @@ form of semantic language refinement on state charts in [[GR11]](#GR11).
 Additionally, we investigated a method to model syntactic language variability 
 through **language product lines**.
 
-In [[FPR02]](#FPR02) we discussed how to apply annotation to the UML to
+In [[PFR02]](#PFR02) we discussed how to apply annotation to the UML to
 describe product variation points.
 Current work continues this line of research to support the definition
 and development of 150% language families for textual and generative
