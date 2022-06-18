@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Variability & Software Product Lines
+title: Variability & Software Product Lines 
 permalink: /topics/Variability/
 description: 
 img: 
