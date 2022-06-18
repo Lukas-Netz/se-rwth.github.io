@@ -29,7 +29,7 @@ support for the assisted person. This support can be provided as
 step-by-step information multi-modal on different kinds of devices.
 
 <center>
-<div class="row" style="width: 40%">
+<div class="row" style="width: 70%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/as_overview.png 
            title: "Main concepts of systems for human assistance" 
