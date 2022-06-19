@@ -155,8 +155,8 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
 - [SE@RWTH Channel at YouTube.](https://www.youtube.com/channel/UCECfJLY1pDkQXHh5GlWm8OA)
 - [Teaching Videos of past and current lectures.](https://www.se-rwth.de/videochannel/)
 - [Draw My Business](https://www.youtube.com/channel/UCrJXFECCf80wCzW3EeMkCtA) - Erklärvideos leicht gemacht.
-- [Bernhard Rumpe: Engineering Software Languages for the Digital World.](https://vimeo.com/263187868)
-  Keynote Modelsward. 2018. ([Video](https://vimeo.com/263187868))
+- [Bernhard Rumpe: Model-based Software and Systems Engineering.](https://www.youtube.com/watch?v=kVTU3QH4idQ)
+  Keynote Euromicro DSD/SEAA 2020. ([Video](https://www.youtube.com/watch?v=kVTU3QH4idQ))
 - [Bernhard Rumpe: Extreme Programming (XP) in research Projects. 
    Overview, Background, 
    Problems.](http://videos.rennes.inria.fr/invites/rumpe/index.htm)
