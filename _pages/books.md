@@ -4,12 +4,12 @@ title: Books
 permalink: /books/
 description: 
 keys: [
-        FHK+21, HKR21, BBK+21, FHK+20, BKR+20, Nag19, 
+        FHK+22, HKR21, BBK+21, FHK+20a, BKR+20, Nag19, 
         HR17, GHR17, ABH+17, CMR17, Rum17, CFJ+16, 
         Rum16, BCR15, CCF+15a, CR15, RRW14a, KRR14, 
-        KR13, Rum12, RL12, JRS12, Rum11, GKLRS10, 
-        GR10, LMPPR10, Rum04, Rum04a, RH04, FPR03b, 
-        FPR03, BR01, EFMR01, BEPRT00, BR00, RF99, 
+        KR13, Rum12, LR12, JRS12, Rum11, GKL+10, 
+        GR10, LMP+10, Rum04, Rum04b, RH04, FPR03, 
+        FPR01, BR01, EFM+01, BEP+00, BR00, FR99, 
         KRS99, BR98, BR97, Rum96
       ]
 nav: false
@@ -31,7 +31,7 @@ horizontal: false
 
 <div class="publications">
   {% for k in page.keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f books -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
