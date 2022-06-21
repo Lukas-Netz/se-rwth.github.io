@@ -14,7 +14,7 @@ Most development projects over time evolve from a simple, understandable
 collection of artifacts, tools, and the way they relate to each other
 into an complex, incomprehensible compound of artifacts, tools, and developers
 who work with them.
-Figure 1 illustrates this evolution with a simple set of tools and the
+The following figure illustrates this evolution with a simple set of tools and the
 artifacts they produce and edit. The arrows between the tools and artifacts 
 represent the relations.
 
@@ -84,25 +84,26 @@ and techniques.
 <div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/topics/artifacts/artifacts_overview.png
-           title: "Figure 2: Artifact models and their purpose in software development projects" 
+           title: "Artifact models and their purpose in software development projects" 
            class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
 <br />
 
-Figure 2 shows how to handle the complexity of model-driven systems engineering
-projects with artifact models. Furthermore, it shows the relations between the
-involved stakeholders and the artifact model, as well as, the artifact data. An
-architect creates the artifact model for a systems engineering project shown on
-the left side of the figure. Its goal is to structure all the different kinds of
-artifacts and their relations within the project created by people involved in
-it, represented by the developer icon shown on the right side of the figure.
-Corresponding to the artifact model, artifact data is extracted from the
-project. This data contains information about all artifacts and their relations
-of the project in its current state. Analysts, shown on the right side of the
-figure, use this data to check the current state of a project. Additionally, the
-artifact data can be used as input for software tools for further processing.
+The previous figure shows how to handle the complexity of model-driven systems 
+engineering projects with artifact models. Furthermore, it shows the relations 
+between the involved stakeholders and the artifact model, as well as, the 
+artifact data. An architect creates the artifact model for a systems engineering 
+project shown on the left side of the figure. Its goal is to structure all the 
+different kinds of artifacts and their relations within the project created by 
+people involved in it, represented by the developer icon shown on the right 
+side of the figure. Corresponding to the artifact model, artifact data is 
+extracted from the project. This data contains information about all artifacts 
+and their relations of the project in its current state. Analysts, shown on 
+the right side of the figure, use this data to check the current state of a 
+project. Additionally, the artifact data can be used as input for software 
+tools for further processing.
 
 ## Modeling artifacts and their relations
 
@@ -132,14 +133,14 @@ architecture can be automatically check with respect to the concept.
 <div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/topics/artifacts/artifacts_architecture.png
-           title: "Figure 3: Analyzing an architectural drift based on artifact data" 
+           title: "Analyzing an architectural drift based on artifact data" 
            class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
 <br />
 
-Figure 3 illustrates the results of such a calculation of the architectural
+The last figure illustrates the results of such a calculation of the architectural
 drift. After creating the artifact model for the project, a tool-chain
 automatically extracts the artifact data of the project in its current state.
 Additionally, an architect defines which modules exists in the project and which
@@ -175,18 +176,18 @@ project and further analyze it.
 <div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/topics/artifacts/artifacts_tools.png
-           title: "Figure 4: Understanding a software project based on its tools and artifacts" 
+           title: "Understanding a software project based on its tools and artifacts" 
            class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
 <br />
 
-Figure 4 demonstrates our attempt to leave the layer of a file system to perform
+The figure demonstrates our attempt to leave the layer of a file system to perform
 artifact-based analyses and move to the layer of tools and their relations
 within a project. Based on an artifact model created to understand artifacts
 which are primarily located on the level of a file system, we added the
-information of different tools and their relations to the model. In Figure 3
+information of different tools and their relations to the model. In the figure
 these are the wiki (green), bugtacker (purple), jenkins build server (red), and
 git repositories (blue). The figure shows an overview of all these tools which
 are part of our own MontiCore project. By using the concept of artifact-based
