@@ -31,7 +31,9 @@ Dann kommen Sie zu uns.
 
 Der Lehrstuhl SE von Prof. Rumpe sucht sowohl erfahrene 
 wissenschaftliche Mitarbeiter als auch Hiwis im Bereich Software 
-Engineering. 
+Engineering.
+
+{% include trennlinie.html %}
 
 ### Promotionsstellen für wissenschaftliche Mitarbeiter:innen
 
@@ -47,6 +49,8 @@ Es besteht Gelegenheit zur Promotion in einem agilen, kooperativen Team
 mit guten Industriekooperationen und wissenschaftlichen 
 Grundlagenprojekten. 
 
+{% include trennlinie.html %}
+
 ### PostDoc-Stelle
 
 - **bewerben Sie sich doch initiativ**
@@ -54,6 +58,8 @@ Grundlagenprojekten.
 Es besteht Gelegenheit zur Habilitation und zum Ausbau/Aufbau einer 
 eigenen thematisch fokussierten Arbeitsgruppe. Die dafür notwendigen 
 Projekte sind vorhanden. 
+
+{% include trennlinie.html %}
 
 ### Hiwi-Stellen
 
