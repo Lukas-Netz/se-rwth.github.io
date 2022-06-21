@@ -32,7 +32,7 @@ engineering in teams to foster efficient research and development. Currently, th
 
 - [The list of our current team members](https://www.se-rwth.de/staff/)
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Autonomous Driving and Driver Intelligence
-permalink: /topics/Autonomic-Driving/
+permalink: /research/Autonomic-Driving/
 description:
 img:
 importance: 1
@@ -45,7 +45,7 @@ one, large, distributed system. Therefore, we are involved in a number of
 projects with major European car manufacturers in which we transfer modern 
 software development techniques to the car domain. This transfer is necessary 
 as, with its increasing complexity, software becomes a demanding driver of the 
-overall systems development process and not just an add-on.
+overall systems' development process and not just an add-on.
 
 **Caroline**
 is a completely autonomous car, with which we participated in the [Darpa Urban 
@@ -77,7 +77,7 @@ simulation** (not only visualization!) of the car within its
 surrounding: the city, pedestrians and especially other cars [[BBR07]](#BBR07).
 Our simulator is capable of running automatic
 back-to-back tests on the complete software system with no real
-hardware involved by producing sensoric input from the simulation and
+hardware involved by producing sensor input from the simulation and
 acting according to the steering output of the autonomic driving
 software. Every night and, when necessary for every version change, the
 tests are automatically executed.
@@ -88,7 +88,7 @@ develop software in an agile way [[BR12b]](#BR12b). We have successfully
 shown that agile development of high-quality software is possible and
 very effective in the automotive domain. However, it remains a
 challenge to combine this innovative, modern way of agile, iterative
-systems development with the current development standards, such as ISO
+systems' development with the current development standards, such as ISO
 26262, in order to allow the OEMs to benefit both from efficiency and
 quality on one hand and legal issues on the other hand.
 
@@ -137,13 +137,13 @@ methods.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Automotive](/topics/Automotive)
-- [Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
-- [Model-Driven Systems Engineering](/topics/Model-Driven-Systems-Engineering)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Modeling Software Architecture](/topics/Software-Architecture)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Robotics Architectures and Tasks](/topics/Robotics)
+- [Automotive](/research/Automotive)
+- [Cyber-Physical Systems (CPS)](/research/Cyber-Physical-Systems)
+- [Model-Driven Systems Engineering](/research/Model-Driven-Systems-Engineering)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Modeling Software Architecture](/research/Software-Architecture)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Robotics Architectures and Tasks](/research/Robotics)
 
 ## Youtube Videos of the Darpa Urban Challenge 2007
 - [Channel of teamcarolo (9 videos)](https://www.youtube.com/user/teamcarolo)
@@ -156,7 +156,7 @@ methods.
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

@@ -441,7 +441,7 @@ finance, staff and project organization.
 
 Large parts of the code are generated with the [MontiCore language 
 workbench and code generation 
-framework](https://se-rwth.github.io/topics/MontiCore/) to ensure a 
+framework](https://se-rwth.github.io/research/MontiCore/) to ensure a 
 highly adaptable system. Lead users are involved actively in the 
 development process to be able to provide a useful solution. 
 
@@ -780,7 +780,7 @@ MBSE approach, especially for industry.
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

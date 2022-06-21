@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Internet of Things (IoT) 
-permalink: /topics/IoT/
+permalink: /research/IoT/
 description:
 img:
 importance: 1
@@ -24,7 +24,7 @@ e.g., in mechanical or electrical engineering, into our focus of
 research. To this end, we conducted a systematic mapping study on modeling
 in Industry 4.0 [[WCB17]](#WCB17) which uncovered that knowledge representation
 and discrete modeling of systems and processes demand for 
-[Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
+[Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
 usable by the automation and manufacturing experts.
 
 In that study, we also identified products, resources, and processes as
@@ -50,19 +50,19 @@ concepts [[BKL+18]](#BKL+18).
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Domain Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Energy Management](/topics/Energy-Management)
-- [MontiArc - Architectural Modeling](/topics/Software-Architecture)
-- [Robotics Architectures and Tasks](/topics/Robotics)
-- [Cyber Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
-- [Model-Driven Systems Engineering](/topics/Model-Driven-Systems-Engineering)
+- [Domain Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Energy Management](/research/Energy-Management)
+- [MontiArc - Architectural Modeling](/research/Software-Architecture)
+- [Robotics Architectures and Tasks](/research/Robotics)
+- [Cyber Physical Systems (CPS)](/research/Cyber-Physical-Systems)
+- [Model-Driven Systems Engineering](/research/Model-Driven-Systems-Engineering)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

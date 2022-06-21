@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Software Language Engineering (SLE)
-permalink: /topics/Language-Engineering/
+permalink: /research/Language-Engineering/
 description: 
 img: 
 importance: 1
@@ -28,17 +28,17 @@ software engineering. Even programming languages are still subject to
 improvement. For many other activities, such as architectural design,
 behavioral modeling, and data structure specifications, we use the general
 purpose [Unified Modeling 
-Language (UML) ](/topics/Unified-Modeling-Language) 
+Language (UML) ](/research/Unified-Modeling-Language) 
 [[Rum16]](#Rum16) [[Rum17]](#Rum17). Nevertheless, UML and its tooling still are much less
 elaborate and hence subject to extensive syntactic, semantic, and methodical
 improvement.
 
 In various domains, however, it is more appropriate to employ [Domain Specific 
-Languages (DSLs)](/topics/Domain-Specific-Languages) to enable
+Languages (DSLs)](/research/Domain-Specific-Languages) to enable
 non-software developers specifying properties, configuring their systems,
 etc. in terms of established domain concepts and corresponding language
 elements. DSLs have already achieved a significant degree of penetration in industry [[HWR14]](#HWR14).
-With the upcoming age of digitalization, we thus expect DSLs
+With the upcoming age of digitization, we thus expect DSLs
 to grow even stronger and
 therefore also involve increasing effort in their efficient engineering, integration and composition.
 
@@ -46,7 +46,7 @@ Design of a DSL is a complex task, because, on one hand, it needs to be
 precise enough for being processed by a computer and, on the other hand,
 comprehensible by humans. Monolithic design of a language can already
 benefit from methods for language engineering in the small including design
-guidelines and tooling. The [MontiCore language workbench](/topics/MontiCore) 
+guidelines and tooling. The [MontiCore language workbench](/research/MontiCore) 
 [[HKR21]](#HKR21) is such
 a tool to assist development of languages. It provides, e.g.,
 techniques for an integrated definition of concrete and abstract syntax of a
@@ -81,7 +81,7 @@ inference, as well as assistance for their evolution .
 
 Of course, we also 
 consider variability for modeling languages and have investigated a method to 
-model syntactic language [variability](/topics/Variability) through **language 
+model syntactic language [variability](/research/Variability) through **language 
 product lines** 
 [[BEK+18a]](#BEK+18a) 
 [[BEK+18b]](#BEK+18b) 
@@ -111,12 +111,12 @@ MontiCore also
 assists modular decomposition of the backend code generation based on
 different targets and different sublanguages [[RRRW15b]](#RRRW15b) 
 [[BBC+18]](#BBC+18) (see also [Compositionality/Modularity of 
-Models](/topics/Compositionality)).
+Models](/research/Compositionality)).
 
 
 ## Language Derivation
 
-**Language derivation** is, to our believe, a promising technique to **develop new
+**Language derivation** is, to our belief, a promising technique to **develop new
 languages** for a specific purpose that are relying on existing basic
 languages [[HHK+13]](#HHK+13) [[HHK+15]](#HHK+15) [[HRW15]](#HRW15) 
 [[GLRR15]](#GLRR15) [[BDL+18]](#BDL+18) [[BJRW18]](#BJRW18).
@@ -164,7 +164,7 @@ tags can describe, where to find the appropriate activity implementation,
 etc.
 
 Tagging models share the idea of UML's stereotypes, but are not part of the
-base model. Instead the separate tagging model references the base model. This
+base model. Instead, the separate tagging model references the base model. This
 has the advantages (1) that the base model can be reused without technology
 specific pollution, (2) several different tag models are possible for the same
 base model in different technological spaces (e.g., iPhone, Android or Windows
@@ -193,7 +193,7 @@ variability in a bottom-up fashion. A delta model describes which model
 elements are added, modified, or deleted on the base model. Thus delta
 approach is popular for the management of Variability and Software Product
 Lines (SPL) (see [Variability and Software Product Lines 
-(SPL)](/topics/Variability)).
+(SPL)](/research/Variability)).
 Again the delta operator transforms a base language **B** into a language **Delta(B)**
 allowing to describe delta models. Each delta model can be applied individually
 and therefore n deltas amount to 2^n variants (modulo application
@@ -235,20 +235,20 @@ base languages.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Compositionality/Modularity of Models](/topics/Compositionality)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Evolution & Transformation of Models](/topics/Evolution)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Variability & Software Product Lines (SPL)](/topics/Variability)
+- [Compositionality/Modularity of Models](/research/Compositionality)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Evolution & Transformation of Models](/research/Evolution)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [State-Based Modeling (Automata)](/research/State-Based-Modeling)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [Variability & Software Product Lines (SPL)](/research/Variability)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

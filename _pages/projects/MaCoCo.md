@@ -79,12 +79,12 @@ of Management Accounting and Software Engineering.
 {% include trennlinie.html %}
 
 ## Related Research Topics:
-- [Agile Model Based Software Engineering](/topics/Agile-MBSE)
-- [Domain Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [UML/P](/topics/UML-P)
-- [Unified Modeling Language (UML)](https://www.se-rwth.de/topics/Unified-Modeling-Language.php)
+- [Agile Model Based Software Engineering](/research/Agile-MBSE)
+- [Domain Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Generative Software Engineering](/research/Generative-SE)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [UML/P](/research/UML-P)
+- [Unified Modeling Language (UML)](https://www.se-rwth.de/research/Unified-Modeling-Language.php)
 
 {% include trennlinie.html %}
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Evolution & Transformation of Models
-permalink: /topics/Evolution/
+permalink: /research/Evolution/
 description: 
 img: 
 importance: 1
@@ -28,7 +28,7 @@ tool-based assistance for evolving models according to changing needs.
 
 ## Evolution
 
-[Agile methods](/topics/Agile-MBSE), 
+[Agile methods](/research/Agile-MBSE), 
 such as XP or Scrum, rely to a large extent on the ability to
 evolve the system due to changing requirements, architectural improvements and
 incremental functional extensions. While agile methods use code as their
@@ -40,7 +40,7 @@ relies on iterated and fully automatic generation of larger parts of the code
 as well as tests from models, which in turn enables us to apply evolutionary
 techniques directly on the various kinds of models, e.g., the UML. We argue that
 combining automatic and repeatable code generation with tool-assistance for
-model transformation allows to combine agile and model-based development
+model transformation allows combining agile and model-based development
 concepts for a new and effective kind of development process.
 
 An overview on current technologies for evolving models within a language and
@@ -73,7 +73,7 @@ to
 "black box" refinement, where only the external visible behavior is taken to
 consideration, and "hierarchical decomposition", where a black box behavior
 is
-decomposed into an (forthwith immutable) decomposed architecture.
+decomposed into a (forthwith immutable) decomposed architecture.
 
 As performing a refinement step is error-prone, we present a language
 independent and fully automated
@@ -85,7 +85,8 @@ models.
 ## Refactoring of Models
 
 Refactoring aims to improve the internal structure while preserving its
-observable behavior and became prominent with agile development. In [[PR01]](#PR01) we traced back refactoring of programs to related techniques,
+observable behavior and became prominent with agile development. In [[PR01]](#PR01) 
+we traced back refactoring of programs to related techniques,
 e.g., known from math or theorem provers. In [[PR03]](#PR03) we have discussed the
 existing refactoring techniques for specifications and models. 
 
@@ -118,7 +119,7 @@ evolved from the
 other, and what their clear semantics is. In [[MRR10]](#MRR10) we discussed the
 necessity for this and since then have defined a number of semantic-based
 approaches for this (see
-[Semantics of Modeling Languages](/topics/Semantics)).
+[Semantics of Modeling Languages](/research/Semantics)).
 We also applied **compatibility checking of evolved models** on Simulink, e.g., in
 [[RSW+15]](#RSW+15), where we identified in which system context a component can be
 replaced safely by another version and still achieve the same functionality.
@@ -131,7 +132,7 @@ Software product line engineering is most effective if planned already on the
 modeling level. For this purpose, we developed the delta approach for modeling.
 Each delta describes a coherent set of changes on a model. A set of deltas
 applicable to a base model thus describes a model variant (see also
-[Variability & Software Product Lines (SPL)](/topics/Variability)).
+[Variability & Software Product Lines (SPL)](/research/Variability)).
 
 We successfully applied delta modeling for software architectures [[HRRS11]](#HRRS11)
 and extended this into a hierarchical approach in [[HRR+11]](#HRR+11). Second, we
@@ -155,8 +156,8 @@ transformation language
 from a given base language. Such a transformation language reuses larger parts
 of the concrete syntax of the base language and enriches it by patterns and
 control structures for transformations. We have successfully applied this
-engine on several [UML](/topics/Unified-Modeling-Language) sub-languages and 
-[DSLs](/topics/Domain-Specific-Languages)
+engine on several [UML](/research/Unified-Modeling-Language) sub-languages and 
+[DSLs](/research/Domain-Specific-Languages)
 [[HRW15]](#HRW15) [[HHR+15]](#HHR+15) [[AHRW17]](#AHRW17) 
 [[AHRW17b]](#AHRW17b) [[Hoe18]](#Hoe18).
 
@@ -172,9 +173,9 @@ enables model-based evolution.
 derived from the old model are preserved.
 4. Semantic differencing helps to understand the impact of evolutionary 
 refactoring on models.
-5. Using model transformations as individually applicable "deltas" allows to 
-describe model and therefore software variants.
-6. Language specific transformation languages can be systematically derived from 
+5. Using model transformations as individually applicable "deltas" allows describing
+6. model and therefore software variants.
+7. Language specific transformation languages can be systematically derived from 
 given descriptions of modeling languages.
 
 {% include trennlinie.html %}
@@ -190,21 +191,21 @@ given descriptions of modeling languages.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Semantics of Modeling Languages](/topics/Semantics)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Variability & Software Product Lines (SPL)](/topics/Variability)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Generative Software Engineering](/research/Generative-SE)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Semantics of Modeling Languages](/research/Semantics)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [Variability & Software Product Lines (SPL)](/research/Variability)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

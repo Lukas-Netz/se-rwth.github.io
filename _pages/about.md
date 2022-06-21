@@ -31,7 +31,7 @@ In recent years, software engineering has significantly extended and
 consolidated its portfolio of methods, techniques, and tools to support 
 development of highly critical, reliable, or functionally complex systems 
 within the predefined time and a given budget while meeting the required 
-quality [[BEP+00]](/topics). It is our mission to 
+quality [[BEP+00]](/research). It is our mission to 
 transfer this knowledge and the accompanying tools into industry as well 
 as to customize and apply them to project and company specific needs.
 
@@ -46,7 +46,7 @@ in a <em>shorter period of time</em> and with flexible integration of
 </blockquote>
 
 #### Most interesting publications
-[Topic sorted list of most interesting publications](/topics)
+[Topic sorted list of most interesting publications](/research)
 
 {% include trennlinie.html %}
 
@@ -129,14 +129,14 @@ existing concepts and tools to be applied, evaluated, elaborated, and
 adapted within specific areas independently, and then to generalize and 
 transfer them into the other working areas. For further information 
 about our research topics applied and developed in the teams, please 
-refer to [our publications and research](/topics). 
+refer to [our publications and research](/research). 
 
 {% include trennlinie.html %}
 
 #### Further links: 
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

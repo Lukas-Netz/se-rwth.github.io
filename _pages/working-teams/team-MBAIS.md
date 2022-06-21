@@ -21,10 +21,10 @@ to develop data-centric information systems and assistive systems.
 
 Generating software is an important capability for a tooling 
 infrastructure that successfully assists modeling in the development 
-process (see ["Agile Model Based Software Engineering"](../topics/Agile-MBSE)). As 
+process (see ["Agile Model Based Software Engineering"](../research/Agile-MBSE)). As 
 every application domain has its own terms, relations, structure 
 and behaviour, there is a need for developing different [Domain 
-Specific Languages (DSLs)](../topics/Domain-Specific-Languages) for each domain and/or purpose. The automatic 
+Specific Languages (DSLs)](../research/Domain-Specific-Languages) for each domain and/or purpose. The automatic 
 combination of models from a variety of DSLs ensures consistency 
 (e.g. for front- and backend).
 
@@ -34,7 +34,7 @@ Systems and services for the representation of big amounts of data such
 as web-information portals are commonly used and their representation and 
 system architecture highly depends on the domain in focus. Using generative 
 methods accelerates the development process (see ["Generative 
-Software Engineering"](../topics/Generative-SE)) and decreases development time, as changes of the 
+Software Engineering"](../research/Generative-SE)) and decreases development time, as changes of the 
 models are easily passed on to the source code. We are demonstrating the 
 practical application of this approach , e.g., in the [MaCoCo](../projects/MaCoCo) and InviDas 
 project using the generator framework MontiGem.
@@ -130,26 +130,26 @@ Our research manifests in project results with large and small partners from ind
 
 <h5 style="font-weight: bold"> Modeling </h5>
 
-- [Compositionality & Modularity of Models & Languages](/topics/Compositionality)
-- [Modeling for Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [Modeling Software Architectures](/topics/Software-Architecture)
-- [Variability & Software Product Lines (SPL)](/topics/Variability)
+- [Compositionality & Modularity of Models & Languages](/research/Compositionality)
+- [Modeling for Cyber-Physical Systems (CPS)](/research/Cyber-Physical-Systems)
+- [Generative Software Engineering](/research/Generative-SE)
+- [Modeling Software Architectures](/research/Software-Architecture)
+- [Variability & Software Product Lines (SPL)](/research/Variability)
 
 <h5 style="font-weight: bold"> Modeling Languages </h5>
 
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [Semantics of Modeling Languages](/topics/Semantics)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [Semantics of Modeling Languages](/research/Semantics)
 
 <h5 style="font-weight: bold"> Application Domains </h5>
 
-- [Model-based Cloud Computing Applications](/topics/Cloud)
-- [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
-- [Energy-Management](/topics/Energy-Management)
+- [Model-based Cloud Computing Applications](/research/Cloud)
+- [Enterprise Information Systems](/research/Enterprise-Information-Systems)
+- [Energy-Management](/research/Energy-Management)
 
 <h5 style="font-weight: bold"> Our Most Important Software Tools </h5>
 
-- [MontiCore - Language Workbench for DSLs](/topics/MontiCore)
-- [UML/P - Executable Modeling with UML](/topics/UML-P)
+- [MontiCore - Language Workbench for DSLs](/research/MontiCore)
+- [UML/P - Executable Modeling with UML](/research/UML-P)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MontiCore - Language Workbench
-permalink: /topics/MontiCore/
+permalink: /research/MontiCore/
 description: 
 img: 
 importance: 1
@@ -64,7 +64,7 @@ kinds of other languages.
 
 MontiCore has successfully been deployed in a variety of industrial and 
 research projects. Among many other general and domain-specific 
-languages, the [UML/P family of modeling languages](/topics/UML-P) has 
+languages, the [UML/P family of modeling languages](/research/UML-P) has 
 been realized with MontiCore, and various forms of structured text 
 languages for requirements, norms, and even legal texts were defined. 
 
@@ -90,11 +90,11 @@ first version of UML/P was published (and is now available as
 [[Rum16]](#Rum16) [[Rum17]](#Rum17)) demonstrating that the conglomerate of languages -
 that the UML is made of - can be substantiated with useful
 transformation, refinement and refactoring techniques (cf.
-[Evolution & Transformation of Models](/topics/Evolution)). 
+[Evolution & Transformation of Models](/research/Evolution)). 
 We were mainly interested in
 model-based techniques for code and test code generation as well as
 flexible combination of language fragments, such as OCL within
-Statecharts or Class Diagrams for typing in Component and Connector
+Statechart or class Diagrams for typing in Component and Connector
 Diagrams. However, hard coded modeling tools where not helpful in
 realizing these techniques. This original motivation for providing a
 flexible and adaptable toolset through MontiCore can also be found in
@@ -145,24 +145,24 @@ editing for experienced users.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Compositionality/Modularity of Models & Languages](/topics/Compositionality)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Evolution & Transformation of Models](/topics/Evolution)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [Modeling Software Architecture](/topics/Software-Architecture)
-- [Semantics of Modeling Languages](/topics/Semantics)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [UML/P](/topics/UML-P)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Variability & Software Product Lines (SPL)](/topics/Variability)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Compositionality/Modularity of Models & Languages](/research/Compositionality)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Evolution & Transformation of Models](/research/Evolution)
+- [Generative Software Engineering](/research/Generative-SE)
+- [Modeling Software Architecture](/research/Software-Architecture)
+- [Semantics of Modeling Languages](/research/Semantics)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [UML/P](/research/UML-P)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [Variability & Software Product Lines (SPL)](/research/Variability)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

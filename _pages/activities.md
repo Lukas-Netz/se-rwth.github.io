@@ -36,6 +36,13 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
   have been incorporated into the project. Of course, the newest 
   insights are continuously integrated.
 
+[//]: # (Erste Variant - Die Videos laufen automatisch nacheinander)
+
+<iframe width="560" height="315" style="display: block; margin: 20px auto;" 
+src="https://www.youtube.com/embed/videoseries?list=PLuHxQfNRwKzPtO0tC_GmagidFxaQP6bsb"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - [The SSElab Portfolio of SE Services](https://sselab.de/lab1/) - 
   SSElab is comprising a set of services, such as git, subversion, 
   issue tracking, code generation facilities, wikis, storage, 
@@ -346,7 +353,7 @@ This company helps to engineer systems more efficiently and sustainable.
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

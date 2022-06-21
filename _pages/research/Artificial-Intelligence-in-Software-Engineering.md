@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Artificial Intelligence in Software Engineering
-permalink: /topics/Artificial-Intelligence-in-Software-Engineering/
+permalink: /research/Artificial-Intelligence-in-Software-Engineering/
 description: 
 img: 
 importance: 1
@@ -94,7 +94,7 @@ is a diff witness in the semantic difference from *cd1* to *cd2*.
 We apply logic, knowledge representation and intelligent reasoning to software 
 engineering to perform correctness proofs, execute symbolic tests or find 
 counterexamples. The theorem prover Isabelle is a mature and fundamental tool, 
-which allows to represent knowledge as a collection of definitions and theorems 
+which allows representing knowledge as a collection of definitions and theorems 
 and reason about systems. To increase the usability we provide a high-level API 
 encapsulating the low-level logic engine as well as a domain-specific modeling 
 language as front end coupled with an Isabelle code generator.
@@ -134,7 +134,7 @@ engineering,
 [[DGH+18]](#DGH+18),
 [[KMS+18]](#KMS+18)
 describe a methodology to test system requirements automatically. Our method is 
-realized for a variant of SysML activity diagrams and statecharts. The modeling 
+realized for a variant of SysML activity diagrams and state charts. The modeling 
 languages are tailored towards testing automotive software and automatic test 
 case derivation and applying a model transformation to automatically derive 
 executable test cases.
@@ -143,7 +143,7 @@ Figure 4 shows an overview of the test case creation process. Customer
 requirements in combination with customer requirement models are the input for 
 the specification of the functional behavior of the system under development. 
 The output of specifying the functional behavior are activity diagrams and 
-statecharts. These diagrams contain additional trace links to functional 
+state charts. These diagrams contain additional trace links to functional 
 requirements. Our test case generator uses the diagrams as well as the linked 
 functional requirements during the process of test case creation to generate 
 test sets for each functionality modeled by the diagrams. During the generation 
@@ -205,19 +205,19 @@ learning supports the analysis with various methods.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Semantics of Modeling Languages](/topics/Semantics)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Evolution & Transformation of Models](/topics/Evolution)
+- [Semantics of Modeling Languages](/research/Semantics)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [Evolution & Transformation of Models](/research/Evolution)
 - [Modeling Software Architecture & the MontiArc 
-Tool](/topics/Software-Architecture)
-- [Automotive](/topics/Automotive)
+Tool](/research/Software-Architecture)
+- [Automotive](/research/Automotive)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

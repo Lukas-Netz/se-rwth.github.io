@@ -76,8 +76,8 @@ publications around our main research topics, application domains, and
 tools. Further links to research are:  
 
 - [Publications](/publications)
-- [Research](/topics)
-- [Topic sorted list of most interesting publications](/topics)
+- [Research](/research)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 

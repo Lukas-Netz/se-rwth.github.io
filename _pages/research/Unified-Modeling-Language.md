@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Unified Modeling Language (UML)
-permalink: /topics/Unified-Modeling-Language/
+permalink: /research/Unified-Modeling-Language/
 description:
 img:
 importance: 1
@@ -23,7 +23,7 @@ long time [[KER99]](#KER99). Thus, many of our contributions build on
 the UML variant UML/P  which is suitable for programming. UML/P is 
 described in [[Rum16]](#Rum16) and [[Rum17]](#Rum17) and implemented in 
 a first version in [[Sch12]](#Sch12) 
-(see [UML/P - Executable Modeling with UML](/topics/UML-P)). 
+(see [UML/P - Executable Modeling with UML](/research/UML-P)). 
 
 Defining variants of a modeling language in a systematic way is useful 
 for adapting the language to domain or project specific needs. Thus, 
@@ -52,7 +52,7 @@ principal forms of uses of UML models in agile development projects.
 The exemplary diagrams, namely object diagrams and sequence diagrams, 
 are used for test case definition, whereas the more complete 
 diagrams are used for code generation (see also 
-[Generative Software Engineering](/topics/Generative-SE)). 
+[Generative Software Engineering](/research/Generative-SE)). 
 
 <center>
 <div class="row" style="width: 50%">
@@ -105,22 +105,22 @@ generation as well as for high-level analysis.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Evolution & Transformation of Models](/topics/Evolution)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [MontiArc - Architectural Modeling](/topics/Software-Architecture)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Semantics of Modeling Languages](/topics/Semantics)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [UML/P](/topics/UML-P)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Evolution & Transformation of Models](/research/Evolution)
+- [Generative Software Engineering](/research/Generative-SE)
+- [MontiArc - Architectural Modeling](/research/Software-Architecture)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Semantics of Modeling Languages](/research/Semantics)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [UML/P](/research/UML-P)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

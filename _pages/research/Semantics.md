@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Semantics of Modeling Languages
-permalink: /topics/Semantics/
+permalink: /research/Semantics/
 description: 
 img: 
 importance: 1
@@ -103,7 +103,7 @@ domain as a model hierarchy within the mathematical model.
 The **System Model** for the full UML however became a rather large mathematical 
 theory, that captures object-oriented communication (method calls, dynamic 
 lookup, inheritance, object identity) as well as distributed systems at various 
-levels as states and statemachines. We therefore developed the full system model 
+levels as states and state-machines. We therefore developed the full system model 
 for the UML in 
 [[BCGR09a]](#BCGR09a)
 and discuss the rationale for it in 
@@ -143,7 +143,7 @@ As nothing is
 as mighty and comfortable as mathematical theories, one needs to
 carefully design the semantics in particular if a concept of the
 language does not have a direct representation in the semantics domain.
-Using a meta-model to describe the semantics is appealing, because the
+Using a metamodel to describe the semantics is appealing, because the
 syntactic domain L is meta-modeled anyway, but also demanding,
 because both the semantic domain S and the mapping M need to be
 encoded using meta-modeling instead of mathematical concepts. We
@@ -187,7 +187,7 @@ implementations all of which fulfill the constraints given by the
 model. This approach has several advantages:
 
 1. Each element in the semantics can be an **executable implementation**, we 
-just do not know, which of them will be the final implementation.
+just do not know which of them will be the final implementation.
 2. Given two models, the **semantics of composition** is defined as 
 intersection: these are exactly the systems that implement both models. This 
 approach is based on "loose semantics", where an implementation is allowed to do 
@@ -239,14 +239,14 @@ and various extensions including **automata**
 focus: distributed, asynchronously communicating agents, which can be
 regarded as active objects.
 We illustrate our state machine formalism and its stream-based composition in
-with [State-Based Modeling (Automata)](/topics/State-Based-Modeling).
+with [State-Based Modeling (Automata)](/research/State-Based-Modeling).
 
 {% include trennlinie.html %}
 
 ## Key Statements
 1. Semantics of modeling languages helps to understand, analyze and manipulate 
 its models.
-2. Semantics is precisely defined only using mathematic theories.
+2. Semantics is precisely defined only using mathematics theories.
 3. The system model is a semantic theory based on streams and automata to 
 describe distributed components.
 4. Semantic variation points can be captured precisely this way.
@@ -268,21 +268,21 @@ checks etc.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Compositionality/Modularity of Models & Languages](/topics/Compositionality)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Evolution & Transformation of Models](/topics/Evolution)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [Variability & Software Product Lines (SPL)](/topics/Variability)
-- [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
+- [Compositionality/Modularity of Models & Languages](/research/Compositionality)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Evolution & Transformation of Models](/research/Evolution)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [Variability & Software Product Lines (SPL)](/research/Variability)
+- [State-Based Modeling (Automata)](/research/State-Based-Modeling)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

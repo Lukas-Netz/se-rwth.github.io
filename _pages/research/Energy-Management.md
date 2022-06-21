@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Smart Energy Management
-permalink: /topics/Energy-Management/
+permalink: /research/Energy-Management/
 description: 
 img: 
 importance: 1
@@ -86,7 +86,7 @@ Moving up the scale we investigated several existing approaches for **energy
 efficient neighborhoods** that aim at moving from a local, building specific
 optimum to a more global optimum. By efficiently using results of simulation
 and optimization calculated optimal set points for local consumption and
-generation can be utilized. Therefore information from several heterogeneous
+generation can be utilized. Therefore, information from several heterogeneous
 data sources, such as single sensor data, structural data, data on installed
 devices, geospatial data or weather data is needed. Based on existing
 approaches we developed a **Neighborhood Information Model** that
@@ -109,7 +109,7 @@ of buildings and facilities using MontiCore.
 2. Specification and analysis for buildings, closing the loop in the lifecycle 
 of a building.
 3. Meta-model based Neighbourhood Information Model to enable integration of 
-heterogenous data.
+heterogeneous data.
 4. We designed a secure, high-performance storage for Demand-Response Systems 
 based on generative technologies from the MontiCore Language Workbench.
 
@@ -126,23 +126,23 @@ based on generative technologies from the MontiCore Language Workbench.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Model-based Cloud Computing Applications](/topics/Cloud)
-- [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
-- [Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
-- [Model-Driven Systems Engineering](/topics/Model-Driven-Systems-Engineering)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Modeling Software Architecture](/topics/Software-Architecture)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Model-based Cloud Computing Applications](/research/Cloud)
+- [Enterprise Information Systems](/research/Enterprise-Information-Systems)
+- [Cyber-Physical Systems (CPS)](/research/Cyber-Physical-Systems)
+- [Model-Driven Systems Engineering](/research/Model-Driven-Systems-Engineering)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Generative Software Engineering](/research/Generative-SE)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Modeling Software Architecture](/research/Software-Architecture)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

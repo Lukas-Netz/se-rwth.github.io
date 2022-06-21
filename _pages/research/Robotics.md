@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Modeling Robotics Architectures and Tasks
-permalink: /topics/Robotics/
+permalink: /research/Robotics/
 description: 
 img: 
 importance: 1
@@ -17,7 +17,7 @@ keys: [RRW12,QGC+09,RRW13c,
 ## Summary of Most Relevant Topic Papers
 
 Robotics can be considered a special field of [Cyber-Physical 
-Systems](/topics/Cyber-Physical-Systems)
+Systems](/research/Cyber-Physical-Systems)
 that is defined by an inherent heterogeneity of involved domains,
 relevant platforms, and challenges. Engineering robotics applications
 requires composition and interaction of diverse distributed software
@@ -26,10 +26,10 @@ hardly reusable, maintainable, and comprehensible, which hampers broad
 propagation of robotics applications.
 
 Our research in model-driven software engineering for robotics on one hand
-focuses on [Modeling Software Architecture](/topics/Software-Architecture) 
+focuses on [Modeling Software Architecture](/research/Software-Architecture) 
 to structure reusable units of behavior.
 On the other hand, we concentrate on 
-[Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
+[Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
 for
 robotic product assembly tasks in industrial contexts as well as planned and
 unplanned logistic tasks. We apply this to indoor robots interacting with
@@ -56,7 +56,7 @@ bridge the gap of platform specific and independent implementations along
 well designed interfaces. This facilitates the reuse of robot applications
 and makes their development more efficient.
 
-MontiArcAutomaton extends the ADL [MontiArc](/topics/Software-Architecture)
+MontiArcAutomaton extends the ADL [MontiArc](/research/Software-Architecture)
 and integrates various component behavior
 modeling languages implemented using [MontiCore](http://www.monticore.de/) 
 as well as code generation
@@ -108,11 +108,11 @@ uncertainties caused - among others - by object tolerances, position
 uncertainties and tolerances from external and internal sensors. Thus, only
 domain experts are able to program such compliant robot arms. The
 reusability of these programs depends on each individual expert and tools
-allowing to reuse and the compose models at different levels of detail are
+allowing to reuse and the composed models at different levels of detail are
 missing.
 
 In cooperation with the DLR Institute on Robotics and Mechatronics we have
-introduced the LightRocks (Light Weight Robot Coding for Skills) framework
+introduced the LightRocks (Lightweight Robot Coding for Skills) framework
 in [[THR+13]](#THR+13) [[BRS+15]](#BRS+15) which allows robotics experts and laymen to model
 robotic assembly tasks on different levels of abstraction, namely: assembly
 tasks, skills, and elemental actions. Robotics experts provide a domain
@@ -141,7 +141,7 @@ millions of miles for safety validation in the car domain.
 
 ## Key Statements
 1. Development of robotics applications is highly complex and requires 
-abstraction, e.g using appropriate abstract modeling techniques.
+abstraction, e.g. using appropriate abstract modeling techniques.
 2. Domain specific modeling languages (DSLs) apply perfect to model tasks of 
 robots, the surrounding world, test scenarios etc.
 3. Abstraction through DSLs leads to better standardization and allows improve 
@@ -163,20 +163,20 @@ techniques used there for function validation can be carried over.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [Modeling Software Architecture](/topics/Software-Architecture)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Semantics of Modeling Languages](/topics/Semantics)
-- [State Based Modeling (Automata)](/topics/State-Based-Modeling)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Generative Software Engineering](/research/Generative-SE)
+- [Modeling Software Architecture](/research/Software-Architecture)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Semantics of Modeling Languages](/research/Semantics)
+- [State Based Modeling (Automata)](/research/State-Based-Modeling)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

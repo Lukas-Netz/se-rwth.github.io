@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Domain-Specific Languages (DSLs)
-permalink: /topics/Domain-Specific-Languages/
+permalink: /research/Domain-Specific-Languages/
 description: 
 img: 
 importance: 1
@@ -36,7 +36,7 @@ languages and DSLs tailored for a concrete target area.
 
 A DSL is always constructed with a **particular domain** in mind. Examples include
 HTML for websites, Matlab for numerical computation, or SQL for relational
-database management. In each instance, the DSL trades some of the expressiveness
+database management. In each instance, the DSL trades some expressiveness
 of GPLs in order to allow for more concise models in the target domain.
 
 As software systems have become essential components of nearly all
@@ -44,7 +44,7 @@ innovative products, increasingly many non-ICT experts now find themselves
 working with these systems. Furthermore, complexity of software-based
 systems is increasing.
 While modeling languages such as the 
-[Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
+[Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
 provide a high level of abstraction to
 deal with complexity, these languages are usually still too technical (hence
 UML profiles are useful, as discussed in [[GHK+07]](#GHK+07) and [[PFR02]](#PFR02)).
@@ -61,7 +61,7 @@ necessitate the fundamentals, such as a carefully defined grammar and
 corresponding translation programs. Productive usage of a language also
 requires
 extensive tool support. 
-[Generative Software Engineering](/topics/Generative-SE) techniques are at the
+[Generative Software Engineering](/research/Generative-SE) techniques are at the
 center of attention for attempts to meet these challenges. In [[SRVK10]](#SRVK10) we
 discuss the state of the art and current efforts to develop languages through
 meta-modeling.
@@ -106,12 +106,12 @@ In [[FHR08]](#FHR08), we discuss **metrics and potential guidelines**, that help
 achieve high quality models and extend this into a **collection of design
 guidelines for DSLs** in [[KKP+09]](#KKP+09).
 
-Another important aspect is how to define the [semantics](/topics/Semantics) 
+Another important aspect is how to define the [semantics](/research/Semantics) 
 of DSLs.
 Variability in syntax and semantics for DSLs in general
 and UML in particular has been discussed in [[GR11]](#GR11).
 For an extensive discussion on semantics we refer the reader to
-[Semantics of Modeling Languages](/topics/Semantics).
+[Semantics of Modeling Languages](/research/Semantics).
 
 
 ### Composition of DSLs
@@ -122,11 +122,11 @@ development of DSLs in [[GKR+07]](#GKR+07), [[KRV08]](#KRV08) and [[Voe11]](#Voe
 Modularity has been successfully applied in various areas of the DSL
 development process, such as concrete and abstract syntax, context
 conditions, and symbol table structures and has been implemented in our
-language workbench [MontiCore](/topics/MontiCore) [[HKR21]](#HKR21).
+language workbench [MontiCore](/research/MontiCore) [[HKR21]](#HKR21).
 
 We can **compose independently developed languages** into **integrated families of
 DSLs**, which allows us to describe a system from various viewpoints using these
-different DSLs. The language family [UML/P](/topics/UML-P),
+different DSLs. The language family [UML/P](/research/UML-P),
 defined in [[Sch12]](#Sch12), serves as an
 example of this technique.
 
@@ -154,11 +154,11 @@ As previously mentioned, the usability of a language depends on the
 availability of powerful tooling. We have implemented the
 **MontiCore DSL workbench**
 as a realization of all the aforementioned concepts regarding
-DSLs. It is available as a stand alone tool as well as a collection of
-Eclipse plugins. It also creates stand alone tools as well as tailored
+DSLs. It is available as a stand-alone tool as well as a collection of
+Eclipse plugins. It also creates stand-alone tools as well as tailored
 Eclipse-based plugins for the defined DSLs [[KRV07a]](#KRV07a). We generate
 editors with syntax highlighting, syntactic and semantic content assist and
-auto completion, graphical outlines, error reporting, hyperlinks, etc., just
+auto-completion, graphical outlines, error reporting, hyperlinks, etc., just
 from the DSL definition. 
 
 Moreover, there is a strong need for evolution and management of models [[LRSS10]](#LRSS10),
@@ -172,7 +172,7 @@ this DSL.
 
 ### MontiCore
 
-More details about the [MontiCore Language Workbench for DSLs](/topics/MontiCore) 
+More details about the [MontiCore Language Workbench for DSLs](/research/MontiCore) 
 can be found in 
 [[GKRS06]](#GKRS06), [[KRV08]](#KRV08), [[KRV10]](#KRV10) as well as the 
 [MontiCore Website](http://www.monticore.de/).
@@ -182,12 +182,12 @@ can be found in
 
 ## Key Statements
 1. DSLs are a promising technology to deal with complexity of software products 
-and the pervasion of software into various domains.
+and the perversion of software into various domains.
 2. Quality assurance and efficient ways to create, manage, and evolve DSLs are 
 essential for the success of DSLs.
 3. Key factors for efficient DSL tooling design are compositionality and thus 
 reusability of tooling and language infrastructures.
-4. [MontiCore](/topics/MontiCore) is a successful tooling infrastructure for the 
+4. [MontiCore](/research/MontiCore) is a successful tooling infrastructure for the 
 development of DSLs.
 
 {% include trennlinie.html %}
@@ -203,23 +203,23 @@ development of DSLs.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Compositionality/Modularity of Models](/topics/Compositionality)
-- [Evolution & Transformation of Models](/topics/Evolution)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [MontiArc - Architectural Modeling](/topics/Software-Architecture)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Semantics of Modeling Languages](/topics/Semantics)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Variability & Software Product Lines (SPL)](/topics/Variability)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Compositionality/Modularity of Models](/research/Compositionality)
+- [Evolution & Transformation of Models](/research/Evolution)
+- [Generative Software Engineering](/research/Generative-SE)
+- [MontiArc - Architectural Modeling](/research/Software-Architecture)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Semantics of Modeling Languages](/research/Semantics)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [Variability & Software Product Lines (SPL)](/research/Variability)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

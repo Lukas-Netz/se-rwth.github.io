@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Agile Model-Based Software Engineering
-permalink: /topics/Agile-MBSE/
+permalink: /research/Agile-MBSE/
 description: 
 img: 
 importance: 1
@@ -116,7 +116,7 @@ desired or unwanted object structures, are presented there as well.
 <br />
 
 In the last decade, we implemented a **language workbench** called MontiCore 
-(see [MontiCore - Language Workbench for DSLs](/topics/MontiCore))
+(see [MontiCore - Language Workbench for DSLs](/research/MontiCore))
 that was first described in [[GKR+06]](#GKR+06). On top of MontiCore, we
 realized most of the language components of the UML/P [[Sch12]](#Sch12).
 This work includes a precise definition of textual languages, type checks, checks for context conditions within and between
@@ -191,19 +191,19 @@ MontiCore language workbench.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Evolution & Transformation of Models](/topics/Evolution)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [UML/P](/topics/UML-P)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Variability & Software Product Lines (SPL)](/topics/Variability)
+- [Evolution & Transformation of Models](/research/Evolution)
+- [Generative Software Engineering](/research/Generative-SE)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [UML/P](/research/UML-P)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [Variability & Software Product Lines (SPL)](/research/Variability)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

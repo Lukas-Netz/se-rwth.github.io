@@ -1,7 +1,7 @@
 ---
 layout: page
 title: UML/P
-permalink: /topics/UML-P/
+permalink: /research/UML-P/
 description: 
 img:
 importance: 1
@@ -16,7 +16,7 @@ keys: [Rum16,Rum17,Rum12,
 
 The **UML/P** [[Rum16]](#Rum16) [[Rum17]](#Rum17) [[Rum12]](#Rum12) 
 [[Rum11]](#Rum11) is a realization [[Sch12]](#Sch12)
-of a subset of the modeling languages of the [UML](/topics/Unified-Modeling-Language) with
+of a subset of the modeling languages of the [UML](/research/Unified-Modeling-Language) with
 particular focus on applicability for programming, i.e., modeling of
 software systems (the "P" in UML/P stands for "suitable for
 programming"). It comprises the following types of UML diagrams:
@@ -57,11 +57,11 @@ various levels of abstraction from different viewpoints. In addition,
 it is possible to use Java expressions to enrich the models with
 implementation details. As such, UML/P forms the foundation for
 applied [Generative Software 
-Engineering](/topics/Generative-SE).
+Engineering](/research/Generative-SE).
 
 To shape UML/P as a modular, composable set of languages, we have
 intensively applied the techniques of 
-[Software Language Engineering (SLE)](/topics/Language-Engineering). 
+[Software Language Engineering (SLE)](/research/Language-Engineering). 
 As an example, OCL is not only a stand-alone constraint
 language, but it is also used for pre- and post-conditions in
 Statechart transitions, for state invariants, for desired properties to
@@ -95,7 +95,7 @@ allowed, forbidden, or alternatives. This yields a powerful yet
 partially diagrammatic logic specification technique.
 
 We also have dealt with activity diagrams [[MRR11d]](#MRR11d) [[MRR11a]](#MRR11a) as
-extension of the UML/P and the ADL [MontiArc](/topics/Software-Architecture) 
+extension of the UML/P and the ADL [MontiArc](/research/Software-Architecture) 
 completes UML/P with a notation for logically
 or physically distributed computation [[BKRW17a]](#BKRW17a).
 
@@ -125,22 +125,22 @@ to the UML/P itself.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Semantics of Modeling Languages](/topics/Semantics)
-- [Modeling Software Architecture](/topics/Software-Architecture)
-- [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Generative Software Engineering](/research/Generative-SE)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Semantics of Modeling Languages](/research/Semantics)
+- [Modeling Software Architecture](/research/Software-Architecture)
+- [State-Based Modeling (Automata)](/research/State-Based-Modeling)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

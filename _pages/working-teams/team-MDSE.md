@@ -19,19 +19,19 @@ methods, tools, and languages, their successful integration is a
 crucial prerequisite for engineering future's systems of systems.
 
 
-[Model-driven engineering](../topics/Agile-MBSE) reduces the conceptual gap between the 
+[Model-driven engineering](../research/Agile-MBSE) reduces the conceptual gap between the 
 problem domains (such as navigation, grasping, or business process 
 description) domains and the solution domains (programming) of 
-discourse. [Modeling languages](../topics/Domain-Specific-Languages) enables domain experts to describe 
+discourse. [Modeling languages](../research/Domain-Specific-Languages) enables domain experts to describe 
 solutions without facing the accidental complexities and 
 idiosyncrasies of programming languages. For instance, employing 
 an optimized modeling language to describe robotic assembly tasks 
 liberates the assembly expert from handling pointers, exceptions, 
 or networking otherwise encountered when programming the tasks 
 using general-purpose programming languages (such as C++ or Java) 
-instead. [Smart model](../topics/Evolution) transformations and [code generators](../topics/Generative-SE) embody 
+instead. [Smart model](../research/Evolution) transformations and [code generators](../research/Generative-SE) embody 
 such programming expertise and can ensure that translation of 
-[domain-specific models](../topics/Language-Engineering) conforms to state-of-the-art software 
+[domain-specific models](../research/Language-Engineering) conforms to state-of-the-art software 
 engineering practices.
 
 
@@ -115,27 +115,27 @@ We've arranged our publications by topic for your convenience below:
 
 <h5 style="font-weight: bold"> Modeling </h5>
 
-- [Compositionality & Modularity of Models & Languages](/topics/Compositionality)
-- [Modeling for Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [Modeling Software Architectures](/topics/Software-Architecture)
-- [Variability & Software Product Lines (SPL)](/topics/Variability)
+- [Compositionality & Modularity of Models & Languages](/research/Compositionality)
+- [Modeling for Cyber-Physical Systems (CPS)](/research/Cyber-Physical-Systems)
+- [Generative Software Engineering](/research/Generative-SE)
+- [Modeling Software Architectures](/research/Software-Architecture)
+- [Variability & Software Product Lines (SPL)](/research/Variability)
 
 <h5 style="font-weight: bold"> Modeling Languages </h5>
 
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [Semantics of Modeling Languages](/topics/Semantics)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [Semantics of Modeling Languages](/research/Semantics)
 
 <h5 style="font-weight: bold"> Application Domains </h5>
 
-- [Automotive](/topics/Automotive)
-- [Automated Driving & Intelligent Driver Assistance](/topics/Autonomic-Driving)
-- [Robotics Architectures and Tasks](/topics/Robotics)
+- [Automotive](/research/Automotive)
+- [Automated Driving & Intelligent Driver Assistance](/research/Autonomic-Driving)
+- [Robotics Architectures and Tasks](/research/Robotics)
 
 <h5 style="font-weight: bold"> Our Most Important Software Tools </h5>
 
-- [MontiCore - Language Workbench for DSLs](/topics/MontiCore)
-- [UML/P - Executable Modeling with UML](/topics/UML-P)
-- [MontiArc - Architectural Modeling](/topics/Software-Architecture)
+- [MontiCore - Language Workbench for DSLs](/research/MontiCore)
+- [UML/P - Executable Modeling with UML](/research/UML-P)
+- [MontiArc - Architectural Modeling](/research/Software-Architecture)

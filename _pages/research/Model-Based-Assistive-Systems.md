@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Model-Based Assistive Systems
-permalink: /topics/Model-Based-Assistive-Systems/
+permalink: /research/Model-Based-Assistive-Systems/
 description:
 img:
 importance: 1
@@ -41,8 +41,8 @@ step-by-step information multi-modal on different kinds of devices.
 
 For both, information and assistive services and systems, the application of
 agile, model-based and generative methods (see 
-[Agile Model-Based Software Engineering](/topics/Agile-MBSE) and
-[Generative Software Engineering](/topics/Generative-SE))
+[Agile Model-Based Software Engineering](/research/Agile-MBSE) and
+[Generative Software Engineering](/research/Generative-SE))
 fastens the development process,
 enables a quick response to requirements changes in a user-centered
 engineering process, and ensures consistency-by-design.
@@ -93,20 +93,20 @@ demonstrated on an IoT manufacturing use case [[Mi19]](#Mi19).
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [UML/P](/topics/UML-P)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Models in Enterprise Information System Development](/topics/Enterprise-Information-Systems)
-- [Digital Twins and Digital Shadows in Engineering, Operation and Production](/topics/Digital-Twins)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Generative Software Engineering](/research/Generative-SE)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [UML/P](/research/UML-P)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [Models in Enterprise Information System Development](/research/Enterprise-Information-Systems)
+- [Digital Twins and Digital Shadows in Engineering, Operation and Production](/research/Digital-Twins)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

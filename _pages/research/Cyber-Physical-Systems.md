@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cyber-Physical Systems (CPS)
-permalink: /topics/Cyber-Physical-Systems/
+permalink: /research/Cyber-Physical-Systems/
 description: 
 img: 
 importance: 1
@@ -22,24 +22,24 @@ interact with their contexts in various ways. As consequence, CPS are
 usually designed as distributed networks of interacting nodes and
 physical devices (machines) that carry out certain tasks. Often some of
 these devices are mobile (robots or autonomous cars, but also
-smart phones, airplanes and drones) and interaction with humans is
+smartphones, airplanes and drones) and interaction with humans is
 essential. CPS are therefore complex in several dimensions: they embody
 characteristics of physical, networked, computational-intensive, and of
 human-interactive systems. Furthermore, they typically cannot be
 developed as monolithic systems, but need to be developed as open,
 composable, evolving, and scalable architectures (see also
-X[Modeling Software Architecture](/topics/Software-Architecture)).
+X[Modeling Software Architecture](/research/Software-Architecture)).
 
 Nowadays, CPS are found in many domains, including aerospace,
-[automotive](/topics/Automotive), [energy](/topics/Energy-Management), 
-healthcare, manufacturing, and [robotics](/topics/Robotics). Many
+[automotive](/research/Automotive), [energy](/research/Energy-Management), 
+healthcare, manufacturing, and [robotics](/research/Robotics). Many
 distributed CPS use a virtual communication network mapped to the
 internet or telecommunication infrastructure.
 
 At its heart, CPS engineering suffers from the problem that control theory, 
 built on integration and differentiation calculus used by almost any engineering 
 discipline, and the digital theory of [state 
-machines](/topics/State-Based-Modeling) are not very well integrated and thus do 
+machines](/research/State-Based-Modeling) are not very well integrated and thus do 
 not allow us to describe CPS in an integrated way. Many attempts have been made, 
 but a good standard yet has to emerge.
 
@@ -67,7 +67,7 @@ outline our proposal for an architecture centric development approach.
 #### Automotive
 
 **Automotive** is a highly innovative CPS subdomain. We discuss
-in [[GRJA12]](#GRJA12) what an OEMs needs to understand about costs arising
+in [[GRJA12]](#GRJA12) what an OEMs need is to understand about costs arising
 from requirements complexities and from cross-platform dependencies in
 their automotive development projects. Transforming a set of individual
 projects with similar requirements and technology into a product line
@@ -81,7 +81,7 @@ building such a car and using sophisticated simulation techniques for
 the context of autonomous robots (cars).
 Moreover,
 fully automatic simulation of the cyber-physical contexts of cars
-and fully automatic checking of the robots behavior leads to an highly
+and fully automatic checking of the robots' behavior leads to an highly
 efficient development process with high quality results [[BBR07]](#BBR07).
 Optimized code-generators [[KRSvW18a]](#KRSvW18a)
 and domain specific code
@@ -109,7 +109,7 @@ There is a multitude of networked systems and sensors to continuously
 control the building's **behavior**. We have built the Energy
 Navigator [[KPR12]](#KPR12) [[FPPR12]](#FPPR12) to be able to model the specifications of
 such buildings in order to control the measured actual data against the
-desired specification, e.g to save energy. In [[KLPR12]](#KLPR12) we discuss
+desired specification, e.g. to save energy. In [[KLPR12]](#KLPR12) we discuss
 how such a specification approach improves development quality in the
 energy subdomain of CPS.
 
@@ -142,21 +142,21 @@ applied those to cars, robots, avionics and building infrastructures.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Automotive](/topics/Automotive)
+- [Automotive](/research/Automotive)
 - [Autonomic Driving & Intelligent Driver 
-Assistance](/topics/Autonomic-Driving)
-- [Domain Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Energy Management](/topics/Energy-Management)
-- [MontiArc - Architectural Modeling](/topics/Software-Architecture)
-- [Robotics Architectures and Tasks](/topics/Robotics)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
+Assistance](/research/Autonomic-Driving)
+- [Domain Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Energy Management](/research/Energy-Management)
+- [MontiArc - Architectural Modeling](/research/Software-Architecture)
+- [Robotics Architectures and Tasks](/research/Robotics)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

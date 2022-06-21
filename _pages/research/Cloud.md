@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Model-based Cloud Computing Applications
-permalink: /topics/Cloud/
+permalink: /research/Cloud/
 description:
 img:
 importance: 1
@@ -71,7 +71,7 @@ smart phones and smart pads and various other kinds of sensors. We built a
 rather successful and technologically sound framework for web-based software
 portals [[HKR12]](#HKR12) that we offer under sselab.de for general use. Another
 set of cloud systems helps to deal with energy management and is described in
-[[FPPR12]](#FPPR12) [[KPR12]](#KPR12). It continuously monitors building operation systems to
+[[FPPR12]](#FPPR12) [[KPR12]](#KPR12). It continuously monitors building operating systems to
 derive operational data and compare these to the building specification. We use
 cloud technologies to maintain data, dynamically execute calculations and
 host management services enabling reduction of building energy costs.
@@ -109,22 +109,22 @@ interesting to use configurable model-based technology.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Energy Management](/topics/Energy-Management)
-- [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Modeling Software Architecture](/topics/Software-Architecture)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [UML/P](/topics/UML-P)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Energy Management](/research/Energy-Management)
+- [Enterprise Information Systems](/research/Enterprise-Information-Systems)
+- [Generative Software Engineering](/research/Generative-SE)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Modeling Software Architecture](/research/Software-Architecture)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [UML/P](/research/UML-P)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

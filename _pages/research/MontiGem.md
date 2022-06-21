@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MontiGem - Generating Enterprise Management Systems
-permalink: /topics/MontiGem/
+permalink: /research/MontiGem/
 description:
 img:
 importance: 1
@@ -34,12 +34,12 @@ As an extension, a DSL is used to describe the graphical layout of the user
 interface in a comfortable way. Again the GUI sub-language is well
 integrated with the class diagram models allowing to directly describe
 what to visualize based on the storage structure in the database
-(see the figure for some of the possible
+(see the figure for some possible
 visualizations).
 
 The internal architecture of the MontiGem generator includes the three
 typical main processes: reading, transformation and generation, 
-while generation produces a whole lot of
+while generation produces a lot of
 resulting Java classes, Typescript and HTML files and related artifacts.
 
 
@@ -90,21 +90,21 @@ Things domain.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [UML/P](/topics/UML-P)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Model-Based Assistive Systems](/topics/Model-Based-Assistive-Systems)
-- [Models in Enterprise Information System Development](/topics/Enterprise-Information-Systems)
-- [Digital Twins and Digital Shadows in Engineering, Operation and Production](/topics/Digital-Twins)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Generative Software Engineering](/research/Generative-SE)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [UML/P](/research/UML-P)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [Model-Based Assistive Systems](/research/Model-Based-Assistive-Systems)
+- [Models in Enterprise Information System Development](/research/Enterprise-Information-Systems)
+- [Digital Twins and Digital Shadows in Engineering, Operation and Production](/research/Digital-Twins)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

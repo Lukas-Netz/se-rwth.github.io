@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Modeling Software Architecture & MontiArc 
-permalink: /topics/Software-Architecture/
+permalink: /research/Software-Architecture/
 description: 
 img: 
 importance: 1
@@ -55,7 +55,7 @@ Messages can be
 
 **Semantically** our approach is formally **sound** and **well-defined** using 
 streams, state machines, components, as well as expressive forms of composition 
-and refinement ([see here for Semantics](/topics/Semantics)). We leverage this, 
+and refinement ([see here for Semantics](/research/Semantics)). We leverage this, 
 for instance, to enable a semantic differentinc of component & connector 
 architectures [[BKRW17]](#BKRW17) [[BKRW19]](#BKRW19).
 
@@ -86,7 +86,7 @@ modeling without sticking to a concrete syntax of a modeling language.
 
 MontiArc [[HRR10]](#HRR10) [[Hab16]](#Hab16) is a framework for modeling and simulation
 of software architectures that has been developed for modeling
-distributed interactive systems using [MontiCore](/topics/MontiCore).
+distributed interactive systems using [MontiCore](/research/MontiCore).
 
 The domain of the architecture description language (ADL) MontiArc are
 information-flow architectures which describe the components of a
@@ -101,7 +101,7 @@ communicates with its environment. It is implemented as a textual
 language and comes with an eclipse-integrated editor.
 
 On one hand MontiArc is an architecture description language that helps
-modeling distributed systems by supporting the user with context
+to model distributed systems by supporting the user with context
 condition (well-formedness rules) checks and analyses. On the other hand
 MontiArc serves a simulation environment and a code generator to generate
 simulation components out of MontiArc models.
@@ -111,7 +111,7 @@ a declarative way so that analysis and validation of MontiArc models
 becomes possible [[Hab16]](#Hab16).
 
 Because the language MontiArc is **designed for extensibility** , several 
-sublanguages for behavior may be embedded directly within component definitions. 
+sub-languages for behavior may be embedded directly within component definitions. 
 MontiArc is e.g. extended with automata to **MontiArcAutomaton** 
 [[RRW13c]](#RRW13c), [[Wor16]](#Wor16) and 
 [[RRW14a]](#RRW14a), with Cloud-constructs to ClArc [[NPR13]](#NPR13), 
@@ -134,7 +134,7 @@ transformations [[AHRW17b]](#AHRW17b).
 
 ## Architectural Variability
 
-The article "[Variability](/topics/Variability)" discusses our contributions in 
+The article "[Variability](/research/Variability)" discusses our contributions in 
 more detail, but it is worth to mention that much variability research was 
 applied to and experimentally verified using MontiArc.
 
@@ -161,7 +161,7 @@ modifications. In [[HRRS11]](#HRRS11) we describe Δ-MontiArc, which applies thi
 concept successfully to MontiArc. The core is a MontiArc model. A 
 **delta-language** is defined describing how to add, remove, or modify 
 architectural elements. The concrete realization of Δ-MontiArc using the DSL 
-development framework [MontiCore](/topics/MontiCore) 
+development framework [MontiCore](/research/MontiCore) 
 ([www.monticore.de](http://www.monticore.de/)) is described in 
 [[HKR+11]](#HKR+11). The developed language allows the modular modeling of 
 variable software architectures and supports proactive, reactive as well as 
@@ -244,25 +244,25 @@ agile start of SPL integration.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Automotive](/topics/Automotive)
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Model-based Cloud Computing Applications](/topics/Cloud)
-- [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
-- [Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
-- [Model-Driven Systems Engineering](/topics/Model-Driven-Systems-Engineering)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [Modeling Software Architecture](/topics/Software-Architecture)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Robotics Architectures and Tasks](/topics/Robotics)
-- [Semantics of Modeling Languages](/topics/Semantics)
-- [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
+- [Automotive](/research/Automotive)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Model-based Cloud Computing Applications](/research/Cloud)
+- [Enterprise Information Systems](/research/Enterprise-Information-Systems)
+- [Cyber-Physical Systems (CPS)](/research/Cyber-Physical-Systems)
+- [Model-Driven Systems Engineering](/research/Model-Driven-Systems-Engineering)
+- [Generative Software Engineering](/research/Generative-SE)
+- [Modeling Software Architecture](/research/Software-Architecture)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Robotics Architectures and Tasks](/research/Robotics)
+- [Semantics of Modeling Languages](/research/Semantics)
+- [State-Based Modeling (Automata)](/research/State-Based-Modeling)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

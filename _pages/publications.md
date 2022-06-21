@@ -28,7 +28,7 @@ children:
 
 * For an easy use and download: [Bibtex file with most 
   papers](/assets/bibliography/all-software-engineering-rwth-references.bib)
-* [List of interesting publications aggregated into topics](/topics)
+* [List of interesting publications aggregated into topics](/research)
 * [Books](/books)
 * [Ph.D Theses / Aachener Informatik-Berichte, Software Engineering](/phdtheses)
 * [SoSyM Editorials](http://www.sosym.org/editorials/)  
@@ -53,7 +53,7 @@ children:
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

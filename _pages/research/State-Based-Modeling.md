@@ -1,7 +1,7 @@
 ---
 layout: page
 title: State-Based Modeling (Automata)
-permalink: /topics/State-Based-Modeling/
+permalink: /research/State-Based-Modeling/
 description: 
 img: 
 importance: 1
@@ -23,7 +23,7 @@ integration of the digital theory (automata) of informatics with
 control theory (calculus) used by almost all other engineering and science
 disciplines is one of the most interesting challenges that we experience at
 the moment. Cyber-physical systems (CPS) 
-(see [Cyber Physical Systems (CPS)](/topics/Cyber-Physical-Systems)) urgently
+(see [Cyber Physical Systems (CPS)](/research/Cyber-Physical-Systems)) urgently
 require such an integrated theory.
 
 
@@ -64,7 +64,7 @@ describe the abstract behavior of superclasses and refine it in subclasses.
 While the description in [[PR94]](#PR94) was rather informal, we have formalized
 the refinement relation in [[RK96]](#RK96) by mapping a state machine to a set
 of possible component behaviors based on the streams of the Focus (see
-[Modeling Software Architecture](/topics/Software-Architecture)) theory.
+[Modeling Software Architecture](/research/Software-Architecture)) theory.
 In [[Rum96]](#Rum96), constructive transformation rules for
 refining automata behavior are provided and proven correct.
 This theory is applied to features in [[KPR97]](#KPR97), where a feature is a
@@ -163,9 +163,9 @@ composition in general. Further investigation is necessary.
 All our knowledge about state machines is being embedded in the model-based
 development method for the UML in [[Rum16]](#Rum16) and [[Rum17]](#Rum17).
 Furthermore, we applied it to robotics (see also
-[Robotics Architectures and Tasks](/topics/Robotics)) with
+[Robotics Architectures and Tasks](/research/Robotics)) with
 the MontiArcAutomaton infrastructure ([[RRW14a]](#RRW14a), see also
-[Modeling Software Architecture](/topics/Software-Architecture)), a
+[Modeling Software Architecture](/research/Software-Architecture)), a
 modeling language combining state machines and an architectural description
 language in [[THR+13]](#THR+13) as well as in building management systems in
 [[FLP+11b]](#FLP+11b).
@@ -200,22 +200,22 @@ that is compatible with refinement and composition.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Automotive](/topics/Automotive)
-- [Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
-- [Model-Driven Systems Engineering](/topics/Model-Driven-Systems-Engineering)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Evolution & Transformation of Models](/topics/Evolution)
-- [Robotics Architectures and Tasks](/topics/Robotics)
-- [Modeling Software Architecture](/topics/Software-Architecture)
-- [Semantics of Modeling Languages](/topics/Semantics)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
+- [Automotive](/research/Automotive)
+- [Cyber-Physical Systems (CPS)](/research/Cyber-Physical-Systems)
+- [Model-Driven Systems Engineering](/research/Model-Driven-Systems-Engineering)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Evolution & Transformation of Models](/research/Evolution)
+- [Robotics Architectures and Tasks](/research/Robotics)
+- [Modeling Software Architecture](/research/Software-Architecture)
+- [Semantics of Modeling Languages](/research/Semantics)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

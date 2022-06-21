@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /topics/
+permalink: /research/
 title: Research
 description: 
 order: 3
@@ -8,8 +8,7 @@ nav: true
 horizontal: false
 ---
 
-**Our research mission**: 
-**Our research mission**: 
+**Our research mission**:
 Improving software and systems development by identifying: 
 * **methods, concepts, tools** 
   and **infrastructures** for 
@@ -55,62 +54,62 @@ ability to leverage this in industrial practice.
 
 Below we have collected and grouped especially interesting publications 
 around our  main research topics, application domains, and tools. Each 
-topic page describes the our contributions to this topic in a 
+topic page describes our contributions to this topic in a 
 consolidated, compact form. 
 
 {% include trennlinie.html %}
 
 ## Foundations of Model-Based Software Engineering
 
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Artifacts in Complex Development Projects](/topics/Artifacts)
-- [Artificial Intelligence in Software Engineering](/topics/Artificial-Intelligence-in-Software-Engineering)
-- [Cyber Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
-- [Model-Driven Systems Engineering](/topics/Model-Driven-Systems-Engineering)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Artifacts in Complex Development Projects](/research/Artifacts)
+- [Artificial Intelligence in Software Engineering](/research/Artificial-Intelligence-in-Software-Engineering)
+- [Cyber Physical Systems (CPS)](/research/Cyber-Physical-Systems)
+- [Model-Driven Systems Engineering](/research/Model-Driven-Systems-Engineering)
 
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Compositionality & Modularity of Models](/topics/Compositionality)
-- [Variability & Software Product Lines (SPL)](/topics/Variability)
-- [Evolution & Transformation of Models](/topics/Evolution)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [Semantics of Modeling Languages](/topics/Semantics)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Compositionality & Modularity of Models](/research/Compositionality)
+- [Variability & Software Product Lines (SPL)](/research/Variability)
+- [Evolution & Transformation of Models](/research/Evolution)
+- [Generative Software Engineering](/research/Generative-SE)
+- [Semantics of Modeling Languages](/research/Semantics)
 
-- [Modeling Software Architecture](/topics/Software-Architecture)
-- [State-Based Modeling (Automata)](/topics/State-Based-Modeling)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
+- [Modeling Software Architecture](/research/Software-Architecture)
+- [State-Based Modeling (Automata)](/research/State-Based-Modeling)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
 
 {% comment %}
-- [Model-Based Assistive Systems](/topics/Model-Based-Assistive-Systems)
+- [Model-Based Assistive Systems](/research/Model-Based-Assistive-Systems)
 {% endcomment %}
 
 {% include trennlinie.html %}
 
 ## Application Domains
-- [Automotive](/topics/Automotive)
+- [Automotive](/research/Automotive)
 - [Autonomic Driving & Intelligent Driver
-    Assistance](/topics/Autonomic-Driving)
-- [Robotics Architectures and Tasks](/topics/Robotics)
-- [Cloud Computing Applications](/topics/Cloud)
-- [Enterprise Information Systems](/topics/Enterprise-Information-Systems)
-- [Smart Energy Management](/topics/Energy-Management)
+    Assistance](/research/Autonomic-Driving)
+- [Robotics Architectures and Tasks](/research/Robotics)
+- [Cloud Computing Applications](/research/Cloud)
+- [Enterprise Information Systems](/research/Enterprise-Information-Systems)
+- [Smart Energy Management](/research/Energy-Management)
 
 {% comment %}
-- [Internet of Things (IoT)](/topics/IoT)
-- [Digital Twins and Digital Shadows in Engineering, Operation and Production](/topics/Digital-Twins)
+- [Internet of Things (IoT)](/research/IoT)
+- [Digital Twins and Digital Shadows in Engineering, Operation and Production](/research/Digital-Twins)
 {% endcomment %}
 
 
 {% include trennlinie.html %}
 
 ## Our Most Important Software Tools
-- [MontiCore - Language Workbench for DSLs](/topics/MontiCore)
-- [UML/P - Executable Modeling with UML](/topics/UML-P)
-- [MontiArc - Architectural Modeling](/topics/Software-Architecture)
+- [MontiCore - Language Workbench for DSLs](/research/MontiCore)
+- [UML/P - Executable Modeling with UML](/research/UML-P)
+- [MontiArc - Architectural Modeling](/research/Software-Architecture)
 
 {% comment %}
-- [MontiGem - Generating Enterprise Management Systems](/topics/MontiGem)
-- [MontiThings - Modeling the IoT](/topics/MontiThings)
+- [MontiGem - Generating Enterprise Management Systems](/research/MontiGem)
+- [MontiThings - Modeling the IoT](/research/MontiThings)
 {% endcomment %}
 
 
@@ -133,7 +132,7 @@ articles. We assume results will be published in the near future:
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

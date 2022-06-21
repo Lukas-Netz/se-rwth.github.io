@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Variability & Software Product Lines 
-permalink: /topics/Variability/
+permalink: /research/Variability/
 description: 
 img: 
 importance: 1
@@ -29,7 +29,7 @@ Product Lines have many benefits, they:
 
 Variability is to a larger extent related to evolution. We discuss our 
 approaches to evolution understanding in [evolution & transformation of 
-models](/topics/Evolution).
+models](/research/Evolution).
 
 
 ## Feature Diagrams and Views
@@ -130,20 +130,20 @@ process adaptation and needs to be tailored to the individual company.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Evolution & Transformation of Models](/topics/Evolution)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [MontiArc - Architectural Modeling](/topics/Software-Architecture)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Semantics of Modeling Languages](/topics/Semantics)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Evolution & Transformation of Models](/research/Evolution)
+- [Generative Software Engineering](/research/Generative-SE)
+- [MontiArc - Architectural Modeling](/research/Software-Architecture)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Semantics of Modeling Languages](/research/Semantics)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

@@ -116,27 +116,27 @@ Our research manifests in project results with large and small partners from ind
 
 <h5 style="font-weight: bold"> Modeling </h5>
 
-- [Generative Software Engineering](/topics/Generative-SE)
-- [Modeling Software Architectures](/topics/Software-Architecture)
-- [Variability & Software Product Lines (SPL)](/topics/Variability)
-- [Modeling for Cyber-Physical Systems (CPS)](/topics/Cyber-Physical-Systems)
-- [Compositionality & Modularity of Models & Languages](/topics/Compositionality)
+- [Generative Software Engineering](/research/Generative-SE)
+- [Modeling Software Architectures](/research/Software-Architecture)
+- [Variability & Software Product Lines (SPL)](/research/Variability)
+- [Modeling for Cyber-Physical Systems (CPS)](/research/Cyber-Physical-Systems)
+- [Compositionality & Modularity of Models & Languages](/research/Compositionality)
 
 <h5 style="font-weight: bold"> Modeling Languages </h5>
 
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [Software Language Engineering (SLE)](/topics/Language-Engineering)
-- [Semantics of Modeling Languages](/topics/Semantics)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [Software Language Engineering (SLE)](/research/Language-Engineering)
+- [Semantics of Modeling Languages](/research/Semantics)
 
 <h5 style="font-weight: bold"> Application Domains </h5>
 
-- [Automotive](/topics/Automotive)
-- [Automated Driving & Intelligent Driver Assistance](/topics/Autonomic-Driving)
-- [Robotics Architectures and Tasks](/topics/Robotics)
+- [Automotive](/research/Automotive)
+- [Automated Driving & Intelligent Driver Assistance](/research/Autonomic-Driving)
+- [Robotics Architectures and Tasks](/research/Robotics)
 
 <h5 style="font-weight: bold"> Our Most Important Software Tools </h5>
 
-- [MontiCore - Language Workbench for DSLs](/topics/MontiCore)
-- [UML/P - Executable Modeling with UML](/topics/UML-P)
-- [MontiArc - Architectural Modeling](/topics/Software-Architecture)
+- [MontiCore - Language Workbench for DSLs](/research/MontiCore)
+- [UML/P - Executable Modeling with UML](/research/UML-P)
+- [MontiArc - Architectural Modeling](/research/Software-Architecture)

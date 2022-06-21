@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Model-Driven Systems Engineering
-permalink: /topics/Model-Driven-Systems-Engineering/
+permalink: /research/Model-Driven-Systems-Engineering/
 description:
 img:
 importance: 1
@@ -48,19 +48,19 @@ framework for machining based on these concepts [[BKL+18]](#BKL+18).
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Generative Software Engineering](/topics/Generative-SE)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Robotics Architectures and Tasks](/topics/Robotics)
-- [Automotive](/topics/Automotive)
-- [Digital Twins and Digital Shadows in Engineering, Operation and Production](/topics/Digital-Twins)
-- [Internet of Things (IoT)](/topics/IoT)
+- [Generative Software Engineering](/research/Generative-SE)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Robotics Architectures and Tasks](/research/Robotics)
+- [Automotive](/research/Automotive)
+- [Digital Twins and Digital Shadows in Engineering, Operation and Production](/research/Digital-Twins)
+- [Internet of Things (IoT)](/research/IoT)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)

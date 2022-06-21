@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Modelling Enterprise Information Systems
-permalink: /topics/Enterprise-Information-Systems/
+permalink: /research/Enterprise-Information-Systems/
 description:
 img:
 importance: 1
@@ -23,11 +23,11 @@ business processes, functional models to describe software functions or
 graphical user interface (GUI) models to describe graphical user interfaces.
 Usually, these models
 are developed using 
-[Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages).
+[Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages).
 
 Using our experiences in the model-based generation of code with
 MontiCore [[KRV10]](#KRV10) [[HKR21]](#HKR21) 
-(cf. [MontiCore](/topics/MontiCore)),
+(cf. [MontiCore](/research/MontiCore)),
 we developed several generators for data-centric applications.
 The following figure shows the main concepts for these approaches:
 Models from different DSLs are used as input for the generator in combination
@@ -66,7 +66,7 @@ control.
 
 Enterprise Information Systems are currently facing new challenges: 
 The General Data Protection Regulation (GDPR), in application since May 2018,
-marks a new era in data privacy. This regulations are also relevant for EIS
+marks a new era in data privacy. These regulations are also relevant for EIS
 dealing with private data.
 Thus, we investigate the architecture of Cloud Services for
 the Digital me in a Privacy-Aware Environment [[ELR+17]](#ELR+17).
@@ -100,21 +100,21 @@ interesting to use configurable model-based technology.
 {% include trennlinie.html %}
 
 ## Related Topics
-- [Agile Model-Based Software Engineering](/topics/Agile-MBSE)
-- [Domain-Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Energy Management](/topics/Energy-Management)
-- [Generative Software Engineering](/topics/Generative-SE)
-- [MontiCore - Language Workbench](/topics/MontiCore)
-- [Modeling Software Architecture](/topics/Software-Architecture)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
-- [UML/P](/topics/UML-P)
+- [Agile Model-Based Software Engineering](/research/Agile-MBSE)
+- [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Energy Management](/research/Energy-Management)
+- [Generative Software Engineering](/research/Generative-SE)
+- [MontiCore - Language Workbench](/research/MontiCore)
+- [Modeling Software Architecture](/research/Software-Architecture)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
+- [UML/P](/research/UML-P)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)
