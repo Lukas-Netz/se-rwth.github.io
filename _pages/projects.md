@@ -5,6 +5,19 @@ permalink: /projects/
 description: 
 order: 4
 nav: true
+AutoKnigge_keys: [KKR19, KPRS19, KKMR19]
+CarOLO_keys: [BR09a, BR12b, BR12]
+CrESt_keys: [KRSW20, BEK+19, BEK+18b, BGRW18]
+EMA_keys: [KNP+19, KRSvW18a, KRRW17]
+MSim_keys: [KKRZ19, FIK+18]
+HBP_keys: [Plo18, BPEM18, PBI+16]
+iserveU_keys: [HMSNR+15, ABH+16, ABK+17]
+IoP_keys: [DJM+19, DJR+19, SHH+20, BDH+20]
+MaCoCo_keys: [GHK+20]
+MontiGem_keys: [GMN+20, AMN+20a]
+SemDiff_keys: [DKMR20, DKMR19, BKRW19, KR18a, BKRW17, MRR11d, MRR11b, MRR10]
+SenCloud_keys: [HHK+15a, HHK+14, HPR13]
+SPES_keys: [RSW+15, BMP+16, RSW16]
 ---
 
 The explanations below will give you an overview over some major research 
@@ -91,18 +104,11 @@ maneuvers. Furthermore, a set of behavioral rules is to be defined which
 serves as a guidelines catalogue for cooperative vehicles. 
 
 #### Selected publications AutoKnigge, cf. [EMA and MontiSim publications](#EMA), as well
-
-- [KKR19] N. Kaminski, E. Kusmenko, B. Rumpe:
-[Modeling Dynamic Architectures of Self-Adaptive Cooperative Systems.](https://se-rwth.de/publications/Modeling-Dynamic-Architectures-of-Self-Adaptive-Cooperative-Systems.pdf)
-In: B. Combemale, S. Ali, editors, The Journal of Object Technology, 18(2), pp. 1-20, AITO, July 2019.
-
-- [KPRS19] E. Kusmenko, S. Pavlitskaya, B. Rumpe, S. Stüber:
-[On the Engineering of AI-Powered Systems.](https://se-rwth.de/publications/On-the-Engineering-of-AI-Powered-Systems.pdf)
-In: L. O’Conner, editor, ASE’19. Software Engineering Intelligence Workshop (SEI’19), San Diego, pp. 126-133, IEEE, Nov. 2019.
-
-- [KKMR19] J. C. Kirchhof, E. Kusmenko, J. Meurice, B. Rumpe:
-[Simulation of Model Execution for Embedded Systems.](https://se-rwth.de/publications/Simulation-of-Model-Execution-for-Embedded-Systems.pdf)
-In: L. Burgueño, A. Pretschner, S. Voss, M. Chaudron, J. Kienzle, M. Völter, S. Gérard, M. Zahedi, E. Bousse, A. Rensink, F. Polack, G. Engels, G.Kappel, editors, Proceedings of MODELS 2019. Workshop MLE, Munich, pp. 331-338, IEEE, Sep. 2019.
+<div class="publications">
+  {% for k in page.AutoKnigge_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 {% include trennlinie.html %}
 <a name="BestEnergy"></a>
@@ -152,15 +158,11 @@ Challenge](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2007))).
 
 #### Selected publications
 
-- [BR09] C. Berger, B. Rumpe:
-[Hesperia: Framework zur Szenario-gestützten Modellierung und Entwicklung Sensor-basierter Systeme.](http://www.se-rwth.de/publications/Hesperia-Framework-zur-Szenario-gestuetzten-Modellierung-und-Entwicklung-Sensor-basierter-Systeme.pdf)
-Workshop Automotive Software Engineering. In: Proceedings INFORMATIK 2009. GI Edition - Lecture Notes in Informatics (LNI), Vol. P154, 2009
-- [BR12b] C. Berger, B. Rumpe:
-[Autonomous Driving - 5 Years after the Urban Challenge: The Anticipatory Vehicle as a Cyber-Physical System.](http://www.se-rwth.de/publications/Autonomous-Driving-5-Years-after-the-Urban-Challenge-The-Anticipatory-Vehicle-as-a-Cyber-Physical-System.pdf)
-In: Proceedings of the 10th Workshop on Automotive Software Engineering (ASE 2012), pp. 789-798, Braunschweig, September 2012.
-- [BR12] C. Berger, B. Rumpe:
-[Engineering Autonomous Driving Software.](http://www.se-rwth.de/publications/Engineering-Autonomous-Driving-Software.pdf)
-In: C. Rouff, M. Hinchey (Eds.). Experience from the DARPA Urban Challenge. Springer, 2012.
+<div class="publications">
+  {% for k in page.CarOLO_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 <center>
 <div class="row" style="width: 85%">
@@ -189,18 +191,11 @@ for Education and Research (BMBF).
 
 #### Selected publications
 
-- [KRSW20] J. C. Kirchhof, B. Rumpe, D. Schmalzing, A. Wortmann: 
-[Structurally Evolving Component-Port-Connector Architectures of Centrally Controlled Systems.](https://www.se-rwth.de/publications/Structurally-Evolving-Component-Port-Connector-Architectures-of-Centrally-Controlled-Systems.pdf)
-In: International Working Conference on Variability Modelling of Software-Intensive Systems (VAMOS'20), Magdeburg, article 23, ACM, Feb. 2020.
-- [BEK+19] A. Butting, R. Eikermann, O. Kautz, B. Rumpe, A. Wortmann:
-[Systematic Composition of Independent Language Features.](http://www.se-rwth.de/publications/Systematic-Composition-of-Independent-Language-Features.pdf)
-In: Journal of Systems and Software, 152, pp. 50-69, June 2019.
-- [BEK+18b] A. Butting, R. Eikermann, O. Kautz, B. Rumpe, A. Wortmann:
-[Modeling Language Variability with Reusable Language Components.](http://www.se-rwth.de/publications/Modeling-Language-Variability-with-Reusable-Language-Components.pdf)
-In: International Conference on Systems and Software Product Line (SPLC'18). Gothenburg, ACM, Sep. 2018.
-- [BGRW18] A. Butting, T. Greifenberg, B. Rumpe, A. Wortmann:
-[On the Need for Artifact Models in Model-Driven Systems Engineering Projects.](http://www.se-rwth.de/publications/On-the-Need-for-Artifact-Models-in-Model-Driven-Systems-Engineering-Projects.pdf)
-In: Software Technologies: Applications and Foundations, pg. 146-153, LNCS 10748, Springer, Jan. 2018.
+<div class="publications">
+  {% for k in page.CrESt_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 <center>
 <div class="row" style="width: 85%">
@@ -233,25 +228,20 @@ for autonomous, interactively collaborative vehicles.
 
 #### Selected publications EmbeddedMontiArc
 
-- [KNP+19] E. Kusmenko, S. Nickels, S. Pavlitskaya, B. Rumpe, T. Timmermanns:
-[Modeling and Training of Neural Processing Systems.](https://se-rwth.de/publications/Modeling-and-Training-of-Neural-Processing-Systems.pdf)
-In: M. Kessentini, T. Yue, A. Pretschner, S. Voss, L. Burgueño, editors, Conference on Model Driven Engineering Languages and Systems (MODELS'19), Munich, pp. 283-293, IEEE, Sep. 2019.
-- [KRSvW18a] E. Kusmenko, B. Rumpe, S. Schneiders, M. von Wenckstern:
-[Highly-Optimizing and Multi-Target Compiler for Embedded System Models: C++ Compiler Toolchain for the Component and Connector Language EmbeddedMontiArc.](https://se-rwth.de/publications/Highly-Optimizing-and-Multi-Target-Compiler-for-Embedded-System-Models.pdf)
-In: Conference on Model Driven Engineering Languages and Systems (MODELS'18), pg. 447-457, Copenhagen, ACM, Oct. 2018.
-  - [Additional Materials](https://zenodo.org/record/1314370)
-- [KRRW17] E. Kusmenko, A. Roth, B. Rumpe, M. von Wenckstern:
-[Modeling Architectures of Cyber Physical Systems.](https://se-rwth.de/publications/Modeling-Architectures-of-Cyber-Physical-Systems.pdf)
-In: European Conference on Modelling Foundations and Applications (ECMFA'17), Marburg, pg. 34-50. LNCS 10376, Springer, July 2017.
+<div class="publications">
+  {% for k in page.EMA_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% if k == "KRSvW18a" %} <ul> <ul> <li> <a href="https://zenodo.org/record/1314370">Additional Materials </a> </li> </ul> </ul> {% endif %}
+  {% endfor %}
+</div>
 
 #### Selected Publications MontiSim
 
-- [KKRZ19] J. C. Kirchhof, E. Kusmenko, B. Rumpe, H. Zhang:
-[Simulation as a Service for Cooperative Vehicles.](https://se-rwth.de/publications/Simulation-as-a-Service-for-Cooperative-Vehicles.pdf)
-In: L. Burgueño, A. Pretschner, S. Voss, M. Chaudron, J. Kienzle, M. Völter, S. Gérard, M. Zahedi, E. Bousse, A. Rensink, F. Polack, G. Engels, G.Kappel, editors, Proceedings of MODELS 2019. Workshop MASE, Munich, pp. 28-37, IEEE, Sep. 2019.
-- [FIK+18] C. Frohn, P. Ilov, S. Kriebel, E. Kusmenko, B. Rumpe, A. Ryndin:
-[Distributed Simulation of Cooperatively Interacting Vehicles.](https://se-rwth.de/publications/Distributed-Simulation-of-Cooperatively-Interacting-Vehicles.pdf)
-In: International Conference on Intelligent Transportation Systems (ITSC'18), pg. 596-601, IEEE, 2018.
+<div class="publications">
+  {% for k in page.MSim_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 <center>
 <div class="row" style="width: 85%">
@@ -276,15 +266,11 @@ behavior.
 
 #### Selected publications
 
-- [Plo18] D. Plotnikov:
-[NESTML - die domänenspezifische Sprache für den NEST-Simulator neuronaler Netzwerke im Human Brain Project.](https://www.se-rwth.de/phdtheses/Diss-Plotnikov-NESTML-die-domaenenspezifische-Sprache-fuer-den-NEST-Simulator-neuronaler-Netzwerke-im-Human-Brain-Project.PDF)
-In: Aachener Informatik-Berichte, Software Engineering, Band 33. ISBN 978-3-8440-5779-9. Shaker Verlag, Feb. 2018.
-- [BPEM18] I. Blundell, D. Plotnikov, J. M. Eppler, A. Morrison:
-[Automatically Selecting a Suitable Integration Scheme for Systems of Differential Equations in Neuron Models.](http://www.se-rwth.de/publications/Automatically-Selecting-a-Suitable-Integration-Scheme-for-Systems-of-Differential-Equations-in-Neuron-Models.pdf)
-In: Frontiers in Neuroinformatics, 12, 2018.
-- [PBI+16] D. Plotnikov, I. Blundell, T. Ippen, J. M. Eppler, A. Morrison, B. Rumpe:
-[NESTML: a modeling language for spiking neurons.](http://www.se-rwth.de/publications/NESTML-a-modeling-language-for-spiking-neurons.pdf)
-In: Modellierung 2016 Conference, LNI P-254, pp. 93-108. Bonner Köllen Verlag, March 2016.
+<div class="publications">
+  {% for k in page.HBP_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 <center>
 <div class="row" style="width: 85%">
@@ -318,15 +304,11 @@ Website](http://www.se-rwth.de/materials/iserveu/).
 
 #### Selected publications
 
-- [HMSNR+15] R. Heim, P. Mir Seyed Nazari, J. O. Ringert, B. Rumpe, A. Wortmann:
-[Modeling Robot and World Interfaces for Reusable Tasks.](http://www.se-rwth.de/publications/Modeling-Robot-and-World-Interfaces-for-Reusable-Tasks.pdf)
-In: Intelligent Robots and Systems Conference (IROS'15), pp. 1793-1798. IEEE, 2015.
-- [ABH+16] K. Adam, A. Butting, R. Heim, O. Kautz, B. Rumpe, A. Wortmann:
-[Model-Driven Separation of Concerns for Service Robotics.](http://www.se-rwth.de/publications/Model-Driven-Separation-of-Concerns-for-Service-Robotics.pdf)
-In: International Workshop on Domain-Specific Modeling (DSM'16), pg. 22-27. ACM, October 2016.
-- [ABK+17] K. Adam, A. Butting, O. Kautz, B. Rumpe, A. Wortmann:
-[Executing Robot Task Models in Dynamic Environments.](http://www.se-rwth.de/publications/Executing-Robot-Task-Models-in-Dynamic-Environments.pdf)
-In: Proceedings of MODELS 2017. Workshop EXE, Austin, CEUR 2019, Sept. 2017.
+<div class="publications">
+  {% for k in page.iserveU_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 <center>
 <div class="row" style="width: 85%">
@@ -403,19 +385,11 @@ context-aware data from production, development, and usage in
 real-time, on an adequate level of granularity. 
 
 #### Selected publications
-
-- [DJM+19] M. Dalibor, N. Jansen, J. Michael, B. Rumpe, A. Wortmann:
-[Towards Sustainable Systems Engineering – Integrating Tools via Component and Connector Architectures](https://www.se-rwth.de/publications/Towards-Sustainable-Systems-Engineering-Integrating-Tools-via-Component-and-Connector-Architectures.pdf)
-In: G. Jacobs, J. Marheineke, editors, Antriebstechnisches Kolloquium 2019: Tagungsband zur Konferenz, pp. 121-133, Feb. 2019.
-- [DJR+19] M. Dalibor, N. Jansen, B. Rumpe, L. Wachtmeister, A. Wortmann:
-[Model-Driven Systems Engineering for Virtual Product Design](https://www.se-rwth.de/publications/Model-Driven-Systems-Engineering-for-Virtual-Product-Design.pdf)
-In: L. Burgueño, A. Pretschner, S. Voss, M. Chaudron, J. Kienzle, M. Völter, S. Gérard, M. Zahedi, E. Bousse, A. Rensink, F. Polack, G. Engels, G.Kappel, editors, Proceedings of MODELS 2019. Workshop MPM4CPS, Munich, pp. 430-435, IEEE, Sep. 2019.
-- [SHH+20] G. Schuh, C. Häfner, C. Hopmann, B. Rumpe, M. Brockmann, A. Wortmann, J. Maibaum, M. Dalibor, P. Bibow, P. Sapel, M. Kröger:
-[Effizientere Produktion mit Digitalen Schatten](https://www.se-rwth.de/publications/Effizientere-Produktion-mit-Digitalen-Schatten.pdf)
-In: W. Bauer, W. Volk, M. Zäh, editors, ZWF Zeitschrift für wirtschaftlichen Fabrikbetrieb 115(special), pp. 105-107, Carl Hanser Verlag, Munich, April 2020.
-- [BDH+20] P. Bibow, M. Dalibor, C. Hopmann, B. Mainz, B. Rumpe, D. Schmalzing, M. Schmitz, A. Wortmann:
-[Model-Driven Development of a Digital Twin for Injection Molding](https://www.se-rwth.de/publications/Model-Driven-Development-of-a-Digital-Twin-for-Injection-Molding.pdf)
-In: S. Dustdar, E. Yu, C. Salinesi, D. Rieu, V. Pant, editors, International Conference on Advanced Information Systems Engineering (CAiSE'20), pp. 85-100, Grenoble, Springer International Publishing, June 2020.
+<div class="publications">
+  {% for k in page.IoP_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 <center>
 <div class="row" style="width: 85%">
@@ -449,10 +423,11 @@ The MaCoCo project is funded by the RWTH Aachen University and jointly
 realized by the two Chairs of Management Accounting and Software Engineering. 
 
 #### Selected publications
-
-- [GHK+20] A. Gerasimov, P. Heuser, H. Ketteniß, P. Letmathe, J. Michael, L. Netz, B. Rumpe, S. Varga:
-[Generated Enterprise Information Systems: MDSE for Maintainable Co-Development of Frontend and Backend.](https://www.se-rwth.de/publications/Generated-Enterprise-Information-Systems-MDSE-for-Maintainable-Co-Development-of-Frontend-and-Backend.pdf)
-In: J. Michael, D. Bork, editors, Companion Proceedings of Modellierung 2020, Vienna, pp. 22-30, CEUR Workshop Proceedings, Feb. 2020.
+<div class="publications">
+  {% for k in page.MaCoCo_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 <center>
 <div class="row" style="width: 85%">
@@ -609,13 +584,11 @@ the back-end
 - Graphical user interface
 
 #### Selected publications
-
-- [GMN+20] A. Gerasimov, J. Michael, L. Netz, B. Rumpe, and S. Varga.:
-[Continuous Transition from Model-Driven Prototype to Full-Size Real-World Enterprise Information Systems.](http://www.se-rwth.de/publications/Continuous-Transition-from-Model-Driven-Prototype-to-Full-Size-Real-World-Enterprise-Information-Systems.pdf)
-In: Bonnie Anderson, Jason Thatcher, Rayman Meservy, editors, 25th Americas Conference on Information Systems (AMCIS 2020), AIS Electronic Library (AISeL), pages 1-10, August, 2020, Association for Information Systems (AIS).
-- [AMN+20a] K. Adam, J. Michael, L. Netz, B. Rumpe, and S. Varga.:
-[Enterprise Information Systems in Academia and Practice: Lessons learned from a MBSE Project.](http://www.se-rwth.de/publications/Enterprise-Information-Systems-in-Academia-and-Practice-Lessons-learned-from-a-MBSE-Project.pdf)
-In: 40 Years EMISA: Digital Ecosystems of the Future: Methodology, Techniques and Applications (EMISA'19), LNI P-304, pages 59-66, May, 2020, Gesellschaft für Informatik e.V.
+<div class="publications">
+  {% for k in page.MontiGem_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 <center>
 <div class="row" style="width: 85%">
@@ -647,30 +620,11 @@ solving semantic model evolution analysis problems.
 
 #### Selected publications
 
-- [DKMR20] I. Drave, O. Kautz, J. Michael, B. Rumpe:
-[Pre-Study on the Usefulness of Difference Operators for Modeling Languages in Software Development.](https://se-rwth.de/publications/Pre-Study-on-the-Usefulness-of-Difference-Operators-for-Modeling-Languages-in-Software-Development.pdf)
-RWTH Aachen University, Technical Report. AIB-2020-05. May 2020.
-- [DKMR19] I. Drave, O. Kautz, J. Michael, B. Rumpe:
-[Semantic Evolution Analysis of Feature Models.](https://se-rwth.de/publications/Semantic-Evolution-Analysis-of-Feature-Models.pdf)
-In: T. Berger, P. Collet, L. Duchien, T. Fogdal, P. Heymans, T. Kehrer, J. Martinez, R. Mazo, L. Montalvillo, C. Salinesi, X. Tërnava, T. Thüm, T. Ziadi, editors, International Systems and Software Product Line Conference (SPLC'19), Paris, pp. 245-255, ACM, Sep. 2019.
-- [BKRW19] A. Butting, O. Kautz, B. Rumpe, A. Wortmann:
-[Continuously Analyzing Finite, Message-Driven, Time-Synchronous Component & Connector Systems During Architecture Evolution.](https://se-rwth.de/publications/Continuously-Analyzing-Finite-Message-Driven-Time-Synchronous-Component-and-Connector-Systems-During-Architecture-Evolution.pdf)
-In: P. Pelliccione, J. Bosch, M. Marija, editors, Journal of Systems and Software (JSS), 149, pp. 437-461, Elsevier, March 2019.
-- [KR18a] O. Kautz, B. Rumpe:
-[On Computing Instructions to Repair Failed Model Refinements.](http://www.se-rwth.de/publications/On-Computing-Instructions-to-Repair-Failed-Model-Refinements.pdf)
-In: Conference on Model Driven Engineering Languages and Systems (MODELS'18), pg. 289-299, Copenhagen, ACM, Oct. 2018.
-- [BKRW17] A. Butting, O. Kautz, B. Rumpe, A. Wortmann:
-[Semantic Differencing for Message-Driven Component & Connector Architectures.](http://www.se-rwth.de/publications/Semantic-Differencing-for-Message-Driven-Component-and-Connector-Architectures.pdf)
-In: International Conference on Software Architecture (ICSA'17), Gothenburg, pg. 145-154. IEEE, April 2017.
-- [MRR11d] S. Maoz, J. O. Ringert, B. Rumpe:
-[ADDiff: Semantic Differencing for Activity Diagrams.](http://www.se-rwth.de/publications/ADDiff-Semantic-Differencing-for-Activity-Diagrams.pdf)
-In: Proc. Euro. Soft. Eng. Conf. and SIGSOFT Symp. on the Foundations of Soft. Eng. (ESEC/FSE'11), pp. 179-189, ACM, 2011.
-- [MRR11b] S. Maoz, J. O. Ringert, B. Rumpe:
-[CDDiff: Semantic Differencing for Class Diagrams.](http://www.se-rwth.de/publications/CDDiff-Semantic-Differencing-for-Class-Diagrams.pdf)
-In: Proc. 25th Euro. Conf. on Object Oriented Programming (ECOOP'11), LNCS 6813, pp. 230-254, Springer, 2011.
-- [MRR10] S. Maoz, J. O. Ringert and B. Rumpe:
-[A Manifesto for Semantic Model Differencing.](https://se-rwth.de/publications/A-Manifesto-for-Semantic-Model-Differencing.pdf)
-In: Proceedings Int. Workshop on Models and Evolution (ME'10), co-located with MoDELS'10. J. Dingel and A. Solberg (Eds.): MoDELS Workshops, LNCS 6627, pp. 194 - 203, 2010.
+<div class="publications">
+  {% for k in page.SemDiff_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 <center>
 <div class="row" style="width: 85%">
@@ -699,15 +653,11 @@ cloud-based system which integrates into private life.
 
 #### Selected publications
 
-- [HHK+15a] M. Henze, L. Hermerschmidt, D. Kerpen, R. Häußling, B. Rumpe, K. Wehrle:
-[A comprehensive approach to privacy in the cloud-based Internet of Things.](http://www.se-rwth.de/publications/A-Comprehensive-Approach-to-Privacy-in-the-Cloud-based-Internet-of-Things.pdf)
-In: Future Generation Computer Systems, 56:701–718, Elsevier 2015.
-- [HHK+14] M. Henze, L. Hermerschmidt, D. Kerpen, R. Häußling, B. Rumpe, K. Wehrle:
-[User-driven Privacy Enforcement for Cloud-based Services in the Internet of Things.](http://www.se-rwth.de/publications/User-driven-Privacy-Enforcement-for-Cloud-based-Services-in-the-Internet-of-Things.pdf)
-In: The 2nd International Conference on Future Internet of Things and Cloud (FiCloud-2014). Barcelona, Spain, IEEE, 2014.
-- [HPR13] L. Hermerschmidt, A. Navarro Perez, B. Rumpe:
-[A Model-based Software Development Kit for the SensorCloud Platform.](http://www.se-rwth.de/publications/A-Model-based-Software-Development-Kit-for-the-SensorCloud-Platform.pdf)
-In: Workshop Wissenschaftliche Ergebnisse der Trusted Cloud Initiative, pp. 125-140, Karlsruhe, Springer Schweiz, 2013.
+<div class="publications">
+  {% for k in page.SenCloud_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 <center>
 <div class="row" style="width: 85%">
@@ -730,16 +680,11 @@ methodology to realize a consistent modelbased development of embedded
 systems. 
 
 #### Selected publications
-
-- [RSW+15] B. Rumpe, C. Schulze, M. von Wenckstern, J. O. Ringert, P. Manhart:
-[Behavioral Compatibility of Simulink Models for Product Line Maintenance and Evolution.](http://www.se-rwth.de/publications/Behavioral-Compatibility-of-Simulink-Models-for-Product-Line-Maintenance-and-Evolution.pdf)
-In: Conference on Software Product Lines (SPLC'15), p. 141-150, ACM, 2015.
-- [BMP+16] V. Bertram, P. Manhart, D. Plotnikov, B. Rumpe, C. Schulze, M. von Wenckstern:
-[Infrastructure to Use OCL for Runtime Structural Compatibility Checks of Simulink Models.](http://www.se-rwth.de/publications/Infrastructure-to-Use-OCL-for-Runtime-Structural-Compatibility-Checks-of-Simulink-Models.pdf)
-In: Modellierung 2016 Conference, LNI P-254, pp. 109-116. Bonner Köllen Verlag, March 2016.
-- [RSW16] B. Rumpe, C. Schulze, M. von Wenckstern:
-[MontiMatcher: ähnlichkeitsanalyse-Framework zur Produktlinienextraktion und Evolutionsüberwachung.](http://www.se-rwth.de/publications/MontiMatcher-Aehnlichkeitsanalyse-Framework-zur-Produktlinienextraktion-und-Evolutionsueberwachung.pdf)
-In: Softwaretechnik-Trends, 36(2), May 2016.
+<div class="publications">
+  {% for k in page.SPES_keys %}
+    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+  {% endfor %}
+</div>
 
 <center>
 <div class="row" style="width: 85%">
