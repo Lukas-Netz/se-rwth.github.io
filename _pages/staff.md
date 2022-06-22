@@ -69,7 +69,7 @@ Prof. Dr. Abigail Morrison can be found [here](https://www.fz-juelich.de/en/inm/
     {% include staff_row.html name='Matthias Markthaler' email='markthaler@se-rwth.de' phone='21301' room='4302' %}
     {% include staff_row.html name='Imke Nachmann' email='nachmann@se-rwth.de' phone='21358' room='4225' %}
     {% include staff_row.html name='Lukas Netz' email='netz@se-rwth.de' phone='21325' room='4306' %}
-    {% include staff_row.html name='Mathias Pfeiffer' email='mpfeiffer@se-rwth.de' phone='21338' room='2226' %}
+    {% include staff_row.html href='Mathias.Pfeiffer' name='Mathias Pfeiffer' email='mpfeiffer@se-rwth.de' phone='21338' room='2226' %}
     {% include staff_row.html name='Deni Raco' email='raco@se-rwth.de' phone='21349' room='2227' %}
     {% include staff_row.html name='Jonas Ritz' email='ritz@se-rwth.de' phone='21346' room='4220' %}
     {% include staff_row.html name='David Schmalzing' email='schmalzing@se-rwth.de' phone='21343' room='4310' %}
