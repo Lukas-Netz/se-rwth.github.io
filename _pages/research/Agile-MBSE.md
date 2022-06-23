@@ -93,7 +93,7 @@ models and ordinary programming code.
 <br />
 
 Moreover, in [[Rum12]](#Rum12), [[Rum11]](#Rum11), [[Rum16]](#Rum16), and [[Rum17]](#Rum17),
-which are also [online available](http://www.se-rwth.de/mbse/),
+which are also [online available](https://www.mbse.se-rwth.de/),
 the **UML/P**, a variant of the UML especially designed for programming,
 refactoring and evolution, is defined. The UML/P embodies class, object,
 sequence diagrams, Statecharts, and OCL in combination with Java to model code
