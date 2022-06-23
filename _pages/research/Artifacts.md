@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Artifacts in Complex Development Projects
-permalink: /topics/Artifacts/
+permalink: /research/Artifacts/
 description:
 img:
 importance: 1
@@ -228,21 +228,21 @@ the artifacts they work with.
 
 ## Related Topics
 
-- [Automotive](/topics/Automotive)
+- [Automotive](/research/Automotive)
 - [Autonomic Driving & Intelligent Driver
-  Assistance](/topics/Autonomic-Driving)
-- [Domain Specific Languages (DSLs)](/topics/Domain-Specific-Languages)
-- [Energy Management](/topics/Energy-Management)
-- [MontiArc - Architectural Modeling](/topics/Software-Architecture)
-- [Robotics Architectures and Tasks](/topics/Robotics)
-- [Unified Modeling Language (UML)](/topics/Unified-Modeling-Language)
+  Assistance](/research/Autonomic-Driving)
+- [Domain Specific Languages (DSLs)](/research/Domain-Specific-Languages)
+- [Energy Management](/research/Energy-Management)
+- [MontiArc - Architectural Modeling](/research/Software-Architecture)
+- [Robotics Architectures and Tasks](/research/Robotics)
+- [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)
 
 {% include trennlinie.html %}
 
 #### Further links:
 
 - [Publications](/publications)
-- [Topic sorted list of most interesting publications](/topics)
+- [Topic sorted list of most interesting publications](/research)
 - [Books](/books)
 - [Aachener Informatik-Berichte, Software Engineering / Ph.D. Theses](/phdtheses)
 - [Website of the SE](https://www.se-rwth.de)
