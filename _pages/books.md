@@ -10,7 +10,8 @@ keys: [
         KR13, Rum12, LR12, JRS12, Rum11, GKL+10, 
         GR10, LMP+10, Rum04, Rum04b, RH04, FPR03, 
         FPR01, BR01, EFM+01, BEP+00, BR00, FR99, 
-        KRS99, BR98, BR97, Rum96
+        KRS99, BR98, BR97, Rum96, 
+        NM08, SNZ08, Nag95, Nag96, Nag90, NP84, Nag79
       ]
 nav: false
 horizontal: false
@@ -44,11 +45,14 @@ Sciences, pp. 347-458, September 2010.
 
 M. Nagl/H.J. Bargstädt/M. Hoffmann/N. Müller. Zukunft Ingenieurwissenschaften - Zukunft Deutschland. Beiträge einer 
 4ING-Fachkonferenz und der gemeinsamen Plenarversammlung der 4ING-Fakultätentage, 268 S., Springer-Verlag, 2008.
- 
+
+<a name="NM08"></a> 
 M. Nagl, W. Marquardt (Editors). Collaborative and Distributed Chemical Engineering: From Understanding to Substantial
 Design Process Support - Results of the IMPROVE Project. Lecture Notes in Computer Science 4970, 851 S., 
 Springer-Verlag, 2008.
 
+
+<a name="SNZ08"></a>
 Andy Schürr, Manfred Nagl, Albert Zündorf (Editors). Applications of Graph Transformation with Industrial Relevance.
 Lecture Notes in Computer Science 5088, 610 S., Springer-Verlag, 2008.
 
@@ -72,14 +76,17 @@ Verbesserung der Entwicklungsprozesse. 440 S., Springer-Verlag, 1999.
 M. Nagl (Hrsg.), Verteilte, integrierte Anwendungsarchitekturen: Die Software-Welt im Umbruch. Congressband VI, 
 Online '97, 416 S., Online-Verlag, 1997.
 
+<a name="Nag96"></a>
 M. Nagl (Editor). Building Tightly Integrated Software Development Environments - The IPSEN Approach. Lecture Notes in
 Computer Science 1170, 709 S., Springer-Verlag, 1996.
 
+<a name="Nag95"></a>
 M. Nagl (Ed.). Proceedings WG '95, 21st Intl. Workshop on "Graph-Theoretic Concepts in Computer Science". Lecture Notes
 in Computer Science 1017, 402 S., Springer-Verlag, 1995.
 
 M. Nagl (Hrsg.). Software- und Information Engineering. Congress VI, Online-Konferenz 1993, 523 S., Online-Verlag, 
 
+<a name="Nag90"></a>
 M. Nagl. Softwaretechnik: Methodisches Programmieren im Großen. 387 S., Springer-Verlag, 1990.
 
 M. Nagl (Ed.). Proc. WG'89 15th Int. Workshop on "Graphtheoretic Concepts in Computer Science". Lecture Notes in 
@@ -88,6 +95,7 @@ Computer Science 411, 372 S., Springer-Verlag, 1990.
 H. Ehrig/M. Nagl/G. Rozenberg/A. Rosenfeld (Hrsg.). Graph Grammars and Their Application to Computer Science. Proc. 
 3rd Int. Workshop on Graph Grammars, Virginia USA. Lect. Notes in Comp. Science 291, 609 S.,Springer-Verlag, 1987.
 
+<a name="NP84"></a>
 M. Nagl/J. Perl (Hrsg.). Proc. WG`83. International Workshop on Graphtheoretic Concepts in Computer Science, 397 S., 
 Trauner-Verlag, 1984.
 
@@ -98,6 +106,7 @@ M. Nagl. Einführung in die Programmiersprache Ada. 348 S., Vieweg-Verlag, 1982 
 341 S., 3. Auflage 1991 (Ada - Einführung in die Programmiersprache der Softwaretechnik), 343 S., 4. Auflage 1992, 
 343 S., 5. Auflage 1999 (Softwaretechnik mit Ada '95 - Entwicklung großer Systeme), 504 S., 6. Auflage 2003, 504 S.
 
+<a name="NP79"></a>
 M. Nagl. Graph-Grammatiken: Theorie, Anwendungen, Implementierung. Habilitationsschrift. 375 S., Vieweg-Verlag, 1979.
 
 M. Nagl/H.J. Schneider (Hrsg.). Graphs, Data Structures, Algorithms. Proc. Workshop WG'78 on "Graphtheoretic Concepts 
