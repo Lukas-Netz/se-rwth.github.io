@@ -44,8 +44,8 @@ Prof. Dr. Abigail Morrison can be found [here](https://www.fz-juelich.de/en/inm/
   </tbody>
   <thead class="text-center"><tr><th colspan="4">Accounting/Office</th></tr></thead>
   <tbody>
-    {% include staff_row.html name='Sylvia Gunder' email='gunder@se-rwth.de' phone='21301' room='4302' %}
-    {% include staff_row.html name='Sonja Müßigbrodt' email='muessigbrodt@se-rwth.de' phone='21302' room='4302' %}
+    {% include staff_row.html href='Sylvia.Gunder' name='Sylvia Gunder' email='gunder@se-rwth.de' phone='21301' room='4302' %}
+    {% include staff_row.html href='Sonja.Muessigbrodt' name='Sonja Müßigbrodt' email='muessigbrodt@se-rwth.de' phone='21302' room='4302' %}
   </tbody>
   <thead class="text-center"><tr><th colspan="4">Academic Staff</th></tr></thead>
   <tbody>
@@ -61,7 +61,7 @@ Prof. Dr. Abigail Morrison can be found [here](https://www.fz-juelich.de/en/inm/
     {% include staff_row.html name='Alexander Hellwig' email='hellwig@se-rwth.de' phone='21304' room='4226' %}
     {% include staff_row.html name='Steffen Hillemacher' email='hillemacher@se-rwth.de' phone='21345' room='4314' %}
     {% include staff_row.html name='Nico Jansen' email='jansen@se-rwth.de' phone='21347' room='4219' %}
-    {% include staff_row.html name='Hendrik Kausch' email='kausch@se-rwth.de' phone='21339' room='2226' %}
+    {% include staff_row.html href='Hendrik.Kausch' name='Hendrik Kausch' email='kausch@se-rwth.de' phone='21339' room='2226' %}
     {% include staff_row.html name='Jörg Christian Kirchhof' email='kirchhof@se-rwth.de' phone='21311' room='4315' %}
     {% include staff_row.html name='Cihad Kirhan' email='kirhan@se-rwth.de' phone='21336' room='4306' %}
     {% include staff_row.html name='Carsten Kolassa' email='kolassa@se-rwth.de' phone='21301' room='2003' %}
