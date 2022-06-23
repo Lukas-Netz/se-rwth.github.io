@@ -127,11 +127,11 @@ increases reuse and enables flexible production.
 
 Many of the concepts we learnt in engineering autonomic robotics come from 
 automotive software engineering and especially our successful participation in 
-the DARPA Urban Challenge. In [[BBR07]](BBR07) 
+the DARPA Urban Challenge. In [[BBR07]](#BBR07) 
 we describe the well-engineered model-driven toolchain, which is heavily based 
 on automatic simulation of a cars context (actually streets, obstacles, other 
 cars of an entire city) and automatic testing for correct a driving behavior. We 
-discussed in [[BR12b]](BR12b) 
+discussed in [[BR12b]](#BR12b) 
 that this a main enabler for intensive regression testing and thus agile 
 development and has now become the primary technique for virtually driving 
 millions of miles for safety validation in the car domain.

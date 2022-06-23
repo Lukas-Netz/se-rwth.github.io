@@ -68,7 +68,7 @@ in a <em>shorter period of time</em> and with flexible integration of
             class: "staff-pics z-depth-1"
             alt: "Horst Lichter"
             title: "Horst Lichter"
-            href: "https://www.swc.rwth-aachen.de/teammember/horst-lichter/"
+            href: "https://www.swc.rwth-aachen.de/team/horst-lichter/"
             caption: "Prof. Dr. rer. nat. Horst Lichter" %}
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-0">

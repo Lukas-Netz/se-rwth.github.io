@@ -84,7 +84,7 @@ of Management Accounting and Software Engineering.
 - [Generative Software Engineering](/research/Generative-SE)
 - [Software Language Engineering (SLE)](/research/Language-Engineering)
 - [UML/P](/research/UML-P)
-- [Unified Modeling Language (UML)](https://www.se-rwth.de/research/Unified-Modeling-Language.php)
+- [Unified Modeling Language (UML)](https://www.se-rwth.de/topics/Unified-Modeling-Language.php)
 
 {% include trennlinie.html %}
 

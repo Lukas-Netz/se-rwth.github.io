@@ -85,7 +85,7 @@ model syntactic language [variability](/research/Variability) through **language
 product lines** 
 [[BEK+18a]](#BEK+18a) 
 [[BEK+18b]](#BEK+18b) 
-[[BEK+19]](BEK+19).
+[[BEK+19]](#BEK+19).
 
 
 ## Language and Tool Composition
