@@ -19,9 +19,9 @@ domains.
 The development,
 integration, evolution, operation and migration of web-based
 application and service architectures poses ever more
-and ever larger challenges to Software Engineering. In [[KRR14]](#KRR14) we
+and ever larger challenges to Software Engineering. In [[KRR14]](#KRR14), we
 discuss the paradigm of Cloud Computing that is arising out of a convergence
-of existing and new technologies in detail. It promises to enable new
+of existing and new technologies. It promises to enable new
 business models, to lower the barrier for web-based innovations and to
 increase the efficiency and cost-effectiveness of web development.
 
@@ -33,13 +33,15 @@ infrastructure and service providers, leads to a high degree of technological
 heterogeneity. High availability and interconnectivity with a multitude of
 clients leads to complex evolution and maintenance processes. These
 challenges come coupled with distinct requirements posed by the individual
-application domain. Application classes like Internet of Things as described
-in [[HHK+14]](#HHK+14) [[HHK+15a]](#HHK+15a), CPS described in [[KRS12]](#KRS12),
+application domain. Application classes like 
+[Internet of Things](/research/IoT) [[HHK+14]](#HHK+14) [[HHK+15a]](#HHK+15a), 
+[Cyber-Physical Systems](/research/Cyber-Physical-Systems) [[KRS12]](#KRS12),
 Big Data, App and
 Service Ecosystems bring attention to aspects like responsiveness, privacy
 and open platforms. Regardless of the application domain, developers of such
 systems are in need for robust methods and efficient, easy-to-use languages
-and tools. For example in [[HHK+14]](#HHK+14) and [[HHK+15a]](#HHK+15a) we discuss how to
+and tools. 
+For example in [[HHK+14]](#HHK+14) and [[HHK+15a]](#HHK+15a), we discuss how to
 handle privacy in the cloud in a trusted environment:
 
 <center>
@@ -53,11 +55,12 @@ handle privacy in the cloud in a trusted environment:
 </center>
 <br />
 
-In our research [[NPR13]](#NPR13) we tackle these challenges by perusing a model-based,
+In our research [[NPR13]](#NPR13), we tackle these challenges by perusing a model-based,
 generative approach. The core of this approach are several modeling languages
 that describe different aspects of a cloud-based system in a concise and
 technology-agnostic way. Software architecture and infrastructure models
-describe the system and its physical distribution on a large scale. UML/P
+describe the system and its physical distribution on a large scale. 
+[UML/P](/research/UML-P)
 models, and class diagrams in particular, describe several other aspects of
 the system, such as its domain and data models, its interfaces and
 interactions, and its monitoring and scaling capabilities. Among other tools,
@@ -70,9 +73,11 @@ We have applied these technologies to various cloud systems, cars, buildings,
 smart phones and smart pads and various other kinds of sensors. We built a
 rather successful and technologically sound framework for web-based software
 portals [[HKR12]](#HKR12) that we offer under sselab.de for general use. Another
-set of cloud systems helps to deal with energy management and is described in
-[[FPPR12]](#FPPR12) [[KPR12]](#KPR12). It continuously monitors building operating systems to
-derive operational data and compare these to the building specification. We use
+set of cloud systems helps to deal with [energy management](/research/Energy-Management)
+[[FPPR12]](#FPPR12) [[KPR12]](#KPR12). 
+It continuously monitors building operating systems to
+derive operational data and compare these to the building specification. 
+We use
 cloud technologies to maintain data, dynamically execute calculations and
 host management services enabling reduction of building energy costs.
 Furthermore, we investigate the architecture of Cloud Services for
@@ -114,6 +119,7 @@ interesting to use configurable model-based technology.
 - [Energy Management](/research/Energy-Management)
 - [Enterprise Information Systems](/research/Enterprise-Information-Systems)
 - [Generative Software Engineering](/research/Generative-SE)
+- [Internet of Things](/research/IoT)
 - [MontiCore - Language Workbench](/research/MontiCore)
 - [Modeling Software Architecture](/research/Software-Architecture)
 - [Unified Modeling Language (UML)](/research/Unified-Modeling-Language)

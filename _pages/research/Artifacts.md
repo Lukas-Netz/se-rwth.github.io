@@ -12,7 +12,7 @@ keys: [HJK+21, Gre19, BHR+18, BGRW18, GHR17, BGRW17]
 
 Most development projects over time evolve from a simple, understandable
 collection of artifacts, tools, and the way they relate to each other
-into an complex, incomprehensible compound of artifacts, tools, and developers
+into a complex, incomprehensible compound of artifacts, tools, and developers
 who work with them.
 The following figure illustrates this evolution with a simple set of tools and the
 artifacts they produce and edit. The arrows between the tools and artifacts 
