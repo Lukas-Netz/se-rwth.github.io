@@ -14,15 +14,15 @@ keys: [GKR96, BCR07b, BCGR09a, BCGR09,
 ## Summary of Most Relevant Topic Papers
 
 Today, we see that many informatics theories are based on state
-machines in various forms including Petri Nets or temporal logics.
-Software engineering is particularly interested in using state machines for
-modeling systems. 
+machines in various forms, including Petri Nets or temporal logics.
+Moreover, software engineering is particularly interested in using state 
+machines for modeling systems. 
 
 Nonetheless, we believe that a sound and precise
 integration of the digital theory (automata) of informatics with
 control theory (calculus) used by almost all other engineering and science
-disciplines is one of the most interesting challenges that we experience at
-the moment. Cyber-physical systems (CPS) 
+disciplines is one of the most interesting challenges we experience now. 
+Moreover, cyber-physical systems (CPS) 
 (see [Cyber Physical Systems (CPS)](/research/Cyber-Physical-Systems)) urgently
 require such an integrated theory.
 
@@ -31,7 +31,7 @@ Our contributions to state-based modeling can be split into three
 parts:
 
 1. Understanding how to model object-oriented and distributed software using 
-state machines respectively Statecharts.
+state machines, respectively, Statecharts.
 2. Understanding refinement and composition on state machines.
 3. Applying state machines for modeling of systems.
 
@@ -41,32 +41,32 @@ state machines respectively Statecharts.
 A practically usable language for state-based modeling must be
 different from the pure theory because a concrete modeling notation, for
 example, allows us to denote finitely many (typically very few) states only,
-while the theory normally has an infinite state space.
+while the underlying theory usually has an infinite state space.
 
 In early publications, such as [[GKR96]](#GKR96), we have discussed how a system
 model can describe object-oriented systems.
-Built on this experience, a complete semantic model has been created for
+We then build onto these experiences to create a complete semantic model for 
 object-oriented systems in [[BCR07b]](#BCR07b).
 Objects, inheritance, states, method calls, stack, distribution, time as
 well as synchronous and asynchronous communication are completely defined
 and encoded into state machines.
-The theory is, therefore, suitable as semantic model for any kind of
-discrete systems. Hence, [[BCGR09a]](#BCGR09a) describes a condensed version of
-this system model and [[BCGR09]](#BCGR09) discusses design decisions, how to use
-the system model for denotational semantics -- and taming the complexity of
-the system model.
+The theory is, therefore, suitable as a semantic model for any kind of
+discrete system. Hence, [[BCGR09a]](#BCGR09a) describes a condensed version of
+this system model and [[BCGR09]](#BCGR09) discusses design decisions and
+how to use the system model for denotational semantics -- and taming the 
+complexity of the system model.
 
 
-## Refinement and Refactoring of Statemachines
+## Refinement and Refactoring of State Machines
 
 Starting with [[PR94]](#PR94), we investigated how to use state machines to
 describe the abstract behavior of superclasses and refine it in subclasses.
-While the description in [[PR94]](#PR94) was rather informal, we have formalized
-the refinement relation in [[RK96]](#RK96) by mapping a state machine to a set
+While the description in [[PR94]](#PR94) ist relatively informal, we have formalized the refinement relation in [[RK96]](#RK96) by mapping a state 
+machine to a set
 of possible component behaviors based on the streams of the Focus (see
 [Modeling Software Architecture](/research/Software-Architecture)) theory.
-In [[Rum96]](#Rum96), constructive transformation rules for
-refining automata behavior are provided and proven correct.
+In [[Rum96]](#Rum96), we provide constructive transformation rules for
+refining automata behavior and prove their correctness.
 This theory is applied to features in [[KPR97]](#KPR97), where a feature is a
 sub-automaton that adapts the original behavior in a refining form,
 precisely clarifying where feature interaction is allowed or harmful.
@@ -76,17 +76,17 @@ where the described behavior is partial and can only be extended but not
 adapted, or that a state machine describes a specification, where the
 behavior is constrained to a possible, underspecified set of reactions,
 promised to the external users of a state machine.
-Here, refinement always means reduction of underspecification, telling more
-behavioral details to the external user.
+Here, refinement always means the reduction of underspecification, telling 
+more behavioral details to the external user.
 This is constructively achieved, e.g., by removing transitions that have
-alternatives or adding new behavior (transitions), if previously no
-transition was given at all.
+alternatives or adding new behavior (transitions) in cases where previously 
+no transition was applicab.
 
-Specification languages are particularly strong if only explicitly given
-statements and no implicit additional assumptions hold (such as:
-implicit ignoring of messages, if they cannot be processed by a transition)
-as detailed in [[Rum96]](#Rum96) and [[Rum16]](#Rum16).
-The concept of chaos completion should be used to define semantics of
+Specification languages are particularly strong if only explicitly given 
+statements, and no additional implicit assumptions,  hold (such as implicitly 
+ignoring messages if a transition cannot process them) as detailed in 
+[[Rum96]](#Rum96) and [[Rum16]](#Rum16).
+The concept of chaos completion should be used to define the semantics of
 incomplete state machines.
 This is much better suited for behavioral refinements than the concept of
 ignoring messages or error handling in cases where no explicit transition is
@@ -117,17 +117,17 @@ one single input message from M<sub>in</sub> but an arbitrary long sequence of o
 messages from M<sub>out</sub>. Nondeterminism is handled as underspecification allowing the 
 implementation (or the developer) to choose. Incompleteness is also understood 
 as underspecification allowing arbitrary (chaotic) behavior, assuming that a 
-later implementation or code generator will choose a meaningful implementation, 
-but a specifier does not have to decide upfront. Fairness of choice for 
+later implementation or code generator will choose a meaningful implementation.
+Still, a specifier does not have to decide up-front. Fairness of choice for 
 transitions is not assumed (but possible), as it is counterproductive to 
 refinement by deciding on one alternative during the implementation process.
 
 Most interestingly, describing transitions in δ with input and corresponding 
 output leads to a much more abstract form of state machines, which can actually 
-be used in the modeling process. First there are no (explicit) intermediate 
-states necessary that would distribute a sequence of output messages in 
+be used in the modeling process. First, no (explicit) intermediate 
+states are necessary to distribute a sequence of output messages in 
 individual transitions (which is the case in classic Lynch/Tuttle I/O-automata, 
-where a transition has exactly one input or output message). Second our 
+where a transition has exactly one input or output message). Second, our 
 I/O<sup>ω</sup> automata preserve the causal relation between input and output 
 on the transitions (whereas I/O automata distribute this over many transitions). 
 We believe I/O<sup>ω</sup> automata are therefore suited as a human modeling 
@@ -154,7 +154,7 @@ This is a very important property, which is unfortunately not present in
 many other approaches, where system integration is a nightmare when
 components evolve.
 
-Unfortunately, the untimed, event driven version of state machines that
+Unfortunately, the untimed, event-driven version of state machines that
 is very well suited for refinement and abstract specification has no
 composition in general. Further investigation is necessary.
 
