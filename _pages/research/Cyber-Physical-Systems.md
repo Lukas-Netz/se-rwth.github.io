@@ -28,7 +28,7 @@ characteristics of physical, networked, computational-intensive, and of
 human-interactive systems. Furthermore, they typically cannot be
 developed as monolithic systems, but need to be developed as open,
 composable, evolving, and scalable architectures (see also
-X[Modeling Software Architecture](/research/Software-Architecture)).
+[Modeling Software Architecture](/research/Software-Architecture)).
 
 Nowadays, CPS are found in many domains, including aerospace,
 [automotive](/research/Automotive), [energy](/research/Energy-Management), 
@@ -41,7 +41,7 @@ built on integration and differentiation calculus used by almost any engineering
 discipline, and the digital theory of [state 
 machines](/research/State-Based-Modeling) are not very well integrated and thus do 
 not allow us to describe CPS in an integrated way. Many attempts have been made, 
-but a good standard yet has to emerge.
+but a good standard has yet to emerge.
 
 The **complexity and heterogeneity** of CPS introduces a wide conceptual gap
 between problem and solution domains. Model-driven engineering of such
@@ -109,7 +109,7 @@ There is a multitude of networked systems and sensors to continuously
 control the building's **behavior**. We have built the Energy
 Navigator [[KPR12]](#KPR12) [[FPPR12]](#FPPR12) to be able to model the specifications of
 such buildings in order to control the measured actual data against the
-desired specification, e.g. to save energy. In [[KLPR12]](#KLPR12) we discuss
+desired specification, e.g., to save energy. In [[KLPR12]](#KLPR12) we discuss
 how such a specification approach improves development quality in the
 energy subdomain of CPS.
 
@@ -117,10 +117,10 @@ energy subdomain of CPS.
 {% include trennlinie.html %}
 
 ## Key Statements
-1. CPS tackles two core challenges:
+1. CPS faces two core challenges:
   - Lack of integration of calculus and automaton theory, and
-  - Heterogeneity of domains need integration of heterogeneous modeling 
-  technologies as CPS requires cross domain solutions and techniques.
+  - Heterogeneous domains require the integration of heterogeneous modeling 
+  technologies as CPS requires cross-domain solutions and techniques.
 2. Furthermore, CPS tend to be complex in functionality and because of 
 distribution and quality needs.
 3. CPS are typically not built from scratch, but evolve as new components 
