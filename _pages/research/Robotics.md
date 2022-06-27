@@ -5,11 +5,10 @@ permalink: /research/Robotics/
 description: 
 img: 
 importance: 1
-keys: [RRW12,RRW13c,RRRW15b,THR+13,BBR07,BR12b,AHRW17b]
 keys: [RRW12,QGC+09,RRW13c,
         RRRW15b,AHRW17b,ABH+16,
         ABH+17,MGH+98,HN01,
-        ABK+17,THR+13,BRS+15]
+        ABK+17,THR+13,BRS+15,BBR07,BR12b]
 ---
 
 [//]: # TODO: Video' Embedding is missing, siehe: https://www.se-rwth.de/topics/Robotics.php
