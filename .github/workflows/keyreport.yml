@@ -1,0 +1,27 @@
+name: Research keyreport
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - name: checkout repo content
+          uses: actions/checkout@v3 
+          
+        - name: setup python
+          uses: actions/setup-python@v4
+          with:
+            python-version: '3.9'
+            cache: 'pip'
+        
+        - run: pip install -r requirements.txt
+        
+        - name: exec python script  
+          run: |
+            python bin/keyreport.py
+        
+        - name: upload report
+          uses: actions/upload-artifact@v3
+          with:
+            path: bin/keyreport.md
