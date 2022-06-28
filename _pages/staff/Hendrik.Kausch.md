@@ -5,7 +5,7 @@ permalink: /staff/Hendrik.Kausch/
 nav: false
 redirect_from:
 - /staff/kausch
-- /saff/kausch/
+- /staff/kausch/
 ---
 Software Engineering \
 Department of Computer Science 3 \
