@@ -51,4 +51,4 @@ def main(filepath,bibpath):
             text_file.write('\n')
 
 if __name__ == "__main__":
-    main('../_pages/research','../assets/bibliography')
+    main('_pages/research','assets/bibliography')
