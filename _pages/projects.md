@@ -137,7 +137,7 @@ these activities.
 <center>
 <div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/ena.jpg title: "Energie navigator" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/ena.jpeg title: "Energie navigator" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -167,7 +167,7 @@ Challenge](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2007))).
 <center>
 <div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/caroline.jpg title: "Caroline" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/caroline.jpeg title: "Caroline" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -200,7 +200,7 @@ for Education and Research (BMBF).
 <center>
 <div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/crest.jpg title: "CrESt" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/crest.jpeg title: "CrESt" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -275,7 +275,7 @@ behavior.
 <center>
 <div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/nestml.jpg title: "nest::ml" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/nestml.jpeg title: "nest::ml" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -313,7 +313,7 @@ Website](http://www.se-rwth.de/materials/iserveu/).
 <center>
 <div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/iserveu.jpg title: "iserveU" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/iserveu.jpeg title: "iserveU" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -432,7 +432,7 @@ realized by the two Chairs of Management Accounting and Software Engineering.
 <center>
 <div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/macoco.jpg title: "MaCoCo" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/macoco.jpeg title: "MaCoCo" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -689,7 +689,7 @@ systems.
 <center>
 <div class="row" style="width: 85%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/spes.jpg title: "SPES" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/spes.jpeg title: "SPES" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>

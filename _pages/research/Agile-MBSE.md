@@ -80,12 +80,12 @@ models and ordinary programming code.
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: 
-        assets/img/Modeling-with-UML--Language-Concepts-Methods.jpg title: 
+        assets/img/Modeling-with-UML--Language-Concepts-Methods.jpeg title: 
         "Modeling with UML" class: "img-fluid z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: 
-        assets/img/Agile-Modeling-with-UML--Code-Ceneration-Testing-Refactoring.jpg 
+        assets/img/Agile-Modeling-with-UML--Code-Ceneration-Testing-Refactoring.jpeg 
         title: "Agile Modeling with UML" class: "img-fluid z-depth-1" %}
     </div>
 </div>
@@ -108,8 +108,8 @@ desired or unwanted object structures, are presented there as well.
 <center>
 <div class="row" style="width: 50%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/UMLP.jpg title: "UMPL/P" class: 
-        "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/UMLP.jpeg title: "UMPL/P" 
+        class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -119,7 +119,8 @@ In the last decade, we implemented a **language workbench** called MontiCore
 (see [MontiCore - Language Workbench for DSLs](/research/MontiCore))
 that was first described in [[GKR+06]](#GKR+06). On top of MontiCore, we
 realized most of the language components of the UML/P [[Sch12]](#Sch12).
-This work includes a precise definition of textual languages, type checks, checks for context conditions within and between
+This work includes a precise definition of textual languages, type checks, 
+checks for context conditions within and between
 UML sub-languages and a framework for the implementation of code generators.
 
 ## Specific Concepts Assisting Agile Development

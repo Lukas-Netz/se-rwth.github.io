@@ -55,7 +55,7 @@ in a <em>shorter period of time</em> and with flexible integration of
     <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-0">
           {% responsive_image 
-            path: assets/img/staff/rumpe.jpg 
+            path: assets/img/staff/rumpe.jpeg 
             class: "staff-pics z-depth-1"
             alt: "Bernhard Rumpe"
             title: "Bernhard Rumpe"
@@ -64,7 +64,7 @@ in a <em>shorter period of time</em> and with flexible integration of
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-0">
           {% responsive_image 
-            path: assets/img/staff/lichter.jpg 
+            path: assets/img/staff/lichter.jpeg 
             class: "staff-pics z-depth-1"
             alt: "Horst Lichter"
             title: "Horst Lichter"
@@ -73,7 +73,7 @@ in a <em>shorter period of time</em> and with flexible integration of
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-0">
           {% responsive_image 
-            path: assets/img/staff/morrison.jpg 
+            path: assets/img/staff/morrison.jpeg 
             class: "staff-pics z-depth-1"
             alt: "Abigail Morrison"
             title: "Abigail Morrison"
@@ -82,7 +82,7 @@ in a <em>shorter period of time</em> and with flexible integration of
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-md-0">
           {% responsive_image 
-            path: assets/img/staff/nagl.jpg 
+            path: assets/img/staff/nagl.jpeg 
             class: "staff-pics z-depth-1"
             alt: "Manfred Nagl"
             title: "Manfred Nagl"

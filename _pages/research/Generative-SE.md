@@ -34,7 +34,7 @@ object diagrams, statechart and sequence diagrams as shown in this figure:
 <center>
 <div class="row" style="width: 50%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/UMLP.jpg title: "UMPL/P" class: 
+        {% responsive_image path: assets/img/UMLP.jpeg title: "UMPL/P" class: 
         "img-fluid rounded z-depth-1" %}
     </div>
 </div>
