@@ -21,7 +21,7 @@ represent the relations.
 <center>
 <div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/research/artifacts/artifacts_complexity.png
+        {% responsive_image path: assets/img/topics/artifacts/artifacts_complexity.png
            title: "Evolution of tools, artifacts and their relationships " 
            class: "img-fluid rounded z-depth-1" %}
     </div>
@@ -83,7 +83,7 @@ and techniques.
 <center>
 <div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/research/artifacts/artifacts_overview.png
+        {% responsive_image path: assets/img/topics/artifacts/artifacts_overview.png
            title: "Artifact models and their purpose in software development projects" 
            class: "img-fluid rounded z-depth-1" %}
     </div>
@@ -132,7 +132,7 @@ architecture can be automatically check with respect to the concept.
 <center>
 <div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/research/artifacts/artifacts_architecture.png
+        {% responsive_image path: assets/img/topics/artifacts/artifacts_architecture.png
            title: "Analyzing an architectural drift based on artifact data" 
            class: "img-fluid rounded z-depth-1" %}
     </div>
@@ -175,7 +175,7 @@ project and further analyze it.
 <center>
 <div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/research/artifacts/artifacts_tools.png
+        {% responsive_image path: assets/img/topics/artifacts/artifacts_tools.png
            title: "Understanding a software project based on its tools and artifacts" 
            class: "img-fluid rounded z-depth-1" %}
     </div>

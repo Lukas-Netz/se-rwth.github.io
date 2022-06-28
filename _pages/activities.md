@@ -38,13 +38,10 @@ published via [Twitter](https://twitter.com/SE_RWTH) and
 
 [//]: # (Erste Variant - Die Videos laufen automatisch nacheinander)
 
-
-<div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" style="display: block; margin: 20px auto;" 
 src="https://www.youtube.com/embed/videoseries?list=PLuHxQfNRwKzPtO0tC_GmagidFxaQP6bsb"
 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 - [The SSElab Portfolio of SE Services](https://sselab.de/lab1/) - 
   SSElab is comprising a set of services, such as git, subversion, 
@@ -141,12 +138,12 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div class="row" style="width: 43%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: 
-        assets/img/Modeling-with-UML--Language-Concepts-Methods.jpeg title: 
+        assets/img/Modeling-with-UML--Language-Concepts-Methods.jpg title: 
         "Modeling with UML" class: "img-fluid z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: 
-        assets/img/Agile-Modeling-with-UML--Code-Ceneration-Testing-Refactoring.jpeg 
+        assets/img/Agile-Modeling-with-UML--Code-Ceneration-Testing-Refactoring.jpg 
         title: "Agile Modeling with UML" class: "img-fluid z-depth-1" %}
     </div>
 </div>

@@ -24,8 +24,7 @@ infrastructure that successfully assists modeling in the development
 process (see ["Agile Model Based Software Engineering"](../research/Agile-MBSE)). As 
 every application domain has its own terms, relations, structure 
 and behaviour, there is a need for developing different [Domain 
-Specific Languages (DSLs)](../research/Domain-Specific-Languages) 
-for each domain and/or purpose. The automatic 
+Specific Languages (DSLs)](../research/Domain-Specific-Languages) for each domain and/or purpose. The automatic 
 combination of models from a variety of DSLs ensures consistency 
 (e.g. for front- and backend).
 
@@ -85,82 +84,40 @@ know-how exchange or join us for a bachelor/master thesis or a PhD!
 Currently, the Model-Based Assistance and Information Services working group consists of:
 
 <div class="container">
-    <div class="row d-flex justify-content-center">
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/michael/">
-                <img class="staff-pics team-pics-design z-depth-1"  
-                     src="../../assets/img/teams/michael.jpeg" 
-                     alt="Michael">
-            </a>
-            <span class="span-text-team-pics">Judith Michael, Dr.</span>
+    <div class="row">
+        <div class="col-lg-3">
+            <a href="https://www.se-rwth.de/staff/michael/"><img src="../../assets/img/teams/michael.jpeg" alt="Michael" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Judith Michael, Dr.</span>
         </div>
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/butting/">
-                <img class="staff-pics team-pics-design z-depth-1"  
-                    src="../../assets/img/teams/butting.jpeg" 
-                    alt="Butting">
-            </a>
-            <span class="span-text-team-pics">Arvid Butting, M.Sc.</span>
+        <div class="col-lg-3">
+            <a href="https://www.se-rwth.de/staff/butting/"><img src="../../assets/img/teams/butting.jpeg" alt="Butting" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Arvid Butting, M.Sc.</span>
         </div>
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/gerasimov/">
-                <img class="staff-pics team-pics-design z-depth-1"  
-                    src="../../assets/img/teams/anonymous.jpeg" 
-                    alt="Gerasimov">
-            </a>
-            <span class="span-text-team-pics">Arkadii Gerasimov, M.Sc.</span>
+        <div class="col-lg-3">
+            <a href="https://www.se-rwth.de/staff/gerasimov/"><img src="../../assets/img/teams/anonymous.jpeg" alt="Gerasimov" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Arkadii Gerasimov, M.Sc.</span>
         </div>
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/heithoff/">
-                <img class="staff-pics team-pics-design z-depth-1"  
-                src="../../assets/img/teams/anonymous.jpeg" 
-                alt="Heithoff">
-            </a>
-            <span class="span-text-team-pics">Malte Heithoff, M.Sc.</span>
-        </div>
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/hillemacher/">
-                <img class="staff-pics team-pics-design z-depth-1"  
-                    src="../../assets/img/teams/hillemacher.jpeg" 
-                    alt="Hillemacher">
-            </a>
-            <span class="span-text-team-pics">Steffen Hillemacher, M.Sc.</span>
+        <div class="col-lg-3">
+            <a href="https://www.se-rwth.de/staff/heithoff/"><img src="../../assets/img/teams/anonymous.jpeg" alt="Heithoff" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Malte Heithoff, M.Sc.</span>
         </div>
     </div>
-    <div class="row d-flex justify-content-center">
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/netz/">
-                <img class="staff-pics team-pics-design z-depth-1"  
-                    src="../../assets/img/teams/netz.jpeg" 
-                    alt="Netz">
-            </a>
-            <span class="span-text-team-pics">Lukas Netz, M.Sc.</span>
+    <div class="row">
+        <div class="col-lg-3">
+            <a href="https://www.se-rwth.de/staff/hillemacher/"><img src="../../assets/img/teams/hillemacher.jpeg" alt="Hillemacher" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Steffen Hillemacher, M.Sc.</span>
         </div>
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/stueber/">
-                <img class="staff-pics team-pics-design z-depth-1"  
-                    src="../../assets/img/teams/anonymous.jpeg" 
-                    alt="Stueber">
-            </a>
-            <span class="span-text-team-pics">Sebastian Stueber, M.Sc.</span>
+        <div class="col-lg-3">
+            <a href="https://www.se-rwth.de/staff/netz/"><img src="../../assets/img/teams/netz.jpeg" alt="Netz" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Lukas Netz, M.Sc.</span>
         </div>
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/varga/">
-                <img class="staff-pics team-pics-design z-depth-1"  
-                    src="../../assets/img/teams/varga.jpeg" 
-                    alt="Varga">
-            </a>
-            <span class="span-text-team-pics">Simon Varga, M.Sc.</span>
+        <div class="col-lg-3">
+            <a href="https://www.se-rwth.de/staff/stueber/"><img src="../../assets/img/teams/anonymous.jpeg" alt="Stueber" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Sebastian Stueber, M.Sc.</span>
         </div>
-        <div class="col-lg-2 col-md-6">
-            <img class="staff-pics team-pics-design z-depth-1"  
-                src="../../assets/img/teams/anonymous.jpeg" 
-                alt="Volkova">
-            <span class="span-text-team-pics">Galina Volkova</span>
-        </div>
-        <div class="col-lg-2 col-md-6">
-            <img class="staff-pics team-pics-design z-depth-1"  src="../../assets/img/teams/anonymous.jpeg" alt="Kirhan">
-            <span class="span-text-team-pics">Cihad Kirhan</span>
+        <div class="col-lg-3">
+            <a href="https://www.se-rwth.de/staff/varga/"><img src="../../assets/img/teams/varga.jpeg" alt="Varga" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Simon Varga, M.Sc.</span>
         </div>
     </div>
 </div>

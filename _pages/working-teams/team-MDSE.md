@@ -52,30 +52,32 @@ engineering practices.
 Currently, the model-driven systems engineering working group consists of:
 
 <div class="container">
-    <div class="row d-flex justify-content-center">
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/jansen/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/jansen.jpeg" alt="Jansen"></a>
-            <span class="span-text-team-pics">Nico Jansen, M.Sc.</span>
+    <div class="row">
+        <div class="col-lg-4">
+            <a href="https://www.se-rwth.de/staff/jansen/"><img src="../../assets/img/teams/jansen.jpeg" alt="Jansen" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Nico Jansen, M.Sc.</span>
         </div>
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/michael/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/michael.jpeg" alt="Michael"></a>
-            <span class="span-text-team-pics">Judith Michael, Dr.</span>
+        <div class="col-lg-4">
+            <a href="https://www.se-rwth.de/staff/michael/"><img src="../../assets/img/teams/michael.jpeg" alt="Michael" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Judith Michael, Dr.</span>
         </div>
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/nachmann/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/nachmann.png" alt="Nachmann"></a>
-            <span class="span-text-team-pics">Imke Nachmann, M.Sc.</span>
+        <div class="col-lg-4">
+            <a href="https://www.se-rwth.de/staff/nachmann/"><img src="../../assets/img/teams/nachmann.png" alt="Nachmann" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Imke Nachmann, M.Sc.</span>
         </div>
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/kirchhof/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/kirchhof.jpeg" alt="Kirchhof"></a>
-            <span class="span-text-team-pics">Jörg Christian Kirchhof, M.Sc.</span>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <a href="https://www.se-rwth.de/staff/kirchhof/"><img src="../../assets/img/teams/kirchhof.jpeg" alt="Kirchhof" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Jörg Christian Kirchhof, M.Sc.</span>
         </div>
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/schmalzing/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/schmalzing.jpeg" alt="Schmalzing"></a>
-            <span class="span-text-team-pics">David Schmalzing, M.Sc.</span>
+        <div class="col-lg-4">
+            <a href="https://www.se-rwth.de/staff/schmalzing/"><img src="../../assets/img/teams/schmalzing.jpeg" alt="Schmalzing" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">David Schmalzing, M.Sc.</span>
         </div>
-        <div class="col-lg-2 col-md-6">
-            <a href="https://www.se-rwth.de/staff/wachtmeister/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/wachtmeister.jpeg" alt="Wachtmeister"></a>
-            <span class="span-text-team-pics">Louis Wachtmeister, M.Sc.</span>
+        <div class="col-lg-4">
+            <a href="https://www.se-rwth.de/staff/wachtmeister/"><img src="../../assets/img/teams/wachtmeister.jpeg" alt="Wachtmeister" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
+            <span style="display: table; margin: 20px auto">Louis Wachtmeister, M.Sc.</span>
         </div>
     </div>
 </div>
