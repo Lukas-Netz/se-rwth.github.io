@@ -84,7 +84,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
@@ -152,6 +152,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-target-blank
   - jekyll-twitter-plugin
+  - jekyll-redirect-from
   - jemoji
 
 # Sitemap settings
