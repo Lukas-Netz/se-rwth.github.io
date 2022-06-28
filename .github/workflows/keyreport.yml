@@ -24,4 +24,4 @@ jobs:
         - name: upload report
           uses: actions/upload-artifact@v3
           with:
-            path: bin/keyreport.md
+            path: keyreport.md
