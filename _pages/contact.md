@@ -142,5 +142,6 @@ three minutes from the cathedral. The Hotel IBIS Aachen Marschiertor is
 located close to the central station. 
 
 Prices for a double room in Aachen range from € 80 to € 170 depending 
-on season and room as usual (Special times: CHIO, Karls-Preis and 
-Carneval). 
+on season and room as usual (Special times: CHIO:  ~End June-early July, 
+Karlspreis ~Mid May, and Carneval  ~February). 
+
