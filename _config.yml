@@ -209,7 +209,8 @@ scholar:
 
   query: "@*"
 
-  sort_by: year, month 
+  sort_by: year, month
+  order: descending, descending
 
 
 # -----------------------------------------------------------------------------
