@@ -7,17 +7,17 @@ order: 1
 nav: true
 dropdown: true
 children:
-- title: About us
-permalink: /about/
-- title: divider
-- title: Staff
-permalink: /staff/
-- title: divider
-- title: Activities
-permalink: /activities/
-- title: divider
-- title: Teams
-permalink: /teams/
+  - title: About us
+    permalink: /about/
+  - title: divider
+  - title: Staff
+    permalink: /staff/
+  - title: divider
+  - title: Activities
+    permalink: /activities/
+  - title: divider
+  - title: Teams
+    permalink: /teams/
 ---
 
 The Software Engineering group, led by Bernhard Rumpe,
