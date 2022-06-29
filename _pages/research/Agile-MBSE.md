@@ -2,12 +2,12 @@
 layout: page
 title: Agile Model-Based Software Engineering
 permalink: /research/Agile-MBSE/
-description: 
-img: 
+description:
+img:
 importance: 1
-keys: [Rum17, Rum16, Rum04c, Rum02, Rum03, GKRS06, 
-    Rum12, Rum11, GKR+06, Sch12, LRSS10, HKR+09, PR03, 
-    MRR10, FHR08, KRV06, JWCR18, CEG+14, KMA+16]
+keys: [Rum17, Rum16, Rum04c, Rum02, Rum03, GKRS06,
+Rum12, Rum11, GKR+06, Sch12, LRSS10, HKR+09, PR03,
+MRR10, FHR08, KRV06, JWCR18, CEG+14, KMA+16]
 ---
 
 ## Summary of Most Relevant Topic Papers
@@ -23,7 +23,7 @@ correction and extension. As such, it seems to conflict with modeling.
 
 We believe, and have shown, that using an executable,
 abstract and multi-view modeling language for modeling, designing, and
-programming still allows to use an agile development process 
+programming still allows to use an agile development process
 (see the research hypotheses in [[Rum04c]](#Rum04c)).
 Such modeling languages, often consisting of one or more DSLs, are used as a central
 notation in the development process. DSLs or the UML serve as a central
@@ -56,7 +56,7 @@ The question, whether UML should be **executable**, is discussed in
 [[Rum02]](#Rum02). We found this a promising approach for larger subsets of
 UML, but also identified a number of challenges. We
 therefore started our research agenda to solve these challenges in
-order to make model-based software engineering (MBSE) truly successful 
+order to make model-based software engineering (MBSE) truly successful
 when employed for agile software development.
 We explored in detail, how UML fits for that purpose. Not only the
 deficiencies of existing UML tools but also the UML language itself
@@ -80,12 +80,12 @@ models and ordinary programming code.
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: 
-        assets/img/Modeling-with-UML--Language-Concepts-Methods.jpg title: 
+        assets/img/Modeling-with-UML--Language-Concepts-Methods.jpeg title: 
         "Modeling with UML" class: "img-fluid z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: 
-        assets/img/Agile-Modeling-with-UML--Code-Ceneration-Testing-Refactoring.jpg 
+        assets/img/Agile-Modeling-with-UML--Code-Ceneration-Testing-Refactoring.jpeg 
         title: "Agile Modeling with UML" class: "img-fluid z-depth-1" %}
     </div>
 </div>
@@ -108,18 +108,19 @@ desired or unwanted object structures, are presented there as well.
 <center>
 <div class="row" style="width: 50%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/UMLP.jpg title: "UMPL/P" class: 
-        "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/UMLP.jpeg title: "UMPL/P" 
+        class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
 <br />
 
-In the last decade, we implemented a **language workbench** called MontiCore 
+In the last decade, we implemented a **language workbench** called MontiCore
 (see [MontiCore - Language Workbench for DSLs](/research/MontiCore))
 that was first described in [[GKR+06]](#GKR+06). On top of MontiCore, we
 realized most of the language components of the UML/P [[Sch12]](#Sch12).
-This work includes a precise definition of textual languages, type checks, checks for context conditions within and between
+This work includes a precise definition of textual languages, type checks,
+checks for context conditions within and between
 UML sub-languages and a framework for the implementation of code generators.
 
 ## Specific Concepts Assisting Agile Development
@@ -168,15 +169,15 @@ of forms of reuse of modelled software components.
 
 ## Key Statements
 
-1. Model-based development becomes interesting, when the model language is the 
-central notation and thus replacing the programming language.
-2. Tooling for MBSE must include code and test generation as well as type and 
-context condition checking already on models. These techniques must be quick and 
-thus modular and incremental.
-3. Agile concepts, especially as refactoring, evolution, and automatic testing can be 
-established with UML/P.
-4. Executable UML/P is an extension of UML with Java, implemented using the 
-MontiCore language workbench.
+1. Model-based development becomes interesting, when the model language is the
+   central notation and thus replacing the programming language.
+2. Tooling for MBSE must include code and test generation as well as type and
+   context condition checking already on models. These techniques must be quick and
+   thus modular and incremental.
+3. Agile concepts, especially as refactoring, evolution, and automatic testing can be
+   established with UML/P.
+4. Executable UML/P is an extension of UML with Java, implemented using the
+   MontiCore language workbench.
 
 {% include trennlinie.html %}
 

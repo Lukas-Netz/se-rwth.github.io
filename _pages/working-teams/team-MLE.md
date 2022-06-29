@@ -9,15 +9,15 @@ nav: false
 
 <img src="../../assets/img/mle-logo.png" alt="mdse-logo" style="float: right; height: 100px;">
 
-Model-driven engineering reduces the conceptual gap between the problem domains 
-(such as navigation, grasping, or business process description) and the solution domains 
-(programming). Modeling languages enables domain experts to describe solutions without 
-facing the accidental complexities and idiosyncrasies of programming languages. For developing 
-tailored domain-specific modeling languages, a well-suited and tailored language workbench is 
-necessary. [MontiCore](https://monticore.github.io/monticore/) is the language workbench we developed over the last years. We constantly 
-extend and improve MontiCore to explore new ways for developing modeling languages and tools such 
+Model-driven engineering reduces the conceptual gap between the problem domains
+(such as navigation, grasping, or business process description) and the solution domains
+(programming). Modeling languages enables domain experts to describe solutions without
+facing the accidental complexities and idiosyncrasies of programming languages. For developing
+tailored domain-specific modeling languages, a well-suited and tailored language workbench is
+necessary. [MontiCore](https://monticore.github.io/monticore/) is the language workbench we developed over the last years. We constantly
+extend and improve MontiCore to explore new ways for developing modeling languages and tools such
 as language composition or derivation. Besides improving languages workbenches and their development,
-methodologies, guidelines and pattern for modeling language engineering are essential to facilitate 
+methodologies, guidelines and pattern for modeling language engineering are essential to facilitate
 language engineering and improve the resulting modeling languages.
 
 {% include trennlinie.html %}
@@ -36,46 +36,44 @@ language engineering and improve the resulting modeling languages.
 Currently, the modeling language engineering working group consists of:
 
 <div class="container">
-    <div class="row">
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/jansen/"><img src="../../assets/img/teams/jansen.jpeg" alt="Jansen" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">Nico Jansen, M.Sc.</span>
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/jansen/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/jansen.jpeg" alt="Jansen"></a>
+            <span class="span-text-team-pics">Nico Jansen, M.Sc.</span>
         </div>
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/breuer/"><img src="../../assets/img/teams/anonymous.jpeg" alt="Breuer" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">Marita Breuer</span>
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/breuer/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/anonymous.jpeg" alt="Breuer"></a>
+            <span class="span-text-team-pics">Marita Breuer</span>
         </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/teams/gupta.jpeg" alt="Gupta" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block">
-            <span style="display: table; margin: 20px auto">Rohit Gupta, M.Sc.</span>
+        <div class="col-lg-2 col-md-6">
+            <img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/gupta.jpeg" alt="Gupta">
+            <span class="span-text-team-pics">Rohit Gupta, M.Sc.</span>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/butting/"><img src="../../assets/img/teams/butting.jpeg" alt="Butting" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">Arvid Butting, M.Sc.</span>
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/butting/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/butting.jpeg" alt="Butting"></a>
+            <span class="span-text-team-pics">Arvid Butting, M.Sc.</span>
         </div>
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/charles/"><img src="../../assets/img/teams/anonymous.jpeg" alt="Charles" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">Joel Charles, M.Sc.</span>
-        </div>
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/stachon/"><img src="../../assets/img/teams/stachon.jpeg" alt="Stachon" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">Max Stachon, M.Sc.</span>
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/charles/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/anonymous.jpeg" alt="Charles"></a>
+            <span class="span-text-team-pics">Joel Charles, M.Sc.</span>
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-4">
-            <img src="../../assets/img/teams/anonymous.jpeg" alt="Trageser" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block">
-            <span style="display: table; margin: 20px auto">Johannes Trageser, M. Eng.</span>
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/stachon/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/stachon.jpeg" alt="Stachon"></a>
+            <span class="span-text-team-pics">Max Stachon, M.Sc.</span>
         </div>
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/schrader/"><img src="../../assets/img/teams/schrader.jpeg" alt="Schrader" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">Steffi Schrader, M.A.</span>
+        <div class="col-lg-2 col-md-6">
+            <img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/anonymous.jpeg" alt="Trageser">
+            <span class="span-text-team-pics">Johannes Trageser, M. Eng.</span>
         </div>
-        <div class="col-lg-4">
-            <img src="../../assets/img/teams/anonymous.jpeg" alt="Stüber" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block">
-            <span style="display: table; margin: 20px auto">Sebastian Stüber, M.Sc.</span>
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/schrader/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/schrader.jpeg" alt="Schrader"></a>
+            <span class="span-text-team-pics">Steffi Schrader, M.A.</span>
+        </div>
+        <div class="col-lg-2 col-md-6">
+            <img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/anonymous.jpeg" alt="Stüber">
+            <span class="span-text-team-pics">Sebastian Stüber, M.Sc.</span>
         </div>
     </div>
 </div>

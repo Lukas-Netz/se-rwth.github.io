@@ -9,29 +9,29 @@ nav: false
 
 <img src="../../assets/img/mdse-logo.png" alt="mdse-logo" style="float: right; height: 184px">
 
-Engineering software for modern systems of systems demands 
-integrating solutions from multiple domains. The successful 
+Engineering software for modern systems of systems demands
+integrating solutions from multiple domains. The successful
 deployment of automated vehicles, mobile robots or the smart
-cyber-physical production systems of Industry 4.0 is impossible 
-without integrating the modules developed by participating domain 
-experts. As each domain features their own specific and optimized 
-methods, tools, and languages, their successful integration is a 
+cyber-physical production systems of Industry 4.0 is impossible
+without integrating the modules developed by participating domain
+experts. As each domain features their own specific and optimized
+methods, tools, and languages, their successful integration is a
 crucial prerequisite for engineering future's systems of systems.
 
 
-[Model-driven engineering](../research/Agile-MBSE) reduces the conceptual gap between the 
-problem domains (such as navigation, grasping, or business process 
-description) domains and the solution domains (programming) of 
-discourse. [Modeling languages](../research/Domain-Specific-Languages) enables domain experts to describe 
-solutions without facing the accidental complexities and 
-idiosyncrasies of programming languages. For instance, employing 
-an optimized modeling language to describe robotic assembly tasks 
-liberates the assembly expert from handling pointers, exceptions, 
-or networking otherwise encountered when programming the tasks 
-using general-purpose programming languages (such as C++ or Java) 
-instead. [Smart model](../research/Evolution) transformations and [code generators](../research/Generative-SE) embody 
-such programming expertise and can ensure that translation of 
-[domain-specific models](../research/Language-Engineering) conforms to state-of-the-art software 
+[Model-driven engineering](../research/Agile-MBSE) reduces the conceptual gap between the
+problem domains (such as navigation, grasping, or business process
+description) domains and the solution domains (programming) of
+discourse. [Modeling languages](../research/Domain-Specific-Languages) enables domain experts to describe
+solutions without facing the accidental complexities and
+idiosyncrasies of programming languages. For instance, employing
+an optimized modeling language to describe robotic assembly tasks
+liberates the assembly expert from handling pointers, exceptions,
+or networking otherwise encountered when programming the tasks
+using general-purpose programming languages (such as C++ or Java)
+instead. [Smart model](../research/Evolution) transformations and [code generators](../research/Generative-SE) embody
+such programming expertise and can ensure that translation of
+[domain-specific models](../research/Language-Engineering) conforms to state-of-the-art software
 engineering practices.
 
 
@@ -52,32 +52,30 @@ engineering practices.
 Currently, the model-driven systems engineering working group consists of:
 
 <div class="container">
-    <div class="row">
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/jansen/"><img src="../../assets/img/teams/jansen.jpeg" alt="Jansen" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">Nico Jansen, M.Sc.</span>
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/jansen/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/jansen.jpeg" alt="Jansen"></a>
+            <span class="span-text-team-pics">Nico Jansen, M.Sc.</span>
         </div>
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/michael/"><img src="../../assets/img/teams/michael.jpeg" alt="Michael" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">Judith Michael, Dr.</span>
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/michael/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/michael.jpeg" alt="Michael"></a>
+            <span class="span-text-team-pics">Judith Michael, Dr.</span>
         </div>
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/nachmann/"><img src="../../assets/img/teams/nachmann.png" alt="Nachmann" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">Imke Nachmann, M.Sc.</span>
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/nachmann/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/nachmann.png" alt="Nachmann"></a>
+            <span class="span-text-team-pics">Imke Nachmann, M.Sc.</span>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/kirchhof/"><img src="../../assets/img/teams/kirchhof.jpeg" alt="Kirchhof" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">Jörg Christian Kirchhof, M.Sc.</span>
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/kirchhof/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/kirchhof.jpeg" alt="Kirchhof"></a>
+            <span class="span-text-team-pics">Jörg Christian Kirchhof, M.Sc.</span>
         </div>
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/schmalzing/"><img src="../../assets/img/teams/schmalzing.jpeg" alt="Schmalzing" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">David Schmalzing, M.Sc.</span>
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/schmalzing/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/schmalzing.jpeg" alt="Schmalzing"></a>
+            <span class="span-text-team-pics">David Schmalzing, M.Sc.</span>
         </div>
-        <div class="col-lg-4">
-            <a href="https://www.se-rwth.de/staff/wachtmeister/"><img src="../../assets/img/teams/wachtmeister.jpeg" alt="Wachtmeister" style="width:200px; height: 300px; object-fit: cover; margin: 0 auto; display: block"></a>
-            <span style="display: table; margin: 20px auto">Louis Wachtmeister, M.Sc.</span>
+        <div class="col-lg-2 col-md-6">
+            <a href="https://www.se-rwth.de/staff/wachtmeister/"><img class="staff-pics team-pics-design z-depth-1" src="../../assets/img/teams/wachtmeister.jpeg" alt="Wachtmeister"></a>
+            <span class="span-text-team-pics">Louis Wachtmeister, M.Sc.</span>
         </div>
     </div>
 </div>
@@ -109,8 +107,8 @@ In ongoing and successfully finished research projects, we have collaborated wit
 
 ### Publications
 
-Our research manifests in project results with large and small 
-partners from industry and research, as well as in our publications. 
+Our research manifests in project results with large and small
+partners from industry and research, as well as in our publications.
 We've arranged our publications by topic for your convenience below:
 
 <h5 style="font-weight: bold"> Modeling </h5>

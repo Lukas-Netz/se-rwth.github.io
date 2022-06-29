@@ -15,13 +15,13 @@ collection of artifacts, tools, and the way they relate to each other
 into a complex, incomprehensible compound of artifacts, tools, and developers
 who work with them.
 The following figure illustrates this evolution with a simple set of tools and the
-artifacts they produce and edit. The arrows between the tools and artifacts 
+artifacts they produce and edit. The arrows between the tools and artifacts
 represent the relations.
 
 <center>
 <div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/topics/artifacts/artifacts_complexity.png
+        {% responsive_image path: assets/img/research/artifacts/artifacts_complexity.png
            title: "Evolution of tools, artifacts and their relationships " 
            class: "img-fluid rounded z-depth-1" %}
     </div>
@@ -29,7 +29,7 @@ represent the relations.
 </center>
 <br />
 
-Especially, developing modern software solutions has become an increasingly complex 
+Especially, developing modern software solutions has become an increasingly complex
 and time consuming process. As both the requirements and expectations towards modern
 software increase, the need for the development of increasingly large and
 complex systems arises. In general, the larger the developed system needs to be
@@ -83,7 +83,7 @@ and techniques.
 <center>
 <div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/topics/artifacts/artifacts_overview.png
+        {% responsive_image path: assets/img/research/artifacts/artifacts_overview.png
            title: "Artifact models and their purpose in software development projects" 
            class: "img-fluid rounded z-depth-1" %}
     </div>
@@ -91,18 +91,18 @@ and techniques.
 </center>
 <br />
 
-The previous figure shows how to handle the complexity of model-driven systems 
-engineering projects with artifact models. Furthermore, it shows the relations 
-between the involved stakeholders and the artifact model, as well as, the 
-artifact data. An architect creates the artifact model for a systems engineering 
-project shown on the left side of the figure. Its goal is to structure all the 
-different kinds of artifacts and their relations within the project created by 
-people involved in it, represented by the developer icon shown on the right 
-side of the figure. Corresponding to the artifact model, artifact data is 
-extracted from the project. This data contains information about all artifacts 
-and their relations of the project in its current state. Analysts, shown on 
-the right side of the figure, use this data to check the current state of a 
-project. Additionally, the artifact data can be used as input for software 
+The previous figure shows how to handle the complexity of model-driven systems
+engineering projects with artifact models. Furthermore, it shows the relations
+between the involved stakeholders and the artifact model, as well as, the
+artifact data. An architect creates the artifact model for a systems engineering
+project shown on the left side of the figure. Its goal is to structure all the
+different kinds of artifacts and their relations within the project created by
+people involved in it, represented by the developer icon shown on the right
+side of the figure. Corresponding to the artifact model, artifact data is
+extracted from the project. This data contains information about all artifacts
+and their relations of the project in its current state. Analysts, shown on
+the right side of the figure, use this data to check the current state of a
+project. Additionally, the artifact data can be used as input for software
 tools for further processing.
 
 ## Modeling artifacts and their relations
@@ -132,7 +132,7 @@ architecture can be automatically check with respect to the concept.
 <center>
 <div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/topics/artifacts/artifacts_architecture.png
+        {% responsive_image path: assets/img/research/artifacts/artifacts_architecture.png
            title: "Analyzing an architectural drift based on artifact data" 
            class: "img-fluid rounded z-depth-1" %}
     </div>
@@ -175,7 +175,7 @@ project and further analyze it.
 <center>
 <div class="row" style="width: 80%">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/topics/artifacts/artifacts_tools.png
+        {% responsive_image path: assets/img/research/artifacts/artifacts_tools.png
            title: "Understanding a software project based on its tools and artifacts" 
            class: "img-fluid rounded z-depth-1" %}
     </div>
