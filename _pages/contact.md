@@ -2,7 +2,7 @@
 layout: page
 permalink: /contact/
 title: Contact
-description: 
+description: Contact Software Engineering at RWTH Aachen, Bernhard Rumpe
 order: 7
 nav: true
 ---

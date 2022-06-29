@@ -2,7 +2,7 @@
 layout: page
 title: Ph.D. Theses
 permalink: /phdtheses/
-description: Aachener Informatik-Berichte, Software Engineering
+description: Aachener Informatik-Berichte, Software Engineering, Ph.D. Theses
 keys: [
         Kue22, Wor21, Kus21, Foe21, Kau21, vW20, Hac19, Gre19, Her19, Sch19,
         Blu19, Mat19, Nic18, Hoe18, Mul18, Plo18, Rot17,

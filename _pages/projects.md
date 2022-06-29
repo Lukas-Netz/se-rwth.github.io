@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description:
+description: Projects at Software Engineering at RWTH Aachen, Bernhard Rumpe
 order: 5
 nav: true
 AutoKnigge_keys: [KKR19, KPRS19, KKMR19]

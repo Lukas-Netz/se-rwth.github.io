@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: 
+description: Teaching at Software Engineering at RWTH Aachen, Bernhard Rumpe
 order: 4
 nav: true
 ---

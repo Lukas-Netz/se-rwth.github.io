@@ -2,7 +2,7 @@
 layout: page
 title: Books
 permalink: /books/
-description: 
+description: Books from Software Engineering at RWTH Aachen, Bernhard Rumpe
 keys: [
         FHK+22, HKR21, BBK+21, FHK+20a, BKR+20, Nag19, 
         HR17, GHR17, ABH+17, CMR17, Rum17, CFJ+16, 

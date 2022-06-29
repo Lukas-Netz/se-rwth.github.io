@@ -2,7 +2,7 @@
 layout: page
 title: About us
 permalink: /about/
-description:
+description: About Software Engineering at RWTH Aachen, Bernhard Rumpe
 order: 1
 nav: true
 dropdown: true

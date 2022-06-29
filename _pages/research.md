@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description: 
+description: Research at Software Engineering at RWTH Aachen, Bernhard Rumpe
 order: 2
 nav: true
 horizontal: false

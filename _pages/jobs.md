@@ -2,7 +2,7 @@
 layout: page
 permalink: /jobs/
 title: Jobs
-description: 
+description: Jobs at Software Engineering at RWTH Aachen, Bernhard Rumpe
 order: 6
 nav: true
 ---
