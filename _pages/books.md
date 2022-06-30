@@ -3,16 +3,14 @@ layout: page
 title: Books
 permalink: /books/
 description: Books from Software Engineering at RWTH Aachen, Bernhard Rumpe
-keys: [
-        FHK+22, HKR21, BBK+21, FHK+20a, BKR+20, Nag19, 
+keys: [FHK+22, HKR21, BBK+21, FHK+20a, BKR+20, Nag19, 
         HR17, GHR17, ABH+17, CMR17, Rum17, CFJ+16, 
         Rum16, BCR15, CCF+15a, CR15, RRW14a, KRR14, 
         KR13, Rum12, LR12, JRS12, Rum11, GKL+10, 
         GR10, LMP+10, Rum04, Rum04b, RH04, FPR03, 
         FPR01, BR01, EFM+01, BEP+00, BR00, FR99, 
         KRS99, BR98, BR97, Rum96, 
-        NM08, SNZ08, Nag95, Nag96, Nag90, NP84, Nag79
-      ]
+        NM08, SNZ08, Nag95, Nag96, Nag90, NP84, Nag79]
 nav: false
 horizontal: false
 ---
