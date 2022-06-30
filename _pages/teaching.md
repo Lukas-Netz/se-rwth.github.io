@@ -21,9 +21,9 @@ Judith Michael and their group:
 "The limits of my language mean the limits of my world." Ludwig 
 Wittgenstein. This is even more true when humans communicate with 
 computers. The course deals with the concepts of language definition, 
-such as metamodels, grammars, editors. And it disussed the various 
+such as metamodels, grammars, editors. And it discussed the various 
 forms of use of software languages, e.g. for modeling software or 
-systems, for simulations, for testing, for defining erequirments, legal 
+systems, for simulations, for testing, for defining requirements, legal 
 texts, etc. Examples such as UML, domain-specific languages ​​(DSL), XML 
 and semantic analysis and generation techniques are discussed. DSLs are 
 always suitable where non-computer scientists deal with computers and 
@@ -53,26 +53,26 @@ Engineering and Systems Engineering have a different focus, modern
 mechanical systems are to a large extent controlled by 
 network-intensive software functions, sometimes embedded in digital 
 twins and thus an integrated software/systems view on a joint modeling 
-approach is inevitable. We can see this integrative need e.g. by the 
+approach is inevitable. We can see this integrative need, e.g., by the 
 overlap between the SysML and UML modeling languages. 
 
 * Master level, usually given in winter 
-* For Computer Science and various Engineering curicula.
+* For Computer Science and various Engineering curricula.
 
 {% include trennlinie.html %}
 
 #### Innovations in Software Engineering (ISE)
 
-This leacture is decicated to Ph.D. students and potentially Master 
+This lecture is dedicated to Ph.D. students and potentially Master 
 students, who know about all foundational lectures on Software 
 Engineering, MBSE, and SLE. The lecture topics are subject to change 
-every year. recently we discussed  topics including:     Modeling 
-Language Variability,    Towards Architectural Programming of Embedded 
-Systems,    System Model-based Definition of Modeling Language 
-Semantics,    Java Best Practices,    V-Model XT,    Extreme 
-Programming and Agile Methods,    Compositional Model based Software 
-Engineering,    A formal technique for evolving hierarchically 
-decomposed systems,    Semantic of Modelling Languages, Model Based 
+every year. recently we discussed  topics including: Modeling 
+Language Variability, Towards Architectural Programming of Embedded 
+Systems, System Model-based Definition of Modeling Language 
+Semantics, Java Best Practices, V-Model XT, Extreme 
+Programming and Agile Methods, Compositional Model based Software 
+Engineering, A formal technique for evolving hierarchically 
+decomposed systems, Semantic of Modeling Languages, Model Based 
 Artificial Intelligence, Smart Verification of UML and SysML Models. 
 
 * Master level, optionally given in summer (not each year)
@@ -82,7 +82,7 @@ Artificial Intelligence, Smart Verification of UML and SysML Models.
 
 #### Digitalization (Judith Michael, Bernhard Rumpe) 
 
-The lecture "Digitalization" explores and discusses digitalisation from 
+The lecture "Digitalization" explores and discusses digitalization from 
 different perspectives of informatics: We investigate fundamentals of 
 the terms digitalization, digitization and digital transformation, its 
 classification in the discipline informatics, relation to IT-systems 
@@ -109,6 +109,15 @@ lecture uses primarily the modeling language UML.
 
 * Bachelor level, always given in winter
 * Mandatory for Computer Science and various other curricula
+
+{% include trennlinie.html %}
+
+#### Seminars & Labs
+In addition to our lectures we offer a variety of seminars and labs each 
+semester. For further information on current offers as well as important
+dates, please refer to the current management system for seminars and labs
+for computer science students at RWTH University and check the latest 
+[announcements](https://www.informatik.rwth-aachen.de/cms/informatik/Fachgruppe/Aktuell/~lomx/Meldungen/).
 
 {% include trennlinie.html %}
 
