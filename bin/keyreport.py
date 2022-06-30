@@ -39,9 +39,10 @@ def checkkeys(mdkeys, bibkeys):
     return missing_keys
 
 
-def main(filepath, bibpath, outname):
+def main(filepath, bibpath, outname, ignore = []):
     files = [f for f in listdir(filepath) if isfile(join(filepath, f))]
     bib_keys = getbibkeys(bibpath + '/all-software-engineering-rwth-references.bib')
+    bib_keys.extend(ignore)
     with open(outname+".md", "w") as text_file:
         for file in files:
             keys = getmdkeys(filepath + '/' + file)
@@ -55,4 +56,5 @@ def main(filepath, bibpath, outname):
 
 if __name__ == "__main__":
     main('_pages/research', 'assets/bibliography', 'research')
-    main('_pages', 'assets/bibliography', 'pages')
+    ignore = ['NM08', 'SNZ08', 'Nag95', 'Nag96', 'Nag90', 'NP84', 'Nag79']
+    main('_pages', 'assets/bibliography', 'pages', ignore)
