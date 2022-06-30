@@ -42,8 +42,6 @@ def checkkeys(mdkeys, bibkeys):
 def main(filepath, bibpath, outname):
     files = [f for f in listdir(filepath) if isfile(join(filepath, f))]
     bib_keys = getbibkeys(bibpath + '/all-software-engineering-rwth-references.bib')
-    bib_keys_new = getbibkeys(bibpath + '/additional-bib-entries.bib')
-    bib_keys.extend(bib_keys_new)
     with open(outname+".md", "w") as text_file:
         for file in files:
             keys = getmdkeys(filepath + '/' + file)

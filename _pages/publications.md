@@ -42,7 +42,7 @@ children:
   {% for y in page.years %}
     {% include trennlinie.html %}
     <h2 class="year">{{y}}</h2>
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q 
+    {% bibliography -f all-software-engineering-rwth-references -q 
     @*[year={{y}}]* %}
   {% endfor %}
 </div>

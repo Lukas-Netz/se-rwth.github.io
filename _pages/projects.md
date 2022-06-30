@@ -160,7 +160,7 @@ Challenge](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2007))).
 
 <div class="publications">
   {% for k in page.CarOLO_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
@@ -193,7 +193,7 @@ for Education and Research (BMBF).
 
 <div class="publications">
   {% for k in page.CrESt_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
@@ -230,7 +230,7 @@ for autonomous, interactively collaborative vehicles.
 
 <div class="publications">
   {% for k in page.EMA_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
     {% if k == "KRSvW18a" %} <ul> <ul> <li> <a href="https://zenodo.org/record/1314370">Additional Materials </a> </li> </ul> </ul> {% endif %}
   {% endfor %}
 </div>
@@ -239,7 +239,7 @@ for autonomous, interactively collaborative vehicles.
 
 <div class="publications">
   {% for k in page.MSim_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
@@ -268,7 +268,7 @@ behavior.
 
 <div class="publications">
   {% for k in page.HBP_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
@@ -306,7 +306,7 @@ Website](http://www.se-rwth.de/materials/iserveu/).
 
 <div class="publications">
   {% for k in page.iserveU_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
@@ -387,7 +387,7 @@ real-time, on an adequate level of granularity.
 #### Selected publications
 <div class="publications">
   {% for k in page.IoP_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
@@ -425,7 +425,7 @@ realized by the two Chairs of Management Accounting and Software Engineering.
 #### Selected publications
 <div class="publications">
   {% for k in page.MaCoCo_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
@@ -586,7 +586,7 @@ The generated parts include:
 #### Selected publications
 <div class="publications">
   {% for k in page.MontiGem_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
@@ -622,7 +622,7 @@ version. In this project, we develop
 
 <div class="publications">
   {% for k in page.SemDiff_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
@@ -655,7 +655,7 @@ cloud-based system which integrates into private life.
 
 <div class="publications">
   {% for k in page.SenCloud_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
@@ -682,7 +682,7 @@ systems.
 #### Selected publications
 <div class="publications">
   {% for k in page.SPES_keys %}
-    {% bibliography -f all-software-engineering-rwth-references -f additional-bib-entries -q @*[key={{k}}]* %}
+    {% bibliography -f all-software-engineering-rwth-references -q @*[key={{k}}]* %}
   {% endfor %}
 </div>
 
