@@ -32,7 +32,6 @@ children:
 * [Books](/books)
 * [Ph.D Theses / Aachener Informatik-Berichte, Software Engineering](/phdtheses)
 * [SoSyM Editorials](http://www.sosym.org/editorials/)  
-* [Complete list of publications](https://www.se-rwth.de/publications/)
 
 {% include trennlinie.html %}
 
