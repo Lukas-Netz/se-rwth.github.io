@@ -673,8 +673,8 @@ cloud-based system which integrates into private life.
 
 ## Software Plattform Embedded Systems (SPES 2020 / SPES XT)
 
-[SPES 2020](http://spes2020.informatik.tu-muenchen.de/) and [SPES
-XT](http://spes2020.informatik.tu-muenchen.de/spes_xt-home.html) are
+[SPES 2020](https://www.in.tum.de/in/forschung/forschungs-highlights/spes-2020/) and [SPES
+XT](https://link.springer.com/chapter/10.1007/978-3-319-48003-9_3) are
 two research project sponsored by the BMBF that aim to develop a
 methodology to realize a consistent modelbased development of embedded
 systems.

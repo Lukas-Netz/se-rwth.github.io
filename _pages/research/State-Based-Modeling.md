@@ -132,8 +132,8 @@ I/O<sup>ω</sup> automata preserve the causal relation between input and output
 on the transitions (whereas I/O automata distribute this over many transitions). 
 We believe I/O<sup>ω</sup> automata are therefore suited as a human modeling 
 language and are thus used in a syntactically enriched, comfortable form as 
-Statecharts in [[Rum16]](http://www.se-rwth.de/mbse/) and 
-[[Rum17]](http://www.se-rwth.de/mbse/).
+Statecharts in [[Rum16]](https://www.mbse.se-rwth.de/) and 
+[[Rum17]](https://www.mbse.se-rwth.de/).
 
 ## Composition of State Machines
 
