@@ -49,7 +49,7 @@ overall systems' development process and not just an add-on.
 
 **Caroline**
 is a completely autonomous car, with which we participated in the [Darpa Urban 
-Challenge](http://archive.darpa.mil/grandchallenge/). There our car was driving 
+Challenge](https://link.springer.com/book/10.1007/978-3-642-03991-1). There our car was driving 
 autonomously in an urban area for hours. We successfully achieved the best place 
 as newcomers (and best non-Americans). This resulted from a number of facts, 
 including the rigorous application of **agile development methods**, such as XP 
