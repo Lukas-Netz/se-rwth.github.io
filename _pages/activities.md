@@ -179,7 +179,7 @@ German and provide lots of supplemental material.
 ## Related Organisations
 
 - [Förderverein des Lehrstuhls Software Engineering an der
-  RWTH Aachen e.V.](https://foerderverein.se-rwth.de/) - The
+  RWTH Aachen e.V.](http://foerderverein.se-rwth.de/) - The
   friends' association of our chair at RWTH Aachen e.V. is a non-profit
   organisation. Its statutory purpose is to patronize science and
   research in the area of Software Engineering, in particular by
