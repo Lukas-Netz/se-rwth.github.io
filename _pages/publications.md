@@ -22,16 +22,15 @@ children:
       permalink: /assets/bibliography/all-software-engineering-rwth-references.bib
 ---
 
-{% include trennlinie.html %}
 
-#### Additional infos on publications: 
+You can find additional information on publications in our [Books](/books), 
+[Ph.D Theses / Aachener Informatik-Berichte, Software Engineering](/phdtheses) and
+within curated lists of different [research topics](/research) of the Software Engineering group.
+We are discussing recent topics from academia and practice in the
+[SoSyM Editorials](http://www.sosym.org/editorials/).
+For an easy use and download, use our [Bibtex file with most 
+  papers](/assets/bibliography/all-software-engineering-rwth-references.bib).
 
-* For an easy use and download: [Bibtex file with most 
-  papers](/assets/bibliography/all-software-engineering-rwth-references.bib)
-* [List of interesting publications aggregated into topics](/research)
-* [Books](/books)
-* [Ph.D Theses / Aachener Informatik-Berichte, Software Engineering](/phdtheses)
-* [SoSyM Editorials](http://www.sosym.org/editorials/)  
 
 {% include trennlinie.html %}
 
