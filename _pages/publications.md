@@ -23,12 +23,13 @@ children:
 ---
 
 
-You can find additional information on publications in our [Books](/books), 
-[Ph.D Theses / Aachener Informatik-Berichte, Software Engineering](/phdtheses) and
-within curated lists of different [research topics](/research) of the Software Engineering group.
-We are discussing recent topics from academia and practice in the
+You can find additional information on publications in our [Books list](/books), 
+our collection of [Ph.D Theses in Software Engineering](/phdtheses) and
+within curated lists of various [research topics](/research) of the Software Engineering group.
+We are also discussing recent topics from academia and practice in the
 [SoSyM Editorials](http://www.sosym.org/editorials/).
-For an easy use and download, use our [Bibtex file with most 
+
+For an easy use, download our [Bibtex file with our 
   papers](/assets/bibliography/all-software-engineering-rwth-references.bib).
 
 
