@@ -49,36 +49,36 @@ Prof. Dr. Abigail Morrison can be found [here](https://www.fz-juelich.de/en/inm/
   </tbody>
   <thead class="text-center"><tr><th colspan="4">Academic Staff</th></tr></thead>
   <tbody>
-    {% include staff_row.html name='Vincent Bertram' email='bertram@se-rwth.de' phone='21306' room='4225' %}
-    {% include staff_row.html name='Arvid Butting' email='butting@se-rwth.de' phone='21359' room='4226' %}
-    {% include staff_row.html name='Joel Charles' email='charles@se-rwth.de' phone='21307' room='4305' %}
-    {% include staff_row.html name='Manuela Dalibor' email='dalibor@se-rwth.de' phone='21324' room='4314' %}
-    {% include staff_row.html name='Anabel Derlam' email='derlam@se-rwth.de' phone='21301' %}
-    {% include staff_row.html name='Florian Drux' email='drux@se-rwth.de' phone='21353' room='4219' %}
-    {% include staff_row.html name='Robert Eikermann' email='eikermann@se-rwth.de' phone='21306' room='4220' %}
-    {% include staff_row.html name='Arkadii Gerasimov' email='gerasimov@se-rwth.de' phone='21319' room='4304' %}
-    {% include staff_row.html name='Malte Heithoff' email='heithoff@se-rwth.de' phone='21318' room='4314' %}
-    {% include staff_row.html name='Alexander Hellwig' email='hellwig@se-rwth.de' phone='21304' room='4226' %}
-    {% include staff_row.html name='Steffen Hillemacher' email='hillemacher@se-rwth.de' phone='21345' room='4314' %}
-    {% include staff_row.html name='Nico Jansen' email='jansen@se-rwth.de' phone='21347' room='4219' %}
+    {% include staff_row.html href='Vincent.Bertram' name='Vincent Bertram' email='bertram@se-rwth.de' phone='21306' room='4225' %}
+    {% include staff_row.html href='Arvid.Butting' name='Arvid Butting' email='butting@se-rwth.de' phone='21359' room='4226' %}
+    {% include staff_row.html href='Joel.Charles' name='Joel Charles' email='charles@se-rwth.de' phone='21307' room='4305' %}
+    {% include staff_row.html href='Manuela.Dalibor' name='Manuela Dalibor' email='dalibor@se-rwth.de' phone='21324' room='4314' %}
+    {% include staff_row.html href='Anabel.Derlam' name='Anabel Derlam' email='derlam@se-rwth.de' phone='21301' %}
+    {% include staff_row.html href='Flo.Drux' name='Florian Drux' email='drux@se-rwth.de' phone='21353' room='4219' %}
+    {% include staff_row.html href='Robert.Eikermann' name='Robert Eikermann' email='eikermann@se-rwth.de' phone='21306' room='4220' %}
+    {% include staff_row.html href='Arkadii.Gerasimov' name='Arkadii Gerasimov' email='gerasimov@se-rwth.de' phone='21319' room='4304' %}
+    {% include staff_row.html href='Malte.Heithoff' name='Malte Heithoff' email='heithoff@se-rwth.de' phone='21318' room='4314' %}
+    {% include staff_row.html href='Alexander.Hellwig' name='Alexander Hellwig' email='hellwig@se-rwth.de' phone='21304' room='4226' %}
+    {% include staff_row.html href='Steffen.Hillemacher' name='Steffen Hillemacher' email='hillemacher@se-rwth.de' phone='21345' room='4314' %}
+    {% include staff_row.html href='Nico.Jansen' name='Nico Jansen' email='jansen@se-rwth.de' phone='21347' room='4219' %}
     {% include staff_row.html href='Hendrik.Kausch' name='Hendrik Kausch' email='kausch@se-rwth.de' phone='21339' room='2226' %}
-    {% include staff_row.html name='Jörg Christian Kirchhof' email='kirchhof@se-rwth.de' phone='21311' room='4315' %}
-    {% include staff_row.html name='Cihad Kirhan' email='kirhan@se-rwth.de' phone='21336' room='4306' %}
-    {% include staff_row.html name='Carsten Kolassa' email='kolassa@se-rwth.de' phone='21301' room='2003' %}
-    {% include staff_row.html name='Achim Lindt' email='lindt@se-rwth.de' phone='21029' room='4219' %}
-    {% include staff_row.html name='Matthias Markthaler' email='markthaler@se-rwth.de' phone='21301' room='4302' %}
-    {% include staff_row.html name='Imke Nachmann' email='nachmann@se-rwth.de' phone='21358' room='4225' %}
-    {% include staff_row.html name='Lukas Netz' email='netz@se-rwth.de' phone='21325' room='4306' %}
+    {% include staff_row.html href='Christian.Kirchhof' name='Jörg Christian Kirchhof' email='kirchhof@se-rwth.de' phone='21311' room='4315' %}
+    {% include staff_row.html href='Cihad.Kirhan' name='Cihad Kirhan' email='kirhan@se-rwth.de' phone='21336' room='4306' %}
+    {% include staff_row.html href='Carsten.Kolassa' name='Carsten Kolassa' email='kolassa@se-rwth.de' phone='21301' room='2003' %}
+    {% include staff_row.html href='Achim.Lindt' name='Achim Lindt' email='lindt@se-rwth.de' phone='21029' room='4219' %}
+    {% include staff_row.html href='Matthias.Markthaler' name='Matthias Markthaler' email='markthaler@se-rwth.de' phone='21301' room='4302' %}
+    {% include staff_row.html href='Imke.Nachmann' name='Imke Nachmann' email='nachmann@se-rwth.de' phone='21358' room='4225' %}
+    {% include staff_row.html href='Lukas.Netz' name='Lukas Netz' email='netz@se-rwth.de' phone='21325' room='4306' %}
     {% include staff_row.html href='Mathias.Pfeiffer' name='Mathias Pfeiffer' email='mpfeiffer@se-rwth.de' phone='21338' room='2226' %}
-    {% include staff_row.html name='Deni Raco' email='raco@se-rwth.de' phone='21349' room='2227' %}
-    {% include staff_row.html name='Jonas Ritz' email='ritz@se-rwth.de' phone='21346' room='4220' %}
-    {% include staff_row.html name='David Schmalzing' email='schmalzing@se-rwth.de' phone='21343' room='4310' %}
-    {% include staff_row.html name='Steffi Schrader' email='schrader@se-rwth.de' phone='21354' room='4220' %}
-    {% include staff_row.html name='Igor Shumeiko' email='shumeiko@se-rwth.de' phone='21354' room='4220' %}
-    {% include staff_row.html name='Max Stachon' email='stachon@se-rwth.de' phone='21351' room='4221' %}
-    {% include staff_row.html name='Sebastian Stüber' email='stueber@se-rwth.de' phone='21352' room='4221' %}
-    {% include staff_row.html name='Simon Varga' email='varga@se-rwth.de' phone='21316' room='4305' %}
-    {% include staff_row.html name='Louis Wachtmeister' email='wachtmeister@se-rwth.de' phone='21308' room='4315' %}
+    {% include staff_row.html href='Deni.Raco' name='Deni Raco' email='raco@se-rwth.de' phone='21349' room='2227' %}
+    {% include staff_row.html href='Jonas.Ritz' name='Jonas Ritz' email='ritz@se-rwth.de' phone='21346' room='4220' %}
+    {% include staff_row.html href='David.Schmalzing' name='David Schmalzing' email='schmalzing@se-rwth.de' phone='21343' room='4310' %}
+    {% include staff_row.html href='Steffi.Schrader' name='Steffi Schrader' email='schrader@se-rwth.de' phone='21354' room='4220' %}
+    {% include staff_row.html href='Igor.Shumeiko' name='Igor Shumeiko' email='shumeiko@se-rwth.de' phone='21354' room='4220' %}
+    {% include staff_row.html href='Max.Stachon' name='Max Stachon' email='stachon@se-rwth.de' phone='21351' room='4221' %}
+    {% include staff_row.html href='Sebastian.Stueber' name='Sebastian Stüber' email='stueber@se-rwth.de' phone='21352' room='4221' %}
+    {% include staff_row.html href='Simon.Varga' name='Simon Varga' email='varga@se-rwth.de' phone='21316' room='4305' %}
+    {% include staff_row.html href='Louis.Wachtmeister' name='Louis Wachtmeister' email='wachtmeister@se-rwth.de' phone='21308' room='4315' %}
   </tbody>
   <thead class="text-center"><tr><th colspan="4">Technical Staff</th></tr></thead>
   <tbody>
