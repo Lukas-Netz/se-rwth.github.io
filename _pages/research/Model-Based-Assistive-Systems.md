@@ -10,6 +10,8 @@ keys: [HMR+19,Ma17,Mi13,Mi18,
         Mi19,SM18,SM19,ELR+17]
 ---
 
+## Summary of Most Relevant Topic Papers
+
 The aim of information services and systems is to turn data into useful
 information.
 Assistive systems are a special type of information system:
@@ -79,6 +81,21 @@ Our work suggests solutions for privacy-aware environments for cloud
 services [[ELR+17]](#ELR+17) as well as privacy preserving information systems
 demonstrated on an IoT manufacturing use case [[Mi19]](#Mi19).
 
+{% include trennlinie.html %}
+
+## Key Statements
+
+1. The engineering of interactive assistive systems is challenging as they
+   might support critical functionality in dangerous
+   environments and have a high need for safety and privacy considerations due
+   to the processing of personal data about human behavior. 
+2. Using agile, model-based and generative methods fastens the development 
+   process, enables a quick response to requirements changes in a 
+   user-centered 
+   engineering process, and ensures consistency-by-design.
+3. There are still challenges to overcome such as the high amount of relevant 
+   contextual information needed to set-up such systems or high adaptability 
+   requirements to personal needs.
 
 {% include trennlinie.html %}
 
