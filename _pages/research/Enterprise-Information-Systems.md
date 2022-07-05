@@ -20,14 +20,13 @@ support these functionalities.
 Different types of models are used in the context of EIS:
 structural models to describe data structures, dynamic models to describe
 business processes, functional models to describe software functions or
-graphical user interface (GUI) models to describe graphical user interfaces.
+Graphical User Interface (GUI) models to describe graphical user interfaces.
 Usually, these models
 are developed using 
 [Domain-Specific Languages (DSLs)](/research/Domain-Specific-Languages).
 
 Using our experiences in the model-based generation of code with
-MontiCore [[KRV10]](#KRV10) [[HKR21]](#HKR21) 
-(cf. [MontiCore](/research/MontiCore)),
+[MontiCore](/research/MontiCore) [[KRV10]](#KRV10) [[HKR21]](#HKR21),
 we developed several generators for data-centric applications.
 The following figure shows the main concepts for these approaches:
 Models from different DSLs are used as input for the generator in combination
@@ -49,27 +48,28 @@ handwritten code, such as application logic.
 
 The **MontiCore Data Explorer (MontiDEx)** code generator was used
 for the automatic generation of customizable, extensible data-centric
-business applications from UML/P Class Diagrams 
+business applications from [UML/P](/research/UML-P) Class Diagrams 
 [[MSNRR15a]](#MSNRR15a) [[Rot17]](#Rot17).
 It processes models to generate data-centric applications in Java and
 Java Swing. The department has developed further generators such as
 MontiEE [[Loo17]](#Loo17) or MontiWIS [[Rei16]](#Rei16).
 
-The most recent generator, **MontiGem** [[AMN+19]](#AMN+19), was successfully
+The most recent generator, 
+**[MontiGem](/research/MontiGem)** [[AMN+19]](#AMN+19), was successfully
 applied
 in an application project for the financial controlling of the chairs of RWTH
-Aachen University, the MaCoCo project [[ANV+18]](#ANV+18). With MontiGem it is
+Aachen University, the MaCoCo project [[ANV+18]](#ANV+18). With MontiGem, it is
 possible to generate large parts of data centric business applications: The
 data-structure and communication infrastructure, functions to access,
 retrieve and store the data, the GUIs, and parts of the access
 control.
 
-Enterprise Information Systems are currently facing new challenges: 
+Enterprise Information Systems are facing challenges: 
 The General Data Protection Regulation (GDPR), in application since May 2018,
 marks a new era in data privacy. These regulations are also relevant for EIS
 dealing with private data.
-Thus, we investigate the architecture of Cloud Services for
-the Digital me in a Privacy-Aware Environment [[ELR+17]](#ELR+17).
+Thus, we investigate the architecture of cloud services for
+the digital me in a privacy-aware environment [[ELR+17]](#ELR+17).
 Further approaches go beyond architectural aspects: [[Mi19]](#Mi19)
 discusses a privacy preserving data model and system architecture.
 The user-centered view on the system design allows to track who does
@@ -81,11 +81,11 @@ information available for users in an information portal.
 {% include trennlinie.html %}
 
 ## Key Statements
-1. Model-based, generative development of cloud-based systems helps to reduce 
+1. Model-based, generative development of enterprise information systems helps to reduce 
 development time, increase flexibility and adaptivity.
-2. Models can be used for architecture as well as domain and data modeling.
-3. For connecting the Cloud with Cyber-Physical Systems it is especially 
-interesting to use configurable model-based technology.
+2. Models can be used for domain and data modeling.
+3. Generative approaches for enterprise information systems help to cope with
+new challenges such as privacy regulations.
 
 {% include trennlinie.html %}
 
