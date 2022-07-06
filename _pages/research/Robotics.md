@@ -64,7 +64,7 @@ The integration of automata and tables to model component behavior are described
 in [[RRW13c]](#RRW13c).
 The integration capabilities of MontiArc have been extended and
 generalized in [[RRRW15b]](#RRRW15b) [[AHRW17b]](#AHRW17b). For interested readers, the
-[MontiArcAutomaton](http://monticore.de/robotics/montiarcautomaton/)
+[MontiArcAutomaton](https://github.com/MontiCore/montiarc)
 provides further information on the MontiArcAutomaton framework.
 
 In several projects, we modeled logistics services with Festo Robotino Robots, 
