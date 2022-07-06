@@ -9,6 +9,9 @@ nav: true
 
 ## Stellen am Lehrstuhl für Software Engineering 
 
+<img style = "padding-left: 10px;" src="{{ '/assets/img/Jobs.png' | relative_url }}" width = "45%" alt="" title="Jobs" align="right">
+
+
 Software ist essentieller Bestandteil sehr viele Innovationen und Kern 
 aller Ansätze zur Digitalisierung. 
 

@@ -17,7 +17,7 @@ design, construction, testing, maintenance, quality, and development processes a
 it is intrinsically multi-disciplinary and applied to a great variety of different fields.
 
 <p><img src="{{ '/assets/img/Haus.png' | relative_url }}" width = 
-"100%" alt="" title="Teams"></p>
+"80%" alt="" title="Teams" align="center"></p>
 
 At the Chair of Software Engineering, we organize expertise in the different aspects and application fields of software 
 engineering in teams to foster efficient research and development. Currently, these teams are:
