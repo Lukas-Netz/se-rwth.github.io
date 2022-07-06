@@ -30,7 +30,7 @@ nav: false
 {% include trennlinie.html %}
 
 For matters concerning module pool organization (Modulangebotsorganisation) please use the following email address:<br>
-<a href="mailto:modulangebot.informatikatfb1.rwth-aachen.de">modulangebot.informatikatfb1.rwth-aachen.de</a>
+<a href="mailto:modulangebot.informatik@fb1.rwth-aachen.de">modulangebot.informatik@fb1.rwth-aachen.de</a>
 
 {% include trennlinie.html %}
 

@@ -57,7 +57,7 @@ Each **digital shadow** [[BBD+21b]](#BBD+21b) in this  *set of digital shadows* 
 collected concerning a system for a specific purpose with respect to the 
 original system.
 
-Within [[BBD+21b]](BBD+21b), we present a conceptual model, 
+Within [[BBD+21b]](#BBD+21b), we present a conceptual model, 
 give details on each concept
 and provide an example from the production domain.
 Following this definition, a digital shadow is
@@ -146,7 +146,7 @@ Within our research,
 
 To realize digital twins and their cockpits is an increasingly complex task
 that leads us to the idea of increasing the degree of automation for
-creating them. Within [[BMR+22]](BMR+22), we have presented a
+creating them. Within [[BMR+22]](#BMR+22), we have presented a
 low-code development approach
 that reduces the amount of hand-written code needed and uses
 process mining techniques to derive PADTCs.

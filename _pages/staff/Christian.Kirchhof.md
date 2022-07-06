@@ -40,7 +40,7 @@ MontiThings is an architecture description language for rapid prototyping of Int
 
 Teaching at Chair of Software Engineering:
 
-- Lecture [Software Language Engineering](../teaching) (Lecture TA) (Summer 2022)
+- Lecture [Software Language Engineering](/teaching) (Lecture TA) (Summer 2022)
 - Practical Course [Model-Driven Engineering of Smart Home Applications]() (Organizer) (Summer 2022)
 - Lecture [Der digitale Lebenszyklus von Fahrzeugen als Teil des Internet of Things (IoT)]() (Lecture TA) (Winter 2021/22)
 - Practical Course [Model-Driven Engineering of IoT Applications in Industry 4.0 Production Systems]() (Organizer) (Winter 2021/22)
