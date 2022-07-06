@@ -563,6 +563,23 @@ html.transition *:after {
 }
 }
 
+@media (min-width: 375px) {
+    .publications h2.year {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 820px) {
+    .publications h2.year {
+        color: var(--global-theme-color);
+        margin-bottom: -2rem;
+        display: block;
+        text-align: right;
+    }
+}
+
+
 .post-tags {
   color: var(--global-text-color-light);
   font-size: 0.875rem;
