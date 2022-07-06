@@ -16,8 +16,16 @@ operation, and maintenance of software. Consequently, research in software engin
 design, construction, testing, maintenance, quality, and development processes as well ast its mathematical foundations. Moreover, 
 it is intrinsically multi-disciplinary and applied to a great variety of different fields.
 
-<p><img src="{{ '/assets/img/Haus.png' | relative_url }}" width = 
-"80%" alt="" title="Teams" align="center"></p>
+<center>
+<div class="row" style="width: 70%">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/Haus.png 
+           title: "Research Teams and Topics" 
+           class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</center>
+<br />
 
 At the Chair of Software Engineering, we organize expertise in the different aspects and application fields of software 
 engineering in teams to foster efficient research and development. Currently, these teams are:

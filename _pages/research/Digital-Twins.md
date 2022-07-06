@@ -13,19 +13,19 @@ keys: [BMR+22, DHM+22, BDJ+22, MPRW22, BHK21, BBD+21b, BBD+21a, DMR+20, BDH+20, 
 There exists a plethora of definitions for Digital Twins (DTs),
 however, there is little consensus about what a DT actually is.
 The main weaknesses about the available definitions are that they are:
-1) ambiguous, by deferring to another undefined term, such as a  "virtual
+1. ambiguous, by deferring to another undefined term, such as a  "virtual
    representation",  "a virtual projection of the industrial facility into 
    the cloud", or a  "computable virtual abstraction";
-2) narrow, by focusing on specific use cases, domains, or technologies, such
+2. narrow, by focusing on specific use cases, domains, or technologies, such
    as a  "digital model of the real network environment";  "product avatar"
    which includes only the product perspective and not machines, processes, 
    or material; or a  "virtual representation based on AR-technology";
-3) underspecified, where a digital twin is mainly defined via its 
+3. underspecified, where a digital twin is mainly defined via its 
    automatic data flow from virtual to physical object but 
    falls short on discussing the role of models and additional information, 
    characteristics, and functionalities a digital twin has over its physical 
    object; or
-4) utopian, due to all-encompassing aspirations, such as an "integrated 
+4. utopian, due to all-encompassing aspirations, such as an "integrated 
    virtual model of a real-world system containing all of its physical 
    information", or a "complete digital representation".
 
@@ -102,6 +102,17 @@ A cockpit visualizes various forms of data, which includes, e.g., digital
 shadows, any form of data received from third-party systems, all kinds of data
 and commands entered by the humans using the cockpit and models of the physical
 system or the operation processes of the physical system.
+
+<center>
+<div class="row" style="width: 70%">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/DTC.Process.png 
+           title: "Generating digital twin cockpits from models" 
+           class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</center>
+<br />
 
 A specific kind of a digital twin cockpits is a
 **Process-Aware Digital Twin Cockpit (PADTC)** [[BMRW22]](#BMRW22).  
