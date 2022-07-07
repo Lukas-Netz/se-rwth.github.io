@@ -7,7 +7,7 @@ img:
 importance: 1
 keys: [BS01,Rum96,Rin14,Hab16,BR07,
         PR99,HRR10,RRW13c,RRW14a,Wor16,
-        NPR13,HHR+15,BKRW17a,RRRW15b,
+        PR13,HHR+15,BKRW17a,RRRW15b,
         BHH+17,AHRW17b,HRR+11,HRRS11,
         HKR+11,HRRS12,HKR+16,GHK+07,
         GHK+08,GKPR08,MRR13,MRR14b,

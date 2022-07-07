@@ -6,7 +6,7 @@ description:
 img:
 importance: 1
 keys: [KRR14,HHK+14,HHK+15a,
-        KRS12,NPR13,HKR12,
+        KRS12,PR13,HKR12,
         FPPR12,KPR12,ELR+17]
 ---
 

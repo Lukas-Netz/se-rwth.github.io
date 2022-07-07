@@ -6,7 +6,7 @@ description:
 img:
 importance: 1
 keys: [KRV10,MSNRR15a,Loo17,
-        Rei16,AMN+19,ANV+18,
+        Rei16,AMN+20a,ANV+18,
         ELR+17,Mi19]
 ---
 

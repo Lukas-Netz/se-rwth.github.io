@@ -7,7 +7,7 @@ img:
 importance: 1
 keys: [HMR+19,Ma17,Mi13,Mi18,
         MM13,MM15,MS17,
-        Mi19,SM18,SM19,ELR+17]
+        Mi19,SM18,SM20,ELR+17]
 ---
 
 ## Summary of Most Relevant Topic Papers
