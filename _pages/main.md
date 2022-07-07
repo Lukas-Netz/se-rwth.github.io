@@ -40,7 +40,7 @@ Improving software and systems development by identifying:
 * Wir suchen engagierte wissenschaftliche Mitarbeiterinnen und 
   Mitarbeiter mit Interesse an einer Promotion im Software Engineering.
 * [Hier gibt es Details: 
-  https://www.se-rwth.de/jobs/](https://www.se-rwth.de/jobs/) 
+  https://www.se-rwth.de/jobs/](/jobs/) 
 * Oder melden Sie sich bei Bernhard Rumpe, rumpe@se-rwth.de. Eine 
   aussagekräftige Bewerbungsunterlage ist dabei hilfreich. 
 
@@ -53,7 +53,7 @@ Improving software and systems development by identifying:
   and especially the enhancement and application of 
   modelling techniques in engineering and science.
 * [Here are details:
-  https://www.se-rwth.de/jobs/](https://www.se-rwth.de/jobs/)
+  https://www.se-rwth.de/jobs/](/jobs/)
 * Or contact Bernhard Rumpe, rumpe@se-rwth.de. 
   Meaningful application documents are helpful.
 
