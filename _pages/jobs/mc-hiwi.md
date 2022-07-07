@@ -9,6 +9,8 @@ nav: false
 Am Lehrstuhl i3 für Softwaretechnik (Software Engineering) der RWTH Aachen sind ab sofort mehrere Hiwi-Stellen zu 
 vergeben.
 
+{% include trennlinie.html %}
+
 **Aufgabenbeschreibung**
 
 Zu den Aufgabengebieten gehört die längerfristige Mitarbeit bei der Entwicklung von MontiCore, der Language Workbench 
@@ -29,6 +31,8 @@ Das Projekt bietet flexible Arbeitszeit. Die Arbeit kann teilweise in Heimarbeit
 - Unterstützung bei der Weiterentwicklung vorhandener Features von MontiCore
 - Entwicklung (kleiner) eigenständigher Tools basierend auf MontiCore
 
+{% include trennlinie.html %}
+
 Als zielstrebige(r) Student(in) haben Sie überdurchschnittliche Ergebnisse in Ihrem bisherigen Studium in der Informatik oder einem verwandten Studiengang, sind zuverlässig, flexibel und ergebnisorientiert.
 
 **Notwendige Vorkenntnisse**
@@ -39,6 +43,8 @@ Als zielstrebige(r) Student(in) haben Sie überdurchschnittliche Ergebnisse in I
 - Erfahrung in der Modellierung beispielsweise mit UML
 - Erfahrung in der Entwicklung von Code Generatoren
 - Erfahrung in der Entwicklung von Modellierungssprachen
+
+{% include trennlinie.html %}
 
 **Interessierte Studenten/Studentinnen wenden sich bitte an:\
 Nico Jansen: [jansen@se-rwth.de](mailto:jansen@se-rwth.de)**
