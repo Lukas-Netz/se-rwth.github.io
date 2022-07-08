@@ -41,10 +41,10 @@ Engineering.
 ### Promotionsstellen für wissenschaftliche Mitarbeiter:innen
 
 - [Big Data-Architekturen und AI für Mobilität der 
-Zukunft](/assets/pdf/WiMi.CatenaX.ZF.pdf)
+Zukunft](/jobs/WiMi.CatenaX.ZF.pdf)
 
 - [Einsatz von NLP im Automobilen Ziele- und Anforderungsmanagement](
-/assets/pdf/WiMi.KIZAM.pdf)
+/jobs/WiMi.KIZAM.pdf)
 
 - **oder Sie bewerben sich initiativ**
 
