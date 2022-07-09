@@ -8,7 +8,7 @@ nav: false
 <div class="container">
     <div class="row">
         <div class="col-lg-3">
-          <img class="staff-pics z-depth-1" src="../../assets/img/rumpe.jpeg" 
+          <img class="staff-pics z-depth-1" src="../../assets/img/staff/rumpe.jpeg" 
                alt="Bernhard Rumpe" style="float: left;">
         </div>
         <div class="col-lg-4">
