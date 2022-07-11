@@ -10,6 +10,8 @@ keys: [KRS+22, KMR21, AKK+21, KMR+20]
 
 [//]: # Bem: Die folgenden Papiere sind noch nicht veröffentlicht und fehlen hier (Konferenznamen, keine Keys): SEAA22, TIOT
 
+<img src="assets/img/MontiThingsExample.png" alt="MontiThings Logo" width="700px"/>
+
 <center>
 <div class="row" style="width: 50%">
     <div class="col-sm mt-3 mt-md-0">
@@ -24,7 +26,7 @@ keys: [KRS+22, KMR21, AKK+21, KMR+20]
 ## MontiThings IoT Modelling Language
 
 <center>
-<div class="row" style="width: 50%">
+<div class="row" style="width: 75%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/MontiThingsExample.png 
          title: "Example of MontiThings' graphical syntax " 
@@ -37,7 +39,7 @@ keys: [KRS+22, KMR21, AKK+21, KMR+20]
 ## Ecosystem Overview
 
 <center>
-<div class="row" style="width: 50%">
+<div class="row" style="width: 75%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/MontiThingsProcess.png 
          title: "Overview of MontiThings" 
@@ -48,7 +50,7 @@ keys: [KRS+22, KMR21, AKK+21, KMR+20]
 <br />
 
 <center>
-<div class="row" style="width: 50%">
+<div class="row" style="width: 100%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/MontiThingsOverview.png 
          title: "Overview of MontiThings" 
@@ -62,7 +64,7 @@ keys: [KRS+22, KMR21, AKK+21, KMR+20]
 ## Adaptive Device-Owner-Controlled Deployment 
 
 <center>
-<div class="row" style="width: 50%">
+<div class="row" style="width: 75%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/MontiThingsDeployment.png 
          title: "Overview of MontiThings' Deployment Process" 
@@ -76,7 +78,7 @@ keys: [KRS+22, KMR21, AKK+21, KMR+20]
 ## Failure Detection, Analysis and Recovery
 
 <center>
-<div class="row" style="width: 50%">
+<div class="row" style="width: 75%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/MontiThingsFailureExample.png 
          title: "Example of application failures invisible in the model" 
@@ -88,7 +90,7 @@ keys: [KRS+22, KMR21, AKK+21, KMR+20]
 
 
 <center>
-<div class="row" style="width: 50%">
+<div class="row" style="width: 100%">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/MontiThingsFailureRecovery.png 
          title: "Example of one of MontiThings' failure recovery strategies" 
