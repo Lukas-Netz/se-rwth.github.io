@@ -11,7 +11,7 @@ keys: [KRS+22, KMR21, AKK+21, KMR+20]
 [//]: # Bem: Die folgenden Papiere sind noch nicht veröffentlicht und fehlen hier (Konferenznamen, keine Keys): SEAA22, TIOT
 
 <center>
-<div class="row" style="width: 700px">
+<div class="row" style="width: 100%; max-width: 700px">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/MontiThingsBanner.png 
          title: "MontiThings Logo" 
