@@ -65,6 +65,6 @@ Former teaching at RWTH Aachen University:
 ### Publications:
 
 <div class="publications">
-  {% bibliography -f all-software-engineering-rwth-references -q @*[author ~= Kirchhof. J. C] %}
+  {% bibliography -f all-software-engineering-rwth-references -q @*[author ~= Kirchhof. J] %}
 </div>
 
