@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Christian Kirchhof, M.Sc.
+title: Jörg Christian Kirchhof, M.Sc.
 permalink: /staff/Christian.Kirchhof/
 nav: false
 ---
@@ -9,7 +9,7 @@ nav: false
     <div class="row">
         <div class="col-lg-3">
           <img class="staff-pics z-depth-1" src="../../assets/img/teams/kirchhof.jpeg" 
-               alt="Christian Kirchhof" style="float: left;">
+               alt="Jörg Christian Kirchhof" style="float: left;">
         </div>
         <div class="col-lg-4">
           Software Engineering<br>
@@ -30,6 +30,17 @@ nav: false
 {% include trennlinie.html %}
 
 ### Research Areas:
+
+<center>
+<div class="row" style="width: 100%; max-width: 700px">
+    <div class="col-sm mt-3 mt-md-0">
+        {% responsive_image path: assets/img/MontiThingsBanner.png 
+         title: "MontiThings Logo" 
+         class: "img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</center>
+<br />
 
 MontiThings is an architecture description language for rapid prototyping of Internet of Things applications. 
 [Available on GitHub!](https://github.com/monticore/montithings/)
