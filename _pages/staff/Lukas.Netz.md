@@ -66,6 +66,10 @@ For further topics of the Software Engineering group, please have a look at our 
 
 ### Teaching:
 
+- Lab (SS2022): Model-Driven Low-Code Platforms 
+- Lab (SS2022): Model-Driven Low-Code Platforms
+- Lab (WS20/21): Development of Components for generated Information Systems
+- Seminar (WS20/21): Generating User Interaction for Information Systems 
 - Digitalization (SS2019) Explore and discuss digitalisation from different perspectives of informatics.
 
 For the teaching agenda of the Software Engineering group, please have a look at our website.
